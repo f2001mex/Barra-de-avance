@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>ActionCadenceTrackerFlowService</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>
+        <classAccesses>
+        <apexClass>ActionCadenceTrackerFlowDetailsAction</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>        <classAccesses>
+        <apexClass>ActionCadenceTrackerManualFieldsAction</apexClass>
+        <enabled>true</enabled>
+    </classAccesses>    <description>Read access to ActionCadenceTracker and Apex invocable to read State field in Flow.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Action Cadence Tracker Flow Read</label>
+    <objectPermissions>
+        <allowCreate>false</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>false</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>ActionCadenceTracker</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+</PermissionSet>

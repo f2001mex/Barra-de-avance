@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancelaciones_Required_Cance_completada</fullName>
+    <active>true</active>
+    <description>//针对记录类型为Cancelaciones的数据 状态变为‘Proceso de resolución’时 Cance_completada__c必填 // added and changed record type names</description>
+    <errorConditionFormula>AND(
+   OR(
+    RecordType.DeveloperName == &apos;Cancelacion_cliente&apos;,
+    RecordType.DeveloperName == &apos;Cancelacion_interna&apos;
+    ),
+    ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de callback&apos;,
+    Cance_completada__c == false
+)</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

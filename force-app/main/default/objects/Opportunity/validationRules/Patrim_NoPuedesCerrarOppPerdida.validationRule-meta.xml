@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patrim_NoPuedesCerrarOppPerdida</fullName>
+    <active>true</active>
+    <description>Regla de validación para que el asesor complemente los campos antes de cierre la oportunidad como perdida</description>
+    <errorConditionFormula>AND(
+RecordType.Name = &quot;Patrimonial&quot;,
+ISPICKVAL(StageName, &quot;Cerrada Perdida&quot;),
+				ISPICKVAL(Motivo_de_p_rdida__c, &quot;&quot;)
+)</errorConditionFormula>
+    <errorDisplayField>Motivo_de_p_rdida__c</errorDisplayField>
+    <errorMessage>No puedes cerrar la oportunidad como perdida sin antes complementar los campos Razones por pérdida de oportunidad y Competencia.</errorMessage>
+</ValidationRule>

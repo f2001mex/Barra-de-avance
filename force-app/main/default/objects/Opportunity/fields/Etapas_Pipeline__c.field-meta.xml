@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Etapas_Pipeline__c</fullName>
+    <label>Etapas Pipeline</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>StageName</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>E01: OPORTUNIDAD</fullName>
+                <default>false</default>
+                <label>E01: OPORTUNIDAD</label>
+            </value>
+            <value>
+                <fullName>E02: EN SEGUIMIENTO</fullName>
+                <default>false</default>
+                <label>E02: EN SEGUIMIENTO</label>
+            </value>
+            <value>
+                <fullName>E03: INFORMACIÓN PENDIENTE PARA COTIZAR</fullName>
+                <default>false</default>
+                <label>E03: INFORMACIÓN PENDIENTE PARA COTIZAR</label>
+            </value>
+            <value>
+                <fullName>E04: EN COTIZACIÓN</fullName>
+                <default>false</default>
+                <label>E04: EN COTIZACIÓN</label>
+            </value>
+            <value>
+                <fullName>E05: RECHAZADO</fullName>
+                <default>false</default>
+                <label>E05: RECHAZADO</label>
+            </value>
+            <value>
+                <fullName>E06: INFORMACIÓN ADICIONAL</fullName>
+                <default>false</default>
+                <label>E06: INFORMACIÓN ADICIONAL</label>
+            </value>
+            <value>
+                <fullName>E07: COTIZACIÓN ENTREGADA</fullName>
+                <default>false</default>
+                <label>E07: COTIZACIÓN ENTREGADA</label>
+            </value>
+            <value>
+                <fullName>E08: REVIRE</fullName>
+                <default>false</default>
+                <label>E08: REVIRE</label>
+            </value>
+            <value>
+                <fullName>E09: SOLICITUD CARTA COBERTURA</fullName>
+                <default>false</default>
+                <label>E09: SOLICITUD CARTA COBERTURA</label>
+            </value>
+            <value>
+                <fullName>E10: INFORMACIÓN PENDIENTE PARA EMITIR</fullName>
+                <default>false</default>
+                <label>E10: INFORMACIÓN PENDIENTE PARA EMITIR</label>
+            </value>
+            <value>
+                <fullName>E11: EN EMISIÓN</fullName>
+                <default>false</default>
+                <label>E11: EN EMISIÓN</label>
+            </value>
+            <value>
+                <fullName>E12: PERDIDA*</fullName>
+                <default>false</default>
+                <label>E12: PERDIDA*</label>
+            </value>
+            <value>
+                <fullName>E13: EMITIDA POR PAGAR</fullName>
+                <default>false</default>
+                <label>E13: EMITIDA POR PAGAR</label>
+            </value>
+            <value>
+                <fullName>E14: CANCELADA*</fullName>
+                <default>false</default>
+                <label>E14: CANCELADA*</label>
+            </value>
+            <value>
+                <fullName>E15: PAGADO</fullName>
+                <default>false</default>
+                <label>E15: PAGADO</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Contacto inicial</controllingFieldValue>
+            <valueName>E01: OPORTUNIDAD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contacto inicial</controllingFieldValue>
+            <valueName>E02: EN SEGUIMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contacto inicial</controllingFieldValue>
+            <valueName>E03: INFORMACIÓN PENDIENTE PARA COTIZAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contacto inicial</controllingFieldValue>
+            <valueName>E04: EN COTIZACIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contacto inicial</controllingFieldValue>
+            <valueName>E05: RECHAZADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Contacto inicial</controllingFieldValue>
+            <valueName>E06: INFORMACIÓN ADICIONAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presentación de oferta</controllingFieldValue>
+            <valueName>E07: COTIZACIÓN ENTREGADA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presentación de oferta</controllingFieldValue>
+            <valueName>E08: REVIRE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presentación de oferta</controllingFieldValue>
+            <valueName>E09: SOLICITUD CARTA COBERTURA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presentación de oferta</controllingFieldValue>
+            <valueName>E10: INFORMACIÓN PENDIENTE PARA EMITIR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Presentación de oferta</controllingFieldValue>
+            <valueName>E11: EN EMISIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrada Ganada</controllingFieldValue>
+            <valueName>E13: EMITIDA POR PAGAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrada Ganada</controllingFieldValue>
+            <valueName>E15: PAGADO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrada Perdida</controllingFieldValue>
+            <valueName>E12: PERDIDA*</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cerrada Perdida</controllingFieldValue>
+            <valueName>E14: CANCELADA*</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

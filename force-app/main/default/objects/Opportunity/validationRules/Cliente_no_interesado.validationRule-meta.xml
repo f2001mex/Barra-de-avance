@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cliente_no_interesado</fullName>
+    <active>false</active>
+    <description>Regla para validar que el motivo de No interés, sea llenado cuando el cliente no esta interesado.</description>
+    <errorConditionFormula>AND(
+  ISPICKVAL(Cliente_interesado__c, &quot;NO&quot;),
+  ISBLANK(Motivo_No_Interesado__c)
+)</errorConditionFormula>
+    <errorDisplayField>Motivo_No_Interesado__c</errorDisplayField>
+    <errorMessage>Por favor, indica el motivo por el cual el cliente no está interesado.</errorMessage>
+</ValidationRule>

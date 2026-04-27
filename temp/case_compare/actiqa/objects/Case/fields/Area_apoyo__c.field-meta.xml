@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Area_apoyo__c</fullName>
+    <description>Cuando se necesita de ayuda para continuar con el proceso del caso, recurren a las áreas de apoyo</description>
+    <label>Proceso de apoyo de áreas</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Crédito</fullName>
+                <default>false</default>
+                <label>Crédito</label>
+            </value>
+            <value>
+                <fullName>Jurídico</fullName>
+                <default>false</default>
+                <label>Jurídico</label>
+            </value>
+            <value>
+                <fullName>Operaciones</fullName>
+                <default>false</default>
+                <label>Operaciones</label>
+            </value>
+            <value>
+                <fullName>Sistemas</fullName>
+                <default>false</default>
+                <label>Sistemas</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Impuestos</fullName>
+                <default>false</default>
+                <label>Impuestos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

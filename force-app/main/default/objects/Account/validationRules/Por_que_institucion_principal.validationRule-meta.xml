@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Por_que_institucion_principal</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT(ISPICKVAL(InstitucionFinancieraPrincipal__c, &quot;&quot;)),
+    ISBLANK(PorqueIndentInteres__c),
+				ISCHANGED(FichaAfinidadCompletada__c),
+    !ISNEW()
+)</errorConditionFormula>
+    <errorDisplayField>PorqueIndentInteres__c</errorDisplayField>
+    <errorMessage>Describe &quot;¿Por qué?&quot; es tu Institución Financiera Principal.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BIT_NoEdicionNombre</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND( IsPersonAccount , 
+				OR(	$Profile.Name = &quot;Adminstrador Bitácora&quot; ,	$Profile.Name = &quot;Anfitrión&quot; ),
+				
+				OR(ISCHANGED(FirstName ),
+							ISCHANGED(MiddleName),  
+  					ISCHANGED(LastName ),
+							ISCHANGED(Suffix)
+						))</errorConditionFormula>
+    <errorDisplayField>Name</errorDisplayField>
+    <errorMessage>Sin permisos de edición</errorMessage>
+</ValidationRule>

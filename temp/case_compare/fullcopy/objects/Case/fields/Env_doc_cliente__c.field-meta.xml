@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Env_doc_cliente__c</fullName>
+    <defaultValue>false</defaultValue>
+    <inlineHelpText>Envía el documento de acuerdo a la solicitud del cliente, ya sea por correo electrónico, por mensajería a su domicilio o al CF.</inlineHelpText>
+    <label>Envío de documento al cliente</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

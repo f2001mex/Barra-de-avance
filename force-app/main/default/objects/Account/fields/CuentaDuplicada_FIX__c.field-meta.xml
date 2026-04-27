@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CuentaDuplicada_FIX__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>El campo se eliminará una vez que se solucionen ek incidente con las integraciones (SAP) 17 Julio 2025</description>
+    <label>CuentaDuplicada_FIX</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

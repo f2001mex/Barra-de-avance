@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BeneficiosRecompensa__c</fullName>
+    <label>Beneficios de recompensa lealtad</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Puntos de lealtad</fullName>
+                <default>false</default>
+                <label>Puntos de lealtad</label>
+            </value>
+            <value>
+                <fullName>Tasas competitivas</fullName>
+                <default>false</default>
+                <label>Tasas competitivas</label>
+            </value>
+            <value>
+                <fullName>Experiencias</fullName>
+                <default>false</default>
+                <label>Experiencias</label>
+            </value>
+            <value>
+                <fullName>Millas</fullName>
+                <default>false</default>
+                <label>Millas</label>
+            </value>
+            <value>
+                <fullName>Espectáculos</fullName>
+                <default>false</default>
+                <label>Espectáculos</label>
+            </value>
+            <value>
+                <fullName>Tarjetas de regalo</fullName>
+                <default>false</default>
+                <label>Tarjetas de regalo</label>
+            </value>
+            <value>
+                <fullName>Eventos culturales</fullName>
+                <default>false</default>
+                <label>Eventos culturales</label>
+            </value>
+            <value>
+                <fullName>Artículos promocionales</fullName>
+                <default>false</default>
+                <label>Artículos promocionales</label>
+            </value>
+            <value>
+                <fullName>Descuentos en establecimientos</fullName>
+                <default>false</default>
+                <label>Descuentos en establecimientos</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

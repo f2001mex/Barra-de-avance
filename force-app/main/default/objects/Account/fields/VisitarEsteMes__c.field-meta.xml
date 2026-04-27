@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VisitarEsteMes__c</fullName>
+    <formula>IF(MONTH(FechaSiguienteVisita__c) == MONTH(TODAY()), TRUE, FALSE)</formula>
+    <label>Visitar este mes</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

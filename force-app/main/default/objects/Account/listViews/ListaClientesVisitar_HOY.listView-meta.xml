@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ListaClientesVisitar_HOY</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>EstatusContacto__c</columns>
+    <columns>VigenteVisitar__c</columns>
+    <columns>FechaSiguienteVisita__c</columns>
+    <columns>FechaUltimaVisita__c</columns>
+    <columns>SaldoIntegral__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>NoRequiereSerContactado__c</field>
+        <operation>equals</operation>
+        <value>0</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PersonAccount.PatrimonialBankingClient,PersonAccount.PrivateBankingClient,Account.Privada,PersonAccount.WealthManagementBankingCustomer,PersonAccount.PersonAccount</value>
+    </filters>
+    <filters>
+        <field>PriorizacionVisita__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>VisitarEsteMes__c</field>
+        <operation>equals</operation>
+        <value>1</value>
+    </filters>
+    <filters>
+        <field>FechaSiguienteVisita__c</field>
+        <operation>lessOrEqual</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Lista de clientes a visitar</label>
+    <sharedTo>
+        <group>Banqueros_Postventa</group>
+    </sharedTo>
+</ListView>

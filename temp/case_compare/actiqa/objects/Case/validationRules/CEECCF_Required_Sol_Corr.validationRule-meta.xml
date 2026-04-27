@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CEECCF_Required_Sol_Corr</fullName>
+    <active>true</active>
+    <description>记录类型为Consulta/Errores en Estado de Cuenta o Constancia Fiscal的数据 当状态变为：Proceso de callback时 Sol_Corr__c为true // Consulta-Errores en Constancia Fiscal &amp; Consulta-Errores en Estado de Cuenta</description>
+    <errorConditionFormula>AND(
+  OR(
+    RecordType.DeveloperName == &apos;Consulta_Errores_en_Constancia_Fiscal&apos;,
+    RecordType.DeveloperName == &apos;Consulta_Errores_en_Estado_de_Cuenta&apos;
+    ),
+    ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de callback&apos;,
+    Sol_Corr__c == false
+)</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

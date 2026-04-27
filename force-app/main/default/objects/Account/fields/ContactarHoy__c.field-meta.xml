@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactarHoy__c</fullName>
+    <formula>IF(  
+    AND(FechaSiguienteContacto__c =  TODAY()
+       , OR(ISPICKVAL( EstatusContacto__c ,&quot;Pendiente&quot;),ISPICKVAL( EstatusContacto__c ,&quot;Contacto no exitoso&quot;)) 
+       , NoRequiereSerContactado__c = false) 
+   , true
+   , false)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contactar hoy</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

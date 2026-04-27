@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExternalIdLead__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Id Externo del prospecto, es campo solo sera populasi si la cuenta es convertida de un prospecto. Se popula desde el  mappin field de Lead</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>true</externalId>
+    <label>ExternalIdLead</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

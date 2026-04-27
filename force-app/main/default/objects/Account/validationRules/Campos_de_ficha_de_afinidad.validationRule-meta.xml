@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campos_de_ficha_de_afinidad</fullName>
+    <active>false</active>
+    <errorConditionFormula>AND(
+OR(
+ISCHANGED(Conquetipodeseguroscuentas__c),
+ISCHANGED(Conqueempresaestasasegurado__c),
+ISCHANGED(CuandoVence__c),
+ISCHANGED(InstitucionFinancieraPrincipal__c),
+ISCHANGED(MesPreferenteInversion_o_ahorrar__c),
+ISCHANGED(Cuantos_hijos_tienes__c),
+ISCHANGED(FamiliarqueseaclienteenActinver__c),
+ISCHANGED(Viajas_recurrentemente__c),
+ISCHANGED(Frecuencia_para_ser_contactado__c),
+ISCHANGED(MedioPreferidoContacto__c)
+),
+OR(
+ISBLANK(Conquetipodeseguroscuentas__c),
+ISBLANK(Conqueempresaestasasegurado__c),
+ISBLANK(CuandoVence__c),
+ISPICKVAL(InstitucionFinancieraPrincipal__c, &apos;&apos;),
+ISBLANK(MesPreferenteInversion_o_ahorrar__c),
+ISPICKVAL(Cuantos_hijos_tienes__c, &apos;&apos;),
+ISPICKVAL(FamiliarqueseaclienteenActinver__c, &apos;&apos;),
+ISPICKVAL(Viajas_recurrentemente__c, &apos;&apos;),
+ISPICKVAL(Frecuencia_para_ser_contactado__c, &apos;&apos;),
+ISBLANK(MedioPreferidoContacto__c)
+)
+)</errorConditionFormula>
+    <errorMessage>Debe completar los siguientes campos:
+Tipo de seguro,
+Vencimiento,
+Empresa aseguradora,
+Institución financiera,
+Mes ahorro/inversión,
+Hijos,
+Familiar cliente,
+Viajes,
+Frecuencia y Medio de contacto.</errorMessage>
+</ValidationRule>

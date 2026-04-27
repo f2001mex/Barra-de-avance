@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Comprobantes_Required_Sol_cop_doc</fullName>
+    <active>true</active>
+    <description>记录类型为Comprobantes 时 状态变为Proceso de callback时 Sol_cop_doc__c为true</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName == &apos;Comprobantes&apos;,
+    ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de callback&apos;,
+    Sol_cop_doc__c == false
+)</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Dato_a_Actualizar__c</fullName>
+    <label>Dato a Actualizar</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CURP</fullName>
+                <default>false</default>
+                <label>CURP</label>
+            </value>
+            <value>
+                <fullName>RFC</fullName>
+                <default>false</default>
+                <label>RFC</label>
+            </value>
+            <value>
+                <fullName>NOMBRE</fullName>
+                <default>false</default>
+                <label>NOMBRE</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

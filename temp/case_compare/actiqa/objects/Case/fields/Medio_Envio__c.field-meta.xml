@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Medio_Envio__c</fullName>
+    <label>Medio de Envío</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Correo Electrónico</fullName>
+                <default>false</default>
+                <label>Correo Electrónico</label>
+            </value>
+            <value>
+                <fullName>Mensajería a Domicilio</fullName>
+                <default>false</default>
+                <label>Mensajería a Domicilio</label>
+            </value>
+            <value>
+                <fullName>Centro Financiero</fullName>
+                <default>false</default>
+                <label>Centro Financiero</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

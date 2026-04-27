@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TypeOfContract__c</fullName>
+    <label>Tipo de contrato</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>01</fullName>
+                <default>false</default>
+                <label>CONTRATO MARCO DE PRODUCTOS Y SERVICIOS BANCARIOS MÚLTIPLES</label>
+            </value>
+            <value>
+                <fullName>02</fullName>
+                <default>false</default>
+                <label>CONTRATO DE MEDIACIÓN MERCANTIL PARA LA DISTRIBUCIÓN INTEGRAL DE ACCIONES DE SOCIEDADES DE INVERSIÓN Y PARA LA ADMINISTRACIÓN DE UN PLAN PERSONAL DE RETIRO</label>
+            </value>
+            <value>
+                <fullName>03</fullName>
+                <default>false</default>
+                <label>CONTRATO DE MEDIACIÓN MERCANTIL PARA LA DISTRIBUCIÓN INTEGRAL DE ACCIONES DE SOCIEDADES DE INVERSIÓN Y PARA LA ADMINISTRACIÓN DE UNA CUENTA PERSONAL PARA EL AHORRO</label>
+            </value>
+            <value>
+                <fullName>04</fullName>
+                <default>false</default>
+                <label>CONTRATO MARCO DE COMPRAVENTA DE DIVISAS (BANCO)</label>
+            </value>
+            <value>
+                <fullName>05</fullName>
+                <default>false</default>
+                <label>CONTRATO DE DEPÓSITOS BANCARIOS DE DINERO A LA VISTA PARA EL PÚBLICO EN GENERAL (CUENTA BÁSICA ACTINVER)</label>
+            </value>
+            <value>
+                <fullName>06</fullName>
+                <default>false</default>
+                <label>CONTRATO DE DEPÓSITOS BANCARIOS DE DINERO A LA VISTA PARA EL PÚBLICO EN GENERAL (CUENTA BÁSICA DE NÓMINA ACTINVER)</label>
+            </value>
+            <value>
+                <fullName>08</fullName>
+                <default>false</default>
+                <label>TRADICIONAL DE INTERMEDIACIÓN BURSÁTIL</label>
+            </value>
+            <value>
+                <fullName>09</fullName>
+                <default>false</default>
+                <label>PLAN PERSONAL DE RETIRO</label>
+            </value>
+            <value>
+                <fullName>11</fullName>
+                <default>false</default>
+                <label>CONTRATO CUENTA LÍQUIDA ACTINVER</label>
+            </value>
+            <value>
+                <fullName>10</fullName>
+                <default>false</default>
+                <label>Bursanet</label>
+            </value>
+            <value>
+                <fullName>12</fullName>
+                <default>false</default>
+                <label>Bursanet.</label>
+            </value>
+            <value>
+                <fullName>13</fullName>
+                <default>false</default>
+                <label>Bursanet,</label>
+            </value>
+            <value>
+                <fullName>14</fullName>
+                <default>false</default>
+                <label>DINN</label>
+            </value>
+            <value>
+                <fullName>62</fullName>
+                <default>false</default>
+                <label>Banco Persona Moral</label>
+            </value>
+            <value>
+                <fullName>63</fullName>
+                <default>false</default>
+                <label>Banco Persona  Moral</label>
+            </value>
+            <value>
+                <fullName>64</fullName>
+                <default>false</default>
+                <label>Banco  Persona Moral</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

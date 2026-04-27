@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Submotivo__c</fullName>
+    <label>Submotivo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Motivo__c</controllingField>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Consulta</fullName>
+                <default>false</default>
+                <label>Consulta</label>
+            </value>
+            <value>
+                <fullName>Reporte por robo o extravío</fullName>
+                <default>false</default>
+                <label>Reporte por robo o extravío</label>
+            </value>
+            <value>
+                <fullName>Activar Banca Electrónica</fullName>
+                <default>false</default>
+                <label>Activar Banca Electrónica</label>
+            </value>
+            <value>
+                <fullName>Información Banca Electrónica</fullName>
+                <default>false</default>
+                <label>Información Banca Electrónica</label>
+            </value>
+            <value>
+                <fullName>Reportar incidente</fullName>
+                <default>false</default>
+                <label>Reportar incidente</label>
+            </value>
+            <value>
+                <fullName>Información Tarjeta</fullName>
+                <default>false</default>
+                <label>Información Tarjeta</label>
+            </value>
+            <value>
+                <fullName>Activar Bursanet</fullName>
+                <default>false</default>
+                <label>Activar Bursanet</label>
+            </value>
+            <value>
+                <fullName>Reportar incidente Bursanet</fullName>
+                <default>false</default>
+                <label>Reportar incidente Bursanet</label>
+            </value>
+            <value>
+                <fullName>Información Bursanet</fullName>
+                <default>false</default>
+                <label>Información Bursanet</label>
+            </value>
+            <value>
+                <fullName>Operaciones Banco</fullName>
+                <default>false</default>
+                <label>Operaciones Banco</label>
+            </value>
+            <value>
+                <fullName>Operaciones CB</fullName>
+                <default>false</default>
+                <label>Operaciones CB</label>
+            </value>
+            <value>
+                <fullName>Operaciones Bursanet</fullName>
+                <default>false</default>
+                <label>Operaciones Bursanet</label>
+            </value>
+            <value>
+                <fullName>Hacer una aclaración</fullName>
+                <default>false</default>
+                <label>Hacer una aclaración</label>
+            </value>
+            <value>
+                <fullName>Seguimiento a aclaración</fullName>
+                <default>false</default>
+                <label>Seguimiento a aclaración</label>
+            </value>
+            <value>
+                <fullName>Información Seguros</fullName>
+                <default>false</default>
+                <label>Información Seguros</label>
+            </value>
+            <value>
+                <fullName>Cuento con un seguro</fullName>
+                <default>false</default>
+                <label>Cuento con un seguro</label>
+            </value>
+            <value>
+                <fullName>Información Previsión Social</fullName>
+                <default>false</default>
+                <label>Información Previsión Social</label>
+            </value>
+            <value>
+                <fullName>Desbloqueo o reseteo de contraseña</fullName>
+                <default>false</default>
+                <label>Desbloqueo o reseteo de contraseña</label>
+            </value>
+            <value>
+                <fullName>Cambio o cercanía de domicilio</fullName>
+                <default>false</default>
+                <label>Cambio o cercanía de domicilio</label>
+            </value>
+            <value>
+                <fullName>Por recomendación</fullName>
+                <default>false</default>
+                <label>Por recomendación</label>
+            </value>
+            <value>
+                <fullName>Ya no labora / Sin Asesor</fullName>
+                <default>false</default>
+                <label>Ya no labora / Sin Asesor</label>
+            </value>
+            <value>
+                <fullName>Carta en Centro Financiero o Correo - Sin Motivo</fullName>
+                <default>false</default>
+                <label>Carta en Centro Financiero o Correo - Sin Motivo</label>
+            </value>
+            <value>
+                <fullName>Utilizará el dinero / Temas personales</fullName>
+                <default>false</default>
+                <label>Utilizará el dinero / Temas personales</label>
+            </value>
+            <value>
+                <fullName>No utiliza la cuenta / Evitar Anualidad</fullName>
+                <default>false</default>
+                <label>No utiliza la cuenta / Evitar Anualidad</label>
+            </value>
+            <value>
+                <fullName>Ex Empleado</fullName>
+                <default>false</default>
+                <label>Ex Empleado</label>
+            </value>
+            <value>
+                <fullName>Tiene otra cuenta en Actinver</fullName>
+                <default>false</default>
+                <label>Tiene otra cuenta en Actinver</label>
+            </value>
+            <value>
+                <fullName>Falta de Asesoría y/o Servicio</fullName>
+                <default>false</default>
+                <label>Falta de Asesoría y/o Servicio</label>
+            </value>
+            <value>
+                <fullName>Masivas</fullName>
+                <default>false</default>
+                <label>Masivas</label>
+            </value>
+            <value>
+                <fullName>Fallecimiento del Tìtular</fullName>
+                <default>false</default>
+                <label>Fallecimiento del Tìtular</label>
+            </value>
+            <value>
+                <fullName>Inactividad de la Cuenta</fullName>
+                <default>false</default>
+                <label>Inactividad de la Cuenta</label>
+            </value>
+            <value>
+                <fullName>Indocumentados</fullName>
+                <default>false</default>
+                <label>Indocumentados</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>Solicitud de envío</fullName>
+                <default>false</default>
+                <label>Solicitud de envío</label>
+            </value>
+            <value>
+                <fullName>Carta Ratificación</fullName>
+                <default>false</default>
+                <label>Carta Ratificación</label>
+            </value>
+            <value>
+                <fullName>Asesoría</fullName>
+                <default>false</default>
+                <label>Asesoría</label>
+            </value>
+            <value>
+                <fullName>Centro de Atención</fullName>
+                <default>false</default>
+                <label>Centro de Atención</label>
+            </value>
+            <value>
+                <fullName>Otras Áreas</fullName>
+                <default>false</default>
+                <label>Otras Áreas</label>
+            </value>
+            <value>
+                <fullName>N/A</fullName>
+                <default>false</default>
+                <label>N/A</label>
+            </value>
+            <value>
+                <fullName>Falta de Atención / Servicio</fullName>
+                <default>false</default>
+                <label>Falta de Atención / Servicio</label>
+            </value>
+            <value>
+                <fullName>Alta de cuenta bancaria</fullName>
+                <default>false</default>
+                <label>Alta de cuenta bancaria</label>
+            </value>
+            <value>
+                <fullName>Análisis de riesgo</fullName>
+                <default>false</default>
+                <label>Análisis de riesgo</label>
+            </value>
+            <value>
+                <fullName>Perdida de datos personales, documentos</fullName>
+                <default>false</default>
+                <label>Perdida de datos personales, documentos</label>
+            </value>
+            <value>
+                <fullName>Controversia</fullName>
+                <default>false</default>
+                <label>Controversia</label>
+            </value>
+            <value>
+                <fullName>Aclaración / Reclamación</fullName>
+                <default>false</default>
+                <label>Aclaración / Reclamación</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Desbloqueo Cuenta Eje</controllingFieldValue>
+            <controllingFieldValue>Cambio de Asesor y/o Centro Financiero</controllingFieldValue>
+            <controllingFieldValue>Cancelación cliente</controllingFieldValue>
+            <controllingFieldValue>Cancelación interna</controllingFieldValue>
+            <valueName>Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desbloqueo Cuenta Eje</controllingFieldValue>
+            <valueName>Alta de cuenta bancaria</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desbloqueo Cuenta Eje</controllingFieldValue>
+            <valueName>Análisis de riesgo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Desbloqueo Cuenta Eje</controllingFieldValue>
+            <valueName>Perdida de datos personales, documentos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tarjeta de Divisas</controllingFieldValue>
+            <controllingFieldValue>Previsión Social</controllingFieldValue>
+            <controllingFieldValue>Seguros</controllingFieldValue>
+            <controllingFieldValue>Cliente</controllingFieldValue>
+            <controllingFieldValue>Banca electrónica.</controllingFieldValue>
+            <controllingFieldValue>Tarjeta</controllingFieldValue>
+            <controllingFieldValue>Bursanet</controllingFieldValue>
+            <controllingFieldValue>Operaciones</controllingFieldValue>
+            <controllingFieldValue>Envío estados de cuenta y constancia fiscal</controllingFieldValue>
+            <controllingFieldValue>Quejas / Aclaraciones</controllingFieldValue>
+            <controllingFieldValue>Abrir un contrato</controllingFieldValue>
+            <controllingFieldValue>Reto (dinámico)</controllingFieldValue>
+            <controllingFieldValue>Actualización Datos Fiscales</controllingFieldValue>
+            <valueName>Consulta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tarjeta de Divisas</controllingFieldValue>
+            <valueName>Controversia</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tarjeta de Divisas</controllingFieldValue>
+            <valueName>Aclaración / Reclamación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Previsión Social</controllingFieldValue>
+            <valueName>Información Previsión Social</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Previsión Social</controllingFieldValue>
+            <valueName>Desbloqueo o reseteo de contraseña</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Envio Estados cuenta</controllingFieldValue>
+            <controllingFieldValue>Comprobantes</controllingFieldValue>
+            <controllingFieldValue>Envío estados de cuenta y constancia fiscal</controllingFieldValue>
+            <valueName>Solicitud de envío</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Consulta Errores Edo Cuenta</controllingFieldValue>
+            <controllingFieldValue>Consulta-Errores en Constancia Fiscal</controllingFieldValue>
+            <controllingFieldValue>Cartas ratificación</controllingFieldValue>
+            <controllingFieldValue>Consulta-errores en Estado de Cuenta o Centro Financiero</controllingFieldValue>
+            <valueName>N/A</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Seguros</controllingFieldValue>
+            <valueName>Información Seguros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Seguros</controllingFieldValue>
+            <valueName>Cuento con un seguro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banca electrónica.</controllingFieldValue>
+            <valueName>Activar Banca Electrónica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banca electrónica.</controllingFieldValue>
+            <valueName>Información Banca Electrónica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banca electrónica.</controllingFieldValue>
+            <valueName>Reportar incidente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tarjeta</controllingFieldValue>
+            <valueName>Reporte por robo o extravío</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Tarjeta</controllingFieldValue>
+            <valueName>Información Tarjeta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bursanet</controllingFieldValue>
+            <valueName>Activar Bursanet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bursanet</controllingFieldValue>
+            <valueName>Reportar incidente Bursanet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bursanet</controllingFieldValue>
+            <valueName>Información Bursanet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Bursanet</controllingFieldValue>
+            <controllingFieldValue>Operaciones</controllingFieldValue>
+            <valueName>Operaciones Bursanet</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operaciones</controllingFieldValue>
+            <valueName>Operaciones Banco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Operaciones</controllingFieldValue>
+            <valueName>Operaciones CB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cambio de Asesor y/o Centro Financiero</controllingFieldValue>
+            <valueName>Cambio o cercanía de domicilio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cambio de Asesor y/o Centro Financiero</controllingFieldValue>
+            <valueName>Por recomendación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cambio de Asesor y/o Centro Financiero</controllingFieldValue>
+            <valueName>Ya no labora / Sin Asesor</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cambio de Asesor y/o Centro Financiero</controllingFieldValue>
+            <controllingFieldValue>Cancelación cliente</controllingFieldValue>
+            <valueName>Falta de Asesoría y/o Servicio</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelación cliente</controllingFieldValue>
+            <valueName>Carta en Centro Financiero o Correo - Sin Motivo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelación cliente</controllingFieldValue>
+            <valueName>Utilizará el dinero / Temas personales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelación cliente</controllingFieldValue>
+            <valueName>No utiliza la cuenta / Evitar Anualidad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelación cliente</controllingFieldValue>
+            <valueName>Ex Empleado</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelación cliente</controllingFieldValue>
+            <valueName>Tiene otra cuenta en Actinver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mal Servicio</controllingFieldValue>
+            <valueName>Asesoría</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Mal Servicio</controllingFieldValue>
+            <valueName>Otras Áreas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelación interna</controllingFieldValue>
+            <valueName>Fallecimiento del Tìtular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelación interna</controllingFieldValue>
+            <valueName>Inactividad de la Cuenta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Cancelación interna</controllingFieldValue>
+            <valueName>Indocumentados</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas / Aclaraciones</controllingFieldValue>
+            <valueName>Hacer una aclaración</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Quejas / Aclaraciones</controllingFieldValue>
+            <valueName>Seguimiento a aclaración</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

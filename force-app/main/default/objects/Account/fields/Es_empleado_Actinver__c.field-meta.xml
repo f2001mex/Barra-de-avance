@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Es_empleado_Actinver__c</fullName>
+    <formula>Employee__c=&quot;X&quot; || Employee__c=&quot;x&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Es empleado Actinver</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

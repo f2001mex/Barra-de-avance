@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Origen__c</fullName>
+    <label>Origen</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Referenciado Cliente</fullName>
+                <default>false</default>
+                <label>Referenciado Cliente</label>
+            </value>
+            <value>
+                <fullName>Referenciado Interno</fullName>
+                <default>false</default>
+                <label>Referenciado Interno</label>
+            </value>
+            <value>
+                <fullName>Evento Social</fullName>
+                <default>false</default>
+                <label>Evento Social</label>
+            </value>
+            <value>
+                <fullName>Evento Actinver (se gestiona por área de MKT)</fullName>
+                <default>false</default>
+                <label>Evento Actinver (se gestiona por área de MKT)</label>
+            </value>
+            <value>
+                <fullName>Desayuno CF</fullName>
+                <default>false</default>
+                <label>Desayuno CF</label>
+            </value>
+            <value>
+                <fullName>Pádel</fullName>
+                <default>false</default>
+                <label>Pádel</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Otro</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

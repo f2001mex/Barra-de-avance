@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CACF_Required_Sol_Auditoria</fullName>
+    <active>true</active>
+    <description>//针对记录类型为 Cambio_de_Asesor_y_o_Centro_Financiero 的数据 状态变为Proceso de callback时 Sol_Auditoria__c为true</description>
+    <errorConditionFormula>RecordType.DeveloperName  = &quot;Cambio_de_Asesor_y_o_Centro_Financiero&quot; &amp;&amp; ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de callback&apos; &amp;&amp; Sol_Auditoria__c == false</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

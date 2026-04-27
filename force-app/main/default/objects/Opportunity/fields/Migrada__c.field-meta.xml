@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Migrada__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo control para identificar las oportunidades migradas del flujo de prospectos de patrimonial</description>
+    <label>Migrada</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,1280 @@
+{
+  "records": [
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YwqKYAAZ"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JYukGAG"
+        },
+        "Label": "00e5e000000ibdVAAQ",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibdVAAQ"
+          },
+          "Name": "Soporte"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": false,
+      "PermissionsEdit": false,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YF1FNAA1"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JXsYGAW"
+        },
+        "Label": "00e5e000000ibIvAAI",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibIvAAI"
+          },
+          "Name": "Auditoría"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": false,
+      "PermissionsEdit": false,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000003wQ1gQAE"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JYVrGAO"
+        },
+        "Label": "00e5e000000ibSjAAI",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibSjAAI"
+          },
+          "Name": "Asesor Seguros"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YFw8bAAD"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JYVwGAO"
+        },
+        "Label": "00e5e000000ibSoAAI",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibSoAAI"
+          },
+          "Name": "Calidad UNE"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": false,
+      "PermissionsEdit": false,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YFwAmAAL"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JYW1GAO"
+        },
+        "Label": "00e5e000000ibStAAI",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibStAAI"
+          },
+          "Name": "Ejecutivo UNE"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YFwDMAA1"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JYW6GAO"
+        },
+        "Label": "00e5e000000ibSyAAI",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibSyAAI"
+          },
+          "Name": "Supervisor UNE"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YyBWTAA3"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JZuRGAW"
+        },
+        "Label": "00e5e000000ibueAAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibueAAA"
+          },
+          "Name": "Auditoria"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YyBYdAAN"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JZuSGAW"
+        },
+        "Label": "00e5e000000ibufAAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibufAAA"
+          },
+          "Name": "CANNOTDELETE"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/00000005JZuT500AYC"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JZuTGAW"
+        },
+        "Label": "00e5e000000ibugAAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibugAAA"
+          },
+          "Name": "Control accesos"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YyBcxAAF"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JZuUGAW"
+        },
+        "Label": "00e5e000000ibuhAAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibuhAAA"
+          },
+          "Name": "Perfil de prueba"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YyBf7AAF"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JZuVGAW"
+        },
+        "Label": "00e5e000000ibuiAAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibuiAAA"
+          },
+          "Name": "Soporte PwC Prueba"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YyBjBAAV"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JZuWGAW"
+        },
+        "Label": "00e5e000000ibujAAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibujAAA"
+          },
+          "Name": "Soporte PwC2"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/00000005JZuX500AYC"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JZuXGAW"
+        },
+        "Label": "00e5e000000ibukAAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibukAAA"
+          },
+          "Name": "Subdirector Seguros"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YyBpPAAV"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JZuYGAW"
+        },
+        "Label": "00e5e000000ibulAAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibulAAA"
+          },
+          "Name": "readOnlyFile"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YyBrZAAV"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JZuZGAW"
+        },
+        "Label": "00e5e000000ibumAAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibumAAA"
+          },
+          "Name": "readOnlyProfile"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007YyBtjAAF"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005JZuaGAG"
+        },
+        "Label": "00e5e000000ibunAAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000000ibunAAA"
+          },
+          "Name": "readOnlyProfileTest"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007OaWLoAAN"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005uVtnGAE"
+        },
+        "Label": "00e5e000003SpLwAAK",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000003SpLwAAK"
+          },
+          "Name": "Advisor"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007OaWNuAAN"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005uVtsGAE"
+        },
+        "Label": "00e5e000003SpM1AAK",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000003SpM1AAK"
+          },
+          "Name": "Personal Banker"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007OaWQ0AAN"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005uVtxGAE"
+        },
+        "Label": "00e5e000003SpM6AAK",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000003SpM6AAK"
+          },
+          "Name": "Relationship Manager"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000003zJjoQAE"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005uaMGGAY"
+        },
+        "Label": "00e5e000003Sr81AAC",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000003Sr81AAC"
+          },
+          "Name": "Director"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007Ok9d8AAB"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005uaMHGAY"
+        },
+        "Label": "00e5e000003Sr82AAC",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000003Sr82AAC"
+          },
+          "Name": "Especialista Wealth Management"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000004UqxFQAS"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005uaMIGAY"
+        },
+        "Label": "00e5e000003Sr83AAC",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000003Sr83AAC"
+          },
+          "Name": "Subdirector"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007Os7niAAB"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005udYNGAY"
+        },
+        "Label": "00e5e000003SsNVAA0",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000003SsNVAA0"
+          },
+          "Name": "Analytics Cloud Security User"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": false,
+      "PermissionsEdit": false,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00007Os7s8AAB"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000005udYOGAY"
+        },
+        "Label": "00e5e000003SsNWAA0",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000003SsNWAA0"
+          },
+          "Name": "Analytics Cloud Integration User"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": false,
+      "PermissionsEdit": false,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000004zAf0QAE"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V0000000hg6WAA"
+        },
+        "Label": "00e7V0000016EMlQAM",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V0000016EMlQAM"
+          },
+          "Name": "Ejecutivo CAT SEDI"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000004zAjvQAE"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V0000000hh4WAA"
+        },
+        "Label": "00e7V0000016EN5QAM",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V0000016EN5QAM"
+          },
+          "Name": "Manager CAT"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/00000000DMNF500AYD"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000DMNFWA4"
+        },
+        "Label": "00e7V0000017cx6QAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V0000017cx6QAA"
+          },
+          "Name": "Lucy MKT"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/00000000DMNG500AYD"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000DMNGWA4"
+        },
+        "Label": "00e7V0000017cx7QAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V0000017cx7QAA"
+          },
+          "Name": "Siniestros Seguros"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000003kgVgQAI"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000DMNHWA4"
+        },
+        "Label": "00e7V0000017cx8QAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V0000017cx8QAA"
+          },
+          "Name": "Supervisor Créditos"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/00000000DMNI500AYD"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000DMNIWA4"
+        },
+        "Label": "00e7V0000017cx9QAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V0000017cx9QAA"
+          },
+          "Name": "Supervisor Seguros"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000004UiXQQA0"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000abjKWAQ"
+        },
+        "Label": "00e7V000001FZ1TQAW",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V000001FZ1TQAW"
+          },
+          "Name": "Director CAT"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000004UiZqQAK"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000abjLWAQ"
+        },
+        "Label": "00e7V000001FZ1UQAW",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V000001FZ1UQAW"
+          },
+          "Name": "Supervisor No Certificado CAT"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000004UicGQAS"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000abjMWAQ"
+        },
+        "Label": "00e7V000001FZ1VQAW",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V000001FZ1VQAW"
+          },
+          "Name": "Supervisor Tecnología CAT"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000004UqF1QAK"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000ac1aWAA"
+        },
+        "Label": "00e7V000001FZ3IQAW",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V000001FZ3IQAW"
+          },
+          "Name": "Sales Insights Integration User"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": false,
+      "PermissionsEdit": false,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000004Y12LQAS"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000nBYgWAM"
+        },
+        "Label": "00e7V000001S7uvQAC",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V000001S7uvQAC"
+          },
+          "Name": "Ejecutivo CAT"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000004Y145QAC"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000nBYlWAM"
+        },
+        "Label": "00e7V000001S7v5QAC",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V000001S7v5QAC"
+          },
+          "Name": "Supervisor CAT"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V000003zhm2QAA"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000rAhLWAU"
+        },
+        "Label": "00e7V000001WHNKQA4",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V000001WHNKQA4"
+          },
+          "Name": "Administrador Funcional"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V0000041d8gQAA"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000rGeFWAU"
+        },
+        "Label": "00e7V000001WJ1xQAG",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V000001WJ1xQAG"
+          },
+          "Name": "Director 2"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V0000041hSwQAI"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000rGjZWAU"
+        },
+        "Label": "00e7V000001WJ2bQAG",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V000001WJ2bQAG"
+          },
+          "Name": "Director INCORRECTO"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1107V0000041hVKQAY"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS7V000000rGjaWAE"
+        },
+        "Label": "00e7V000001WJ2cQAG",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e7V000001WJ2cQAG"
+          },
+          "Name": "Pruebas QA"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/00000000LDYX500AYD"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSdp000000LDYXGA4"
+        },
+        "Label": "00edp0000011xFBAAY",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00edp0000011xFBAAY"
+          },
+          "Name": "Administración"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/110WP00000SEfoTYAT"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSWP0000004DGP4A2"
+        },
+        "Label": "00eWP000000zlzhYAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00eWP000000zlzhYAA"
+          },
+          "Name": "Usuario Monitoreo Dyna"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/110WP00000SSy0lYAD"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PSWP0000004EKX4A2"
+        },
+        "Label": "00eWP000000zw0fYAA",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00eWP000000zw0fYAA"
+          },
+          "Name": "SalesforceIQ Integration User"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": false,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00000xRVgKAAW"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000001LlfEGAS"
+        },
+        "Label": "00ex00000018ozT_128_09_43_34_1",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000001SRcoAAG"
+          },
+          "Name": "System Administrator"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": true,
+      "PermissionsViewAllRecords": true,
+      "PermissionsModifyAllRecords": true
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00000xRVbIAAW"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000001LlfHGAS"
+        },
+        "Label": "00ex00000018ozV_128_09_43_34_3",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000001SRcpAAG"
+          },
+          "Name": "Standard User"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00000xRVbVAAW"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000001LlfGGAS"
+        },
+        "Label": "00ex00000018ozW_128_09_43_34_4",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000001SRcxAAG"
+          },
+          "Name": "Read Only"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": false,
+      "PermissionsEdit": false,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00000xRVbjAAG"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000001LlfDGAS"
+        },
+        "Label": "00ex00000018ozX_128_09_43_34_5",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000001SRcyAAG"
+          },
+          "Name": "Solution Manager"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00000xRVbwAAG"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000001LlfCGAS"
+        },
+        "Label": "00ex00000018ozY_128_09_43_34_6",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000001SRczAAG"
+          },
+          "Name": "Marketing User"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    },
+    {
+      "attributes": {
+        "type": "ObjectPermissions",
+        "url": "/services/data/v66.0/sobjects/ObjectPermissions/1105e00000xRVc9AAG"
+      },
+      "Parent": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v66.0/sobjects/PermissionSet/0PS5e000001LlfFGAS"
+        },
+        "Label": "00ex00000018ozZ_128_09_43_34_7",
+        "Profile": {
+          "attributes": {
+            "type": "Profile",
+            "url": "/services/data/v66.0/sobjects/Profile/00e5e000001SRd0AAG"
+          },
+          "Name": "Contract Manager"
+        }
+      },
+      "PermissionsRead": true,
+      "PermissionsCreate": true,
+      "PermissionsEdit": true,
+      "PermissionsDelete": false,
+      "PermissionsViewAllRecords": false,
+      "PermissionsModifyAllRecords": false
+    }
+  ],
+  "totalSize": 49,
+  "done": true
+}

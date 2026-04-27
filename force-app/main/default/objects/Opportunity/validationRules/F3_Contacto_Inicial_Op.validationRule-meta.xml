@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Contacto_Inicial_Op</fullName>
+    <active>true</active>
+    <description>Regla de validación para que el usuario no pueda avanzar a la siguiente etapa hasta haber completado los campos de contacto inicial (con excepción de &apos;elementos de presentación&apos; ya que es multipicklist y Campaña porque no es obligatorio)</description>
+    <errorConditionFormula>IF(
+    ISCHANGED(StageName) &amp;&amp;
+    NOT(
+        OR(
+            RecordType.DeveloperName = &apos;Financiamiento&apos;,
+            RecordType.DeveloperName = &apos;Seguros_Pipeline&apos;,
+            RecordType.DeveloperName = &apos;Oportunidad_Personas_Fisicas&apos;,
+            RecordType.DeveloperName = &apos;Oportunidad_Seguro_Via&apos;,
+            RecordType.DeveloperName = &apos;Oportunidad_Seguro_Hogar&apos;,
+            RecordType.DeveloperName = &apos;Oportunidad_Seguro_Dotales&apos;
+        )
+    )
+    &amp;&amp; ISPICKVAL(PRIORVALUE(StageName), &apos;Contacto Inicial&apos;)
+    &amp;&amp; NOT($Permission.bypassValidationRules),
+    IF(
+        ISPICKVAL(PRIORVALUE(StageName), &apos;Contacto Inicial&apos;)
+        &amp;&amp;
+        ISPICKVAL(StageName, &apos;Identificar Necesidades&apos;),
+        IF(Cliente_Contactado__c = TRUE, FALSE, TRUE),
+        TRUE
+    ),
+    FALSE
+)</errorConditionFormula>
+    <errorMessage>Favor de completar los campos necesarios para poder avanzar a la siguiente etapa: &apos;Identificar Necesidades&apos;
+Nota: No podrás avanzar a otra etapa diferente a Identificar Necesidades</errorMessage>
+</ValidationRule>

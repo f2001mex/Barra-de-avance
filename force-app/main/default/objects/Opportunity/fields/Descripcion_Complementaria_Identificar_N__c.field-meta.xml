@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Descripcion_Complementaria_Identificar_N__c</fullName>
+    <label>Descripción Complementaria Necesidades</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>SIN DATOS, DATOS PROPORCIONADOS POR ASESOR</fullName>
+                <default>false</default>
+                <label>SIN DATOS, DATOS PROPORCIONADOS POR ASESOR</label>
+            </value>
+            <value>
+                <fullName>SIN DATOS, SE DESCONOCE INFORMACIÓN</fullName>
+                <default>false</default>
+                <label>SIN DATOS, SE DESCONOCE INFORMACIÓN</label>
+            </value>
+            <value>
+                <fullName>SIN DATOS, SIN RESPUESTA DEL ASESOR</fullName>
+                <default>false</default>
+                <label>SIN DATOS, SIN RESPUESTA DEL ASESOR</label>
+            </value>
+            <value>
+                <fullName>ACEPTÓ, SE GESTIONA PAGO</fullName>
+                <default>false</default>
+                <label>ACEPTÓ, SE GESTIONA PAGO</label>
+            </value>
+            <value>
+                <fullName>ACEPTÓ, COMPROMISO PAGO</fullName>
+                <default>false</default>
+                <label>ACEPTÓ, COMPROMISO PAGO</label>
+            </value>
+            <value>
+                <fullName>ACEPTÓ, REALIZAR ENDOSO</fullName>
+                <default>false</default>
+                <label>ACEPTÓ, REALIZAR ENDOSO</label>
+            </value>
+            <value>
+                <fullName>ACEPTÓ, INCIDENCIA DE PAGO</fullName>
+                <default>false</default>
+                <label>ACEPTÓ, INCIDENCIA DE PAGO</label>
+            </value>
+            <value>
+                <fullName>NO ACEPTÓ, POR COSTO</fullName>
+                <default>false</default>
+                <label>NO ACEPTÓ, POR COSTO</label>
+            </value>
+            <value>
+                <fullName>NO ACEPTÓ, SIN BIEN ASEGURABLE</fullName>
+                <default>false</default>
+                <label>NO ACEPTÓ, SIN BIEN ASEGURABLE</label>
+            </value>
+            <value>
+                <fullName>NO ACEPTÓ, MAL SERVICIO ASEGURADORA</fullName>
+                <default>false</default>
+                <label>NO ACEPTÓ, MAL SERVICIO ASEGURADORA</label>
+            </value>
+            <value>
+                <fullName>NO ACEPTÓ, MAL SERVICIO AGENTE</fullName>
+                <default>false</default>
+                <label>NO ACEPTÓ, MAL SERVICIO AGENTE</label>
+            </value>
+            <value>
+                <fullName>NO ACEPTÓ, MAL SERVICIO ACTINVER</fullName>
+                <default>false</default>
+                <label>NO ACEPTÓ, MAL SERVICIO ACTINVER</label>
+            </value>
+            <value>
+                <fullName>VOLVER A LLAMAR, FECHA DE SEGUIMIENTO</fullName>
+                <default>false</default>
+                <label>VOLVER A LLAMAR, FECHA DE SEGUIMIENTO</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO, NÚMERO NO EXISTE O NO DA TONO</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO, NÚMERO NO EXISTE O NO DA TONO</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO, NO RESPONDIERON</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO, NO RESPONDIERON</label>
+            </value>
+            <value>
+                <fullName>NO CONTACTADO, ME CUELGAN</fullName>
+                <default>false</default>
+                <label>NO CONTACTADO, ME CUELGAN</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

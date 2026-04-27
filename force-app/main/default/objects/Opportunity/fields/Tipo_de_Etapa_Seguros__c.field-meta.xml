@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Etapa_Seguros__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF( RecordType.Name ==&apos;Insurance&apos; &amp;&amp; (ISPICKVAL(StageName, &quot;Contacto inicial&quot;)),
+&apos;Oportunidades Vigentes&apos;,
+IF(RecordType.Name == &apos;Insurance&apos; &amp;&amp; !(ISPICKVAL(StageName, &quot;Contacto inicial&quot;) || ISPICKVAL(StageName, &quot;Cerrada Ganada&quot;) || ISPICKVAL(StageName, &quot;Cerrada Perdida&quot;)),
+&apos;Interesados&apos;,
+IF(RecordType.Name == &apos;Insurance&apos; &amp;&amp; (ISPICKVAL(StageName, &quot;Cerrada Ganada&quot;)),
+&apos;Negocio Cerrado&apos;,&apos;&apos;)
+)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tipo de Etapa Seguros</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

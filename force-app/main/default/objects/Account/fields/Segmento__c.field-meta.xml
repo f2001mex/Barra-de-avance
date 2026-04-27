@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segmento__c</fullName>
+    <label>Segmento</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Privada</fullName>
+                <default>false</default>
+                <label>Privada</label>
+            </value>
+            <value>
+                <fullName>Patrimonial</fullName>
+                <default>false</default>
+                <label>Patrimonial</label>
+            </value>
+            <value>
+                <fullName>Wealth Management</fullName>
+                <default>false</default>
+                <label>Wealth Management</label>
+            </value>
+            <value>
+                <fullName>Patrimonial reactivo</fullName>
+                <default>false</default>
+                <label>Patrimonial reactivo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

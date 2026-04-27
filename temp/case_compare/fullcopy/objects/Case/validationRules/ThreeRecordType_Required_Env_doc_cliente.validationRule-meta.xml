@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ThreeRecordType_Required_Env_doc_cliente</fullName>
+    <active>true</active>
+    <description>//记录类型为Comprobantes 或者 Envío de Estados de Cuenta y/o Constancia fiscal 或者 Cartas Ratificación时
+状态变为Cierre时 Env_doc_cliente__c为true //
+Envio_Estados_de_Cuenta &amp; Envio_Constancia_Fiscal</description>
+    <errorConditionFormula>AND(
+    OR(
+        AND(
+            OR(RecordType.DeveloperName == &apos;Cartas_Ratificacion&apos;,
+                RecordType.DeveloperName == &apos;Comprobantes&apos;),
+            AND(ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Cierre&apos;,
+                TEXT(Cancelacion_de_caso__c) == &apos;No_sigue_proceso&apos;),
+            Env_doc_cliente__c == false
+        ),
+        AND(
+          OR(
+            RecordType.DeveloperName == &apos;Envio_Constancia_Fiscal&apos;,
+            RecordType.DeveloperName == &apos;Envio_Estados_de_Cuenta&apos;
+            ),
+            ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de callback&apos;,
+            Env_doc_cliente__c == false
+            
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

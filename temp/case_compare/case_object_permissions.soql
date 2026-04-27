@@ -1,0 +1,4 @@
+SELECT Parent.Label, Parent.Profile.Name, PermissionsRead, PermissionsCreate, PermissionsEdit, PermissionsDelete, PermissionsViewAllRecords, PermissionsModifyAllRecords
+FROM ObjectPermissions
+WHERE SObjectType = 'Case' AND Parent.IsOwnedByProfile = true
+ORDER BY Parent.Label

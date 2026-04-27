@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Institucion__c</fullName>
+    <label>Institución</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Razon_de_la_perdida__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CitiBanamex Priority</fullName>
+                <default>false</default>
+                <label>CitiBanamex Priority</label>
+            </value>
+            <value>
+                <fullName>Premier de HSBC</fullName>
+                <default>false</default>
+                <label>Premier de HSBC</label>
+            </value>
+            <value>
+                <fullName>Santader Select</fullName>
+                <default>false</default>
+                <label>Santader Select</label>
+            </value>
+            <value>
+                <fullName>Preferente de Banorte</fullName>
+                <default>false</default>
+                <label>Preferente de Banorte</label>
+            </value>
+            <value>
+                <fullName>Premium de Scotiabank</fullName>
+                <default>false</default>
+                <label>Premium de Scotiabank</label>
+            </value>
+            <value>
+                <fullName>BBVA patrimonial y privada</fullName>
+                <default>false</default>
+                <label>BBVA patrimonial y privada</label>
+            </value>
+            <value>
+                <fullName>No aplica</fullName>
+                <default>false</default>
+                <label>No aplica</label>
+            </value>
+            <value>
+                <fullName>Afirme</fullName>
+                <default>false</default>
+                <label>Afirme</label>
+            </value>
+            <value>
+                <fullName>Allianz</fullName>
+                <default>false</default>
+                <label>Allianz</label>
+            </value>
+            <value>
+                <fullName>AXA Seguros</fullName>
+                <default>false</default>
+                <label>AXA Seguros</label>
+            </value>
+            <value>
+                <fullName>Banorte</fullName>
+                <default>false</default>
+                <label>Banorte</label>
+            </value>
+            <value>
+                <fullName>BBVA</fullName>
+                <default>false</default>
+                <label>BBVA</label>
+            </value>
+            <value>
+                <fullName>BNP Paribas</fullName>
+                <default>false</default>
+                <label>BNP Paribas</label>
+            </value>
+            <value>
+                <fullName>BTG Pactual</fullName>
+                <default>false</default>
+                <label>BTG Pactual</label>
+            </value>
+            <value>
+                <fullName>BX+</fullName>
+                <default>false</default>
+                <label>BX+</label>
+            </value>
+            <value>
+                <fullName>Chubb</fullName>
+                <default>false</default>
+                <label>Chubb</label>
+            </value>
+            <value>
+                <fullName>CI Casa de Bolsa</fullName>
+                <default>false</default>
+                <label>CI Casa de Bolsa</label>
+            </value>
+            <value>
+                <fullName>Citibanamex</fullName>
+                <default>false</default>
+                <label>Citibanamex</label>
+            </value>
+            <value>
+                <fullName>Fóndika</fullName>
+                <default>false</default>
+                <label>Fóndika</label>
+            </value>
+            <value>
+                <fullName>GBM Plus</fullName>
+                <default>false</default>
+                <label>GBM Plus</label>
+            </value>
+            <value>
+                <fullName>General de Seguros</fullName>
+                <default>false</default>
+                <label>General de Seguros</label>
+            </value>
+            <value>
+                <fullName>GNP Seguros</fullName>
+                <default>false</default>
+                <label>GNP Seguros</label>
+            </value>
+            <value>
+                <fullName>HIR Compañía de Seguros</fullName>
+                <default>false</default>
+                <label>HIR Compañía de Seguros</label>
+            </value>
+            <value>
+                <fullName>HSBC</fullName>
+                <default>false</default>
+                <label>HSBC</label>
+            </value>
+            <value>
+                <fullName>Inbursa</fullName>
+                <default>false</default>
+                <label>Inbursa</label>
+            </value>
+            <value>
+                <fullName>Insignia Life</fullName>
+                <default>false</default>
+                <label>Insignia Life</label>
+            </value>
+            <value>
+                <fullName>Intercam</fullName>
+                <default>false</default>
+                <label>Intercam</label>
+            </value>
+            <value>
+                <fullName>Invermerica Distribuidora de Fondos</fullName>
+                <default>false</default>
+                <label>Invermerica Distribuidora de Fondos</label>
+            </value>
+            <value>
+                <fullName>Invex</fullName>
+                <default>false</default>
+                <label>Invex</label>
+            </value>
+            <value>
+                <fullName>IXE</fullName>
+                <default>false</default>
+                <label>IXE</label>
+            </value>
+            <value>
+                <fullName>Mapfre</fullName>
+                <default>false</default>
+                <label>Mapfre</label>
+            </value>
+            <value>
+                <fullName>Más Fondos</fullName>
+                <default>false</default>
+                <label>Más Fondos</label>
+            </value>
+            <value>
+                <fullName>Metlife</fullName>
+                <default>false</default>
+                <label>Metlife</label>
+            </value>
+            <value>
+                <fullName>Monex</fullName>
+                <default>false</default>
+                <label>Monex</label>
+            </value>
+            <value>
+                <fullName>Principal Fondos de Inversión</fullName>
+                <default>false</default>
+                <label>Principal Fondos de Inversión</label>
+            </value>
+            <value>
+                <fullName>Profuturo</fullName>
+                <default>false</default>
+                <label>Profuturo</label>
+            </value>
+            <value>
+                <fullName>Prudential</fullName>
+                <default>false</default>
+                <label>Prudential</label>
+            </value>
+            <value>
+                <fullName>SAM Asset Management</fullName>
+                <default>false</default>
+                <label>SAM Asset Management</label>
+            </value>
+            <value>
+                <fullName>Santander</fullName>
+                <default>false</default>
+                <label>Santander</label>
+            </value>
+            <value>
+                <fullName>Scotiabank</fullName>
+                <default>false</default>
+                <label>Scotiabank</label>
+            </value>
+            <value>
+                <fullName>Seguros Argos</fullName>
+                <default>false</default>
+                <label>Seguros Argos</label>
+            </value>
+            <value>
+                <fullName>Seguros Atlas</fullName>
+                <default>false</default>
+                <label>Seguros Atlas</label>
+            </value>
+            <value>
+                <fullName>Seguros El Potosí</fullName>
+                <default>false</default>
+                <label>Seguros El Potosí</label>
+            </value>
+            <value>
+                <fullName>Seguros Monterrey</fullName>
+                <default>false</default>
+                <label>Seguros Monterrey</label>
+            </value>
+            <value>
+                <fullName>Skandia</fullName>
+                <default>false</default>
+                <label>Skandia</label>
+            </value>
+            <value>
+                <fullName>Sura</fullName>
+                <default>false</default>
+                <label>Sura</label>
+            </value>
+            <value>
+                <fullName>Vector</fullName>
+                <default>false</default>
+                <label>Vector</label>
+            </value>
+            <value>
+                <fullName>Zurich</fullName>
+                <default>false</default>
+                <label>Zurich</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia /contrato con otra institución</controllingFieldValue>
+            <controllingFieldValue>Fidelidad a su bróker/Aseguradora actual</controllingFieldValue>
+            <valueName>Banorte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia /contrato con otra institución</controllingFieldValue>
+            <controllingFieldValue>Fidelidad a su bróker/Aseguradora actual</controllingFieldValue>
+            <valueName>BBVA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia /contrato con otra institución</controllingFieldValue>
+            <controllingFieldValue>Fidelidad a su bróker/Aseguradora actual</controllingFieldValue>
+            <valueName>Citibanamex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia /contrato con otra institución</controllingFieldValue>
+            <controllingFieldValue>Fidelidad a su bróker/Aseguradora actual</controllingFieldValue>
+            <valueName>GBM Plus</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia /contrato con otra institución</controllingFieldValue>
+            <controllingFieldValue>Fidelidad a su bróker/Aseguradora actual</controllingFieldValue>
+            <valueName>Invex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia /contrato con otra institución</controllingFieldValue>
+            <controllingFieldValue>Fidelidad a su bróker/Aseguradora actual</controllingFieldValue>
+            <valueName>Santander</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia /contrato con otra institución</controllingFieldValue>
+            <controllingFieldValue>Fidelidad a su bróker/Aseguradora actual</controllingFieldValue>
+            <valueName>Scotiabank</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia /contrato con otra institución</controllingFieldValue>
+            <controllingFieldValue>Fidelidad a su bróker/Aseguradora actual</controllingFieldValue>
+            <valueName>Sura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia /contrato con otra institución</controllingFieldValue>
+            <controllingFieldValue>Fidelidad a su bróker/Aseguradora actual</controllingFieldValue>
+            <valueName>Vector</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia /contrato con otra institución</controllingFieldValue>
+            <controllingFieldValue>Fidelidad a su bróker/Aseguradora actual</controllingFieldValue>
+            <valueName>Otros</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

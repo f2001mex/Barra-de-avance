@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProductoDeInteres__c</fullName>
+    <label>Producto de interés</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fondos</fullName>
+                <default>false</default>
+                <label>Fondos</label>
+            </value>
+            <value>
+                <fullName>Instrumentos en directo</fullName>
+                <default>false</default>
+                <label>Instrumentos en directo</label>
+            </value>
+            <value>
+                <fullName>Alpha</fullName>
+                <default>false</default>
+                <label>Alpha</label>
+            </value>
+            <value>
+                <fullName>Soluciones Equity</fullName>
+                <default>false</default>
+                <label>Soluciones Equity</label>
+            </value>
+            <value>
+                <fullName>Alterna</fullName>
+                <default>false</default>
+                <label>Alterna</label>
+            </value>
+            <value>
+                <fullName>Crédito</fullName>
+                <default>false</default>
+                <label>Crédito</label>
+            </value>
+            <value>
+                <fullName>PPR</fullName>
+                <default>false</default>
+                <label>PPR</label>
+            </value>
+            <value>
+                <fullName>Fideicomisos</fullName>
+                <default>false</default>
+                <label>Fideicomisos</label>
+            </value>
+            <value>
+                <fullName>Seguros</fullName>
+                <default>false</default>
+                <label>Seguros</label>
+            </value>
+            <value>
+                <fullName>FX</fullName>
+                <default>false</default>
+                <label>FX</label>
+            </value>
+            <value>
+                <fullName>Fondo de ahorro</fullName>
+                <default>false</default>
+                <label>Fondo de ahorro</label>
+            </value>
+            <value>
+                <fullName>Caja de ahorro</fullName>
+                <default>false</default>
+                <label>Caja de ahorro</label>
+            </value>
+            <value>
+                <fullName>Notas Estructuradas</fullName>
+                <default>false</default>
+                <label>Notas Estructuradas</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>Acciones</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Acciones</label>
+            </value>
+            <value>
+                <fullName>Bonos</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Bonos</label>
+            </value>
+            <value>
+                <fullName>Cambios</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cambios</label>
+            </value>
+            <value>
+                <fullName>Emisiones</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Emisiones</label>
+            </value>
+            <value>
+                <fullName>Fondos JPMorgan</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fondos JPMorgan</label>
+            </value>
+            <value>
+                <fullName>Securities</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Securities</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>5</visibleLines>
+</CustomField>

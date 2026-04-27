@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>CodeBuilder__Code_Builder_Dashboard</members>
+        <members>CodeBuilder__Workspace_Manager</members>
+        <members>F3_Portafolio_Del_Contrato</members>
+        <members>FinServ__WMClients</members>
+        <members>FinServ__WMToday</members>
+        <members>Vista_de_Contratos</members>
+        <members>datamask__Data_Mask</members>
+        <members>omnistudio__FlexCards</members>
+        <members>tspa__Visual_Configuration_Panel</members>
+        <members>tspa__Visual_Remote_Assistant_Mobile_Dashboard</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Admin</members>
+        <name>Profile</name>
+    </types>
+    <version>65.0</version>
+</Package>

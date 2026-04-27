@@ -1,0 +1,16 @@
+ »   Warning: @salesforce/cli update available from 2.119.8 to 2.126.4.
+{
+  "status": 1,
+  "result": {
+    "successes": [],
+    "failures": [
+      {
+        "name": "francisco.ortega@optimissa.com.fullprodu",
+        "message": "Permission set \"ActionCadenceStepTracker_Edit_All_Fields\" not found in target org. Do you need to push source?"
+      }
+    ]
+  },
+  "warnings": [
+    "The \"--onbehalfof\" flag has been deprecated. Use \"--on-behalf-of | -b\" instead."
+  ]
+}

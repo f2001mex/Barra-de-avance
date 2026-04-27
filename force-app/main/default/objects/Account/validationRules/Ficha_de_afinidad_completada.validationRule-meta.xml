@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ficha_de_afinidad_completada</fullName>
+    <active>false</active>
+    <description>Valida que los campos de la ficha de afinidad estén completados al marcar el campo FichaAfinidadCompletada__c</description>
+    <errorConditionFormula>AND(
+FichaAfinidadCompletada__c = TRUE,
+OR(
+ISBLANK(Conquetipodeseguroscuentas__c),
+ISBLANK(Conqueempresaestasasegurado__c),
+ISBLANK(CuandoVence__c),
+ISPICKVAL(InstitucionFinancieraPrincipal__c, &apos;&apos;),
+ISBLANK(MesPreferenteInversion_o_ahorrar__c),
+ISPICKVAL(Cuantos_hijos_tienes__c, &apos;&apos;),
+ISPICKVAL(FamiliarqueseaclienteenActinver__c, &apos;&apos;),
+ISPICKVAL(Viajas_recurrentemente__c, &apos;&apos;),
+ISPICKVAL(Frecuencia_para_ser_contactado__c, &apos;&apos;),
+ISBLANK(MedioPreferidoContacto__c)
+
+)
+)</errorConditionFormula>
+    <errorMessage>Debe completar los siguientes campos:
+Tipo de seguro,
+Vencimiento,
+Empresa aseguradora,
+Institución financiera,
+Mes ahorro/inversión,
+Hijos,
+Familiar cliente,
+Viajes,
+Frecuencia y Medio de contacto.</errorMessage>
+</ValidationRule>

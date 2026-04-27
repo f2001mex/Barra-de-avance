@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solicitado_por__c</fullName>
+    <label>Solicitado por</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cliente</fullName>
+                <default>false</default>
+                <label>Cliente</label>
+            </value>
+            <value>
+                <fullName>Interno</fullName>
+                <default>false</default>
+                <label>Interno</label>
+            </value>
+            <value>
+                <fullName>Titular</fullName>
+                <default>false</default>
+                <label>Titular</label>
+            </value>
+            <value>
+                <fullName>Apoderado</fullName>
+                <default>false</default>
+                <label>Apoderado</label>
+            </value>
+            <value>
+                <fullName>Cotitular</fullName>
+                <default>false</default>
+                <label>Cotitular</label>
+            </value>
+            <value>
+                <fullName>Persona Autorizada</fullName>
+                <default>false</default>
+                <label>Persona Autorizada</label>
+            </value>
+            <value>
+                <fullName>Externo</fullName>
+                <default>false</default>
+                <label>Externo</label>
+            </value>
+            <value>
+                <fullName>Prospecto</fullName>
+                <default>false</default>
+                <label>Prospecto</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

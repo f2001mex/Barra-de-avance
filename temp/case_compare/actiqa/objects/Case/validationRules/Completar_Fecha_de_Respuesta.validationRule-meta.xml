@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Completar_Fecha_de_Respuesta</fullName>
+    <active>true</active>
+    <description>Completar fecha de respuesta antes de poder pasar a la siguiente etapa.</description>
+    <errorConditionFormula>ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Cierre&apos; &amp;&amp;  ISBLANK( Fecha_de_respuesta__c)&amp;&amp;  ISPICKVAL(Cancelacion_de_caso__c, &apos;No_sigue_proceso&apos;)</errorConditionFormula>
+    <errorMessage>Agregar la fecha de respuesta para poder cambiar a la etapa de Cierre.</errorMessage>
+</ValidationRule>

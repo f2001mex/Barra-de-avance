@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cliente_Si_aceptaOferta</fullName>
+    <active>true</active>
+    <description>Si el cliente NO acepta oferta se debe habilitar el campo “Siguientes pasos” el cual será obligatorio</description>
+    <errorConditionFormula>and(ISPICKVAL(Cliente_Acepta_oferta__c,&apos;NO&apos;), ISBLANK(text(Siguientes_pasos__c)))</errorConditionFormula>
+    <errorMessage>Debes completar el campo &apos;Siguientes pasos&apos;</errorMessage>
+</ValidationRule>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Frecuencia_para_ser_contactado__c</fullName>
+    <label>Frecuencia para ser contactado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cada mes</fullName>
+                <default>false</default>
+                <label>Cada mes</label>
+            </value>
+            <value>
+                <fullName>Cada dos meses</fullName>
+                <default>false</default>
+                <label>Cada dos meses</label>
+            </value>
+            <value>
+                <fullName>Cada tres meses</fullName>
+                <default>false</default>
+                <label>Cada tres meses</label>
+            </value>
+            <value>
+                <fullName>Cada cuatro meses</fullName>
+                <default>false</default>
+                <label>Cada cuatro meses</label>
+            </value>
+            <value>
+                <fullName>Cada seis meses</fullName>
+                <default>false</default>
+                <label>Cada seis meses</label>
+            </value>
+            <value>
+                <fullName>Una vez al año</fullName>
+                <default>false</default>
+                <label>Una vez al año</label>
+            </value>
+            <value>
+                <fullName>El cliente prefiere contactarse con nosotros</fullName>
+                <default>false</default>
+                <label>El cliente prefiere contactarse con nosotros</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

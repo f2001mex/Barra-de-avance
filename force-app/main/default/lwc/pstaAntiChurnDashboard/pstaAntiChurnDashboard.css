@@ -1,0 +1,256 @@
+.header-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    color: #5c5c5c;
+    font-size: 0.85rem;
+}
+
+.kpi-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 0.85rem;
+}
+
+.kpi-tile {
+    background: linear-gradient(180deg, #fbfcfd 0%, #f3f7fb 100%);
+    border: 1px solid #d9e2ec;
+    border-radius: 1rem;
+    padding: 1rem;
+    min-height: 138px;
+}
+
+.kpi-hero {
+    grid-column: span 2;
+    background: linear-gradient(135deg, #16325c 0%, #0f63a3 100%);
+    border-color: #16325c;
+}
+
+.kpi-hero .kpi-label,
+.kpi-hero .kpi-footnote,
+.kpi-hero .kpi-value {
+    color: #ffffff;
+}
+
+.kpi-label {
+    color: #4a5568;
+    font-size: 0.8rem;
+    line-height: 1.35;
+    min-height: 2.2rem;
+}
+
+.kpi-value {
+    display: block;
+    margin-top: 0.7rem;
+    color: #16325c;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.kpi-footnote {
+    margin-top: 0.55rem;
+    color: #5f6c7b;
+    font-size: 0.82rem;
+}
+
+.content-grid {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 1rem;
+}
+
+.panel {
+    background: #ffffff;
+    border: 1px solid #d9e2ec;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.panel-title {
+    color: #16325c;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+
+.donut-layout {
+    display: grid;
+    grid-template-columns: 220px minmax(0, 1fr);
+    gap: 1rem;
+    align-items: center;
+}
+
+.donut-shell {
+    display: flex;
+    justify-content: center;
+}
+
+.donut-chart {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    position: relative;
+    box-shadow: inset 0 0 0 1px rgba(15, 99, 163, 0.06);
+}
+
+.donut-center {
+    position: absolute;
+    inset: 26px;
+    background: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #16325c;
+    font-size: 0.9rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.legend-list {
+    display: grid;
+    gap: 0.75rem;
+}
+
+.legend-row {
+    display: flex;
+    gap: 0.75rem;
+    align-items: flex-start;
+}
+
+.legend-chip {
+    width: 0.85rem;
+    height: 0.85rem;
+    border-radius: 999px;
+    flex: none;
+    margin-top: 0.2rem;
+}
+
+.legend-copy {
+    min-width: 0;
+}
+
+.legend-label {
+    color: #16325c;
+    font-size: 0.9rem;
+    font-weight: 600;
+    line-height: 1.25;
+}
+
+.legend-meta {
+    margin-top: 0.2rem;
+    display: flex;
+    gap: 0.6rem;
+    color: #64748b;
+    font-size: 0.82rem;
+}
+
+.context-card {
+    background: #f7f9fb;
+    border: 1px solid #dde3ea;
+    border-radius: 0.9rem;
+    padding: 0.95rem 1rem;
+}
+
+.context-label {
+    color: #4a5568;
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.context-text {
+    margin-top: 0.45rem;
+    color: #16325c;
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+
+.result-grid {
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0.75rem;
+}
+
+.result-chip {
+    border-radius: 0.9rem;
+    padding: 0.9rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    font-weight: 700;
+}
+
+.result-chip-positive {
+    background: #e9f7ef;
+    color: #166534;
+}
+
+.result-chip-negative {
+    background: #fdecec;
+    color: #b42318;
+}
+
+.result-chip-neutral {
+    background: #eef5ff;
+    color: #1d4ed8;
+}
+
+.result-chip-pending {
+    background: #fff8e6;
+    color: #b7791f;
+}
+
+.result-label {
+    font-size: 0.85rem;
+}
+
+.result-value {
+    font-size: 1.1rem;
+}
+
+.button-row {
+    display: grid;
+    gap: 0.75rem;
+    margin-top: 1rem;
+}
+
+.report-link {
+    width: 100%;
+    background: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-radius: 0.85rem;
+    color: #0f63a3;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 700;
+    padding: 0.9rem 1rem;
+    text-align: left;
+}
+
+.report-link:hover {
+    border-color: #0f63a3;
+    color: #16325c;
+}
+
+.empty-state,
+.state-message {
+    color: #64748b;
+}
+
+@media (max-width: 1024px) {
+    .kpi-grid,
+    .content-grid,
+    .donut-layout,
+    .result-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .kpi-hero {
+        grid-column: span 1;
+    }
+}

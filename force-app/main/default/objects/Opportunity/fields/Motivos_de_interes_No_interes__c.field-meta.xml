@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivos_de_interes_No_interes__c</fullName>
+    <label>Motivos de interés / No interés</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Cliente_interesado__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CONDICIONES</fullName>
+                <default>false</default>
+                <label>CONDICIONES</label>
+            </value>
+            <value>
+                <fullName>ENTRADA TARDE</fullName>
+                <default>false</default>
+                <label>ENTRADA TARDE</label>
+            </value>
+            <value>
+                <fullName>OTRO</fullName>
+                <default>false</default>
+                <label>OTRO</label>
+            </value>
+            <value>
+                <fullName>OTRO INTERMEDIARIO</fullName>
+                <default>false</default>
+                <label>OTRO INTERMEDIARIO</label>
+            </value>
+            <value>
+                <fullName>PRECIO</fullName>
+                <default>false</default>
+                <label>PRECIO</label>
+            </value>
+            <value>
+                <fullName>TIEMPO DE RESPUESTA</fullName>
+                <default>false</default>
+                <label>TIEMPO DE RESPUESTA</label>
+            </value>
+            <value>
+                <fullName>NO TIENE VEHÍCULO</fullName>
+                <default>false</default>
+                <label>NO TIENE VEHÍCULO</label>
+            </value>
+            <value>
+                <fullName>Vigencias Retroactivas (sin excepción)</fullName>
+                <default>false</default>
+                <label>Vigencias Retroactivas (sin excepción)</label>
+            </value>
+            <value>
+                <fullName>Unidades Ford modelos 2019-2026</fullName>
+                <default>false</default>
+                <label>Unidades Ford modelos 2019-2026</label>
+            </value>
+            <value>
+                <fullName>Marcas Chinas (excepto CHIREY, JAC, JAECOO, MG, OMODA, SEV)</fullName>
+                <default>false</default>
+                <label>Marcas Chinas (excepto CHIREY, JAC, JAECOO, MG, OMODA, SEV)</label>
+            </value>
+            <value>
+                <fullName>Autos Eléctricos (excepto BYD, TESLA)</fullName>
+                <default>false</default>
+                <label>Autos Eléctricos (excepto BYD, TESLA)</label>
+            </value>
+            <value>
+                <fullName>Pólizas de Flotillas</fullName>
+                <default>false</default>
+                <label>Pólizas de Flotillas</label>
+            </value>
+            <value>
+                <fullName>Vehículos asegurados con Actinver Insurance Services</fullName>
+                <default>false</default>
+                <label>Vehículos asegurados con Actinver Insurance Services</label>
+            </value>
+            <value>
+                <fullName>Pólizas de Zurich Aseguradora Mexicana</fullName>
+                <default>false</default>
+                <label>Pólizas de Zurich Aseguradora Mexicana</label>
+            </value>
+            <value>
+                <fullName>Vehículos en arrendamiento / endoso de beneficiario preferente</fullName>
+                <default>false</default>
+                <label>Vehículos en arrendamiento / endoso de beneficiario preferente</label>
+            </value>
+            <value>
+                <fullName>Pólizas Multianuales</fullName>
+                <default>false</default>
+                <label>Pólizas Multianuales</label>
+            </value>
+            <value>
+                <fullName>Usos diferentes a Particular</fullName>
+                <default>false</default>
+                <label>Usos diferentes a Particular</label>
+            </value>
+            <value>
+                <fullName>Autos Legalizados / Fronterizos</fullName>
+                <default>false</default>
+                <label>Autos Legalizados / Fronterizos</label>
+            </value>
+            <value>
+                <fullName>Autos con más de 20 años</fullName>
+                <default>false</default>
+                <label>Autos con más de 20 años</label>
+            </value>
+            <value>
+                <fullName>Cumple con requisitos para aplicar descuento</fullName>
+                <default>false</default>
+                <label>Cumple con requisitos para aplicar descuento</label>
+            </value>
+            <value>
+                <fullName>Sin BP Actinver</fullName>
+                <default>false</default>
+                <label>Sin BP Actinver</label>
+            </value>
+            <value>
+                <fullName>Igual o mayor a 65 años</fullName>
+                <default>false</default>
+                <label>Igual o mayor a 65 años</label>
+            </value>
+            <value>
+                <fullName>Residente fuera de México</fullName>
+                <default>false</default>
+                <label>Residente fuera de México</label>
+            </value>
+            <value>
+                <fullName>Profesión excluida</fullName>
+                <default>false</default>
+                <label>Profesión excluida</label>
+            </value>
+            <value>
+                <fullName>Persona en listas negras</fullName>
+                <default>false</default>
+                <label>Persona en listas negras</label>
+            </value>
+            <value>
+                <fullName>Otro motivo</fullName>
+                <default>false</default>
+                <label>Otro motivo</label>
+            </value>
+            <value>
+                <fullName>Evaluacion medica</fullName>
+                <default>false</default>
+                <label>Evaluacion medica</label>
+            </value>
+            <value>
+                <fullName>Legalizados o fronterizos</fullName>
+                <default>false</default>
+                <label>Legalizados o fronterizos</label>
+            </value>
+            <value>
+                <fullName>Ubicación &lt;500m cuerpo de agua</fullName>
+                <default>false</default>
+                <label>Ubicación &lt;500m cuerpo de agua</label>
+            </value>
+            <value>
+                <fullName>Materiales constructivos diferntes a macizos</fullName>
+                <default>false</default>
+                <label>Materiales constructivos diferntes a macizos</label>
+            </value>
+            <value>
+                <fullName>Zona geográfica (Acapulo o ubicaciones cerradas por huracán)</fullName>
+                <default>false</default>
+                <label>Zona geográfica (Acapulo o ubicaciones cerradas por huracán)</label>
+            </value>
+            <value>
+                <fullName>Casas de renta por aplicación (bnb)</fullName>
+                <default>false</default>
+                <label>Casas de renta por aplicación (bnb)</label>
+            </value>
+            <value>
+                <fullName>Casas desocupadas y/o abandonadas</fullName>
+                <default>false</default>
+                <label>Casas desocupadas y/o abandonadas</label>
+            </value>
+            <value>
+                <fullName>Inmuebles pertenecientes a INAH o Monumentos de conservación</fullName>
+                <default>false</default>
+                <label>Inmuebles pertenecientes a INAH o Monumentos de conservación</label>
+            </value>
+            <value>
+                <fullName>Edificios con mayor de 30 años de antigüedad</fullName>
+                <default>false</default>
+                <label>Edificios con mayor de 30 años de antigüedad</label>
+            </value>
+            <value>
+                <fullName>SIN INTERES DE ASEGURARSE</fullName>
+                <default>false</default>
+                <label>SIN INTERES DE ASEGURARSE</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Vigencias Retroactivas (sin excepción)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Unidades Ford modelos 2019-2026</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Marcas Chinas (excepto CHIREY, JAC, JAECOO, MG, OMODA, SEV)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Autos Eléctricos (excepto BYD, TESLA)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Pólizas de Flotillas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Vehículos asegurados con Actinver Insurance Services</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Pólizas de Zurich Aseguradora Mexicana</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Vehículos en arrendamiento / endoso de beneficiario preferente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Pólizas Multianuales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Usos diferentes a Particular</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Autos Legalizados / Fronterizos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Autos con más de 20 años</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Cumple con requisitos para aplicar descuento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Sin BP Actinver</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Igual o mayor a 65 años</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Residente fuera de México</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Profesión excluida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Persona en listas negras</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Otro motivo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Evaluacion medica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Legalizados o fronterizos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Ubicación &lt;500m cuerpo de agua</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Materiales constructivos diferntes a macizos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Zona geográfica (Acapulo o ubicaciones cerradas por huracán)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Casas de renta por aplicación (bnb)</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Casas desocupadas y/o abandonadas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Inmuebles pertenecientes a INAH o Monumentos de conservación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SI</controllingFieldValue>
+            <valueName>Edificios con mayor de 30 años de antigüedad</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>CONDICIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>ENTRADA TARDE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>OTRO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>OTRO INTERMEDIARIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>PRECIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>TIEMPO DE RESPUESTA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>NO TIENE VEHÍCULO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>SIN INTERES DE ASEGURARSE</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

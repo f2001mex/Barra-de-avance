@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Notif_Directores__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Notifica a los Directores del CF origen y destino para que elaboren el formato</description>
+    <label>Notificación a Directores</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

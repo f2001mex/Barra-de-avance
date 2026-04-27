@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Evalua_Nombre_de_la_Cuenta__c</fullName>
+    <formula>IF(
+    IsPersonAccount,
+    /* PERSON ACCOUNT */
+    AND(
+        NOT(ISBLANK(FirstName)),
+        NOT(ISBLANK(LastName)),
+        TRIM(FirstName) = UPPER(TRIM(FirstName)),
+        TRIM(LastName) = UPPER(TRIM(LastName))
+    ),
+    /* ACCOUNT NORMAL */
+    AND(
+        NOT(ISBLANK(Name)),
+        TRIM(Name) = UPPER(TRIM(Name))
+    )
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Evalua Nombre de la Cuenta</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

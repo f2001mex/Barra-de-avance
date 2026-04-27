@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Avance_FAC_Validacion</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;Postventa&quot;,
+    Subject = &quot;Ficha de afinidad con el cliente&quot;,
+    OR(ISNEW(), ISCHANGED(El_cliente_fue_contactado__c)),
+    ISPICKVAL(El_cliente_fue_contactado__c, &quot;Si&quot;),
+    BLANKVALUE(Avance_FAC__c, 0) &lt; 1
+)</errorConditionFormula>
+    <errorDisplayField>El_cliente_fue_contactado__c</errorDisplayField>
+    <errorMessage>La ficha de afinidad no ha sido completada al 100%</errorMessage>
+</ValidationRule>

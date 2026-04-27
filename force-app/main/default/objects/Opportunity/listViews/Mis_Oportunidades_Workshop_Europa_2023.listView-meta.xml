@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mis_Oportunidades_Workshop_Europa_2023</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>contains</operation>
+        <value>Workshop Europa 2023</value>
+    </filters>
+    <label>Mis Oportunidades Workshop Europa 2023</label>
+</ListView>

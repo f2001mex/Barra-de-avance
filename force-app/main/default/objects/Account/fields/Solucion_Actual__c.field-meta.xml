@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Solucion_Actual__c</fullName>
+    <label>Solución Actual</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FONDOS DE INVERSIÓN</fullName>
+                <default>false</default>
+                <label>FONDOS DE INVERSIÓN</label>
+            </value>
+            <value>
+                <fullName>BE , TDD , CHEQUERA</fullName>
+                <default>false</default>
+                <label>BE , TDD , CHEQUERA</label>
+            </value>
+            <value>
+                <fullName>MERCADO DINERO , CAPITALES, DERIVADOS</fullName>
+                <default>false</default>
+                <label>MERCADO DINERO , CAPITALES, DERIVADOS</label>
+            </value>
+            <value>
+                <fullName>CAMBIOS</fullName>
+                <default>false</default>
+                <label>CAMBIOS</label>
+            </value>
+            <value>
+                <fullName>CREDITO</fullName>
+                <default>false</default>
+                <label>CREDITO</label>
+            </value>
+            <value>
+                <fullName>SEGURO</fullName>
+                <default>false</default>
+                <label>SEGURO</label>
+            </value>
+            <value>
+                <fullName>FIDEICOMISO</fullName>
+                <default>false</default>
+                <label>FIDEICOMISO</label>
+            </value>
+            <value>
+                <fullName>ARRENDAMIENTO</fullName>
+                <default>false</default>
+                <label>ARRENDAMIENTO</label>
+            </value>
+            <value>
+                <fullName>PRODCUTOS EXTRANJERO</fullName>
+                <default>false</default>
+                <label>PRODCUTOS EXTRANJERO</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

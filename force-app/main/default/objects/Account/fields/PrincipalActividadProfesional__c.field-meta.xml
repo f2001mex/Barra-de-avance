@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PrincipalActividadProfesional__c</fullName>
+    <label>Principal actividad profesional</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Otro</label>
+            </value>
+            <value>
+                <fullName>Empleado</fullName>
+                <default>false</default>
+                <label>Empleado</label>
+            </value>
+            <value>
+                <fullName>Profesional Independiente</fullName>
+                <default>false</default>
+                <label>Profesional Independiente</label>
+            </value>
+            <value>
+                <fullName>Sin actividad económica</fullName>
+                <default>false</default>
+                <label>Sin actividad económica</label>
+            </value>
+            <value>
+                <fullName>Agricultura y ganadería</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Agricultura y ganadería</label>
+            </value>
+            <value>
+                <fullName>Asalariado</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Asalariado</label>
+            </value>
+            <value>
+                <fullName>Comercio</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Comercio</label>
+            </value>
+            <value>
+                <fullName>Construcción</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Construcción</label>
+            </value>
+            <value>
+                <fullName>Educación</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Educación</label>
+            </value>
+            <value>
+                <fullName>Entretenimiento y cultura</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Entretenimiento y cultura</label>
+            </value>
+            <value>
+                <fullName>Finanzas</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Finanzas</label>
+            </value>
+            <value>
+                <fullName>Industria y manufactura</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Industria y manufactura</label>
+            </value>
+            <value>
+                <fullName>Servicios personales</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Servicios personales</label>
+            </value>
+            <value>
+                <fullName>Servicios profesionales</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Servicios profesionales</label>
+            </value>
+            <value>
+                <fullName>Tecnología e innovación</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tecnología e innovación</label>
+            </value>
+            <value>
+                <fullName>Transporte y logística</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Transporte y logística</label>
+            </value>
+            <value>
+                <fullName>Turismo</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Turismo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

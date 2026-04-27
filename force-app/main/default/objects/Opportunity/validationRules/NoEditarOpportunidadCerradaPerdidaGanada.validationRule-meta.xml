@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoEditarOpportunidadCerradaPerdidaGanada</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ NOT(ISNEW()),
+ NOT(PatrimExcluirFlow__c),
+ OR(
+   RecordType.Name = &quot;Wealt Management&quot;,
+   RecordType.Name = &quot;Privada&quot;,
+   RecordType.Name = &quot;Patrimonial&quot;
+ ),
+ OR(
+   ISPICKVAL(PRIORVALUE(StageName),&apos;Cerrada Ganada&apos;),
+   ISPICKVAL(PRIORVALUE(StageName),&apos;Cerrada Perdida&apos;)
+ )
+)</errorConditionFormula>
+    <errorMessage>No puedes modificar la oportunidad una vez cerrada.</errorMessage>
+</ValidationRule>

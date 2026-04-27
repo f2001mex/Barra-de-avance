@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segmento_Potencial__c</fullName>
+    <label>Segmento Potencial</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Banca Soluciones</fullName>
+                <default>false</default>
+                <label>Banca Soluciones</label>
+            </value>
+            <value>
+                <fullName>Banca Patrimonial</fullName>
+                <default>false</default>
+                <label>Banca Patrimonial</label>
+            </value>
+            <value>
+                <fullName>Banca Privada</fullName>
+                <default>false</default>
+                <label>Banca Privada</label>
+            </value>
+            <value>
+                <fullName>Wealth Management</fullName>
+                <default>false</default>
+                <label>Wealth Management</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

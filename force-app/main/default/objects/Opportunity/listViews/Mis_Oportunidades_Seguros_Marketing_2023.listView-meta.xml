@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mis_Oportunidades_Seguros_Marketing_2023</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>OPPORTUNITY.RECORDTYPE</columns>
+    <filterScope>Team</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>equals</operation>
+        <value>Seguro de Vida Patrimonial</value>
+    </filters>
+    <label>Mis Oportunidades Seguros Marketing 2023</label>
+    <sharedTo>
+        <group>Consultores_Patrimoniales</group>
+        <group>Grupo_Administraci_n_Soluciones</group>
+    </sharedTo>
+</ListView>

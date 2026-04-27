@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VF_Estatus_Requerido_Identificar_Necesid</fullName>
+    <active>true</active>
+    <description>Obliga a seleccionar un valor en el campo Estatus__c cuando el tipo de registro sea Oportunidad_Personas_Fisicas y la etapa (StageName) sea Identificar Necesidades.</description>
+    <errorConditionFormula>AND(
+    OR(
+        RecordType.DeveloperName = &quot;Oportunidad_Personas_Fisicas&quot;,
+        RecordType.DeveloperName = &quot;Oportunidad_Seguro_Via&quot;,
+        RecordType.DeveloperName = &quot;Oportunidad_Seguro_Hogar&quot;,
+        RecordType.DeveloperName = &quot;Oportunidad_Seguro_Dotales&quot;
+    ),
+    ISCHANGED(StageName),
+    ISPICKVAL(PRIORVALUE(StageName), &quot;Identificar Necesidades&quot;),
+    NOT( ISPICKVAL(StageName, &quot;Contacto inicial&quot;) ),
+    ISBLANK(TEXT(Estatus__c))
+)</errorConditionFormula>
+    <errorDisplayField>Estatus__c</errorDisplayField>
+    <errorMessage>Seleccione una opción en el campo &quot;Estatus&quot; para poder avanzar a la siguiente etapa.</errorMessage>
+</ValidationRule>

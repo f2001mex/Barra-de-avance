@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Validar_Identificacion_Necesidades_Op</fullName>
+    <active>true</active>
+    <description>Usada para validar los datos requeridos para la identificación de necesidades</description>
+    <errorConditionFormula>OR(
+AND(
+  NOT(ISNEW()),
+  OR(
+    ISPICKVAL(Unidad_de_Negocio__c, &apos;&apos;),
+    ISPICKVAL(Productos_ofertados__c, &apos;&apos;),
+    ISPICKVAL(Sub_Ramo__c, &apos;&apos;)
+  ),
+  ISPICKVAL(PRIORVALUE(StageName), &apos;Identificar Necesidades&apos;),
+  ISPICKVAL(StageName, &apos;Presentación de oferta&apos;),
+  OR(RecordType.DeveloperName = &apos;Casa_de_Bolsa&apos;,
+     RecordType.DeveloperName = &apos;Planes_Beneficio_Fiscal&apos;, 
+     RecordType.DeveloperName = &apos;WalletShareOpportunity&apos;,
+				 RecordType.DeveloperName = &apos;Patrimonial&apos;)
+),
+AND(
+    ISPICKVAL(PRIORVALUE(StageName), &apos;Identificar Necesidades&apos;),
+    NOT(ISPICKVAL(StageName, &apos;Identificar Necesidades&apos;)),
+    NOT(ISPICKVAL(StageName, &apos;Presentación de oferta&apos;)),
+    OR(RecordType.DeveloperName = &apos;Casa_de_Bolsa&apos;,
+    RecordType.DeveloperName = &apos;Planes_Beneficio_Fiscal&apos;, 
+    RecordType.DeveloperName = &apos;WalletShareOpportunity&apos;,	
+				RecordType.DeveloperName = &apos;Patrimonial&apos;),
+				NOT($Permission.bypassValidationRules)
+    )
+  )</errorConditionFormula>
+    <errorMessage>Favor de completar los campos de &apos;Unidad de Negocio, Productos ofertados, Sub Ramo para avanzar a &apos;Presentación de Oferta&apos;
+Nota: No podrás avanzar a otra etapa diferente a &apos;Presentación de Oferta&apos;</errorMessage>
+</ValidationRule>

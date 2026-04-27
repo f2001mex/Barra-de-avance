@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CR_Required_Sol_act_datos</fullName>
+    <active>true</active>
+    <description>//针对记录类型为 Cartas_Ratificacion 的数据 状态变为‘Proceso de callback‘ Sol_act_datos__c为true</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName == &apos;Cartas_Ratificacion&apos;,
+    ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de callback&apos;,
+    Sol_act_datos__c == false
+)</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

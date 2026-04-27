@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Giro__c</fullName>
+    <label>Giro</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>AGROINDUSTRIAL</fullName>
+                <default>false</default>
+                <label>AGROINDUSTRIAL</label>
+            </value>
+            <value>
+                <fullName>ALIMENTOS Y BEDIDAS</fullName>
+                <default>false</default>
+                <label>ALIMENTOS Y BEDIDAS</label>
+            </value>
+            <value>
+                <fullName>COMERCIO</fullName>
+                <default>false</default>
+                <label>COMERCIO</label>
+            </value>
+            <value>
+                <fullName>CONSTRUCCIÓN E INMOBILIARIA</fullName>
+                <default>false</default>
+                <label>CONSTRUCCIÓN E INMOBILIARIA</label>
+            </value>
+            <value>
+                <fullName>CONSULTORIA</fullName>
+                <default>false</default>
+                <label>CONSULTORIA</label>
+            </value>
+            <value>
+                <fullName>EDUCACIÓN</fullName>
+                <default>false</default>
+                <label>EDUCACIÓN</label>
+            </value>
+            <value>
+                <fullName>ENERGÍA</fullName>
+                <default>false</default>
+                <label>ENERGÍA</label>
+            </value>
+            <value>
+                <fullName>ENTRETENIMIENTO</fullName>
+                <default>false</default>
+                <label>ENTRETENIMIENTO</label>
+            </value>
+            <value>
+                <fullName>FUNERARIOS</fullName>
+                <default>false</default>
+                <label>FUNERARIOS</label>
+            </value>
+            <value>
+                <fullName>GOBIERNO</fullName>
+                <default>false</default>
+                <label>GOBIERNO</label>
+            </value>
+            <value>
+                <fullName>HOSPITALES</fullName>
+                <default>false</default>
+                <label>HOSPITALES</label>
+            </value>
+            <value>
+                <fullName>HOTELERIA</fullName>
+                <default>false</default>
+                <label>HOTELERIA</label>
+            </value>
+            <value>
+                <fullName>INDUSTRIAL</fullName>
+                <default>false</default>
+                <label>INDUSTRIAL</label>
+            </value>
+            <value>
+                <fullName>JOYERIAS</fullName>
+                <default>false</default>
+                <label>JOYERIAS</label>
+            </value>
+            <value>
+                <fullName>LABORATORIO DE ANALISIS AGRICO</fullName>
+                <default>false</default>
+                <label>LABORATORIO DE ANALISIS AGRICO</label>
+            </value>
+            <value>
+                <fullName>LIMPIEZA</fullName>
+                <default>false</default>
+                <label>LIMPIEZA</label>
+            </value>
+            <value>
+                <fullName>LOGISTICA Y TRANSPORTES</fullName>
+                <default>false</default>
+                <label>LOGISTICA Y TRANSPORTES</label>
+            </value>
+            <value>
+                <fullName>MANUFACTURA</fullName>
+                <default>false</default>
+                <label>MANUFACTURA</label>
+            </value>
+            <value>
+                <fullName>PAPEL Y CARTON</fullName>
+                <default>false</default>
+                <label>PAPEL Y CARTON</label>
+            </value>
+            <value>
+                <fullName>PF</fullName>
+                <default>false</default>
+                <label>PF</label>
+            </value>
+            <value>
+                <fullName>PLASTICO</fullName>
+                <default>false</default>
+                <label>PLASTICO</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS Y SERVICIOS LACTEOS</fullName>
+                <default>false</default>
+                <label>PRODUCTOS Y SERVICIOS LACTEOS</label>
+            </value>
+            <value>
+                <fullName>RESTAURACIÓN</fullName>
+                <default>false</default>
+                <label>RESTAURACIÓN</label>
+            </value>
+            <value>
+                <fullName>SALUD Y FARMA</fullName>
+                <default>false</default>
+                <label>SALUD Y FARMA</label>
+            </value>
+            <value>
+                <fullName>SECTOR FINANCIERO</fullName>
+                <default>false</default>
+                <label>SECTOR FINANCIERO</label>
+            </value>
+            <value>
+                <fullName>SERVICIOS AMBIENTALES Y TRATANTE DE RESIDUOS</fullName>
+                <default>false</default>
+                <label>SERVICIOS AMBIENTALES Y TRATANTE DE RESIDUOS</label>
+            </value>
+            <value>
+                <fullName>SOPORTE DE SOFTWARE</fullName>
+                <default>false</default>
+                <label>SOPORTE DE SOFTWARE</label>
+            </value>
+            <value>
+                <fullName>TECNOLOGIA</fullName>
+                <default>false</default>
+                <label>TECNOLOGIA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

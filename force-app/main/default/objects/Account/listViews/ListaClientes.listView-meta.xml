@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ListaClientes</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>EstatusContacto__c</columns>
+    <columns>VigenteContactar__c</columns>
+    <columns>FechaSiguienteContacto__c</columns>
+    <columns>FechaUltimoContacto__c</columns>
+    <columns>FechaSiguienteVisita__c</columns>
+    <columns>FechaUltimaVisita__c</columns>
+    <columns>FechaNoRequiereSerContacto__c</columns>
+    <columns>SaldoIntegral__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>EstatusContacto__c</field>
+        <operation>contains</operation>
+        <value>Contacto efectivo exitoso,Contacto no exitoso,Pendiente,Cliente no quiere ser contactado</value>
+    </filters>
+    <label>Lista de clientes</label>
+    <sharedTo>
+        <group>Banqueros_Postventa</group>
+    </sharedTo>
+</ListView>

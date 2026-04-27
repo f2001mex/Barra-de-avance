@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CR_Required_Sol_carta_ratif</fullName>
+    <active>true</active>
+    <description>//记录类型为Cartas Ratificación 并且状态变为 callback时 Sol_carta_ratif__c为true</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName == &apos;Cartas_Ratificacion&apos;,
+    ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de callback&apos;,
+    Sol_carta_ratif__c == false
+)</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

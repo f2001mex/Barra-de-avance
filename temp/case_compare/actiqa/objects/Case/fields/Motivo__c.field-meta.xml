@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo__c</fullName>
+    <label>Motivo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Tarjetas</fullName>
+                <default>false</default>
+                <label>Tarjetas</label>
+            </value>
+            <value>
+                <fullName>Cheques</fullName>
+                <default>false</default>
+                <label>Cheques</label>
+            </value>
+            <value>
+                <fullName>Compra y venta de fondos Banco</fullName>
+                <default>false</default>
+                <label>Compra y venta de fondos Banco</label>
+            </value>
+            <value>
+                <fullName>Envío de Información</fullName>
+                <default>false</default>
+                <label>Envío de Información</label>
+            </value>
+            <value>
+                <fullName>SPEI Banco</fullName>
+                <default>false</default>
+                <label>SPEI Banco</label>
+            </value>
+            <value>
+                <fullName>Banca electrónica</fullName>
+                <default>false</default>
+                <label>Banca electrónica</label>
+            </value>
+            <value>
+                <fullName>Reporte de Incidentes</fullName>
+                <default>false</default>
+                <label>Reporte de Incidentes</label>
+            </value>
+            <value>
+                <fullName>Asistencia e información</fullName>
+                <default>false</default>
+                <label>Asistencia e información</label>
+            </value>
+            <value>
+                <fullName>CD, Pagaré, Saving</fullName>
+                <default>false</default>
+                <label>CD, Pagaré, Saving</label>
+            </value>
+            <value>
+                <fullName>UNE</fullName>
+                <default>false</default>
+                <label>UNE</label>
+            </value>
+            <value>
+                <fullName>Consulta de saldos</fullName>
+                <default>false</default>
+                <label>Consulta de saldos</label>
+            </value>
+            <value>
+                <fullName>compra y venta capitales, divisas y fondos casa de bolsa</fullName>
+                <default>false</default>
+                <label>compra y venta capitales, divisas y fondos casa de bolsa</label>
+            </value>
+            <value>
+                <fullName>Reto Actinver y Marketing</fullName>
+                <default>false</default>
+                <label>Reto Actinver y Marketing</label>
+            </value>
+            <value>
+                <fullName>Transferencia a otras áreas Actinver</fullName>
+                <default>false</default>
+                <label>Transferencia a otras áreas Actinver</label>
+            </value>
+            <value>
+                <fullName>Transferencia interna CAT</fullName>
+                <default>false</default>
+                <label>Transferencia interna CAT</label>
+            </value>
+            <value>
+                <fullName>Previsión Social</fullName>
+                <default>false</default>
+                <label>Previsión Social</label>
+            </value>
+            <value>
+                <fullName>Interno</fullName>
+                <default>false</default>
+                <label>Interno</label>
+            </value>
+            <value>
+                <fullName>Seguros</fullName>
+                <default>false</default>
+                <label>Seguros</label>
+            </value>
+            <value>
+                <fullName>Cambio de Asesor y/o Centro Financiero</fullName>
+                <default>false</default>
+                <label>Cambio de Asesor y/o Centro Financiero</label>
+            </value>
+            <value>
+                <fullName>Cancelación cliente</fullName>
+                <default>false</default>
+                <label>Cancelación de cliente</label>
+            </value>
+            <value>
+                <fullName>Comprobantes</fullName>
+                <default>false</default>
+                <label>Comprobantes</label>
+            </value>
+            <value>
+                <fullName>Cartas ratificación</fullName>
+                <default>false</default>
+                <label>Cartas ratificación</label>
+            </value>
+            <value>
+                <fullName>Envío estados de cuenta y constancia fiscal</fullName>
+                <default>false</default>
+                <label>Envío estados de cuenta y constancia fiscal</label>
+            </value>
+            <value>
+                <fullName>Consulta-errores en Estado de Cuenta o Centro Financiero</fullName>
+                <default>false</default>
+                <label>Consulta-errores en Estado de Cuenta o Centro Financiero</label>
+            </value>
+            <value>
+                <fullName>Mal Servicio</fullName>
+                <default>false</default>
+                <label>Mal Servicio</label>
+            </value>
+            <value>
+                <fullName>Cancelación interna</fullName>
+                <default>false</default>
+                <label>Cancelación Interna</label>
+            </value>
+            <value>
+                <fullName>Cancelación</fullName>
+                <default>false</default>
+                <label>Cancelación</label>
+            </value>
+            <value>
+                <fullName>Envio Estados cuenta</fullName>
+                <default>false</default>
+                <label>Envío de Estados de cuenta</label>
+            </value>
+            <value>
+                <fullName>Consulta Errores Edo Cuenta</fullName>
+                <default>false</default>
+                <label>Consulta-Errores en Estado de Cuenta</label>
+            </value>
+            <value>
+                <fullName>Consulta-Errores en Constancia Fiscal</fullName>
+                <default>false</default>
+                <label>Consulta-Errores en Constancia Fiscal</label>
+            </value>
+            <value>
+                <fullName>Envío Constancia Fiscal</fullName>
+                <default>false</default>
+                <label>Envío constancia fiscal</label>
+            </value>
+            <value>
+                <fullName>Consulta-errores en Centro Financiero</fullName>
+                <default>false</default>
+                <label>Consulta-errores en Centro Financiero</label>
+            </value>
+            <value>
+                <fullName>Cliente</fullName>
+                <default>false</default>
+                <label>Cliente</label>
+            </value>
+            <value>
+                <fullName>Banca electrónica.</fullName>
+                <default>false</default>
+                <label>Banca electrónica.</label>
+            </value>
+            <value>
+                <fullName>Tarjeta</fullName>
+                <default>false</default>
+                <label>Tarjeta</label>
+            </value>
+            <value>
+                <fullName>Bursanet</fullName>
+                <default>false</default>
+                <label>Bursanet</label>
+            </value>
+            <value>
+                <fullName>Operaciones</fullName>
+                <default>false</default>
+                <label>Operaciones</label>
+            </value>
+            <value>
+                <fullName>Quejas / Aclaraciones</fullName>
+                <default>false</default>
+                <label>Quejas / Aclaraciones</label>
+            </value>
+            <value>
+                <fullName>Abrir un contrato</fullName>
+                <default>false</default>
+                <label>Abrir un contrato</label>
+            </value>
+            <value>
+                <fullName>Reto (dinámico)</fullName>
+                <default>false</default>
+                <label>Reto (dinámico)</label>
+            </value>
+            <value>
+                <fullName>Actualización Datos Fiscales</fullName>
+                <default>false</default>
+                <label>Actualización Datos Fiscales</label>
+            </value>
+            <value>
+                <fullName>Constancia Fiscal</fullName>
+                <default>false</default>
+                <label>Constancia Fiscal</label>
+            </value>
+            <value>
+                <fullName>Desbloqueo Cuenta Eje</fullName>
+                <default>false</default>
+                <label>Desbloqueo Cuenta Eje</label>
+            </value>
+            <value>
+                <fullName>Tarjeta de Divisas</fullName>
+                <default>false</default>
+                <label>Tarjeta de Divisas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

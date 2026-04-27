@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Contactado__c</fullName>
+    <formula>OR(
+  ISPICKVAL(EstatusContacto__c, &quot;Contacto efectivo exitoso&quot;),
+  ISPICKVAL(EstatusContacto__c, &quot;Contacto no exitoso&quot;),
+  ISPICKVAL(EstatusContacto__c, &quot;Cliente no quiere ser contactado&quot;)
+)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Contactado</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AseSol_no_puede_cambiar_AccountOwner</fullName>
+    <active>true</active>
+    <description>No permite al Asesor Soluciones cambiar el propietario del cliente</description>
+    <errorConditionFormula>$Profile.Name = &quot;Asesor Soluciones&quot; &amp;&amp; ISCHANGED( OwnerId )</errorConditionFormula>
+    <errorDisplayField>OwnerId</errorDisplayField>
+    <errorMessage>No es posible continuar con el cambio de propietario del cliente.</errorMessage>
+</ValidationRule>

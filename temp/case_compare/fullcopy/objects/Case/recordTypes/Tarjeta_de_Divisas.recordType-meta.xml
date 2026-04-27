@@ -1,0 +1,1718 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tarjeta_de_Divisas</fullName>
+    <active>true</active>
+    <businessProcess>Proceso de Soporte CAT</businessProcess>
+    <label>Tarjeta de Divisas</label>
+    <picklistValues>
+        <picklist>Area_apoyo__c</picklist>
+        <values>
+            <fullName>Crédito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Impuestos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jurídico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sistemas</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Cancelacion_de_caso__c</picklist>
+        <values>
+            <fullName>No_sigue_proceso</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Si_cancela_folio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Dato_a_Actualizar__c</picklist>
+        <values>
+            <fullName>CURP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NOMBRE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Estado__c</picklist>
+        <values>
+            <fullName>Cerrado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>En proceso</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escalado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Nuevo%2FAbierto</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Lugar_de_origen__c</picklist>
+        <values>
+            <fullName>Centro Financiero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNE</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Medio_Envio__c</picklist>
+        <values>
+            <fullName>Centro Financiero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correo Electrónico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mensajería a Domicilio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Medio_de_respuesta__c</picklist>
+        <values>
+            <fullName>Correo Electrónico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Llamada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Por escrito</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo_CAT__c</picklist>
+        <values>
+            <fullName>Acceso Plataformas Anteriores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aclaracion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Act</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activa Token</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activación Chequera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Actualización Datos Fiscales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo DINN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelacion Prospectos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cargo NO reconocido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cargos no reconocidos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cashback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cel No Replica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Constancias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta Saldo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cpa Vta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cpa Vta Fondo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuenta De Debito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuentas Bloqueadas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desinversion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dividendos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dudas de las liquidaciones SPEI%2C entrada y salida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrolamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrolamiento CAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrega Tdd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envío de Constancias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envío de Estados de Cuenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envío de comprobante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error CB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estatus de entrega TDD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imágenes Erróneas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incidencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Inversiones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info de movimientos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info general de TDD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Informacion Liverpool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información General patrimonial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inversion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inversion Incidencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liverpool</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modificación Inversión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pagaré</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pagos A Terceros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parámetros por Monto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perfil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Saving Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Previsión Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proceso de Apertura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promociones Bursa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protección Cheques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renovacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Robo o Extravío</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPEI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saldo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguros Siniestro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios Departamentales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soporte DINN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soporte Plataforma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spei DINN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta Virtual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tdd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traspaso Entre Fondos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trámites Administrativos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visualizar Tdd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workflow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Motivo__c</picklist>
+        <values>
+            <fullName>Abrir un contrato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Actualización Datos Fiscales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asistencia e información</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banca electrónica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Banca electrónica%2E</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bursanet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CD%2C Pagaré%2C Saving</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambio de Asesor y%2Fo Centro Financiero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación interna</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cartas ratificación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compra y venta de fondos Banco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Comprobantes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Constancia Fiscal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta Errores Edo Cuenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta de saldos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta-Errores en Constancia Fiscal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta-errores en Centro Financiero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta-errores en Estado de Cuenta o Centro Financiero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desbloqueo Cuenta Eje</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Envio Estados cuenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envío Constancia Fiscal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envío de Información</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envío estados de cuenta y constancia fiscal</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mal Servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Previsión Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Quejas %2F Aclaraciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporte de Incidentes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reto %28dinámico%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reto Actinver y Marketing</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPEI Banco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta de Divisas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjetas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferencia a otras áreas Actinver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferencia interna CAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UNE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>compra y venta capitales%2C divisas y fondos casa de bolsa</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Origin</picklist>
+        <values>
+            <fullName>Banca Electrónica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Correo Unidad Especializada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Escrito en Centro Financiero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Llamada Centro de Atención</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Llamada Unidad Especializada</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Low</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Medium</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Reason</picklist>
+        <values>
+            <fullName>Complex functionality</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Existing problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Instructions not clear</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New problem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>User didn%27t attend training</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Segmento__c</picklist>
+        <values>
+            <fullName>BP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BSP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>BURSANET</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DINN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>WM</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Sol_doc_corpdts__c</picklist>
+        <values>
+            <fullName>CURP</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Copia de INE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>RFC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Solicitado_por__c</picklist>
+        <values>
+            <fullName>Cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interno</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Submotivo_CAT__c</picklist>
+        <values>
+            <fullName>%C2%A0Actualización De Firma %28Física %2F Moral%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Acceso Plataformas Anteriores</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aclaracion Mov Tdd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aclaracion Spei</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Aclaraciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Act Celular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Act Correo Electronico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Act Domicilio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activa Token</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activación Chequera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activar</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Actualizacion Datos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Actualización Datos Fiscales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta Apoderado Persona Física</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta Beneficiarios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta Correo Electrónico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta De Cotitular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta De Cuenta Bancaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta De Persona Autorizada</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta Teléfonos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta-Baja Correo Electrónico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta-Baja Teléfonos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja Beneficiarios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja Correo Electrónico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja Cuenta Bancaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja Teléfonos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Baja Titulares</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo Chequera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo Contrato</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo Cta Eje</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo Cuenta Eje</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo Desbloqueo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo Eje PF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo Pass</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo Ppe%2FFraudes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo TDD PinOffLine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bloqueo Tdd PF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>CD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación De Cuenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación Seguro Auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación Seguro Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación Seguro Salud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cancelación Seguro Vida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cargo NO reconocido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cargos no reconocidos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cashback</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cel No Replica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheques Devueltos  Propios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cheques Devueltos salvo buen cobro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmación De Banca Electrónica Empresarial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmación De Banca Electrónica Física</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Confirmación De Recepción De Token</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta Saldo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotización Seguro Auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotización Seguro Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotización Seguro Salud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cotización Seguro Vida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cpa Vta Capitales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cpa Vta Fondo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuenta De Debito</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuentas Bloqueadas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desbloqueo Cta Eje</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desinversion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dividendos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Dudas de las liquidaciones SPEI%2C entrada y salida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrolamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Enrolamiento CAT</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Entrega Tdd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envío de Contancias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envío de Estados de Cuenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Envío de comprobante</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Banca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Bursa App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Bursa Web</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Constancias Fiscales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Edo Cta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Enrolamiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Mov Banca</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Mov Bco CB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Pago Servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Token</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Error Transferencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Estatus de entrega TDD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generación Y Envío Constancia Fiscal Banco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Generación Y Envío Constancia Fiscal Casa De Bolsa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Imágenes Erróneas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Incidencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Bloqueo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Chequera</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Depositos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Devolucion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info General</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Inverrsiones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Inversiones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info N4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Retiros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info Tdd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info de movimientos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Info general de TDD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información General patrimonial</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información de depositos y retiros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información de las estrategias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información de los limites de la cuenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inversion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inversion Incidencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liver Bloq Cto MC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liver Bloq Eje PF</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liver Incidencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liver Pruebas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liver Saldo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Modificación Inversión</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4 Comprobante Domicilio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4 Ine</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4 No Aprobado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4 Selfie</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4 Validacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N4 Videograbacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operaciones Spei</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operaciones de Estrategias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operación Cambios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operación Mercado de Dinero</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pagaré</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago de Póliza Auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago de Póliza Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago de Póliza Salud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pago de Póliza Vida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pagos A Terceros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Parametros por Monto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perfil</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Personal Saving Account</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Previsión Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Proceso de Apertura</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promociones Bursa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Promos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Protección Cheques</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renovación de Póliza Auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renovación de Póliza Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renovación de Póliza Salud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Renovación de Póliza Vida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Robo o Extravío</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SPEI</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Saldo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento Seguros Auto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento Seguros Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento Seguros Salud</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento Seguros Vida</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguros Siniestro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Servicios Departamentales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Sms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud Copia De Contrato %28Física %2FMor%29</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud chequera%2FTDD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soporte</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soporte App</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soporte Inicio Sesion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soporte N4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soporte Plataforma</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soporte Registro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soporte Sms</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Soporte Transferencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spei Devolucion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Spei Informacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tarjeta Virtual</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tdd Guia Rastreo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tdd Incidencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tdd Informacion</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tdd Reenvio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Transferencias</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Traspaso Entre Fondos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Trámites Administrativos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Validación Cambios</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Visualizar Tdd</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Workflow</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Submotivo__c</picklist>
+        <values>
+            <fullName>Aclaración %2F Reclamación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activar Banca Electrónica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Activar Bursanet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Alta de cuenta bancaria</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Análisis de riesgo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asesoría</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cambio o cercanía de domicilio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carta Ratificación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Carta en Centro Financiero o Correo - Sin Motivo</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Centro de Atención</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Consulta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Controversia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Cuento con un seguro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Desbloqueo o reseteo de contraseña</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ex Empleado</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Fallecimiento del Tìtular</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de Asesoría y%2Fo Servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Falta de Atención %2F Servicio</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hacer una aclaración</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Inactividad de la Cuenta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Indocumentados</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información Banca Electrónica</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información Bursanet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información Previsión Social</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información Seguros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Información Tarjeta</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Masivas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>N%2FA</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>No utiliza la cuenta %2F Evitar Anualidad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operaciones Banco</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operaciones Bursanet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Operaciones CB</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otras Áreas</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otros</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Perdida de datos personales%2C documentos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Por recomendación</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reportar incidente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reportar incidente Bursanet</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Reporte por robo o extravío</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Seguimiento a aclaración</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Solicitud de envío</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Tiene otra cuenta en Actinver</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Utilizará el dinero %2F Temas personales</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Ya no labora %2F Sin Asesor</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_Caso__c</picklist>
+        <values>
+            <fullName>Asignaciones</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>DINN</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Liverpol</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>NA</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Prospectos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>SEDI</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_cambio__c</picklist>
+        <values>
+            <fullName>Asesor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Centro Financiero</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Cliente</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Interno</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>rea_solicitante__c</picklist>
+        <values>
+            <fullName>Asesoría</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Auditoría</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Compliance</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Control Interno</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Jurídico</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>PLD</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>UIF</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

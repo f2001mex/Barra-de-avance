@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Estatus__c</fullName>
+    <label>Estatus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>En espera de documentación</fullName>
+                <default>false</default>
+                <label>En espera de documentación</label>
+            </value>
+            <value>
+                <fullName>En proceso de seguros</fullName>
+                <default>false</default>
+                <label>En proceso de seguros</label>
+            </value>
+            <value>
+                <fullName>Aprobado y emisión</fullName>
+                <default>false</default>
+                <label>Aprobado y emisión</label>
+            </value>
+            <value>
+                <fullName>Aprobado y cupón para fecha renovación</fullName>
+                <default>false</default>
+                <label>Aprobado y cupón para fecha renovación</label>
+            </value>
+            <value>
+                <fullName>Falta de información</fullName>
+                <default>false</default>
+                <label>Falta de información</label>
+            </value>
+            <value>
+                <fullName>Rechazado</fullName>
+                <default>false</default>
+                <label>Rechazado</label>
+            </value>
+            <value>
+                <fullName>Cotización entregada</fullName>
+                <default>false</default>
+                <label>Cotización entregada</label>
+            </value>
+            <value>
+                <fullName>Cobro realizado</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Cobro realizado</label>
+            </value>
+            <value>
+                <fullName>En proceso de cobro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>En proceso de cobro</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Otro</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

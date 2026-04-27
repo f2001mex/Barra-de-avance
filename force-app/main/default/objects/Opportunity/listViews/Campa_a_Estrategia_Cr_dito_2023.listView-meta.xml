@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campa_a_Estrategia_Cr_dito_2023</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <filterScope>Team</filterScope>
+    <filters>
+        <field>OPPORTUNITY.NAME</field>
+        <operation>equals</operation>
+        <value>Precalificado Credito Estrategia 2023</value>
+    </filters>
+    <label>Campaña Estrategia Crédito 2023</label>
+    <sharedTo>
+        <group>Grupo_Lindavista_Satelite</group>
+    </sharedTo>
+</ListView>

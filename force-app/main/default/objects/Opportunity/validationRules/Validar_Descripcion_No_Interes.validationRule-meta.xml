@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Validar_Descripcion_No_Interes</fullName>
+    <active>true</active>
+    <description>Obliga a capturar el campo &quot;Descripción de No Interés&quot; cuando el motivo seleccionado sea CONDICIONES, OTRO u OTRO INTERMEDIARIO en la oportunidad.</description>
+    <errorConditionFormula>AND(
+    ISPICKVAL(Motivos_de_interes_No_interes__c, &quot;CONDICIONES&quot;) ||
+    ISPICKVAL(Motivos_de_interes_No_interes__c, &quot;OTRO&quot;) ||
+    ISPICKVAL(Motivos_de_interes_No_interes__c, &quot;OTRO INTERMEDIARIO&quot;),
+    ISBLANK(Descripcion_de_No_Interes__c)
+)</errorConditionFormula>
+    <errorDisplayField>Descripcion_de_No_Interes__c</errorDisplayField>
+    <errorMessage>Este campo es obligatorio cuando selecciones CONDICIONES, OTRO u OTRO INTERMEDIARIO.
+
+Si eliges CONDICIONES: menciona cuáles.
+
+Si eliges OTRO: indica cuál.
+
+Si eliges OTRO INTERMEDIARIO: especifica cuál.</errorMessage>
+</ValidationRule>

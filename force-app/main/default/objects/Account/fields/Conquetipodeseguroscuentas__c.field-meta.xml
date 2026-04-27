@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conquetipodeseguroscuentas__c</fullName>
+    <label>¿Con qué tipo de seguros cuentas?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Seguro de Auto</fullName>
+                <default>false</default>
+                <label>Seguro de Auto</label>
+            </value>
+            <value>
+                <fullName>Seguro de Gastos Médicos Mayores</fullName>
+                <default>false</default>
+                <label>Seguro de Gastos Médicos Mayores</label>
+            </value>
+            <value>
+                <fullName>Seguro de Vida</fullName>
+                <default>false</default>
+                <label>Seguro de Vida</label>
+            </value>
+            <value>
+                <fullName>Seguro de Hogar</fullName>
+                <default>false</default>
+                <label>Seguro de Hogar</label>
+            </value>
+            <value>
+                <fullName>Seguro de Accidentes Personales</fullName>
+                <default>false</default>
+                <label>Seguro de Accidentes Personales</label>
+            </value>
+            <value>
+                <fullName>Seguro Educativo</fullName>
+                <default>false</default>
+                <label>Seguro Educativo</label>
+            </value>
+            <value>
+                <fullName>Seguro Mascotas</fullName>
+                <default>false</default>
+                <label>Seguro Mascotas</label>
+            </value>
+            <value>
+                <fullName>Seguros de Ahorro o Inversión (Dotal)</fullName>
+                <default>false</default>
+                <label>Seguros de Ahorro o Inversión (Dotal)</label>
+            </value>
+            <value>
+                <fullName>Seguro de Viaje</fullName>
+                <default>false</default>
+                <label>Seguro de Viaje</label>
+            </value>
+            <value>
+                <fullName>Seguro de Bicicleta</fullName>
+                <default>false</default>
+                <label>Seguro de Bicicleta</label>
+            </value>
+            <value>
+                <fullName>Seguro de Vida e inversión</fullName>
+                <default>false</default>
+                <label>Seguro de Vida e inversión</label>
+            </value>
+            <value>
+                <fullName>No aplica</fullName>
+                <default>false</default>
+                <label>No aplica</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

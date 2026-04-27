@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Highlight_panel</fullName>
+    <fields>OwnerId</fields>
+    <fields>SAP_Contract_Number__c</fields>
+    <fields>AccountId</fields>
+    <fields>Motivo__c</fields>
+    <fields>Submotivo__c</fields>
+    <fields>Status</fields>
+    <label>Highlight panel</label>
+</CompactLayout>

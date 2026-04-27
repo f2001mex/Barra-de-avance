@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Seguros_NoPermite_Reabrir_Op</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    NOT($Permission.bypassValidationRules),
+    NOT(ISNEW()),
+    OR(
+        RecordType.DeveloperName = &apos;Oportunidad_Personas_Fisicas&apos;,
+        RecordType.DeveloperName = &apos;Seguros_Pipeline&apos;,
+        RecordType.DeveloperName = &apos;Oportunidad_Seguro_Via&apos;,
+        RecordType.DeveloperName = &apos;Oportunidad_Seguro_Hogar&apos;,
+        RecordType.DeveloperName = &apos;Oportunidad_Seguro_Dotales&apos;
+    ),
+    OR(
+        ISPICKVAL(PRIORVALUE(StageName), &apos;Cerrada Ganada&apos;),
+        ISPICKVAL(PRIORVALUE(StageName), &apos;Cerrada Perdida&apos;)
+    ),
+    NOT(
+        OR(
+            ISPICKVAL(StageName, &apos;Cerrada Ganada&apos;),
+            ISPICKVAL(StageName, &apos;Cerrada Perdida&apos;)
+        )
+    )
+)</errorConditionFormula>
+    <errorMessage>No puedes reabrir la oportunidad: si está cerrada (Ganada o Perdida).</errorMessage>
+</ValidationRule>

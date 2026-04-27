@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tiempo_de_caso_abierto__c</fullName>
+    <description>number of days a case has been open</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Número de días hábiles que un caso lleva abierto</inlineHelpText>
+    <label>Tiempo de caso abierto</label>
+    <precision>4</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mis_Oportunidades_Seguro_de_Autos_Piloto</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>L_nea_de_acci_n__c</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>Importe_Proyectado__c</columns>
+    <columns>FechaEstimadaDeCierre__c</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <columns>F3_Consecutivo_ID__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>L_nea_de_acci_n__c</field>
+        <operation>equals</operation>
+        <value>Campaña Seguro de Autos - Piloto</value>
+    </filters>
+    <filters>
+        <field>OPPORTUNITY.STAGE_NAME</field>
+        <operation>notEqual</operation>
+        <value>Cerrada Ganada,Cerrada Perdida</value>
+    </filters>
+    <label>Mis Oportunidades - Seguro de Autos Pilo</label>
+</ListView>

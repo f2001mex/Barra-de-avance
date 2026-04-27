@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Otra_red_social</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    INCLUDES(Queredessocialesutilizas__c, &quot;Otros&quot;),
+    ISBLANK(Otra_red_social__c),
+				ISCHANGED(FichaAfinidadCompletada__c),
+    !ISNEW()
+)</errorConditionFormula>
+    <errorDisplayField>Otra_red_social__c</errorDisplayField>
+    <errorMessage>Debes especificar que otra red social utilizas.</errorMessage>
+</ValidationRule>

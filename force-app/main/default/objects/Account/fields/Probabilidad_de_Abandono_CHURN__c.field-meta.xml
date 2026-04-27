@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probabilidad_de_Abandono_CHURN__c</fullName>
+    <description>Probabilidad de abandono calculada por los modelos creados en Salesforce Analytics</description>
+    <externalId>false</externalId>
+    <inlineHelpText>Probabilidad de abandono CHURN dado en %</inlineHelpText>
+    <label>Probabilidad de Abandono CHURN</label>
+    <precision>5</precision>
+    <required>false</required>
+    <scale>2</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

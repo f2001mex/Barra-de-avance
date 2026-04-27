@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_de_p_rdida__c</fullName>
+    <label>Razones por pérdida de oportunidad</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>La solución tardo más de lo esperado( falta de seguimiento asesor)</fullName>
+                <default>false</default>
+                <label>La solución tardo más de lo esperado( falta de seguimiento asesor)</label>
+            </value>
+            <value>
+                <fullName>No cumple las expectativas del Cliente (producto o solución inadecuado)</fullName>
+                <default>false</default>
+                <label>No cumple las expectativas del Cliente (producto o solución inadecuado)</label>
+            </value>
+            <value>
+                <fullName>Falta de seguimiento áreas involucradas (excede el tiempo de respuesta por áreas que dan servicio a asesoría (Front), sobrepasa los SLA´s)</fullName>
+                <default>false</default>
+                <label>Falta de seguimiento áreas involucradas (excede el tiempo de respuesta por áreas que dan servicio a asesoría (Front), sobrepasa los SLA´s)</label>
+            </value>
+            <value>
+                <fullName>El cliente se fue con la competencia</fullName>
+                <default>false</default>
+                <label>El cliente se fue con la competencia</label>
+            </value>
+            <value>
+                <fullName>No es atractiva la promoción / Costo</fullName>
+                <default>false</default>
+                <label>No es atractiva la promoción / Costo</label>
+            </value>
+            <value>
+                <fullName>El paquete no se adapta a las necesidades del cliente</fullName>
+                <default>false</default>
+                <label>El paquete no se adapta a las necesidades del cliente</label>
+            </value>
+            <value>
+                <fullName>Fidelidad a su Broker / Aseguradora actual</fullName>
+                <default>false</default>
+                <label>Fidelidad a su Broker / Aseguradora actual</label>
+            </value>
+            <value>
+                <fullName>No le interesa / No da motivo</fullName>
+                <default>false</default>
+                <label>No le interesa / No da motivo</label>
+            </value>
+            <value>
+                <fullName>Exclusión por condiciones generales</fullName>
+                <default>false</default>
+                <label>Exclusión por condiciones generales</label>
+            </value>
+            <value>
+                <fullName>Malas experiencias con la aseguradora</fullName>
+                <default>false</default>
+                <label>Malas experiencias con la aseguradora</label>
+            </value>
+            <value>
+                <fullName>No se respetaron las condiciones de la póliza actual</fullName>
+                <default>false</default>
+                <label>No se respetaron las condiciones de la póliza actual</label>
+            </value>
+            <value>
+                <fullName>Su aseguradora es Mapfre</fullName>
+                <default>false</default>
+                <label>Su aseguradora es Mapfre</label>
+            </value>
+            <value>
+                <fullName>Tiempo de respuesta</fullName>
+                <default>false</default>
+                <label>Tiempo de respuesta</label>
+            </value>
+            <value>
+                <fullName>Rechazo por no cumplir perfil de crédito.</fullName>
+                <default>false</default>
+                <label>Rechazo por no cumplir perfil de crédito.</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>No Cumple Expectativas del Cliente (Producto o Solución Inadecuado)</fullName>
+                <default>false</default>
+                <label>No Cumple Expectativas del Cliente (Producto o Solución Inadecuado)</label>
+            </value>
+            <value>
+                <fullName>El Cliente se fue con la competencia. (Habilitar la opción de competencia)</fullName>
+                <default>false</default>
+                <label>El Cliente se fue con la competencia. (Habilitar la opción de competencia)</label>
+            </value>
+            <value>
+                <fullName>La solución tardó más de lo esperado( falta de seguimiento asesor)</fullName>
+                <default>false</default>
+                <label>La solución tardó más de lo esperado( falta de seguimiento asesor)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

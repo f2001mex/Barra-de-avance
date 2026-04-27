@@ -1,0 +1,670 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Subtipo_de_Contrato__c</fullName>
+    <label>Subtipo de Contrato</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>TypeOfContract__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>01</fullName>
+                <default>false</default>
+                <label>NORMAL</label>
+            </value>
+            <value>
+                <fullName>02</fullName>
+                <default>false</default>
+                <label>SINDICATOS</label>
+            </value>
+            <value>
+                <fullName>03</fullName>
+                <default>false</default>
+                <label>OTRAS ENTIDADES FINANCIERAS</label>
+            </value>
+            <value>
+                <fullName>04</fullName>
+                <default>false</default>
+                <label>FIDEICOMISO PER MOR</label>
+            </value>
+            <value>
+                <fullName>05</fullName>
+                <default>false</default>
+                <label>DISTRIBUIDORES</label>
+            </value>
+            <value>
+                <fullName>06</fullName>
+                <default>false</default>
+                <label>FONDO AH SERIE PF</label>
+            </value>
+            <value>
+                <fullName>07</fullName>
+                <default>false</default>
+                <label>BANCO</label>
+            </value>
+            <value>
+                <fullName>08</fullName>
+                <default>false</default>
+                <label>ADMINISTRATIVO</label>
+            </value>
+            <value>
+                <fullName>09</fullName>
+                <default>false</default>
+                <label>PARAESTATAL</label>
+            </value>
+            <value>
+                <fullName>10</fullName>
+                <default>false</default>
+                <label>GOBIERNO</label>
+            </value>
+            <value>
+                <fullName>11</fullName>
+                <default>false</default>
+                <label>NO CONTRIBUYENTES</label>
+            </value>
+            <value>
+                <fullName>12</fullName>
+                <default>false</default>
+                <label>FIDEICOMISO PER FIS</label>
+            </value>
+            <value>
+                <fullName>13</fullName>
+                <default>false</default>
+                <label>FONDOS DE PENSIONES</label>
+            </value>
+            <value>
+                <fullName>14</fullName>
+                <default>false</default>
+                <label>INSTIT SEG Y FIANZAS</label>
+            </value>
+            <value>
+                <fullName>15</fullName>
+                <default>false</default>
+                <label>ALMACENES GRALES DE DEPOSITO</label>
+            </value>
+            <value>
+                <fullName>16</fullName>
+                <default>false</default>
+                <label>UNIONES DE CREDITO</label>
+            </value>
+            <value>
+                <fullName>17</fullName>
+                <default>false</default>
+                <label>ARRENDADORAS FINANCIERAS</label>
+            </value>
+            <value>
+                <fullName>18</fullName>
+                <default>false</default>
+                <label>EMPRESAS FACTORAJE FINANCIERO</label>
+            </value>
+            <value>
+                <fullName>19</fullName>
+                <default>false</default>
+                <label>EMPLEADO ACTINVER</label>
+            </value>
+            <value>
+                <fullName>20</fullName>
+                <default>false</default>
+                <label>FONDO AH SERIE PM</label>
+            </value>
+            <value>
+                <fullName>21</fullName>
+                <default>false</default>
+                <label>CAJA AH SERIE PM</label>
+            </value>
+            <value>
+                <fullName>22</fullName>
+                <default>false</default>
+                <label>CAJA AH SERIE PF</label>
+            </value>
+            <value>
+                <fullName>23</fullName>
+                <default>false</default>
+                <label>ACTINVER FIDEICOMISO PER MOR</label>
+            </value>
+            <value>
+                <fullName>24</fullName>
+                <default>false</default>
+                <label>ACTINVER FIDEICOMISO PER FIS</label>
+            </value>
+            <value>
+                <fullName>25</fullName>
+                <default>false</default>
+                <label>CAJA AH-PF POR CTA3EROS</label>
+            </value>
+            <value>
+                <fullName>26</fullName>
+                <default>false</default>
+                <label>NO CONTRIB SERIE E</label>
+            </value>
+            <value>
+                <fullName>27</fullName>
+                <default>false</default>
+                <label>CIAS SEGUROS DE PENSIONES</label>
+            </value>
+            <value>
+                <fullName>28</fullName>
+                <default>false</default>
+                <label>SIEFORE</label>
+            </value>
+            <value>
+                <fullName>29</fullName>
+                <default>false</default>
+                <label>GOBIERNO SERIE E</label>
+            </value>
+            <value>
+                <fullName>30</fullName>
+                <default>false</default>
+                <label>FAMILAR ACTINVER</label>
+            </value>
+            <value>
+                <fullName>31</fullName>
+                <default>false</default>
+                <label>EMPRESA RELACIONADA</label>
+            </value>
+            <value>
+                <fullName>32</fullName>
+                <default>false</default>
+                <label>FONDOS DE PENSIONES SERIE E</label>
+            </value>
+            <value>
+                <fullName>33</fullName>
+                <default>false</default>
+                <label>RESIDENTE FISCAL EN EXTRANJERO</label>
+            </value>
+            <value>
+                <fullName>34</fullName>
+                <default>false</default>
+                <label>FDO CAJA AH MIGRADO AS400</label>
+            </value>
+            <value>
+                <fullName>35</fullName>
+                <default>false</default>
+                <label>FONDO CAJA AH SERIE E</label>
+            </value>
+            <value>
+                <fullName>36</fullName>
+                <default>false</default>
+                <label>ACTINVER FIDEICOMISO SERIE E</label>
+            </value>
+            <value>
+                <fullName>37</fullName>
+                <default>false</default>
+                <label>FIDEICOMISO SERIE E</label>
+            </value>
+            <value>
+                <fullName>38</fullName>
+                <default>false</default>
+                <label>AMEX</label>
+            </value>
+            <value>
+                <fullName>39</fullName>
+                <default>false</default>
+                <label>ADMINISTRATIVO PF</label>
+            </value>
+            <value>
+                <fullName>40</fullName>
+                <default>false</default>
+                <label>ADMINISTRATIVO SERIE E</label>
+            </value>
+            <value>
+                <fullName>41</fullName>
+                <default>false</default>
+                <label>INTERMEDIARIOS.</label>
+            </value>
+            <value>
+                <fullName>42</fullName>
+                <default>false</default>
+                <label>CTO INTERNO</label>
+            </value>
+            <value>
+                <fullName>60</fullName>
+                <default>false</default>
+                <label>USD INTERNA CON INTERESES</label>
+            </value>
+            <value>
+                <fullName>61</fullName>
+                <default>false</default>
+                <label>USD INTERNA SIN INTERESES</label>
+            </value>
+            <value>
+                <fullName>65</fullName>
+                <default>false</default>
+                <label>ASOCIACIÓN EN PARTICIPACIÓN</label>
+            </value>
+            <value>
+                <fullName>66</fullName>
+                <default>false</default>
+                <label>ASOCIACIÓN EN PARTICIPACIÓN E</label>
+            </value>
+            <value>
+                <fullName>67</fullName>
+                <default>false</default>
+                <label>APERTURA DIGITAL CUENTA ACTINVER</label>
+            </value>
+            <value>
+                <fullName>68</fullName>
+                <default>false</default>
+                <label>CUENTA DIGITAL ACTINVER N2</label>
+            </value>
+            <value>
+                <fullName>69</fullName>
+                <default>false</default>
+                <label>UPGRADE N4</label>
+            </value>
+            <value>
+                <fullName>70</fullName>
+                <default>false</default>
+                <label>ROBOADVISOR PRESENCIAL</label>
+            </value>
+            <value>
+                <fullName>71</fullName>
+                <default>false</default>
+                <label>ROBOADVISOR NO PRESENCIAL</label>
+            </value>
+            <value>
+                <fullName>43</fullName>
+                <default>false</default>
+                <label>PLAN PERSONA DE RETIRO 151</label>
+            </value>
+            <value>
+                <fullName>44</fullName>
+                <default>false</default>
+                <label>CUENTAS PERSONALES ESPECIALES PARA EL AHORRO</label>
+            </value>
+            <value>
+                <fullName>47</fullName>
+                <default>false</default>
+                <label>CAMBIOS MIGRADO</label>
+            </value>
+            <value>
+                <fullName>48</fullName>
+                <default>false</default>
+                <label>MARCO DIVISAS</label>
+            </value>
+            <value>
+                <fullName>45</fullName>
+                <default>false</default>
+                <label>CUENTA BÁSICA</label>
+            </value>
+            <value>
+                <fullName>46</fullName>
+                <default>false</default>
+                <label>CUENTA BÁSICA DE NÓMINA</label>
+            </value>
+            <value>
+                <fullName>50</fullName>
+                <default>false</default>
+                <label>FONDO DE AHORRO/ CAJAS DE AHORRO/ PENSIONES</label>
+            </value>
+            <value>
+                <fullName>52</fullName>
+                <default>false</default>
+                <label>BROKER</label>
+            </value>
+            <value>
+                <fullName>53</fullName>
+                <default>false</default>
+                <label>FUND</label>
+            </value>
+            <value>
+                <fullName>54</fullName>
+                <default>false</default>
+                <label>DISTRIBUCIÓN DE FONDOS</label>
+            </value>
+            <value>
+                <fullName>55</fullName>
+                <default>false</default>
+                <label>SOCIEDADES DE INVERSIÓN</label>
+            </value>
+            <value>
+                <fullName>56</fullName>
+                <default>false</default>
+                <label>INTERMEDIARIOS</label>
+            </value>
+            <value>
+                <fullName>62</fullName>
+                <default>false</default>
+                <label>INVERSIÓN ALPHA</label>
+            </value>
+            <value>
+                <fullName>63</fullName>
+                <default>false</default>
+                <label>INVERSIÓN POR OBJETIVOS</label>
+            </value>
+            <value>
+                <fullName>64</fullName>
+                <default>false</default>
+                <label>ASESOR INDEPENDIENTE</label>
+            </value>
+            <value>
+                <fullName>57</fullName>
+                <default>false</default>
+                <label>PLAN 151</label>
+            </value>
+            <value>
+                <fullName>58</fullName>
+                <default>false</default>
+                <label>CUENTAS PERSONALES ESPECIALES PARA EL AHORR</label>
+            </value>
+            <value>
+                <fullName>49</fullName>
+                <default>false</default>
+                <label>TRADICIONAL</label>
+            </value>
+            <value>
+                <fullName>43 Plan personal para el retiro 151</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>43 Plan personal para el retiro 151</label>
+            </value>
+            <value>
+                <fullName>44 Cuentas personales especiales para el ahorro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>44Cuentas personales especiales para el ahorro</label>
+            </value>
+            <value>
+                <fullName>57 Plan 151</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>57 Plan 151</label>
+            </value>
+            <value>
+                <fullName>58 Cuentas personales especiales para el ahorro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>58 Cuentas personales especiales para el ahorro</label>
+            </value>
+            <value>
+                <fullName>CTO INTERNO NO OPERA EN FIX</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CTO INTERNO NO OPERA EN FIX</label>
+            </value>
+            <value>
+                <fullName>SUB TIPO CONTRATO MARCO DE PRODUCTOS Y SERVICIOS BANCARIOS MÚLTIPLES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>SUB TIPO CONTRATO MARCO DE PRODUCTOS Y SERVICIOS BANCARIOS MÚLTIPLES</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <controllingFieldValue>11</controllingFieldValue>
+            <valueName>01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>04</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>05</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>06</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>07</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>08</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>09</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>11</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>12</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>13</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>14</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>16</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>17</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>18</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>19</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>20</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>21</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>22</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>23</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>24</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>25</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>26</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>27</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>28</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>29</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>30</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>31</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>32</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>33</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>34</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>35</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>36</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>37</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>38</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>39</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>40</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>41</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>42</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>60</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>61</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>65</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>66</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>67</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>68</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>69</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>70</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>01</controllingFieldValue>
+            <valueName>71</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>02</controllingFieldValue>
+            <valueName>43</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>03</controllingFieldValue>
+            <valueName>44</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>04</controllingFieldValue>
+            <valueName>47</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>04</controllingFieldValue>
+            <valueName>48</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>05</controllingFieldValue>
+            <valueName>45</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>06</controllingFieldValue>
+            <valueName>46</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>08</controllingFieldValue>
+            <valueName>50</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>08</controllingFieldValue>
+            <valueName>52</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>08</controllingFieldValue>
+            <valueName>53</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>08</controllingFieldValue>
+            <valueName>54</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>08</controllingFieldValue>
+            <valueName>55</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>08</controllingFieldValue>
+            <valueName>56</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>08</controllingFieldValue>
+            <valueName>62</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>08</controllingFieldValue>
+            <valueName>63</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>08</controllingFieldValue>
+            <valueName>64</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>09</controllingFieldValue>
+            <valueName>57</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>09</controllingFieldValue>
+            <valueName>58</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PatrimValidaPresentacionOferta</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(PRIORVALUE(StageName), &apos;Presentación de oferta&apos;),
+    ISCHANGED(StageName),
+				ISPICKVAL(StageName, &quot;Solicitar Documentación&quot;),
+    ISPICKVAL(Cliente_Acepta_oferta__c, &quot;&quot;),
+    RecordType.DeveloperName = &apos;Patrimonial&apos;
+)
+ || 
+	AND(
+    ISPICKVAL(PRIORVALUE(StageName), &apos;Presentación de oferta&apos;),
+    ISCHANGED(StageName),
+				ISPICKVAL(StageName, &quot;Formalización y validación&quot;),
+    ISPICKVAL(Cliente_Acepta_oferta__c, &quot;&quot;),
+    RecordType.DeveloperName = &apos;Patrimonial&apos;
+)
+|| 
+	AND(
+    ISPICKVAL(PRIORVALUE(StageName), &apos;Presentación de oferta&apos;),
+    ISCHANGED(StageName),
+				ISPICKVAL(StageName, &quot;Solicitar documentación&quot;),
+    ISPICKVAL(Cliente_Acepta_oferta__c, &quot;NO&quot;),
+					ISPICKVAL( Siguientes_pasos__c, &quot;Cliente no acepta propuesta y desea que se le de seguimiento posteriormente&quot;),
+    RecordType.DeveloperName = &apos;Patrimonial&apos;
+)
+|| 
+	AND(
+    ISPICKVAL(PRIORVALUE(StageName), &apos;Presentación de oferta&apos;),
+    ISCHANGED(StageName),
+				ISPICKVAL(StageName, &quot;Formalización y validación&quot;),
+    ISPICKVAL(Cliente_Acepta_oferta__c, &quot;NO&quot;),
+					ISPICKVAL( Siguientes_pasos__c, &quot;Cliente no acepta propuesta y desea que se le de seguimiento posteriormente&quot;),
+    RecordType.DeveloperName = &apos;Patrimonial&apos;
+)
+|| 
+	AND(
+    ISPICKVAL(PRIORVALUE(StageName), &apos;Presentación de oferta&apos;),
+    ISCHANGED(StageName),
+				ISPICKVAL(StageName, &quot;Solicitar documentación&quot;),
+    ISPICKVAL(Cliente_Acepta_oferta__c, &quot;NO&quot;),
+					ISPICKVAL( Siguientes_pasos__c, &quot;Cliente no acepta propuesta y no tiene interés&quot;),
+    RecordType.DeveloperName = &apos;Patrimonial&apos;
+)
+|| 
+	AND(
+    ISPICKVAL(PRIORVALUE(StageName), &apos;Presentación de oferta&apos;),
+    ISCHANGED(StageName),
+				ISPICKVAL(StageName, &quot;Formalización y validación&quot;),
+    ISPICKVAL(Cliente_Acepta_oferta__c, &quot;NO&quot;),
+					ISPICKVAL( Siguientes_pasos__c, &quot;Cliente no acepta propuesta y no tiene interés&quot;),
+    RecordType.DeveloperName = &apos;Patrimonial&apos;
+)</errorConditionFormula>
+    <errorMessage>Favor de seleccionar una opción, para poder avanzar a la siguiente etapa.
+Nota: No podrás avanzar a otra etapa diferente a &apos;Solicitar Documentación&apos;</errorMessage>
+</ValidationRule>

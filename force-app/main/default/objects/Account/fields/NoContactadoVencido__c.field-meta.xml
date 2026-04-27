@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoContactadoVencido__c</fullName>
+    <formula>IF(
+  AND(FechaSiguienteContacto__c &lt; TODAY()
+     ,NoRequiereSerContactado__c = false
+     ,OR(ISPICKVAL( EstatusContacto__c ,&quot;Pendiente&quot;),ISPICKVAL( EstatusContacto__c ,&quot;Contacto no exitoso&quot;))
+)
+, true
+, false)</formula>
+    <label>No contactado y vencido</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

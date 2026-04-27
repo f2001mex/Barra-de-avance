@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Todos_los_clientes_contactados_D</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>EstatusContacto__c</columns>
+    <columns>VigenteContactar__c</columns>
+    <columns>FechaSiguienteContacto__c</columns>
+    <columns>FechaUltimoContacto__c</columns>
+    <columns>SaldoIntegral__c</columns>
+    <columns>Segmento__c</columns>
+    <columns>NombreBanqueroAsignado__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>EstatusContacto__c</field>
+        <operation>equals</operation>
+        <value>Contacto efectivo exitoso,Cliente no quiere ser contactado</value>
+    </filters>
+    <filters>
+        <field>ACCOUNT.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>PersonAccount.PatrimonialBankingClient,Account.Privada,PersonAccount.WealthManagementBankingCustomer,PersonAccount.Patrimonial,Account.Wealth_Management_Account,PersonAccount.PrivateBankingClient</value>
+    </filters>
+    <label>Todos los clientes contactados -Director</label>
+    <sharedTo>
+        <group>Directores_Postventa</group>
+    </sharedTo>
+</ListView>

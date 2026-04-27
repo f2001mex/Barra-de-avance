@@ -1,0 +1,1027 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_CAT__c</fullName>
+    <description>Campo que muestra los valores para las tipificaciones del CAT</description>
+    <label>Motivo_CAT</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Tipo_de_Caso__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Acceso Plataformas Anteriores</fullName>
+                <default>false</default>
+                <label>Acceso Plataformas Anteriores</label>
+            </value>
+            <value>
+                <fullName>Aclaracion</fullName>
+                <default>false</default>
+                <label>Aclaracion</label>
+            </value>
+            <value>
+                <fullName>Act</fullName>
+                <default>false</default>
+                <label>Act</label>
+            </value>
+            <value>
+                <fullName>Activación</fullName>
+                <default>false</default>
+                <label>Activación</label>
+            </value>
+            <value>
+                <fullName>Activación Chequera</fullName>
+                <default>false</default>
+                <label>Activación Chequera</label>
+            </value>
+            <value>
+                <fullName>Activar</fullName>
+                <default>false</default>
+                <label>Activar</label>
+            </value>
+            <value>
+                <fullName>Activa Token</fullName>
+                <default>false</default>
+                <label>Activa Token</label>
+            </value>
+            <value>
+                <fullName>Actualización Datos Fiscales</fullName>
+                <default>false</default>
+                <label>Actualización Datos Fiscales</label>
+            </value>
+            <value>
+                <fullName>Actualización de datos</fullName>
+                <default>false</default>
+                <label>Actualización de datos</label>
+            </value>
+            <value>
+                <fullName>Aprobación Banca Electrónica</fullName>
+                <default>false</default>
+                <label>Aprobación Banca Electrónica</label>
+            </value>
+            <value>
+                <fullName>Aviso de Viaje</fullName>
+                <default>false</default>
+                <label>Aviso de Viaje</label>
+            </value>
+            <value>
+                <fullName>Banca Electrónica</fullName>
+                <default>false</default>
+                <label>Banca Electrónica</label>
+            </value>
+            <value>
+                <fullName>Banca Partner</fullName>
+                <default>false</default>
+                <label>Banca Partner</label>
+            </value>
+            <value>
+                <fullName>Bienvenida</fullName>
+                <default>false</default>
+                <label>Bienvenida</label>
+            </value>
+            <value>
+                <fullName>Bloqueo</fullName>
+                <default>false</default>
+                <label>Bloqueo</label>
+            </value>
+            <value>
+                <fullName>Bloqueo DINN</fullName>
+                <default>false</default>
+                <label>Bloqueo DINN</label>
+            </value>
+            <value>
+                <fullName>Bloqueos</fullName>
+                <default>false</default>
+                <label>Bloqueos</label>
+            </value>
+            <value>
+                <fullName>Cancelacion</fullName>
+                <default>false</default>
+                <label>Cancelacion</label>
+            </value>
+            <value>
+                <fullName>Cancelación de TDD</fullName>
+                <default>false</default>
+                <label>Cancelación de TDD</label>
+            </value>
+            <value>
+                <fullName>Cancelacion Prospectos</fullName>
+                <default>false</default>
+                <label>Cancelacion Prospectos</label>
+            </value>
+            <value>
+                <fullName>Cargo NO reconocido</fullName>
+                <default>false</default>
+                <label>Cargo NO reconocido</label>
+            </value>
+            <value>
+                <fullName>Cargos no reconocidos</fullName>
+                <default>false</default>
+                <label>Cargos no reconocidos</label>
+            </value>
+            <value>
+                <fullName>Cashback</fullName>
+                <default>false</default>
+                <label>Cashback</label>
+            </value>
+            <value>
+                <fullName>CD</fullName>
+                <default>false</default>
+                <label>CD</label>
+            </value>
+            <value>
+                <fullName>Cel No Replica</fullName>
+                <default>false</default>
+                <label>Cel No Replica</label>
+            </value>
+            <value>
+                <fullName>Cheques</fullName>
+                <default>false</default>
+                <label>Cheques</label>
+            </value>
+            <value>
+                <fullName>Compra-Venta</fullName>
+                <default>false</default>
+                <label>Compra-Venta</label>
+            </value>
+            <value>
+                <fullName>Comprobantes</fullName>
+                <default>false</default>
+                <label>Comprobantes</label>
+            </value>
+            <value>
+                <fullName>Confirmación de datos</fullName>
+                <default>false</default>
+                <label>Confirmación de datos</label>
+            </value>
+            <value>
+                <fullName>Confirmaciones</fullName>
+                <default>false</default>
+                <label>Confirmaciones</label>
+            </value>
+            <value>
+                <fullName>Constancias</fullName>
+                <default>false</default>
+                <label>Constancias</label>
+            </value>
+            <value>
+                <fullName>Consulta Saldo</fullName>
+                <default>false</default>
+                <label>Consulta Saldo</label>
+            </value>
+            <value>
+                <fullName>Cpa Vta</fullName>
+                <default>false</default>
+                <label>Cpa Vta</label>
+            </value>
+            <value>
+                <fullName>Cpa Vta Fondo</fullName>
+                <default>false</default>
+                <label>Cpa Vta Fondo</label>
+            </value>
+            <value>
+                <fullName>Cuenta De Debito</fullName>
+                <default>false</default>
+                <label>Cuenta De Debito</label>
+            </value>
+            <value>
+                <fullName>Cuentas Bloqueadas</fullName>
+                <default>false</default>
+                <label>Cuentas Bloqueadas</label>
+            </value>
+            <value>
+                <fullName>Desinversion</fullName>
+                <default>false</default>
+                <label>Desinversion</label>
+            </value>
+            <value>
+                <fullName>Dividendos</fullName>
+                <default>false</default>
+                <label>Dividendos</label>
+            </value>
+            <value>
+                <fullName>Dudas de las liquidaciones SPEI, entrada y salida</fullName>
+                <default>false</default>
+                <label>Dudas de las liquidaciones SPEI, entrada y salida</label>
+            </value>
+            <value>
+                <fullName>Eliminación de Partida Banco</fullName>
+                <default>false</default>
+                <label>Eliminación de Partida Banco</label>
+            </value>
+            <value>
+                <fullName>Enrolamiento</fullName>
+                <default>false</default>
+                <label>Enrolamiento</label>
+            </value>
+            <value>
+                <fullName>Enrolamiento CAT</fullName>
+                <default>false</default>
+                <label>Enrolamiento CAT</label>
+            </value>
+            <value>
+                <fullName>Entrega Tdd</fullName>
+                <default>false</default>
+                <label>Entrega Tdd</label>
+            </value>
+            <value>
+                <fullName>Envío Constancia Inversión / Pormenorizada</fullName>
+                <default>false</default>
+                <label>Envío Constancia Inversión / Pormenorizada</label>
+            </value>
+            <value>
+                <fullName>Envío de comprobante</fullName>
+                <default>false</default>
+                <label>Envío de comprobante</label>
+            </value>
+            <value>
+                <fullName>Envío de Constancias</fullName>
+                <default>false</default>
+                <label>Envío de Constancias</label>
+            </value>
+            <value>
+                <fullName>Envío de Estados de Cuenta</fullName>
+                <default>false</default>
+                <label>Envío de Estados de Cuenta</label>
+            </value>
+            <value>
+                <fullName>Envío de Estados de Cuenta PDF/XML</fullName>
+                <default>false</default>
+                <label>Envío de Estados de Cuenta PDF/XML</label>
+            </value>
+            <value>
+                <fullName>Error</fullName>
+                <default>false</default>
+                <label>Error</label>
+            </value>
+            <value>
+                <fullName>Error CB</fullName>
+                <default>false</default>
+                <label>Error CB</label>
+            </value>
+            <value>
+                <fullName>Error Token</fullName>
+                <default>false</default>
+                <label>Error Token</label>
+            </value>
+            <value>
+                <fullName>Estados De Cuenta</fullName>
+                <default>false</default>
+                <label>Estados De Cuenta</label>
+            </value>
+            <value>
+                <fullName>Estatus de entrega TDD</fullName>
+                <default>false</default>
+                <label>Estatus de entrega TDD</label>
+            </value>
+            <value>
+                <fullName>Financiamiento Banco</fullName>
+                <default>false</default>
+                <label>Financiamiento Banco</label>
+            </value>
+            <value>
+                <fullName>Imágenes Erróneas</fullName>
+                <default>false</default>
+                <label>Imágenes Erróneas</label>
+            </value>
+            <value>
+                <fullName>Incidencias</fullName>
+                <default>false</default>
+                <label>Incidencias</label>
+            </value>
+            <value>
+                <fullName>Info de movimientos</fullName>
+                <default>false</default>
+                <label>Info de movimientos</label>
+            </value>
+            <value>
+                <fullName>Info General</fullName>
+                <default>false</default>
+                <label>Info General</label>
+            </value>
+            <value>
+                <fullName>Info general de TDD</fullName>
+                <default>false</default>
+                <label>Info general de TDD</label>
+            </value>
+            <value>
+                <fullName>Info General Trade</fullName>
+                <default>false</default>
+                <label>Info General Trade</label>
+            </value>
+            <value>
+                <fullName>Info Inversiones</fullName>
+                <default>false</default>
+                <label>Info Inversiones</label>
+            </value>
+            <value>
+                <fullName>Informacion</fullName>
+                <default>false</default>
+                <label>Informacion</label>
+            </value>
+            <value>
+                <fullName>Información General patrimonial</fullName>
+                <default>false</default>
+                <label>Información General patrimonial</label>
+            </value>
+            <value>
+                <fullName>Informacion Liverpool</fullName>
+                <default>false</default>
+                <label>Informacion Liverpool</label>
+            </value>
+            <value>
+                <fullName>Inversion</fullName>
+                <default>false</default>
+                <label>Inversion</label>
+            </value>
+            <value>
+                <fullName>Inversion Incidencias</fullName>
+                <default>false</default>
+                <label>Inversion Incidencias</label>
+            </value>
+            <value>
+                <fullName>Liverpool</fullName>
+                <default>false</default>
+                <label>Liverpool</label>
+            </value>
+            <value>
+                <fullName>Modificación Inversión</fullName>
+                <default>false</default>
+                <label>Modificación Inversión</label>
+            </value>
+            <value>
+                <fullName>Monto Transaccional</fullName>
+                <default>false</default>
+                <label>Monto Transaccional</label>
+            </value>
+            <value>
+                <fullName>N4</fullName>
+                <default>false</default>
+                <label>N4</label>
+            </value>
+            <value>
+                <fullName>Operación</fullName>
+                <default>false</default>
+                <label>Operación</label>
+            </value>
+            <value>
+                <fullName>Operaciones</fullName>
+                <default>false</default>
+                <label>Operaciones</label>
+            </value>
+            <value>
+                <fullName>Operación GO</fullName>
+                <default>false</default>
+                <label>Operación GO</label>
+            </value>
+            <value>
+                <fullName>Operativa</fullName>
+                <default>false</default>
+                <label>Operativa</label>
+            </value>
+            <value>
+                <fullName>Pagaré</fullName>
+                <default>false</default>
+                <label>Pagaré</label>
+            </value>
+            <value>
+                <fullName>Pago</fullName>
+                <default>false</default>
+                <label>Pago</label>
+            </value>
+            <value>
+                <fullName>Pagos A Terceros</fullName>
+                <default>false</default>
+                <label>Pagos A Terceros</label>
+            </value>
+            <value>
+                <fullName>Parámetros por Monto</fullName>
+                <default>false</default>
+                <label>Parámetros por Monto</label>
+            </value>
+            <value>
+                <fullName>Perfil</fullName>
+                <default>false</default>
+                <label>Perfil</label>
+            </value>
+            <value>
+                <fullName>Personal Saving Account</fullName>
+                <default>false</default>
+                <label>Personal Saving Account</label>
+            </value>
+            <value>
+                <fullName>Previsión Social</fullName>
+                <default>false</default>
+                <label>Previsión Social</label>
+            </value>
+            <value>
+                <fullName>Proceso de Apertura</fullName>
+                <default>false</default>
+                <label>Proceso de Apertura</label>
+            </value>
+            <value>
+                <fullName>Promociones Bursa</fullName>
+                <default>false</default>
+                <label>Promociones Bursa</label>
+            </value>
+            <value>
+                <fullName>Promos</fullName>
+                <default>false</default>
+                <label>Promos</label>
+            </value>
+            <value>
+                <fullName>Protección Cheques</fullName>
+                <default>false</default>
+                <label>Protección Cheques</label>
+            </value>
+            <value>
+                <fullName>Reasignación de serie</fullName>
+                <default>false</default>
+                <label>Reasignación de serie</label>
+            </value>
+            <value>
+                <fullName>Renovacion</fullName>
+                <default>false</default>
+                <label>Renovacion</label>
+            </value>
+            <value>
+                <fullName>Retiro Saldo Menor CB</fullName>
+                <default>false</default>
+                <label>Retiro Saldo Menor CB</label>
+            </value>
+            <value>
+                <fullName>Reto</fullName>
+                <default>false</default>
+                <label>Reto</label>
+            </value>
+            <value>
+                <fullName>Robo o Extravío</fullName>
+                <default>false</default>
+                <label>Robo o Extravío</label>
+            </value>
+            <value>
+                <fullName>Saldo</fullName>
+                <default>false</default>
+                <label>Saldo</label>
+            </value>
+            <value>
+                <fullName>Seguimiento</fullName>
+                <default>false</default>
+                <label>Seguimiento</label>
+            </value>
+            <value>
+                <fullName>Seguros Siniestro</fullName>
+                <default>false</default>
+                <label>Seguros Siniestro</label>
+            </value>
+            <value>
+                <fullName>Servicios Departamentales</fullName>
+                <default>false</default>
+                <label>Servicios Departamentales</label>
+            </value>
+            <value>
+                <fullName>Sms</fullName>
+                <default>false</default>
+                <label>Sms</label>
+            </value>
+            <value>
+                <fullName>Solicitud</fullName>
+                <default>false</default>
+                <label>Solicitud</label>
+            </value>
+            <value>
+                <fullName>Solicitud de Documentación</fullName>
+                <default>false</default>
+                <label>Solicitud de Documentación</label>
+            </value>
+            <value>
+                <fullName>Solicitud de saldo</fullName>
+                <default>false</default>
+                <label>Solicitud de saldo</label>
+            </value>
+            <value>
+                <fullName>Soporte</fullName>
+                <default>false</default>
+                <label>Soporte</label>
+            </value>
+            <value>
+                <fullName>Soporte DINN</fullName>
+                <default>false</default>
+                <label>Soporte DINN</label>
+            </value>
+            <value>
+                <fullName>Soporte Plataforma</fullName>
+                <default>false</default>
+                <label>Soporte Plataforma</label>
+            </value>
+            <value>
+                <fullName>Soporte Trade</fullName>
+                <default>false</default>
+                <label>Soporte Trade</label>
+            </value>
+            <value>
+                <fullName>SPEI</fullName>
+                <default>false</default>
+                <label>SPEI</label>
+            </value>
+            <value>
+                <fullName>Spei DINN</fullName>
+                <default>false</default>
+                <label>Spei DINN</label>
+            </value>
+            <value>
+                <fullName>Tarjeta Virtual</fullName>
+                <default>false</default>
+                <label>Tarjeta Virtual</label>
+            </value>
+            <value>
+                <fullName>Tdd</fullName>
+                <default>false</default>
+                <label>Tdd</label>
+            </value>
+            <value>
+                <fullName>Trámites Administrativos</fullName>
+                <default>false</default>
+                <label>Trámites Administrativos</label>
+            </value>
+            <value>
+                <fullName>Tramites Administrativos Trade</fullName>
+                <default>false</default>
+                <label>Tramites Administrativos Trade</label>
+            </value>
+            <value>
+                <fullName>Transferencias</fullName>
+                <default>false</default>
+                <label>Transferencias</label>
+            </value>
+            <value>
+                <fullName>Traspaso Entre Fondos</fullName>
+                <default>false</default>
+                <label>Traspaso Entre Fondos</label>
+            </value>
+            <value>
+                <fullName>Traspasos</fullName>
+                <default>false</default>
+                <label>Traspasos</label>
+            </value>
+            <value>
+                <fullName>Visualizar Tdd</fullName>
+                <default>false</default>
+                <label>Visualizar Tdd</label>
+            </value>
+            <value>
+                <fullName>Workflow</fullName>
+                <default>false</default>
+                <label>Workflow</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Acceso Plataformas Anteriores</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Activación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <controllingFieldValue>Asignaciones</controllingFieldValue>
+            <controllingFieldValue>SEDI</controllingFieldValue>
+            <valueName>Actualización Datos Fiscales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Aprobación Banca Electrónica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Aviso de Viaje</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Bloqueo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Cancelación de TDD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Cargos no reconocidos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>CD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Consulta Saldo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Cpa Vta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Cpa Vta Fondo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <controllingFieldValue>Asignaciones</controllingFieldValue>
+            <controllingFieldValue>Liverpol</controllingFieldValue>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Cuentas Bloqueadas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Dividendos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Envío de comprobante</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <controllingFieldValue>Asignaciones</controllingFieldValue>
+            <valueName>Envío de Constancias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <controllingFieldValue>Asignaciones</controllingFieldValue>
+            <valueName>Envío de Estados de Cuenta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Info de movimientos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <controllingFieldValue>Asignaciones</controllingFieldValue>
+            <controllingFieldValue>SEDI</controllingFieldValue>
+            <valueName>Info General</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Info Inversiones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Modificación Inversión</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <controllingFieldValue>Actinver Trade</controllingFieldValue>
+            <valueName>Monto Transaccional</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Operación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Pagaré</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Parámetros por Monto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Personal Saving Account</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Proceso de Apertura</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Protección Cheques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Robo o Extravío</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Solicitud</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Soporte Plataforma</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>SPEI</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Tarjeta Virtual</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Trámites Administrativos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Transferencias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banco / Casa de Bolsa</controllingFieldValue>
+            <valueName>Traspaso Entre Fondos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asignaciones</controllingFieldValue>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Activa Token</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asignaciones</controllingFieldValue>
+            <valueName>Enrolamiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asignaciones</controllingFieldValue>
+            <valueName>Error</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asignaciones</controllingFieldValue>
+            <valueName>Previsión Social</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Asignaciones</controllingFieldValue>
+            <controllingFieldValue>Liverpol</controllingFieldValue>
+            <valueName>Soporte</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actinver Trade</controllingFieldValue>
+            <valueName>Banca Electrónica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actinver Trade</controllingFieldValue>
+            <valueName>Bloqueos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actinver Trade</controllingFieldValue>
+            <valueName>Estados De Cuenta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actinver Trade</controllingFieldValue>
+            <valueName>Info General Trade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actinver Trade</controllingFieldValue>
+            <valueName>Operativa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actinver Trade</controllingFieldValue>
+            <valueName>Soporte Trade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Actinver Trade</controllingFieldValue>
+            <valueName>Tramites Administrativos Trade</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Banca Partner</controllingFieldValue>
+            <valueName>Banca Partner</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liverpol</controllingFieldValue>
+            <valueName>Cargo NO reconocido</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liverpol</controllingFieldValue>
+            <valueName>Dudas de las liquidaciones SPEI, entrada y salida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liverpol</controllingFieldValue>
+            <valueName>Estatus de entrega TDD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liverpol</controllingFieldValue>
+            <valueName>Incidencias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liverpol</controllingFieldValue>
+            <valueName>Info general de TDD</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liverpol</controllingFieldValue>
+            <valueName>Informacion Liverpool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liverpol</controllingFieldValue>
+            <valueName>Liverpool</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liverpol</controllingFieldValue>
+            <valueName>Operaciones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Liverpol</controllingFieldValue>
+            <valueName>Servicios Departamentales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Aclaracion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Act</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Bloqueo DINN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Cancelacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Cashback</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Cel No Replica</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Cuenta De Debito</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Desinversion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Entrega Tdd</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Error Token</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Imágenes Erróneas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Informacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Inversion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Inversion Incidencias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>N4</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Perfil</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Promos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Saldo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Sms</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Soporte DINN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Spei DINN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Tdd</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DINN</controllingFieldValue>
+            <valueName>Visualizar Tdd</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEDI</controllingFieldValue>
+            <valueName>Bienvenida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEDI</controllingFieldValue>
+            <valueName>Cheques</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEDI</controllingFieldValue>
+            <valueName>Confirmaciones</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEDI</controllingFieldValue>
+            <valueName>Constancias</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEDI</controllingFieldValue>
+            <valueName>Pagos A Terceros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEDI</controllingFieldValue>
+            <valueName>Reto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>SEDI</controllingFieldValue>
+            <valueName>Workflow</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospectos</controllingFieldValue>
+            <valueName>Cancelacion Prospectos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospectos</controllingFieldValue>
+            <valueName>Información General patrimonial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospectos</controllingFieldValue>
+            <valueName>Pago</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospectos</controllingFieldValue>
+            <valueName>Renovacion</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospectos</controllingFieldValue>
+            <valueName>Seguimiento</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Prospectos</controllingFieldValue>
+            <valueName>Seguros Siniestro</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce Admon. Contratos</controllingFieldValue>
+            <valueName>Actualización de datos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce Admon. Contratos</controllingFieldValue>
+            <valueName>Confirmación de datos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Salesforce Admon. Contratos</controllingFieldValue>
+            <valueName>Solicitud de Documentación</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion Operativa</controllingFieldValue>
+            <valueName>Compra-Venta</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion Operativa</controllingFieldValue>
+            <valueName>Comprobantes</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion Operativa</controllingFieldValue>
+            <valueName>Eliminación de Partida Banco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion Operativa</controllingFieldValue>
+            <valueName>Envío Constancia Inversión / Pormenorizada</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion Operativa</controllingFieldValue>
+            <valueName>Envío de Estados de Cuenta PDF/XML</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion Operativa</controllingFieldValue>
+            <valueName>Financiamiento Banco</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion Operativa</controllingFieldValue>
+            <valueName>Operación GO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion Operativa</controllingFieldValue>
+            <valueName>Reasignación de serie</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion Operativa</controllingFieldValue>
+            <valueName>Retiro Saldo Menor CB</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion Operativa</controllingFieldValue>
+            <valueName>Solicitud de saldo</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Gestion Operativa</controllingFieldValue>
+            <valueName>Traspasos</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

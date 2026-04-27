@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TwoRecoedType_Required_Recep_doc</fullName>
+    <active>true</active>
+    <description>//记录类型为Cartas Ratificación 或者Comprobantes 的数据 状态变为 ‘Proceso de callback’时 Recep_doc__c为true</description>
+    <errorConditionFormula>AND(
+    OR(
+        RecordType.DeveloperName == &apos;Cartas_Ratificacion&apos;,
+        RecordType.DeveloperName == &apos;Comprobantes&apos;
+    ),
+    ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de callback&apos;,
+    Recep_doc__c == false
+)</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

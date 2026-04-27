@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PolizaSegurosCreada</fullName>
+    <active>true</active>
+    <description>El campo No. de póliza de seguros, este campo es obligatorio en caso de seleccionar que se tiene una póliza creada( HU 29)</description>
+    <errorConditionFormula>And( Poliza_de_Seguros_Creada__c = true, ISBLANK(F3_No_Poliza_Seguros__c))</errorConditionFormula>
+    <errorMessage>Debes completar el campo &quot;No. de Póliza de Seguros&quot;</errorMessage>
+</ValidationRule>

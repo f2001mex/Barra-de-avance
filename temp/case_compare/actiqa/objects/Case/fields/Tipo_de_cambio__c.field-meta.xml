@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_cambio__c</fullName>
+    <inlineHelpText>Selecciona el tipo de de cambio, puede ser cambio de asesor o financiero</inlineHelpText>
+    <label>Tipo de cambio</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asesor</fullName>
+                <default>false</default>
+                <label>Asesor</label>
+            </value>
+            <value>
+                <fullName>Centro Financiero</fullName>
+                <default>false</default>
+                <label>Centro Financiero</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

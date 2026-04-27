@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Clientes_Belora</fullName>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>PC_BIRTHDATE</columns>
+    <columns>FinServ__Age__pc</columns>
+    <columns>ACCOUNT.PHONE1</columns>
+    <columns>PC_PHONE3</columns>
+    <columns>PC_EMAIL</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>FinServ__PersonalInterests__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>PC_BIRTHDATE</field>
+        <operation>equals</operation>
+        <value>THIS_MONTH</value>
+    </filters>
+    <label>Cumpleaños mis Clientes</label>
+</ListView>

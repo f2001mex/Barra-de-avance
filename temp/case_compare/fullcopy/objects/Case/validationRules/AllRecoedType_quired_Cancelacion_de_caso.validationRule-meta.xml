@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllRecoedType_quired_Cancelacion_de_caso</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de resolución&apos; &amp;&amp; ISBLANK(TEXT(Cancelacion_de_caso__c))</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

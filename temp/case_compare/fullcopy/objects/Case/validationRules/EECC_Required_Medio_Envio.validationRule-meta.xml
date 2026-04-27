@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EECC_Required_Medio_Envio</fullName>
+    <active>true</active>
+    <description>//记录类型为 Estados_de_Cuenta_y_Constancia_fiscal的数据 状态变为Proceso de callback时 Medio_Envio__c必填 // Added and changed record type names</description>
+    <errorConditionFormula>AND(
+   OR(
+    RecordType.DeveloperName == &apos;Envio_Constancia_Fiscal&apos;,
+    RecordType.DeveloperName == &apos;Envio_Estados_de_Cuenta&apos;
+     ),
+    ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de callback&apos;,
+    ISBLANK(TEXT(Medio_Envio__c))
+)</errorConditionFormula>
+    <errorDisplayField>Medio_Envio__c</errorDisplayField>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

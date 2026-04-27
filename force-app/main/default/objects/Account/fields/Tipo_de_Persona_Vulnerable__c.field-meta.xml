@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Persona_Vulnerable__c</fullName>
+    <label>Tipo de Persona Vulnerable</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Personas adultas mayores</fullName>
+                <default>false</default>
+                <label>Personas adultas mayores</label>
+            </value>
+            <value>
+                <fullName>Persona con discapacidad física</fullName>
+                <default>false</default>
+                <label>Persona con discapacidad física</label>
+            </value>
+            <value>
+                <fullName>Persona con discapacidad mental</fullName>
+                <default>false</default>
+                <label>Persona con discapacidad mental</label>
+            </value>
+            <value>
+                <fullName>Persona con discapacidad sensorial</fullName>
+                <default>false</default>
+                <label>Persona con discapacidad sensorial</label>
+            </value>
+            <value>
+                <fullName>Mujer lactante</fullName>
+                <default>false</default>
+                <label>Mujer lactante</label>
+            </value>
+            <value>
+                <fullName>Mujer maltrato</fullName>
+                <default>false</default>
+                <label>Mujer maltrato</label>
+            </value>
+            <value>
+                <fullName>Mujer en situación de explotación</fullName>
+                <default>false</default>
+                <label>Mujer en situación de explotación</label>
+            </value>
+            <value>
+                <fullName>Indígenas</fullName>
+                <default>false</default>
+                <label>Indígenas</label>
+            </value>
+            <value>
+                <fullName>Migrantes</fullName>
+                <default>false</default>
+                <label>Migrantes</label>
+            </value>
+            <value>
+                <fullName>Discapacidad o necesidades especiales</fullName>
+                <default>false</default>
+                <label>Discapacidad o necesidades especiales</label>
+            </value>
+            <value>
+                <fullName>Víctimas de la comisión de delitos</fullName>
+                <default>false</default>
+                <label>Víctimas de la comisión de delitos</label>
+            </value>
+            <value>
+                <fullName>Alcohólicos y fármaco dependientes</fullName>
+                <default>false</default>
+                <label>Alcohólicos y fármaco dependientes</label>
+            </value>
+            <value>
+                <fullName>Victimas desastres naturales</fullName>
+                <default>false</default>
+                <label>Víctimas desastres naturales</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>6</visibleLines>
+</CustomField>

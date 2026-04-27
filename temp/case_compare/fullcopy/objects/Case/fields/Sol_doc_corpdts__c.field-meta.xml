@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sol_doc_corpdts__c</fullName>
+    <description>Solicitud al cliente de documentos correspondientes</description>
+    <label>Solicitud de documentos correspondientes</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Copia de INE</fullName>
+                <default>false</default>
+                <label>Copia de INE</label>
+            </value>
+            <value>
+                <fullName>CURP</fullName>
+                <default>false</default>
+                <label>CURP</label>
+            </value>
+            <value>
+                <fullName>RFC</fullName>
+                <default>false</default>
+                <label>RFC</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

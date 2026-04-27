@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MotivoDeRechazo__c</fullName>
+    <description>Motivo del rechazo de la oportunidad cerrada perdida</description>
+    <label>Motivo de rechazo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetName>MotivoRechazoValues</valueSetName>
+    </valueSet>
+</CustomField>

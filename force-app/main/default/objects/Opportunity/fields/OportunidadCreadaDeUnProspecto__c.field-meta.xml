@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OportunidadCreadaDeUnProspecto__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo para saber si la oportunidad fue creada de una conversión de prospecto, aplica para weatlh management</description>
+    <label>Oportunidad creada de un prospecto</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

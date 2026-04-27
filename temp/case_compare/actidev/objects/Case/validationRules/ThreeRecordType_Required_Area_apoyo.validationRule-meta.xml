@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ThreeRecordType_Required_Area_apoyo</fullName>
+    <active>true</active>
+    <description>//针对记录类型为 Cancelaciones 或者 Comprobantes 或者 Consulta/Errores en Estado de Cuenta o Constancia Fiscal的数据 状态变为‘Proceso de resolución’时 Area_apoyo__c必填
+// Cancelación interna, Cancelación de cliente, Consulta-Errores en CF, Consulta-Errores en Edo de cuenta</description>
+    <errorConditionFormula>AND(
+    OR(
+        RecordType.DeveloperName == &apos;Cancelacion_cliente&apos;,
+        RecordType.DeveloperName == &apos;Cancelacion_interna&apos;,
+        RecordType.DeveloperName == &apos;Comprobantes&apos;,
+        RecordType.DeveloperName == &apos;Consulta_Errores_en_Constancia_Fiscal&apos;,       
+        RecordType.DeveloperName == &apos;Consulta_Errores_en_Estado_de_Cuenta&apos;
+    ),
+    ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de callback&apos;,
+    ISBLANK(TEXT(Area_apoyo__c))
+)</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

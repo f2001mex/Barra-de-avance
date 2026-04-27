@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mal_servicio_Required_Env_correo_jinm</fullName>
+    <active>true</active>
+    <description>记录类型Mal_servicioM的数据 状态变为Proceso de callback时 Env_correo_jinm__c为true</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName == &apos;Mal_servicio&apos;,
+    ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Proceso de callback&apos;,
+    Env_correo_jinm__c == false
+)</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

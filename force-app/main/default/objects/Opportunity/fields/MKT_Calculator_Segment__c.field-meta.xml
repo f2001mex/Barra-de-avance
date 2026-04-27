@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>MKT_Calculator_Segment__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+  AND(Account.F3_Posicion_Global__c  &gt;= 5000, Account.F3_Posicion_Global__c   &lt;=  100000), &quot;Low&quot;,
+  IF(
+      AND(Account.F3_Posicion_Global__c  &gt;= 100001, Account.F3_Posicion_Global__c   &lt;=  500000), &quot;Medium&quot;,
+      IF(
+         Account.F3_Posicion_Global__c  &gt;= 500001, &quot;High&quot;, &quot;&quot;
+      )
+    )
+  )</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Segmento</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

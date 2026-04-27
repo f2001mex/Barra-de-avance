@@ -1,0 +1,26 @@
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+  <types>
+    <members>Account.Indicador_de_Riesgo_Churn__c</members>
+    <members>Account.Semaforo_riesgo_fuga_churn__c</members>
+    <members>Account.Probabilidad_Abandono__c</members>
+    <members>Task.Resultado_de_Gestion__c</members>
+    <members>Task.Tiempo_promedio_de_contacto_CHURN__c</members>
+    <members>Task.Motivo_de_fuga__c</members>
+    <members>Task.Fecha_de_contactacion__c</members>
+    <name>CustomField</name>
+  </types>
+  <types>
+    <members>Task.Anti_Churn</members>
+    <name>RecordType</name>
+  </types>
+  <types>
+    <members>AntiChurn</members>
+    <name>ReportFolder</name>
+  </types>
+  <types>
+    <members>AntiChurn/Clientes_con_alto_riesgo_de_fuga_hh1</members>
+    <members>AntiChurn/Clientes_con_alto_riesgo_de_fuga_ANM</members>
+    <name>Report</name>
+  </types>
+  <version>66.0</version>
+</Package>

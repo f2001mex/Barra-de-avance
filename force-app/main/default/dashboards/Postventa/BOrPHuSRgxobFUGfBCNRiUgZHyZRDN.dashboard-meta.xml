@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Dashboard xmlns="http://soap.sforce.com/2006/04/metadata">
+    <backgroundEndColor>#FFFFFF</backgroundEndColor>
+    <backgroundFadeDirection>Diagonal</backgroundFadeDirection>
+    <backgroundStartColor>#FFFFFF</backgroundStartColor>
+    <chartTheme>light</chartTheme>
+    <colorPalette>unity</colorPalette>
+    <dashboardChartTheme>light</dashboardChartTheme>
+    <dashboardColorPalette>unity</dashboardColorPalette>
+    <dashboardFilters>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>5/1/2025 12:00 AM</values>
+            <values>5/31/2025 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>6/1/2025 12:00 AM</values>
+            <values>6/30/2025 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>7/1/2025 12:00 AM</values>
+            <values>7/31/2025 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>8/1/2025 12:00 AM</values>
+            <values>8/31/2025 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>9/1/2025 12:00 AM</values>
+            <values>9/30/2025 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>10/1/2025 12:00 AM</values>
+            <values>10/31/2025 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>11/1/2025 12:00 AM</values>
+            <values>11/30/2025 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>12/1/2025 12:00 AM</values>
+            <values>12/31/2025 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>1/1/2026 12:00 AM</values>
+            <values>1/31/2026 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>2/28/2026 12:00 AM</values>
+            <values>2/28/2026 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>3/1/2026 12:00 AM</values>
+            <values>3/31/2026 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>4/1/2026 12:00 AM</values>
+            <values>4/30/2026 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>5/1/2026 12:00 AM</values>
+            <values>5/31/2026 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>6/1/2026 12:00 AM</values>
+            <values>6/30/2026 12:00 AM</values>
+        </dashboardFilterOptions>
+        <dashboardFilterOptions>
+            <operator>between</operator>
+            <values>7/1/2026 12:00 AM</values>
+            <values>7/31/2026 12:00 AM</values>
+        </dashboardFilterOptions>
+        <name>Periodo mensual de consulta</name>
+    </dashboardFilters>
+    <dashboardGridLayout>
+        <dashboardGridComponents>
+            <colSpan>5</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>FORMULA1</column>
+                </chartSummary>
+                <componentType>Donut</componentType>
+                <dashboardFilterColumns>
+                    <column>CREATED_DATE</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>true</expandOthers>
+                <groupingColumn>Account.EstatusContacto__c</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>Estatus de contacto de clientes</header>
+                <legendPosition>Right</legendPosition>
+                <maxValuesDisplayed>6</maxValuesDisplayed>
+                <report>Postventa/Contacto_PostVenta_N2_t9v</report>
+                <showPercentage>true</showPercentage>
+                <showTotal>true</showTotal>
+                <showValues>false</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>true</sortLegendValues>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>5</colSpan>
+            <columnIndex>5</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <chartAxisRange>Auto</chartAxisRange>
+                <chartSummary>
+                    <axisBinding>y</axisBinding>
+                    <column>RowCount</column>
+                </chartSummary>
+                <componentType>Bar</componentType>
+                <dashboardFilterColumns>
+                    <column>CREATED_DATE</column>
+                </dashboardFilterColumns>
+                <decimalPrecision>-1</decimalPrecision>
+                <displayUnits>Auto</displayUnits>
+                <drillEnabled>false</drillEnabled>
+                <drillToDetailEnabled>false</drillToDetailEnabled>
+                <enableHover>false</enableHover>
+                <expandOthers>false</expandOthers>
+                <groupingColumn>TASK_TYPE</groupingColumn>
+                <groupingSortProperties>
+                    <groupingSorts>
+                        <groupingLevel>g1</groupingLevel>
+                        <sortOrder>a</sortOrder>
+                    </groupingSorts>
+                </groupingSortProperties>
+                <header>Categorías de contacto</header>
+                <legendPosition>Bottom</legendPosition>
+                <report>Postventa/Categoras_de_contacto_Task</report>
+                <showPercentage>false</showPercentage>
+                <showPicturesOnCharts>false</showPicturesOnCharts>
+                <showValues>true</showValues>
+                <sortBy>RowLabelAscending</sortBy>
+                <sortLegendValues>true</sortLegendValues>
+                <useReportChart>false</useReportChart>
+            </dashboardComponent>
+            <rowIndex>0</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <dashboardGridComponents>
+            <colSpan>10</colSpan>
+            <columnIndex>0</columnIndex>
+            <dashboardComponent>
+                <autoselectColumnsFromReport>false</autoselectColumnsFromReport>
+                <componentType>FlexTable</componentType>
+                <dashboardFilterColumns>
+                    <column>ResumenGlobalPostventa__c$CreatedDate</column>
+                </dashboardFilterColumns>
+                <flexComponentProperties>
+                    <decimalPrecision>-1</decimalPrecision>
+                    <flexTableColumn>
+                        <reportColumn>ResumenGlobalPostventa__c.Owner.Name</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>ResumenGlobalPostventa__c.Meta__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>ResumenGlobalPostventa__c.Contactados__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableColumn>
+                        <reportColumn>ResumenGlobalPostventa__c.PorcentajeAvance__c</reportColumn>
+                        <showSubTotal>false</showSubTotal>
+                        <showTotal>false</showTotal>
+                        <type>detail</type>
+                    </flexTableColumn>
+                    <flexTableSortInfo>
+                        <sortColumn>ResumenGlobalPostventa__c.Meta__c</sortColumn>
+                        <sortOrder>1</sortOrder>
+                    </flexTableSortInfo>
+                    <hideChatterPhotos>true</hideChatterPhotos>
+                    <useReportTableSetting>false</useReportTableSetting>
+                </flexComponentProperties>
+                <groupingSortProperties/>
+                <header>Tabla Seguimiento</header>
+                <report>Postventa/Tabla_Seguimiento_Iwb</report>
+            </dashboardComponent>
+            <rowIndex>8</rowIndex>
+            <rowSpan>8</rowSpan>
+        </dashboardGridComponents>
+        <numberOfColumns>12</numberOfColumns>
+        <rowHeight>36</rowHeight>
+    </dashboardGridLayout>
+    <dashboardType>LoggedInUser</dashboardType>
+    <description>Se muestra información mensual del modelo seguimiento a clientes.</description>
+    <isGridLayout>true</isGridLayout>
+    <owner>jescamilla@actinver.com.mx</owner>
+    <runningUser>francisco.ortega@optimissa.com</runningUser>
+    <textColor>#000000</textColor>
+    <title>Estatus de contacto a clientes</title>
+    <titleColor>#000000</titleColor>
+    <titleSize>12</titleSize>
+</Dashboard>

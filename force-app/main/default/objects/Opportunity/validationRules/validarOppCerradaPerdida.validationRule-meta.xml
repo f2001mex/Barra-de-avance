@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validarOppCerradaPerdida</fullName>
+    <active>true</active>
+    <description>RV que valida que al seleccionar la opp en cerrada perdida, deba de seleccionar el motivo de rechazo</description>
+    <errorConditionFormula>AND
+(
+RecordType.Name = &quot;Wealth Management&quot;,
+ISPICKVAL(StageName, &apos;Cerrada Perdida&apos;) &amp;&amp;
+ISBLANK(TEXT(MotivoDeRechazo__c))
+)</errorConditionFormula>
+    <errorDisplayField>MotivoDeRechazo__c</errorDisplayField>
+    <errorMessage>Debe seleccionar un motivo de rechazo cuando la oportunidad esté cerrada como perdida</errorMessage>
+</ValidationRule>

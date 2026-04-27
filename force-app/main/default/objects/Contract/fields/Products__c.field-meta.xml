@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Products__c</fullName>
+    <label>Productos</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>CUENTA EJE</fullName>
+                <default>false</default>
+                <label>CUENTA EJE</label>
+            </value>
+            <value>
+                <fullName>FONDOS DE DEUDA</fullName>
+                <default>false</default>
+                <label>FONDOS DE DEUDA</label>
+            </value>
+            <value>
+                <fullName>PENDIENTE POR LIQUIDAR</fullName>
+                <default>false</default>
+                <label>PENDIENTE POR LIQUIDAR</label>
+            </value>
+            <value>
+                <fullName>RENTA VARIABLE</fullName>
+                <default>false</default>
+                <label>RENTA VARIABLE</label>
+            </value>
+            <value>
+                <fullName>FONDOS DE COBERTURA</fullName>
+                <default>false</default>
+                <label>FONDOS DE COBERTURA</label>
+            </value>
+            <value>
+                <fullName>MERCADO DE CAPITALES</fullName>
+                <default>false</default>
+                <label>MERCADO DE CAPITALES</label>
+            </value>
+            <value>
+                <fullName>EFECTIVO</fullName>
+                <default>false</default>
+                <label>EFECTIVO</label>
+            </value>
+            <value>
+                <fullName>FONDO DE FONDOS</fullName>
+                <default>false</default>
+                <label>FONDO DE FONDOS</label>
+            </value>
+            <value>
+                <fullName>MERCADO DE DINERO REPORTO</fullName>
+                <default>false</default>
+                <label>MERCADO DE DINERO REPORTO</label>
+            </value>
+            <value>
+                <fullName>MERCADO DE DINERO DIRECTO</fullName>
+                <default>false</default>
+                <label>MERCADO DE DINERO DIRECTO</label>
+            </value>
+            <value>
+                <fullName>PAGARE BURSATIL</fullName>
+                <default>false</default>
+                <label>PAGARE BURSATIL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

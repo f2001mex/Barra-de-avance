@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Razon_de_la_perdida__c</fullName>
+    <label>Razón de la perdida</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>El cliente se fue con la competencia /contrato con otra institución</fullName>
+                <default>false</default>
+                <label>El cliente se fue con la competencia /contrato con otra institución</label>
+            </value>
+            <value>
+                <fullName>No es atractiva la promoción</fullName>
+                <default>false</default>
+                <label>No es atractiva la promoción</label>
+            </value>
+            <value>
+                <fullName>El paquete no se adapta a las necesidades del cliente</fullName>
+                <default>false</default>
+                <label>El paquete no se adapta a las necesidades del cliente</label>
+            </value>
+            <value>
+                <fullName>Fidelidad a su bróker/Aseguradora actual</fullName>
+                <default>false</default>
+                <label>Fidelidad a su bróker/Aseguradora actual</label>
+            </value>
+            <value>
+                <fullName>No le interesa/No da motivo</fullName>
+                <default>false</default>
+                <label>No le interesa/No da motivo</label>
+            </value>
+            <value>
+                <fullName>Exclusión por condiciones generales</fullName>
+                <default>false</default>
+                <label>Exclusión por condiciones generales</label>
+            </value>
+            <value>
+                <fullName>Rechazado por la aseguradora</fullName>
+                <default>false</default>
+                <label>Rechazado por la aseguradora</label>
+            </value>
+            <value>
+                <fullName>Su aseguradora es Mapfre</fullName>
+                <default>false</default>
+                <label>Su aseguradora es Mapfre</label>
+            </value>
+            <value>
+                <fullName>Tiempo de respuesta</fullName>
+                <default>false</default>
+                <label>Tiempo de respuesta</label>
+            </value>
+            <value>
+                <fullName>La solución tardo más de lo esperado (falta de seguimiento del asesor)</fullName>
+                <default>false</default>
+                <label>La solución tardo más de lo esperado (falta de seguimiento del asesor)</label>
+            </value>
+            <value>
+                <fullName>No cumple las expectativas del cliente</fullName>
+                <default>false</default>
+                <label>No cumple las expectativas del cliente</label>
+            </value>
+            <value>
+                <fullName>Falta de seguimiento áreas involucradas</fullName>
+                <default>false</default>
+                <label>Falta de seguimiento áreas involucradas</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Institucion__c</fullName>
+    <label>Institución</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Banamex</fullName>
+                <default>false</default>
+                <label>BANAMEX</label>
+            </value>
+            <value>
+                <fullName>ABC CAPITAL</fullName>
+                <default>false</default>
+                <label>ABC CAPITAL</label>
+            </value>
+            <value>
+                <fullName>ACTINVER</fullName>
+                <default>false</default>
+                <label>ACTINVER</label>
+            </value>
+            <value>
+                <fullName>AFIRME</fullName>
+                <default>false</default>
+                <label>AFIRME</label>
+            </value>
+            <value>
+                <fullName>AMERICAN EXPRESS</fullName>
+                <default>false</default>
+                <label>AMERICAN EXPRESS</label>
+            </value>
+            <value>
+                <fullName>AUTOFIN</fullName>
+                <default>false</default>
+                <label>AUTOFIN</label>
+            </value>
+            <value>
+                <fullName>BAJIO</fullName>
+                <default>false</default>
+                <label>BAJIO</label>
+            </value>
+            <value>
+                <fullName>BANCO AZTECA</fullName>
+                <default>false</default>
+                <label>BANCO AZTECA</label>
+            </value>
+            <value>
+                <fullName>BANCO DONDE</fullName>
+                <default>false</default>
+                <label>BANCO DONDE</label>
+            </value>
+            <value>
+                <fullName>BANCO INMOBILIARIO</fullName>
+                <default>false</default>
+                <label>BANCO INMOBILIARIO</label>
+            </value>
+            <value>
+                <fullName>BANCOBASE</fullName>
+                <default>false</default>
+                <label>BANCOBASE</label>
+            </value>
+            <value>
+                <fullName>BANCOMEXT</fullName>
+                <default>false</default>
+                <label>BANCOMEXT</label>
+            </value>
+            <value>
+                <fullName>BANCOPPEL</fullName>
+                <default>false</default>
+                <label>BANCOPPEL</label>
+            </value>
+            <value>
+                <fullName>BANCREA</fullName>
+                <default>false</default>
+                <label>BANCREA</label>
+            </value>
+            <value>
+                <fullName>BANJERCITO</fullName>
+                <default>false</default>
+                <label>BANJERCITO</label>
+            </value>
+            <value>
+                <fullName>BANKAOOL</fullName>
+                <default>false</default>
+                <label>BANKAOOL</label>
+            </value>
+            <value>
+                <fullName>BANORTE</fullName>
+                <default>false</default>
+                <label>BANORTE</label>
+            </value>
+            <value>
+                <fullName>BANREGIO</fullName>
+                <default>false</default>
+                <label>BANREGIO</label>
+            </value>
+            <value>
+                <fullName>BANSEFI</fullName>
+                <default>false</default>
+                <label>BANSEFI</label>
+            </value>
+            <value>
+                <fullName>BANSI</fullName>
+                <default>false</default>
+                <label>BANSI</label>
+            </value>
+            <value>
+                <fullName>BBVA</fullName>
+                <default>false</default>
+                <label>BBVA</label>
+            </value>
+            <value>
+                <fullName>BOFA</fullName>
+                <default>false</default>
+                <label>BOFA</label>
+            </value>
+            <value>
+                <fullName>CI BANCO</fullName>
+                <default>false</default>
+                <label>CI BANCO</label>
+            </value>
+            <value>
+                <fullName>HSBC</fullName>
+                <default>false</default>
+                <label>HSBC</label>
+            </value>
+            <value>
+                <fullName>INBURSA</fullName>
+                <default>false</default>
+                <label>INBURSA</label>
+            </value>
+            <value>
+                <fullName>INTERCAM</fullName>
+                <default>false</default>
+                <label>INTERCAM</label>
+            </value>
+            <value>
+                <fullName>INVERLAT</fullName>
+                <default>false</default>
+                <label>INVERLAT</label>
+            </value>
+            <value>
+                <fullName>INVEX</fullName>
+                <default>false</default>
+                <label>INVEX</label>
+            </value>
+            <value>
+                <fullName>JP MORGAN</fullName>
+                <default>false</default>
+                <label>JP MORGAN</label>
+            </value>
+            <value>
+                <fullName>MIFEL</fullName>
+                <default>false</default>
+                <label>MIFEL</label>
+            </value>
+            <value>
+                <fullName>MONEX</fullName>
+                <default>false</default>
+                <label>MONEX</label>
+            </value>
+            <value>
+                <fullName>MULTIVA</fullName>
+                <default>false</default>
+                <label>MULTIVA</label>
+            </value>
+            <value>
+                <fullName>NAFIN</fullName>
+                <default>false</default>
+                <label>NAFIN</label>
+            </value>
+            <value>
+                <fullName>SANTANDER</fullName>
+                <default>false</default>
+                <label>SANTANDER</label>
+            </value>
+            <value>
+                <fullName>TOKIO</fullName>
+                <default>false</default>
+                <label>TOKIO</label>
+            </value>
+            <value>
+                <fullName>VE POR MAS</fullName>
+                <default>false</default>
+                <label>VE POR MAS</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>3</visibleLines>
+</CustomField>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Campana_Migraci_n_Seguros</fullName>
+    <columns>OPPORTUNITY.NAME</columns>
+    <columns>ACCOUNT.NAME</columns>
+    <columns>Asesor_de_Seguro_fsc__c</columns>
+    <columns>OPPORTUNITY.AMOUNT</columns>
+    <columns>L_nea_de_acci_n__c</columns>
+    <columns>OPPORTUNITY.CLOSE_DATE</columns>
+    <columns>OPPORTUNITY.STAGE_NAME</columns>
+    <columns>OPPORTUNITY.PROBABILITY</columns>
+    <columns>OPPORTUNITY.TYPE</columns>
+    <columns>OPPORTUNITY.LEAD_SOURCE</columns>
+    <columns>CORE.USERS.FULL_NAME</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>L_nea_de_acci_n__c</field>
+        <operation>equals</operation>
+        <value>Migración Seguros</value>
+    </filters>
+    <label>Campaña Migración Seguros</label>
+</ListView>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Presentacion_de_Oferta_CByPS</fullName>
+    <active>true</active>
+    <description>Regla de validación para que el usuario complete todos los campos mínimos requeridos de la sección de Presentación de Oferta</description>
+    <errorConditionFormula>OR(
+AND(
+ISPICKVAL(PRIORVALUE(StageName), &apos;Presentación de oferta&apos;),
+ISPICKVAL( StageName, &apos;Formalización y Validación&apos;),
+F3_isCreatedInSAP__c = false,
+AND(OR(RecordType.DeveloperName = &apos;Casa_de_Bolsa&apos;,
+RecordType.DeveloperName =&apos;Planes_Beneficio_Fiscal&apos;,
+RecordType.DeveloperName = &apos;WalletShareOpportunity&apos;),
+								RecordType.DeveloperName &lt;&gt; &apos;Patrimonial&apos; ,
+
+NOT($Permission.bypassValidationRules))
+
+),
+AND(
+								RecordType.DeveloperName &lt;&gt; &apos;Patrimonial&apos; ,
+
+ISPICKVAL(PRIORVALUE(StageName), &apos;Presentación de oferta&apos;),
+NOT(ISPICKVAL(StageName, &apos;Presentación de oferta&apos;)),
+NOT(ISPICKVAL(StageName, &apos;Formalización y Validación&apos;)),
+NOT(ISPICKVAL(StageName, &apos;Identificar Necesidades&apos;)),
+NOT(ISPICKVAL(StageName, &apos;Cerrada Perdida&apos;)),
+NOT(ISPICKVAL(StageName, &apos;Recalendarización&apos;)),
+NOT($Permission.bypassValidationRules)
+)
+)</errorConditionFormula>
+    <errorMessage>Favor de esperar a que se haya creado el contrato en SAP, para poder avanzar a la siguiente etapa.
+Nota: No podrás avanzar a otra etapa diferente a &apos;Formalización y Validación&apos;</errorMessage>
+</ValidationRule>

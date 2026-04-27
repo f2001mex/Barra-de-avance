@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Descripcion_de_No_Interes__c</fullName>
+    <encryptionScheme>None</encryptionScheme>
+    <inlineHelpText>Este campo es obligatorio cuando selecciones CONDICIONES, OTRO u OTRO INTERMEDIARIO.
+
+Si eliges CONDICIONES: menciona cuáles.
+
+Si eliges OTRO: indica cuál.
+
+Si eliges OTRO INTERMEDIARIO: especifica cuál.</inlineHelpText>
+    <label>Descripción de No Interés</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>TextArea</type>
+</CustomField>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Check_Segmento</fullName>
+    <active>true</active>
+    <description>DINN is not available to Casa, please select other segmento</description>
+    <errorConditionFormula>AND(TEXT(Contrato__r.BusinessUnit__c ) == &apos;Casa&apos;, TEXT(Segmento__c) == &apos;DINN&apos;)</errorConditionFormula>
+    <errorMessage>Segmento no disponible, selecciona otra opción</errorMessage>
+</ValidationRule>

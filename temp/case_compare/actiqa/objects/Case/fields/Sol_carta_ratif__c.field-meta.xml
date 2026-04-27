@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sol_carta_ratif__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Solicitud a áreas de apoyo para elaborar la carta de ratificación</description>
+    <label>Solicitud carta ratificación</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Checkbox</type>
+</CustomField>

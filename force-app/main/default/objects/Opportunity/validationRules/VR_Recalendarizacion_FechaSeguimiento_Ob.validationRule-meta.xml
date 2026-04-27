@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>VR_Recalendarizacion_FechaSeguimiento_Ob</fullName>
+    <active>true</active>
+    <description>Obliga a capturar Fecha de seguimiento cuando la oportunidad (RT Oportunidad_Personas_Fisicas) está en la etapa Recalendarización.</description>
+    <errorConditionFormula>AND(
+    OR(
+        $RecordType.DeveloperName = &apos;Oportunidad_Personas_Fisicas&apos;,
+        $RecordType.DeveloperName = &apos;Oportunidad_Seguro_Via&apos;,
+        $RecordType.DeveloperName = &apos;Oportunidad_Seguro_Hogar&apos;,
+        $RecordType.DeveloperName = &apos;Oportunidad_Seguro_Dotales&apos;
+    ),
+    ISCHANGED(StageName),
+    TEXT(PRIORVALUE(StageName)) = &apos;Identificar Necesidades&apos;,
+    ISPICKVAL(StageName, &apos;Recalendarización&apos;),
+    ISPICKVAL(Estatus__c, &apos;Aprobado y cupón para fecha renovación&apos;),
+    ISBLANK(Fecha_de_seguimiento__c)
+)</errorConditionFormula>
+    <errorDisplayField>Fecha_de_seguimiento__c</errorDisplayField>
+    <errorMessage>Captura la &quot;Fecha de seguimiento&quot; para continuar.</errorMessage>
+</ValidationRule>

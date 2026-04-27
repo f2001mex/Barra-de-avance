@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CR_Required_Firma_rep_legal</fullName>
+    <active>true</active>
+    <description>//记录类型为 Cartas Ratificación 且状态变为‘Cierre’时 Firma_rep_legal__c为true</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName == &apos;Cartas_Ratificacion&apos;,
+    ISCHANGED(Status) &amp;&amp; TEXT(Status) == &apos;Cierre&apos;,
+    TEXT(Cancelacion_de_caso__c) == &apos;No_sigue_proceso&apos;,
+    Firma_rep_legal__c == false
+)</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

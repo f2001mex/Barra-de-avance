@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BusinessUnit__c</fullName>
+    <label>Unidad De Negocio</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>2</fullName>
+                <default>false</default>
+                <label>Casa de Bolsa</label>
+            </value>
+            <value>
+                <fullName>1</fullName>
+                <default>false</default>
+                <label>Banco</label>
+            </value>
+            <value>
+                <fullName>CASA DE BOLSA</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CASA DE BOLSA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

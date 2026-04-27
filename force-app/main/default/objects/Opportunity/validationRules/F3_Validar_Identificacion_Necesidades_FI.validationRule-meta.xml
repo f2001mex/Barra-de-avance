@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Validar_Identificacion_Necesidades_FI</fullName>
+    <active>true</active>
+    <description>Usada para validar los datos requeridos para la identificación de necesidades</description>
+    <errorConditionFormula>OR(
+AND(
+  NOT(ISNEW()),
+  OR(
+    ISPICKVAL(Unidad_de_Negocio__c, &apos;&apos;),
+    ISPICKVAL(Productos_ofertados__c, &apos;&apos;)
+  ),
+  ISPICKVAL(PRIORVALUE(StageName), &apos;Identificar Necesidades&apos;),
+  ISPICKVAL(StageName, &apos;Presentación de oferta&apos;),
+  RecordType.DeveloperName = &apos;Financiamiento&apos;,
+  NOT($Permission.bypassValidationRules)
+
+),
+AND(
+    ISPICKVAL(PRIORVALUE(StageName), &apos;Identificar Necesidades&apos;),
+    NOT(ISPICKVAL(StageName, &apos;Identificar Necesidades&apos;)),    
+    NOT(ISPICKVAL(StageName, &apos;Presentación de oferta&apos;)),
+    NOT(ISPICKVAL(StageName, &apos;Cerrada Perdida&apos;)),
+    RecordType.DeveloperName = &apos;Financiamiento&apos;,
+    NOT($Permission.bypassValidationRules)
+    )
+  )</errorConditionFormula>
+    <errorMessage>Favor de completar los campos de Unidad de Negocio y Productos ofertados para avanzar a &apos;Presentación de Oferta&apos;
+Nota: No podrás avanzar a otra etapa diferente a &apos;Presentación de Oferta&apos;</errorMessage>
+</ValidationRule>

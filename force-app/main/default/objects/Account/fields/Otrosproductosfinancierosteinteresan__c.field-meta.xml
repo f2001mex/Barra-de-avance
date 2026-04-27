@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Otrosproductosfinancierosteinteresan__c</fullName>
+    <inlineHelpText>Adicional a tus productos actuales, ¿Qué otros productos financieros te interesan?</inlineHelpText>
+    <label>¿Otros productos financieros de interés?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Productos de inversión</fullName>
+                <default>false</default>
+                <label>Productos de inversión</label>
+            </value>
+            <value>
+                <fullName>Productos de retiro y previsión social</fullName>
+                <default>false</default>
+                <label>Productos de retiro y previsión social</label>
+            </value>
+            <value>
+                <fullName>Arrendamiento</fullName>
+                <default>false</default>
+                <label>Arrendamiento</label>
+            </value>
+            <value>
+                <fullName>Créditos</fullName>
+                <default>false</default>
+                <label>Créditos</label>
+            </value>
+            <value>
+                <fullName>Seguros</fullName>
+                <default>false</default>
+                <label>Seguros</label>
+            </value>
+            <value>
+                <fullName>Productos bancarios</fullName>
+                <default>false</default>
+                <label>Productos bancarios</label>
+            </value>
+            <value>
+                <fullName>Estrategias de Inversión</fullName>
+                <default>false</default>
+                <label>Estrategias de Inversión</label>
+            </value>
+            <value>
+                <fullName>Fondos de inversión</fullName>
+                <default>false</default>
+                <label>Fondos de inversión</label>
+            </value>
+            <value>
+                <fullName>Mercado de cambios</fullName>
+                <default>false</default>
+                <label>Mercado de cambios</label>
+            </value>
+            <value>
+                <fullName>Mercado de capitales</fullName>
+                <default>false</default>
+                <label>Mercado de capitales</label>
+            </value>
+            <value>
+                <fullName>Mercado de dinero</fullName>
+                <default>false</default>
+                <label>Mercado de dinero</label>
+            </value>
+            <value>
+                <fullName>Carteras modelo</fullName>
+                <default>false</default>
+                <label>Carteras modelo</label>
+            </value>
+            <value>
+                <fullName>Mercado de derivados</fullName>
+                <default>false</default>
+                <label>Mercado de derivados</label>
+            </value>
+            <value>
+                <fullName>Cuenta especial para el ahorro</fullName>
+                <default>false</default>
+                <label>Cuenta especial para el ahorro</label>
+            </value>
+            <value>
+                <fullName>CD Platinum</fullName>
+                <default>false</default>
+                <label>CD Platinum</label>
+            </value>
+            <value>
+                <fullName>Pagaré CEDE</fullName>
+                <default>false</default>
+                <label>Pagaré CEDE</label>
+            </value>
+            <value>
+                <fullName>Notas estructuradas</fullName>
+                <default>false</default>
+                <label>Notas estructuradas</label>
+            </value>
+            <value>
+                <fullName>Cambios</fullName>
+                <default>false</default>
+                <label>Cambios</label>
+            </value>
+            <value>
+                <fullName>Divisas</fullName>
+                <default>false</default>
+                <label>Divisas</label>
+            </value>
+            <value>
+                <fullName>Reporto en Dólares</fullName>
+                <default>false</default>
+                <label>Reporto en Dólares</label>
+            </value>
+            <value>
+                <fullName>Fiduciario</fullName>
+                <default>false</default>
+                <label>Fiduciario</label>
+            </value>
+            <value>
+                <fullName>Plan personal de retiro</fullName>
+                <default>false</default>
+                <label>Plan personal de retiro</label>
+            </value>
+            <value>
+                <fullName>Fondo de ahorro</fullName>
+                <default>false</default>
+                <label>Fondo de ahorro</label>
+            </value>
+            <value>
+                <fullName>Caja de ahorro</fullName>
+                <default>false</default>
+                <label>Caja de ahorro</label>
+            </value>
+            <value>
+                <fullName>Plan de pensiones</fullName>
+                <default>false</default>
+                <label>Plan de pensiones</label>
+            </value>
+            <value>
+                <fullName>Arrendamiento Puro</fullName>
+                <default>false</default>
+                <label>Arrendamiento Puro</label>
+            </value>
+            <value>
+                <fullName>Arrendamiento Financiero</fullName>
+                <default>false</default>
+                <label>Arrendamiento Financiero</label>
+            </value>
+            <value>
+                <fullName>Crédito automotriz</fullName>
+                <default>false</default>
+                <label>Crédito automotriz</label>
+            </value>
+            <value>
+                <fullName>Crédito revolvente</fullName>
+                <default>false</default>
+                <label>Crédito revolvente</label>
+            </value>
+            <value>
+                <fullName>Crédito prendario</fullName>
+                <default>false</default>
+                <label>Crédito prendario</label>
+            </value>
+            <value>
+                <fullName>Crédito valor</fullName>
+                <default>false</default>
+                <label>Crédito valor</label>
+            </value>
+            <value>
+                <fullName>Plan de ahorro para la educación</fullName>
+                <default>false</default>
+                <label>Plan de ahorro para la educación</label>
+            </value>
+            <value>
+                <fullName>Seguro para hogar</fullName>
+                <default>false</default>
+                <label>Seguro para hogar</label>
+            </value>
+            <value>
+                <fullName>Inversión inteligente</fullName>
+                <default>false</default>
+                <label>Inversión inteligente</label>
+            </value>
+            <value>
+                <fullName>Seguro de vida</fullName>
+                <default>false</default>
+                <label>Seguro de vida</label>
+            </value>
+            <value>
+                <fullName>Seguro de salud</fullName>
+                <default>false</default>
+                <label>Seguro de salud</label>
+            </value>
+            <value>
+                <fullName>Tarjeta de debito</fullName>
+                <default>false</default>
+                <label>Tarjeta de debito</label>
+            </value>
+            <value>
+                <fullName>Tarjeta de divisas</fullName>
+                <default>false</default>
+                <label>Tarjeta de divisas</label>
+            </value>
+            <value>
+                <fullName>Portafolios Especiales</fullName>
+                <default>false</default>
+                <label>Portafolios Especiales</label>
+            </value>
+            <value>
+                <fullName>Arrendamiento Actinver</fullName>
+                <default>false</default>
+                <label>Arrendamiento Actinver</label>
+            </value>
+            <value>
+                <fullName>Soluciones Alpha</fullName>
+                <default>false</default>
+                <label>Soluciones Alpha</label>
+            </value>
+            <value>
+                <fullName>Soluciones Equity</fullName>
+                <default>false</default>
+                <label>Soluciones Equity</label>
+            </value>
+            <value>
+                <fullName>Alpha y Mandatos</fullName>
+                <default>false</default>
+                <label>Alpha y Mandatos</label>
+            </value>
+            <value>
+                <fullName>Real estate</fullName>
+                <default>false</default>
+                <label>Real estate</label>
+            </value>
+            <value>
+                <fullName>Derivados</fullName>
+                <default>false</default>
+                <label>Derivados</label>
+            </value>
+            <value>
+                <fullName>Alterna Investment</fullName>
+                <default>false</default>
+                <label>Alterna Investment</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

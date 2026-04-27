@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Conqueempresaestasasegurado__c</fullName>
+    <label>¿Con qué empresa estas asegurado?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Actinver</fullName>
+                <default>false</default>
+                <label>Actinver</label>
+            </value>
+            <value>
+                <fullName>Quálitas Seguro</fullName>
+                <default>false</default>
+                <label>Quálitas Seguro</label>
+            </value>
+            <value>
+                <fullName>Grupo Nacional Provincial (GNP)</fullName>
+                <default>false</default>
+                <label>Grupo Nacional Provincial (GNP)</label>
+            </value>
+            <value>
+                <fullName>Chubb Seguros</fullName>
+                <default>false</default>
+                <label>Chubb Seguros</label>
+            </value>
+            <value>
+                <fullName>BBVA Seguros</fullName>
+                <default>false</default>
+                <label>BBVA Seguros</label>
+            </value>
+            <value>
+                <fullName>Axa Seguros</fullName>
+                <default>false</default>
+                <label>Axa Seguros</label>
+            </value>
+            <value>
+                <fullName>HDI Seguros</fullName>
+                <default>false</default>
+                <label>HDI Seguros</label>
+            </value>
+            <value>
+                <fullName>Mapfre</fullName>
+                <default>false</default>
+                <label>Mapfre</label>
+            </value>
+            <value>
+                <fullName>MapfreSeguros Banorte</fullName>
+                <default>false</default>
+                <label>MapfreSeguros Banorte</label>
+            </value>
+            <value>
+                <fullName>MapfreSeguros Afirme</fullName>
+                <default>false</default>
+                <label>MapfreSeguros Afirme</label>
+            </value>
+            <value>
+                <fullName>MapfreSeguros Inbursa</fullName>
+                <default>false</default>
+                <label>MapfreSeguros Inbursa</label>
+            </value>
+            <value>
+                <fullName>MapfreMetLife</fullName>
+                <default>false</default>
+                <label>MapfreMetLife</label>
+            </value>
+            <value>
+                <fullName>MapfreSeguros Argos</fullName>
+                <default>false</default>
+                <label>MapfreSeguros Argos</label>
+            </value>
+            <value>
+                <fullName>MapfreZurich Santander</fullName>
+                <default>false</default>
+                <label>MapfreZurich Santander</label>
+            </value>
+            <value>
+                <fullName>MapfreSeguros Citibanamex</fullName>
+                <default>false</default>
+                <label>MapfreSeguros Citibanamex</label>
+            </value>
+            <value>
+                <fullName>MapfreHSBC Seguros</fullName>
+                <default>false</default>
+                <label>MapfreHSBC Seguros</label>
+            </value>
+            <value>
+                <fullName>Seguros Monterrey New York Life</fullName>
+                <default>false</default>
+                <label>Seguros Monterrey New York Life</label>
+            </value>
+            <value>
+                <fullName>Deco Seguros</fullName>
+                <default>false</default>
+                <label>Deco Seguros</label>
+            </value>
+            <value>
+                <fullName>Prudential</fullName>
+                <default>false</default>
+                <label>Prudential</label>
+            </value>
+            <value>
+                <fullName>Zurich Aseguradora Mexicana</fullName>
+                <default>false</default>
+                <label>Zurich Aseguradora Mexicana</label>
+            </value>
+            <value>
+                <fullName>Solunion México</fullName>
+                <default>false</default>
+                <label>Solunion México</label>
+            </value>
+            <value>
+                <fullName>Tokio Marine Compañía de Seguros</fullName>
+                <default>false</default>
+                <label>Tokio Marine Compañía de Seguros</label>
+            </value>
+            <value>
+                <fullName>Seguros Atlas</fullName>
+                <default>false</default>
+                <label>Seguros Atlas</label>
+            </value>
+            <value>
+                <fullName>Allianz México</fullName>
+                <default>false</default>
+                <label>Allianz México</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>REQ_Folio_Apertura_En_Cotizacion</fullName>
+    <active>true</active>
+    <description>Valida que cuando el campo Etapas Pipeline tenga el valor &quot;E04: EN COTIZACIÓN&quot;, el campo Folio de Apertura sea obligatorio, evitando guardar el registro si está vacío.</description>
+    <errorConditionFormula>AND(
+  $RecordType.Name = &quot;Seguros Pipeline&quot;,
+  ISPICKVAL(Etapas_Pipeline__c, &quot;E04: EN COTIZACIÓN&quot;),
+  OR(
+    ISBLANK(Folio_Zurich__c),
+    LEN(TRIM(Folio_Zurich__c)) = 0
+  )
+)</errorConditionFormula>
+    <errorDisplayField>Folio_Zurich__c</errorDisplayField>
+    <errorMessage>Folio de Apertura es obligatorio cuando la etapa es &quot;E04: EN COTIZACIÓN&quot;.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Otra_institucion</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(InstitucionFinancieraPrincipal__c, &quot;Otros&quot;),
+    ISBLANK(QueOtraInstitucion__c),
+				ISCHANGED(FichaAfinidadCompletada__c),
+				!ISNEW()
+)</errorConditionFormula>
+    <errorDisplayField>QueOtraInstitucion__c</errorDisplayField>
+    <errorMessage>Coloca que otra Institución Financiera Principal.</errorMessage>
+</ValidationRule>

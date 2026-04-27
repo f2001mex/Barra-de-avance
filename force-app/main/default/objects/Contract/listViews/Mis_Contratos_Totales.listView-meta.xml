@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mis_Contratos_Totales</fullName>
+    <columns>CONTRACT.CONTRACT_NUMBER</columns>
+    <columns>SALES.ACCOUNT.NAME</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>NUM_CLIENTE_MKT__c</columns>
+    <columns>Saldo_contrato__c</columns>
+    <columns>AccountOpeningDate__c</columns>
+    <columns>TypeOfContract__c</columns>
+    <columns>QuickOpening__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>Mis Contratos Totales</label>
+</ListView>

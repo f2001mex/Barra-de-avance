@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Anti_Churn</fullName>
+    <active>true</active>
+    <description>Tareas generadas para seguimiento Anti-Churn.</description>
+    <label>Anti-Churn</label>
+    <picklistValues>
+        <picklist>Motivo_de_fuga__c</picklist>
+        <values>
+            <fullName>Adquisición de bienes</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajos rendimientos</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Intermitencias en la app</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mal servicio o falta de seguimiento</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mejor oferta en la competencia</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Otro</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Problemas con procesos o trámites</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Priority</picklist>
+        <values>
+            <fullName>High</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Normal</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Resultado_de_Gestion__c</picklist>
+        <values>
+            <fullName>Cliente no responde</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contactado No Retenido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Contactado Retenido</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Pendiente</fullName>
+            <default>true</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Status</picklist>
+        <values>
+            <fullName>Abierto</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Completado</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Subject</picklist>
+        <values>
+            <fullName>Llamada</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Type</picklist>
+        <values>
+            <fullName>Call</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Llamada</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

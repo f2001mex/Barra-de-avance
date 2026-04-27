@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AsesorName2__c</fullName>
+    <description>Asesor del contrato, cuando se abre un caso, el nombre del asesor nunca cambiará, aunque se actualice</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <inlineHelpText>Si el asesor se visualiza como Integration User, contacte a su administrador o supervisor</inlineHelpText>
+    <label>Asesor</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

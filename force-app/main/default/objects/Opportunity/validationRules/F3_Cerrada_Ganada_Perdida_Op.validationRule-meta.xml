@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Cerrada_Ganada_Perdida_Op</fullName>
+    <active>true</active>
+    <description>Regla de validación donde se bloqueara el movimiento a otras etapas al llegar a estas (cerrada ganada o cerrada perdida)</description>
+    <errorConditionFormula>OR(
+   AND(
+       ISPICKVAL(PRIORVALUE(StageName), &apos;Cerrada Ganada&apos;),
+       NOT(ISPICKVAL(StageName, &apos;Cerrada Ganada&apos;)),
+							 RecordType.Name  &lt;&gt; &quot;Patrimonial&quot;,
+       NOT($Permission.bypassValidationRules)             
+       ),
+   AND(
+       ISPICKVAL(PRIORVALUE(StageName), &apos;Cerrada Perdida&apos;),
+       NOT(ISPICKVAL(StageName, &apos;Cerrada Perdida&apos;)),
+							RecordType.Name  &lt;&gt; &quot;Patrimonial&quot;,
+       NOT($Permission.bypassValidationRules)
+))</errorConditionFormula>
+    <errorMessage>Al llegar a esta etapa no es posible cambiar el estatus.
+Nota: Si es un caso extraordinario, favor de contactar al Administrador para revisar el caso.</errorMessage>
+</ValidationRule>

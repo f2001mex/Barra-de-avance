@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Descripcion_Identificar_Necesidades__c</fullName>
+    <description>Campo de texto de área, para la etapa de Descripción de Identificar Necesidades</description>
+    <encryptionScheme>None</encryptionScheme>
+    <label>Descripción de Identificar Necesidades</label>
+    <length>32000</length>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>LongTextArea</type>
+    <visibleLines>2</visibleLines>
+</CustomField>

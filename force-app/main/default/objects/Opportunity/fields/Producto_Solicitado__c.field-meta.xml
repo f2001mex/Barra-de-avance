@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Producto_Solicitado__c</fullName>
+    <label>Producto Solicitado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Fondos de Inversión</fullName>
+                <default>false</default>
+                <label>Fondos de Inversión</label>
+            </value>
+            <value>
+                <fullName>BE , TDD , Chequera</fullName>
+                <default>false</default>
+                <label>BE , TDD , Chequera</label>
+            </value>
+            <value>
+                <fullName>Mercado dinero, Capitales, Derivados</fullName>
+                <default>false</default>
+                <label>Mercado dinero, Capitales, Derivados</label>
+            </value>
+            <value>
+                <fullName>Cambios</fullName>
+                <default>false</default>
+                <label>Cambios</label>
+            </value>
+            <value>
+                <fullName>Credito</fullName>
+                <default>false</default>
+                <label>Credito</label>
+            </value>
+            <value>
+                <fullName>Fideicomiso</fullName>
+                <default>false</default>
+                <label>Fideicomiso</label>
+            </value>
+            <value>
+                <fullName>Arrendamiento</fullName>
+                <default>false</default>
+                <label>Arrendamiento</label>
+            </value>
+            <value>
+                <fullName>Productos extranjero</fullName>
+                <default>false</default>
+                <label>Productos extranjero</label>
+            </value>
+            <value>
+                <fullName>Líneas Empresariales</fullName>
+                <default>false</default>
+                <label>Líneas Empresariales</label>
+            </value>
+            <value>
+                <fullName>Inversión Inteligente</fullName>
+                <default>false</default>
+                <label>Inversión Inteligente</label>
+            </value>
+            <value>
+                <fullName>Seguro de Viaje</fullName>
+                <default>false</default>
+                <label>Seguro de Viaje</label>
+            </value>
+            <value>
+                <fullName>Vida Pagos Limitados</fullName>
+                <default>false</default>
+                <label>Vida Pagos Limitados</label>
+            </value>
+            <value>
+                <fullName>Plan de Ahorro Mixto</fullName>
+                <default>false</default>
+                <label>Plan de Ahorro Mixto</label>
+            </value>
+            <value>
+                <fullName>Plan de Ahorro Educación</fullName>
+                <default>false</default>
+                <label>Plan de Ahorro Educación</label>
+            </value>
+            <value>
+                <fullName>Inversión Asesorada</fullName>
+                <default>false</default>
+                <label>Inversión Asesorada</label>
+            </value>
+            <value>
+                <fullName>Banca Soluciones</fullName>
+                <default>false</default>
+                <label>Banca Soluciones</label>
+            </value>
+            <value>
+                <fullName>Fondo Digital</fullName>
+                <default>false</default>
+                <label>Fondo Digital</label>
+            </value>
+            <value>
+                <fullName>Pagare Platino</fullName>
+                <default>false</default>
+                <label>Pagare Platino</label>
+            </value>
+            <value>
+                <fullName>Global X</fullName>
+                <default>false</default>
+                <label>Global X</label>
+            </value>
+            <value>
+                <fullName>Carteras modelo</fullName>
+                <default>false</default>
+                <label>Carteras modelo</label>
+            </value>
+            <value>
+                <fullName>Inversion</fullName>
+                <default>false</default>
+                <label>Inversion</label>
+            </value>
+            <value>
+                <fullName>Retiro</fullName>
+                <default>false</default>
+                <label>Retiro</label>
+            </value>
+            <value>
+                <fullName>Inversion inteligente</fullName>
+                <default>false</default>
+                <label>Inversion inteligente</label>
+            </value>
+            <value>
+                <fullName>CD Platinum</fullName>
+                <default>false</default>
+                <label>CD Platinum</label>
+            </value>
+            <value>
+                <fullName>Cuenta Básica</fullName>
+                <default>false</default>
+                <label>Cuenta Básica</label>
+            </value>
+            <value>
+                <fullName>Cuenta Básica de Nómina</fullName>
+                <default>false</default>
+                <label>Cuenta Básica de Nómina</label>
+            </value>
+            <value>
+                <fullName>Portabilidad de Nómina</fullName>
+                <default>false</default>
+                <label>Portabilidad de Nómina</label>
+            </value>
+            <value>
+                <fullName>Mercado de Derivados</fullName>
+                <default>false</default>
+                <label>Mercado de Derivados</label>
+            </value>
+            <value>
+                <fullName>Mercado de Cambios</fullName>
+                <default>false</default>
+                <label>Mercado de Cambios</label>
+            </value>
+            <value>
+                <fullName>Cuenta Personal Especial para el Ahorro</fullName>
+                <default>false</default>
+                <label>Cuenta Personal Especial para el Ahorro</label>
+            </value>
+            <value>
+                <fullName>Fideicomisos</fullName>
+                <default>false</default>
+                <label>Fideicomisos</label>
+            </value>
+            <value>
+                <fullName>Ahorro educación</fullName>
+                <default>false</default>
+                <label>Ahorro educación</label>
+            </value>
+            <value>
+                <fullName>Plan ahorro mixto</fullName>
+                <default>false</default>
+                <label>Plan ahorro mixto</label>
+            </value>
+            <value>
+                <fullName>Máximo</fullName>
+                <default>false</default>
+                <label>Máximo</label>
+            </value>
+            <value>
+                <fullName>Actigana 2</fullName>
+                <default>false</default>
+                <label>Actigana 2</label>
+            </value>
+            <value>
+                <fullName>Auto</fullName>
+                <default>false</default>
+                <label>Auto</label>
+            </value>
+            <value>
+                <fullName>GMM</fullName>
+                <default>false</default>
+                <label>GMM</label>
+            </value>
+            <value>
+                <fullName>Dotales</fullName>
+                <default>false</default>
+                <label>Dotales</label>
+            </value>
+            <value>
+                <fullName>Vida</fullName>
+                <default>false</default>
+                <label>Vida</label>
+            </value>
+            <value>
+                <fullName>Seguro Viaje</fullName>
+                <default>false</default>
+                <label>Seguro Viaje</label>
+            </value>
+            <value>
+                <fullName>Empresarial</fullName>
+                <default>false</default>
+                <label>Empresarial</label>
+            </value>
+            <value>
+                <fullName>Crédito Automotriz</fullName>
+                <default>false</default>
+                <label>Crédito Automotriz</label>
+            </value>
+            <value>
+                <fullName>Crédito Revolvente</fullName>
+                <default>false</default>
+                <label>Crédito Revolvente</label>
+            </value>
+            <value>
+                <fullName>Crédito Valor</fullName>
+                <default>false</default>
+                <label>Crédito Valor</label>
+            </value>
+            <value>
+                <fullName>Crédito Prendario</fullName>
+                <default>false</default>
+                <label>Crédito Prendario</label>
+            </value>
+            <value>
+                <fullName>Hogar</fullName>
+                <default>false</default>
+                <label>Hogar</label>
+            </value>
+            <value>
+                <fullName>Actirvt</fullName>
+                <default>false</default>
+                <label>Actirvt</label>
+            </value>
+            <value>
+                <fullName>Liquidez</fullName>
+                <default>false</default>
+                <label>Liquidez</label>
+            </value>
+            <value>
+                <fullName>Acumulación</fullName>
+                <default>false</default>
+                <label>Acumulación</label>
+            </value>
+            <value>
+                <fullName>Plataforma FX</fullName>
+                <default>false</default>
+                <label>Plataforma FX</label>
+            </value>
+            <value>
+                <fullName>Soluciones Equity</fullName>
+                <default>false</default>
+                <label>Soluciones Equity</label>
+            </value>
+            <value>
+                <fullName>Soluciones Alpha</fullName>
+                <default>false</default>
+                <label>Soluciones Alpha</label>
+            </value>
+            <value>
+                <fullName>Warrant</fullName>
+                <default>false</default>
+                <label>Warrant</label>
+            </value>
+            <value>
+                <fullName>CONTRATO CUENTA LÍQUIDA ACTINVER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CONTRATO CUENTA LÍQUIDA ACTINVER</label>
+            </value>
+            <value>
+                <fullName>CONTRATO DE DEPÓSITOS BANCARIOS DE DINERO A LA VISTA PARA EL PÚBLICO EN GENERAL (CUENTA BÁSICA ACTINVER)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CONTRATO DE DEPÓSITOS BANCARIOS DE DINERO A LA VISTA PARA EL PÚBLICO EN GENERAL (CUENTA BÁSICA ACTINVER)</label>
+            </value>
+            <value>
+                <fullName>CONTRATO DE DEPÓSITOS BANCARIOS DE DINERO A LA VISTA PARA EL PÚBLICO EN GENERAL (CUENTA BÁSICA DE NÓMINA ACTINVER)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CONTRATO DE DEPÓSITOS BANCARIOS DE DINERO A LA VISTA PARA EL PÚBLICO EN GENERAL (CUENTA BÁSICA DE NÓMINA ACTINVER)</label>
+            </value>
+            <value>
+                <fullName>CONTRATO DE MEDIACIÓN MERCANTIL PARA LA DISTRIBUCIÓN INTEGRAL DE ACCIONES DE SOCIEDADES DE INVERSIÓN Y PARA LA ADMINISTRACIÓN DE UN PLAN PERSONAL DE RETIRO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CONTRATO DE MEDIACIÓN MERCANTIL PARA LA DISTRIBUCIÓN INTEGRAL DE ACCIONES DE SOCIEDADES DE INVERSIÓN Y PARA LA ADMINISTRACIÓN DE UN PLAN PERSONAL DE RETIRO</label>
+            </value>
+            <value>
+                <fullName>CONTRATO DE MEDIACIÓN MERCANTIL PARA LA DISTRIBUCIÓN INTEGRAL DE ACCIONES DE SOCIEDADES DE INVERSIÓN Y PARA LA ADMINISTRACIÓN DE UNA CUENTA PERSONAL PARA EL AHORRO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CONTRATO DE MEDIACIÓN MERCANTIL PARA LA DISTRIBUCIÓN INTEGRAL DE ACCIONES DE SOCIEDADES DE INVERSIÓN Y PARA LA ADMINISTRACIÓN DE UNA CUENTA PERSONAL PARA EL AHORRO</label>
+            </value>
+            <value>
+                <fullName>CONTRATO MARCO DE COMPRAVENTA DE DIVISAS (BANCO)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CONTRATO MARCO DE COMPRAVENTA DE DIVISAS (BANCO)</label>
+            </value>
+            <value>
+                <fullName>CONTRATO MARCO DE PRODUCTOS Y SERVICIOS BANCARIOS MÚLTIPLES</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>CONTRATO MARCO DE PRODUCTOS Y SERVICIOS BANCARIOS MÚLTIPLES</label>
+            </value>
+            <value>
+                <fullName>PLAN PERSONAL DE RETIRO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PLAN PERSONAL DE RETIRO</label>
+            </value>
+            <value>
+                <fullName>TRADICIONAL DE INTERMEDIACIÓN BURSÁTIL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>TRADICIONAL DE INTERMEDIACIÓN BURSÁTIL</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

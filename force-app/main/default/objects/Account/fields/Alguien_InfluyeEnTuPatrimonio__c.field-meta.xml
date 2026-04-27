@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Alguien_InfluyeEnTuPatrimonio__c</fullName>
+    <inlineHelpText>¿Tienes algún familiar directo o cercano que pueda influir en el crecimiento de tu patrimonio?</inlineHelpText>
+    <label>¿Alguien influye en tu patrimonio?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Madre</fullName>
+                <default>false</default>
+                <label>Madre</label>
+            </value>
+            <value>
+                <fullName>Padre</fullName>
+                <default>false</default>
+                <label>Padre</label>
+            </value>
+            <value>
+                <fullName>Hermano/a</fullName>
+                <default>false</default>
+                <label>Hermano/a</label>
+            </value>
+            <value>
+                <fullName>Esposo/a - Conyuge</fullName>
+                <default>false</default>
+                <label>Esposo/a - Conyuge</label>
+            </value>
+            <value>
+                <fullName>Hijo/a</fullName>
+                <default>false</default>
+                <label>Hijo/a</label>
+            </value>
+            <value>
+                <fullName>Suegro/a</fullName>
+                <default>false</default>
+                <label>Suegro/a</label>
+            </value>
+            <value>
+                <fullName>No aplica</fullName>
+                <default>false</default>
+                <label>No aplica</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

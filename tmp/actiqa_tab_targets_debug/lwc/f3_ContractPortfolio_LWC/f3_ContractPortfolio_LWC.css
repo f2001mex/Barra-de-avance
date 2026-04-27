@@ -1,0 +1,17 @@
+.market-table {
+	height: 258px;
+	font-size: 12px;
+	/* overflow: auto;
+	margin-bottom: 10px; */
+}
+.market-table thead th {
+	position: sticky;
+	top: 0;
+	z-index: 1;
+}
+.accordion-label {
+	--slds-c-accordion-heading-font-size: 1rem;
+}
+.nestedAccordion-label {
+	--slds-c-accordion-heading-font-size: 0.9rem;
+}

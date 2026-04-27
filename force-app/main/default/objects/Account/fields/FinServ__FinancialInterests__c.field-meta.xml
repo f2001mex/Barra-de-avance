@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__FinancialInterests__c</fullName>
+    <deprecated>false</deprecated>
+    <label>Financial Interests</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Municipal Bonds</fullName>
+                <default>false</default>
+                <label>Bonos Municipales</label>
+            </value>
+            <value>
+                <fullName>Fixed Income</fullName>
+                <default>false</default>
+                <label>Renta Fija</label>
+            </value>
+            <value>
+                <fullName>Energy</fullName>
+                <default>false</default>
+                <label>Energía</label>
+            </value>
+            <value>
+                <fullName>Technology</fullName>
+                <default>false</default>
+                <label>Tecnología</label>
+            </value>
+            <value>
+                <fullName>Retirement</fullName>
+                <default>false</default>
+                <label>Retiro</label>
+            </value>
+            <value>
+                <fullName>College Planning</fullName>
+                <default>false</default>
+                <label>Planificación Universitaria</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

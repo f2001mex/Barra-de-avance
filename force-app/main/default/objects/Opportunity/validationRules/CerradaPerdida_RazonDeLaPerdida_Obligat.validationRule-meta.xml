@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CerradaPerdida_RazonDeLaPerdida_Obligat</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    ISPICKVAL(StageName, &quot;Cerrada Perdida&quot;),
+    ISPICKVAL(Razon_de_la_perdida__c, &quot;&quot;),
+    OR(
+        RecordType.DeveloperName = &apos;Financiamiento&apos;,
+        RecordType.DeveloperName = &apos;Insurance&apos;,
+RecordType.DeveloperName = &apos;WalletShareOpportunity&apos;,
+RecordType.DeveloperName = &apos;Casa_de_Bolsa&apos;,
+RecordType.DeveloperName = &apos;Financiamiento&apos;,
+RecordType.DeveloperName = &apos;Planes_Beneficio_Fiscal&apos;,
+RecordType.DeveloperName = &apos;General&apos;,
+RecordType.DeveloperName = &apos;Presentación de oferta&apos;
+    )
+)</errorConditionFormula>
+    <errorMessage>Favor de ingresar &quot;Razón de la perdida&quot;</errorMessage>
+</ValidationRule>

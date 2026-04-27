@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>PSTA_Account_thr</members>
+        <members>PSTA_FACCadenceCompletion_cls</members>
+        <members>PSTA_FACCadenceCompletion_cls_tst</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>AccountTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>FAC_Task_Update_InAccount</members>
+        <members>FAC_Task_Update_InTask</members>
+        <members>FAC_Update_Task_Field_Avence</members>
+        <members>Flow_Avance_FAC</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>FAC_Task_Update_InAccount</members>
+        <name>FlowDefinition</name>
+    </types>
+    <version>66.0</version>
+</Package>

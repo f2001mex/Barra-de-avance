@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Retroalimentacion_Perdida_Negocio__c</fullName>
+    <label>Retroalimentación Pérdida Negocio</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>APETITO</fullName>
+                <default>false</default>
+                <label>APETITO</label>
+            </value>
+            <value>
+                <fullName>CONDICIONES</fullName>
+                <default>false</default>
+                <label>CONDICIONES</label>
+            </value>
+            <value>
+                <fullName>ENTRADA TARDE</fullName>
+                <default>false</default>
+                <label>ENTRADA TARDE</label>
+            </value>
+            <value>
+                <fullName>OTRO</fullName>
+                <default>false</default>
+                <label>OTRO</label>
+            </value>
+            <value>
+                <fullName>OTRO CONDUCTO</fullName>
+                <default>false</default>
+                <label>OTRO CONDUCTO</label>
+            </value>
+            <value>
+                <fullName>PRIMA</fullName>
+                <default>false</default>
+                <label>PRIMA</label>
+            </value>
+            <value>
+                <fullName>SIN COMENTARIOS</fullName>
+                <default>false</default>
+                <label>SIN COMENTARIOS</label>
+            </value>
+            <value>
+                <fullName>TIEMPO DE RESPUESTA</fullName>
+                <default>false</default>
+                <label>TIEMPO DE RESPUESTA</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

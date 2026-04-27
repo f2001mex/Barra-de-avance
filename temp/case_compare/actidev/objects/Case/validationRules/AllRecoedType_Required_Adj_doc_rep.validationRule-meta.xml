@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>AllRecoedType_Required_Adj_doc_rep</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISCHANGED(Status) &amp;&amp; 
+TEXT(Status) == &apos;Cierre&apos; &amp;&amp; 
+Adj_doc_rep__c == false &amp;&amp; 
+TEXT(Cancelacion_de_caso__c) == &apos;No_sigue_proceso&apos; &amp;&amp; 
+RecordType.DeveloperName != &apos;Desbloqueo_Cuenta_Eje&apos;&amp;&amp; 
+RecordType.DeveloperName != &apos;Casos_CAT&apos;</errorConditionFormula>
+    <errorMessage>Complete todos los campos antes de continuar.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Executive_UNE_cant_change_Owner</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+   ISCHANGED(OwnerId), 
+   $Profile.Name = &apos;Ejecutivo UNE&apos;
+)</errorConditionFormula>
+    <errorMessage>No cuentas con los permisos suficientes para seguir con esa acción. Contacta a tu administrador de Salesforce para más información. Esta es una regla de validación.</errorMessage>
+</ValidationRule>

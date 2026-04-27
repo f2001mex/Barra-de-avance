@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Cancelacion_de_caso__c</fullName>
+    <inlineHelpText>Si el folio es cancelado, selecciona SI
+Si el folio continua el proceso de resolución selecciona NO</inlineHelpText>
+    <label>Cancelación de folio</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No_sigue_proceso</fullName>
+                <default>true</default>
+                <label>No, sigue en proceso</label>
+            </value>
+            <value>
+                <fullName>Si_cancela_folio</fullName>
+                <default>false</default>
+                <label>Si, se cancela folio</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

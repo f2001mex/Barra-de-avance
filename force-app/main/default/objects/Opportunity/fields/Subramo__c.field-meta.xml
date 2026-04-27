@@ -1,0 +1,943 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subramo__c</fullName>
+    <label>Subramo</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Ramo__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>ACCIDENTES PERSONALES IND.</fullName>
+                <default>false</default>
+                <label>ACCIDENTES PERSONALES IND.</label>
+            </value>
+            <value>
+                <fullName>AP INDIVIDUAL SEGURVIAJE</fullName>
+                <default>false</default>
+                <label>AP INDIVIDUAL SEGURVIAJE</label>
+            </value>
+            <value>
+                <fullName>APC NORMAL ANUAL</fullName>
+                <default>false</default>
+                <label>APC NORMAL ANUAL</label>
+            </value>
+            <value>
+                <fullName>APC SIMPL. MENOR A UN AÑO ESC.</fullName>
+                <default>false</default>
+                <label>APC SIMPL. MENOR A UN AÑO ESC.</label>
+            </value>
+            <value>
+                <fullName>AUTOMOVILES</fullName>
+                <default>false</default>
+                <label>AUTOMOVILES</label>
+            </value>
+            <value>
+                <fullName>AUTOS FLOTILLAS</fullName>
+                <default>false</default>
+                <label>AUTOS FLOTILLAS</label>
+            </value>
+            <value>
+                <fullName>CAMIONES</fullName>
+                <default>false</default>
+                <label>CAMIONES</label>
+            </value>
+            <value>
+                <fullName>CASCOS MARITIMOS</fullName>
+                <default>false</default>
+                <label>CASCOS MARITIMOS</label>
+            </value>
+            <value>
+                <fullName>DAÑOS MATERIALES EQ.ELECTRONIC</fullName>
+                <default>false</default>
+                <label>DAÑOS MATERIALES EQ.ELECTRONIC</label>
+            </value>
+            <value>
+                <fullName>DOTALES</fullName>
+                <default>false</default>
+                <label>DOTALES</label>
+            </value>
+            <value>
+                <fullName>DOTALES MAS</fullName>
+                <default>false</default>
+                <label>DOTALES MAS</label>
+            </value>
+            <value>
+                <fullName>EDUCACIONAL</fullName>
+                <default>false</default>
+                <label>EDUCACIONAL</label>
+            </value>
+            <value>
+                <fullName>EDUCACIONAL MAS</fullName>
+                <default>false</default>
+                <label>EDUCACIONAL MAS</label>
+            </value>
+            <value>
+                <fullName>EFECTIVO Y ROBO</fullName>
+                <default>false</default>
+                <label>EFECTIVO Y ROBO</label>
+            </value>
+            <value>
+                <fullName>EQUIPO DE CONTRATISTAS</fullName>
+                <default>false</default>
+                <label>EQUIPO DE CONTRATISTAS</label>
+            </value>
+            <value>
+                <fullName>FIANZAS</fullName>
+                <default>false</default>
+                <label>FIANZAS</label>
+            </value>
+            <value>
+                <fullName>GASTOS MEDICOS</fullName>
+                <default>false</default>
+                <label>GASTOS MEDICOS</label>
+            </value>
+            <value>
+                <fullName>GASTOS MEDICOS Y HOSPITALARIOS</fullName>
+                <default>false</default>
+                <label>GASTOS MEDICOS Y HOSPITALARIOS</label>
+            </value>
+            <value>
+                <fullName>GMC CON PRESTACION</fullName>
+                <default>false</default>
+                <label>GMC CON PRESTACION</label>
+            </value>
+            <value>
+                <fullName>HOGAR BIEN SEGURO</fullName>
+                <default>false</default>
+                <label>HOGAR BIEN SEGURO</label>
+            </value>
+            <value>
+                <fullName>HOSPITALIZACION FAMILIAR</fullName>
+                <default>false</default>
+                <label>HOSPITALIZACION FAMILIAR</label>
+            </value>
+            <value>
+                <fullName>INCENDIO Y CONTENIDOS</fullName>
+                <default>false</default>
+                <label>INCENDIO Y CONTENIDOS</label>
+            </value>
+            <value>
+                <fullName>JUBILACION</fullName>
+                <default>false</default>
+                <label>JUBILACION</label>
+            </value>
+            <value>
+                <fullName>MOTOS</fullName>
+                <default>false</default>
+                <label>MOTOS</label>
+            </value>
+            <value>
+                <fullName>MULTIPLE EMPRESARIAL</fullName>
+                <default>false</default>
+                <label>MULTIPLE EMPRESARIAL</label>
+            </value>
+            <value>
+                <fullName>MULTIPLE EMPRESARIAL GG</fullName>
+                <default>false</default>
+                <label>MULTIPLE EMPRESARIAL GG</label>
+            </value>
+            <value>
+                <fullName>OBRA CIVIL</fullName>
+                <default>false</default>
+                <label>OBRA CIVIL</label>
+            </value>
+            <value>
+                <fullName>PICK UP</fullName>
+                <default>false</default>
+                <label>PICK UP</label>
+            </value>
+            <value>
+                <fullName>PRODUCTO INDIVIDUAL</fullName>
+                <default>false</default>
+                <label>PRODUCTO INDIVIDUAL</label>
+            </value>
+            <value>
+                <fullName>PROTECCION MEDICA A TU MEDIDA</fullName>
+                <default>false</default>
+                <label>PROTECCION MEDICA A TU MEDIDA</label>
+            </value>
+            <value>
+                <fullName>RC</fullName>
+                <default>false</default>
+                <label>RC</label>
+            </value>
+            <value>
+                <fullName>RC GENERAL</fullName>
+                <default>false</default>
+                <label>RC GENERAL</label>
+            </value>
+            <value>
+                <fullName>RC PROFESIONAL</fullName>
+                <default>false</default>
+                <label>RC PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>RECUPERACION MEDICA 15</fullName>
+                <default>false</default>
+                <label>RECUPERACION MEDICA 15</label>
+            </value>
+            <value>
+                <fullName>ROTURA DE MAQUINARIA</fullName>
+                <default>false</default>
+                <label>ROTURA DE MAQUINARIA</label>
+            </value>
+            <value>
+                <fullName>SEGUPYME</fullName>
+                <default>false</default>
+                <label>SEGUPYME</label>
+            </value>
+            <value>
+                <fullName>TEMPORAL DEUDOR PRIMAS UNICAS</fullName>
+                <default>false</default>
+                <label>TEMPORAL DEUDOR PRIMAS UNICAS</label>
+            </value>
+            <value>
+                <fullName>TEMPORALES</fullName>
+                <default>false</default>
+                <label>TEMPORALES</label>
+            </value>
+            <value>
+                <fullName>TODO RIESGO DE CONSTRUCCION</fullName>
+                <default>false</default>
+                <label>TODO RIESGO DE CONSTRUCCION</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTES CARGA DECLARACION</fullName>
+                <default>false</default>
+                <label>TRANSPORTES CARGA DECLARACION</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTES CARGA ESPECIFICA</fullName>
+                <default>false</default>
+                <label>TRANSPORTES CARGA ESPECIFICA</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTES PRONOSTICO</fullName>
+                <default>false</default>
+                <label>TRANSPORTES PRONOSTICO</label>
+            </value>
+            <value>
+                <fullName>UNIT LINKED</fullName>
+                <default>false</default>
+                <label>UNIT LINKED</label>
+            </value>
+            <value>
+                <fullName>VENTA MASIVA NEGOCIOS GMM</fullName>
+                <default>false</default>
+                <label>VENTA MASIVA NEGOCIOS GMM</label>
+            </value>
+            <value>
+                <fullName>VIDA COLECTIVO</fullName>
+                <default>false</default>
+                <label>VIDA COLECTIVO</label>
+            </value>
+            <value>
+                <fullName>VIDA ENTERA</fullName>
+                <default>false</default>
+                <label>VIDA ENTERA</label>
+            </value>
+            <value>
+                <fullName>VIDA ENTERA MAS</fullName>
+                <default>false</default>
+                <label>VIDA ENTERA MAS</label>
+            </value>
+            <value>
+                <fullName>VIDA GRUPO</fullName>
+                <default>false</default>
+                <label>VIDA GRUPO</label>
+            </value>
+            <value>
+                <fullName>AUTOS RESIDENTES</fullName>
+                <default>false</default>
+                <label>AUTOS RESIDENTES</label>
+            </value>
+            <value>
+                <fullName>FLOTILLA</fullName>
+                <default>false</default>
+                <label>FLOTILLA</label>
+            </value>
+            <value>
+                <fullName>AUTOS TURISTAS</fullName>
+                <default>false</default>
+                <label>AUTOS TURISTAS</label>
+            </value>
+            <value>
+                <fullName>PRIMER RIESGO INCENDIO</fullName>
+                <default>false</default>
+                <label>PRIMER RIESGO INCENDIO</label>
+            </value>
+            <value>
+                <fullName>MULTIPOLIZA</fullName>
+                <default>false</default>
+                <label>MULTIPOLIZA</label>
+            </value>
+            <value>
+                <fullName>INCENDIO</fullName>
+                <default>false</default>
+                <label>INCENDIO</label>
+            </value>
+            <value>
+                <fullName>RESPONSABILIDAD CIVIL</fullName>
+                <default>false</default>
+                <label>RESPONSABILIDAD CIVIL</label>
+            </value>
+            <value>
+                <fullName>LINEAS FINANCIERAS</fullName>
+                <default>false</default>
+                <label>LINEAS FINANCIERAS</label>
+            </value>
+            <value>
+                <fullName>DATA PROTEC</fullName>
+                <default>false</default>
+                <label>DATA PROTEC</label>
+            </value>
+            <value>
+                <fullName>CRIMEN</fullName>
+                <default>false</default>
+                <label>CRIMEN</label>
+            </value>
+            <value>
+                <fullName>R.C PROFESIONAL</fullName>
+                <default>false</default>
+                <label>R.C PROFESIONAL</label>
+            </value>
+            <value>
+                <fullName>EQUIPO ELECTRONICO</fullName>
+                <default>false</default>
+                <label>EQUIPO ELECTRONICO</label>
+            </value>
+            <value>
+                <fullName>HOGAR</fullName>
+                <default>false</default>
+                <label>HOGAR</label>
+            </value>
+            <value>
+                <fullName>TRANSPORTE DE MERCANCIA</fullName>
+                <default>false</default>
+                <label>TRANSPORTE DE MERCANCIA</label>
+            </value>
+            <value>
+                <fullName>GMM</fullName>
+                <default>false</default>
+                <label>GMM</label>
+            </value>
+            <value>
+                <fullName>VG</fullName>
+                <default>false</default>
+                <label>VG</label>
+            </value>
+            <value>
+                <fullName>FGF</fullName>
+                <default>false</default>
+                <label>FGF</label>
+            </value>
+            <value>
+                <fullName>AP</fullName>
+                <default>false</default>
+                <label>AP</label>
+            </value>
+            <value>
+                <fullName>VIDA</fullName>
+                <default>false</default>
+                <label>VIDA</label>
+            </value>
+            <value>
+                <fullName>DEUDORES</fullName>
+                <default>false</default>
+                <label>DEUDORES</label>
+            </value>
+            <value>
+                <fullName>HIPOTECARIO</fullName>
+                <default>false</default>
+                <label>HIPOTECARIO</label>
+            </value>
+            <value>
+                <fullName>ACCIDENTES PERSONALES</fullName>
+                <default>false</default>
+                <label>ACCIDENTES PERSONALES</label>
+            </value>
+            <value>
+                <fullName>ACCIDENTES ESCOLARES</fullName>
+                <default>false</default>
+                <label>ACCIDENTES ESCOLARES</label>
+            </value>
+            <value>
+                <fullName>VÍA VG</fullName>
+                <default>false</default>
+                <label>VÍA VG</label>
+            </value>
+            <value>
+                <fullName>VÍA AP</fullName>
+                <default>false</default>
+                <label>VÍA AP</label>
+            </value>
+            <value>
+                <fullName>BLINDAJE</fullName>
+                <default>false</default>
+                <label>BLINDAJE</label>
+            </value>
+            <value>
+                <fullName>DOTALES 5</fullName>
+                <default>false</default>
+                <label>DOTALES 5</label>
+            </value>
+            <value>
+                <fullName>DOTALES 10</fullName>
+                <default>false</default>
+                <label>DOTALES 10</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>LINEAS FINANCIERAS</controllingFieldValue>
+            <valueName>LINEAS FINANCIERAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LINEAS FINANCIERAS</controllingFieldValue>
+            <valueName>DATA PROTEC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LINEAS FINANCIERAS</controllingFieldValue>
+            <valueName>CRIMEN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LINEAS FINANCIERAS</controllingFieldValue>
+            <valueName>R.C PROFESIONAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LINEAS DE INGENIERIA</controllingFieldValue>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>EQUIPO DE CONTRATISTAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LINEAS DE INGENIERIA</controllingFieldValue>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>ROTURA DE MAQUINARIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>LINEAS DE INGENIERIA</controllingFieldValue>
+            <valueName>EQUIPO ELECTRONICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>TRANSPORTES</controllingFieldValue>
+            <valueName>TRANSPORTE DE MERCANCIA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLP</controllingFieldValue>
+            <valueName>GMM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLP</controllingFieldValue>
+            <valueName>VG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLP</controllingFieldValue>
+            <valueName>FGF</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>CLP</controllingFieldValue>
+            <valueName>AP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITY</controllingFieldValue>
+            <valueName>VIDA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITY</controllingFieldValue>
+            <valueName>DEUDORES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITY</controllingFieldValue>
+            <valueName>HIPOTECARIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITY</controllingFieldValue>
+            <valueName>ACCIDENTES PERSONALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITY</controllingFieldValue>
+            <valueName>ACCIDENTES ESCOLARES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INDIVIDUAL</controllingFieldValue>
+            <valueName>VÍA VG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>INDIVIDUAL</controllingFieldValue>
+            <valueName>VÍA AP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>BLINDAJE</controllingFieldValue>
+            <valueName>BLINDAJE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DOTALES</controllingFieldValue>
+            <valueName>DOTALES 5</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>DOTALES</controllingFieldValue>
+            <valueName>DOTALES 10</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>ACCIDENTES PERSONALES IND.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>AP INDIVIDUAL SEGURVIAJE</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>APC NORMAL ANUAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>APC SIMPL. MENOR A UN AÑO ESC.</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>AUTOMOVILES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>AUTOS FLOTILLAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>CAMIONES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>CASCOS MARITIMOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>DAÑOS MATERIALES EQ.ELECTRONIC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>DOTALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>DOTALES MAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>EDUCACIONAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>EDUCACIONAL MAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>EFECTIVO Y ROBO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>FIANZAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>GASTOS MEDICOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>GASTOS MEDICOS Y HOSPITALARIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>GMC CON PRESTACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>HOGAR BIEN SEGURO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>HOSPITALIZACION FAMILIAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>INCENDIO Y CONTENIDOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>JUBILACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>MOTOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>MULTIPLE EMPRESARIAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>MULTIPLE EMPRESARIAL GG</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>OBRA CIVIL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>PICK UP</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>PRODUCTO INDIVIDUAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>PROTECCION MEDICA A TU MEDIDA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>RC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>RC GENERAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>RC PROFESIONAL</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>RECUPERACION MEDICA 15</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>SEGUPYME</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>TEMPORAL DEUDOR PRIMAS UNICAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>TEMPORALES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>TODO RIESGO DE CONSTRUCCION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>TRANSPORTES CARGA DECLARACION</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>TRANSPORTES CARGA ESPECIFICA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>TRANSPORTES PRONOSTICO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>UNIT LINKED</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>VENTA MASIVA NEGOCIOS GMM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>VIDA COLECTIVO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>VIDA ENTERA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>VIDA ENTERA MAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>AFFINITIES</controllingFieldValue>
+            <controllingFieldValue>AUTO</controllingFieldValue>
+            <controllingFieldValue>EMPRESARIAL</controllingFieldValue>
+            <controllingFieldValue>GMM</controllingFieldValue>
+            <controllingFieldValue>VIAJERO</controllingFieldValue>
+            <controllingFieldValue>VIDA</controllingFieldValue>
+            <valueName>VIDA GRUPO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>HOGAR</controllingFieldValue>
+            <valueName>HOGAR</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTOR</controllingFieldValue>
+            <valueName>AUTOS RESIDENTES</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTOR</controllingFieldValue>
+            <valueName>FLOTILLA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>MOTOR</controllingFieldValue>
+            <valueName>AUTOS TURISTAS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROPERTY</controllingFieldValue>
+            <valueName>PRIMER RIESGO INCENDIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROPERTY</controllingFieldValue>
+            <valueName>MULTIPOLIZA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>PROPERTY</controllingFieldValue>
+            <valueName>INCENDIO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>RESPONSABILIDAD CIVIL</controllingFieldValue>
+            <valueName>RESPONSABILIDAD CIVIL</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

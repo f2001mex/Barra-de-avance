@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Firma_del_contrato__c</fullName>
+    <description>Muestra el tipo de firma de Contrato: Solidaria/Individual/Mancomunada</description>
+    <label>Firma del contrato</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Individual</fullName>
+                <default>false</default>
+                <label>Individual</label>
+            </value>
+            <value>
+                <fullName>Mancomunada</fullName>
+                <default>false</default>
+                <label>Mancomunada</label>
+            </value>
+            <value>
+                <fullName>Solidaria</fullName>
+                <default>false</default>
+                <label>Solidaria</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
