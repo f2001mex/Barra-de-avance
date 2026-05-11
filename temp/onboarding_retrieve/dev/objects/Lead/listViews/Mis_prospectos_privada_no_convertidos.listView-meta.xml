@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mis_prospectos_privada_no_convertidos</fullName>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>Numero_Telefono__c</columns>
+    <columns>LEAD.PHONE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Asignado,Contactado,No Contactado,No Convertido</value>
+    </filters>
+    <filters>
+        <field>LEAD.RECORDTYPE</field>
+        <operation>equals</operation>
+        <value>Lead.Privada</value>
+    </filters>
+    <label>Mis prospectos privada - no convertidos</label>
+</ListView>

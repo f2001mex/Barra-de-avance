@@ -1,0 +1,3 @@
+SELECT Id, DeveloperName, Name, FolderName, LastModifiedDate
+FROM Report
+WHERE FolderName = 'Postventa' AND DeveloperName = 'ClientesaContactar_HOY'

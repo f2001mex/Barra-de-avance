@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Segmento__c</fullName>
+    <externalId>false</externalId>
+    <formula>IF(
+   AND(Monto_total__c&gt; 0, Monto_total__c &lt;= 4999), &apos;No Aplica&apos;,
+
+
+      IF(AND(Monto_total__c &gt;=  5000 , Monto_total__c &lt;= 1999999), &apos;Banca Patrimonial&apos;,
+
+         
+           IF(AND(Monto_total__c &gt;=  2000000 , Monto_total__c &lt;= 19999999), &apos;Banca Privada&apos;,
+
+
+                 IF(Monto_total__c &gt;=  20000000 , &apos;Wealth Management&apos;, &apos;&apos;))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Segmento</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

@@ -1,0 +1,492 @@
+[
+  {
+    "Type": "ApexClass",
+    "Member": "ACT_BusinessHoursHelper_cls",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "ACT_BusinessHoursHelper_cls_Test",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "ACT_BusinessHoursHelperDummyBatch_Test",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_FACCadenceCompletion_cls",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_MetaMensualDashboard_ctr",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_MetaMensualDashboard_ctr_tst",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_PostCargaPostventa_bch",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_PostCargaPostventa_cls",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_PostCargaPostventa_Request",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_PostCargaPostventa_sch",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_PostCargaPostventa_soql",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_PostCargaPostventaCadencias_qbl",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_RegistroResumenGlobalMensual_bch",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_RegistroResumenGlobalMensual_cls",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_RegistroResumenGlobalMensual_sch",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_RegistroResumenGlobal_bch",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_RegistroResumenGlobal_bch_Test",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_RegistroResumenGlobal_sch",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_RegistroResumenGlobal_sch_tst",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_RResumenMensual_bch_tst",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_RResumenMensual_cls_tst",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_RResumenMensual_sch_tst",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_RResumenMes_thr",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_ResetearEstatusContacto_bch",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_ResetearEstatusContacto_bch_Test",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_ResetearEstatusContacto_sch",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PSTA_ResetearEstatusContacto_sch_tst",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PV_GenerarTareasPeriodicas",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PV_GenerarTareasPeriodicas_bch",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PV_GenerarTareasPeriodicas_bch_Test",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PV_GenerarTareasPeriodicas_sch",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PV_GenerarTareasPeriodicas_sch_Test",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexClass",
+    "Member": "PV_GenerarTareasPeriodicasSelector_cls",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ApexTrigger",
+    "Member": "ResumenGlobalPostventa_trg",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "Flow",
+    "Member": "ACT_CrearTarea_OpptyStage_UpdateResumen",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "Flow",
+    "Member": "ACT_CrearTarea_OpptyStage_UpdateResumenMensual",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "Flow",
+    "Member": "PV_ActualizaResumenPostventa",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "FlowDefinition",
+    "Member": "ACT_CrearTarea_OpptyStage_UpdateResumen",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": "validated via Flow"
+  },
+  {
+    "Type": "FlowDefinition",
+    "Member": "ACT_CrearTarea_OpptyStage_UpdateResumenMensual",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": "validated via Flow"
+  },
+  {
+    "Type": "FlowDefinition",
+    "Member": "PV_ActualizaResumenPostventa",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": "validated via Flow"
+  },
+  {
+    "Type": "CustomField",
+    "Member": "ACT_BatchConfig__mdt.BusinessHoursName__c",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "CustomField",
+    "Member": "Account.ID_Asesor__c",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "CustomField",
+    "Member": "Contract.Status__c",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "CustomField",
+    "Member": "Opportunity.FechaContactoOpp__c",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "CustomField",
+    "Member": "ResumenGlobalPostventa__c.ContactadosMensual__c",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "CustomField",
+    "Member": "ResumenGlobalPostventa__c.ExternalId_Nomina__c",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "CustomField",
+    "Member": "ResumenGlobalPostventa__c.ExternalId_NominaFecha__c",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "CustomField",
+    "Member": "ResumenGlobalPostventa__c.MetaMensual__c",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "CustomField",
+    "Member": "ResumenGlobalPostventa__c.PorcentajeAvanceMensual__c",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "CustomMetadata",
+    "Member": "ACT_BatchConfig.PSTA_RegistroResumenGlobal",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": "manual in change set context"
+  },
+  {
+    "Type": "CustomMetadata",
+    "Member": "ACT_BatchConfig.PSTA_ResetearEstatusContacto",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": "manual in change set context"
+  },
+  {
+    "Type": "CustomMetadata",
+    "Member": "ACT_BatchConfig.PV_GenerarTareasPeriodicas",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": "manual in change set context"
+  },
+  {
+    "Type": "CustomObject",
+    "Member": "ACT_BatchConfig__mdt",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "Layout",
+    "Member": "ACT_BatchConfig__mdt-ACT Batch Config Layout",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "PermissionSet",
+    "Member": "AdministradorPostventa",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "PermissionSet",
+    "Member": "BanqueroPostventa",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "PermissionSet",
+    "Member": "Control_Tareas_Postventa",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "PermissionSet",
+    "Member": "DirectorPostventa",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ReportType",
+    "Member": "OportunidadesConPolizas",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ReportType",
+    "Member": "Reporte_Resumen_Global_PostVenta",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "ReportFolder",
+    "Member": "Postventa",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "Report",
+    "Member": "Postventa/Copy_of_Categoras_de_contacto_56G",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "Report",
+    "Member": "Postventa/Meta_mensual_Contactados_mBJ",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "Report",
+    "Member": "Postventa/Meta_mensual_resumen_global",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "Report",
+    "Member": "Postventa/Resumen_Global_Diario_Mensual",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "DashboardFolder",
+    "Member": "Postventa",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "Dashboard",
+    "Member": "Postventa/BOrPHuSRgxobFUGfBCNRiUgZHyZRDN",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "Dashboard",
+    "Member": "Postventa/Estatus_contacto_clientes_resumen_global",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  },
+  {
+    "Type": "Dashboard",
+    "Member": "Postventa/fSZMSKeDwQsurNjEcFpHSwVhXTzuxy1",
+    "ExistsInProd": true,
+    "Action": "MODIFY",
+    "Note": ""
+  },
+  {
+    "Type": "Dashboard",
+    "Member": "Postventa/Meta_mensual_resumen_global",
+    "ExistsInProd": false,
+    "Action": "NEW",
+    "Note": ""
+  }
+]

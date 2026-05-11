@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>OportunidadDeProspecto__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Campo para saber que la oportunidad viene del prospecto cuando se crea y se convierta a cliente</description>
+    <label>Oportunidad de prospecto</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

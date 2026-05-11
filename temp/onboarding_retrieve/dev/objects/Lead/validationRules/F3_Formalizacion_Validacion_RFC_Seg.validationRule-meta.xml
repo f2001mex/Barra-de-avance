@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Formalizacion_Validacion_RFC_Seg</fullName>
+    <active>false</active>
+    <description>Regla de validación para que el usuario no pueda avanzar a la siguiente etapa hasta haber escrito el RFC del prospecto</description>
+    <errorConditionFormula>OR(
+AND(
+    ISPICKVAL(PRIORVALUE(Status), &apos;Formalización y Validación&apos;),
+    OR(
+        ISBLANK(F3_RFC__c) 
+       ),
+    ISPICKVAL(Status, &apos;Cerrada Ganada&apos;),
+    RecordType.DeveloperName = &apos;Seguros_Prospecto&apos;,
+    NOT($Permission.bypassValidationRules)
+    ),
+AND(
+    ISPICKVAL(PRIORVALUE(Status), &apos;Formalización y Validación&apos;),
+    NOT(ISPICKVAL(Status, &apos;Formalización y Validación&apos;)),
+    NOT(ISPICKVAL(Status, &apos;Cerrada Ganada&apos;)),
+    NOT(ISPICKVAL(Status, &apos;Cerrada Perdida&apos;)),
+    RecordType.DeveloperName = &apos;Seguros_Prospecto&apos;,
+    NOT($Permission.bypassValidationRules)
+))</errorConditionFormula>
+    <errorMessage>Recuerda escribir el RFC del cliente para poder continuar con el proceso de creación de Póliza de Seguros y avanzar a la siguiente etapa &apos;Cerrada Ganada&apos;</errorMessage>
+</ValidationRule>

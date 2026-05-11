@@ -1,0 +1,875 @@
+﻿[
+    {
+        "Type":  "ApexClass",
+        "Name":  "ACT_BusinessHoursHelper_cls",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-03-12T17:21:07.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "ACT_BusinessHoursHelper_cls_Test",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-03-12T17:21:07.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "ACT_BusinessHoursHelperDummyBatch_Test",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-03-12T17:21:07.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "ACT_CadenceReassignBatchAndCallout_tst",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:54.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "ACT_CadenceReassignCallout_cls",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:54.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "ACT_CadenceReassignQueue_cls",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T20:32:03.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "ACT_CadenceReassignQueue_cls_tst",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:54.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "ACT_CadenceReassignQueueBatch",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:54.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "ACT_CadenceReassignQueueScheduler",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:54.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_Account_thr",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:17.000Z",
+        "FullcopyLastModified":  "2026-04-24T20:32:03.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_FACCadenceCompletion_cls",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T20:09:47.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_MetaMensualDashboard_ctr",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:23.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_MetaMensualDashboard_ctr_tst",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:23.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_PostCargaPostventa_bch",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T20:15:57.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_PostCargaPostventa_cls",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T20:15:57.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_PostCargaPostventa_Request",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T20:15:57.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_PostCargaPostventa_sch",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T20:15:57.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_PostCargaPostventa_soql",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T20:15:57.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_PostCargaPostventaCadencias_qbl",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T20:15:57.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_RegistroResumenGlobal_bch",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-10-13T19:15:23.000Z",
+        "FullcopyLastModified":  "2026-01-20T17:55:51.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_RegistroResumenGlobal_bch_Test",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-10-13T19:15:23.000Z",
+        "FullcopyLastModified":  "2026-01-16T23:02:07.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_RegistroResumenGlobal_sch",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:19.000Z",
+        "FullcopyLastModified":  "2026-03-12T17:21:07.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_RegistroResumenGlobal_sch_tst",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:19.000Z",
+        "FullcopyLastModified":  "2026-01-23T22:49:31.000Z",
+        "FullcopyModifiedBy":  "Jon Beby Escamilla Acosta"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_RegistroResumenGlobalMensual_bch",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:23.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_RegistroResumenGlobalMensual_cls",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:23.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_RegistroResumenGlobalMensual_sch",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:23.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_ResetearEstatusContacto_bch",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:19.000Z",
+        "FullcopyLastModified":  "2026-01-20T17:47:31.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_ResetearEstatusContacto_bch_Test",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:19.000Z",
+        "FullcopyLastModified":  "2026-01-16T23:02:07.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_ResetearEstatusContacto_sch",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:19.000Z",
+        "FullcopyLastModified":  "2026-03-12T17:21:07.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_ResetearEstatusContacto_sch_tst",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:20.000Z",
+        "FullcopyLastModified":  "2026-01-23T22:49:31.000Z",
+        "FullcopyModifiedBy":  "Jon Beby Escamilla Acosta"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_RResumenMensual_bch_tst",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:23.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_RResumenMensual_cls_tst",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:23.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_RResumenMensual_sch_tst",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:23.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PSTA_RResumenMes_thr",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:23.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PV_GenerarTareasPeriodicas",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:21.000Z",
+        "FullcopyLastModified":  "2026-04-24T20:15:57.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PV_GenerarTareasPeriodicas_bch",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:21.000Z",
+        "FullcopyLastModified":  "2026-01-20T17:51:04.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PV_GenerarTareasPeriodicas_bch_Test",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:21.000Z",
+        "FullcopyLastModified":  "2026-01-16T23:02:07.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PV_GenerarTareasPeriodicas_sch",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:21.000Z",
+        "FullcopyLastModified":  "2026-03-12T17:21:07.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PV_GenerarTareasPeriodicas_sch_Test",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:21.000Z",
+        "FullcopyLastModified":  "2026-01-23T22:49:31.000Z",
+        "FullcopyModifiedBy":  "Jon Beby Escamilla Acosta"
+    },
+    {
+        "Type":  "ApexClass",
+        "Name":  "PV_GenerarTareasPeriodicasSelector_cls",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T01:40:21.000Z",
+        "FullcopyLastModified":  "2026-04-24T20:15:57.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ApexTrigger",
+        "Name":  "ResumenGlobalPostventa_trg",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:24.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Account.ID_Asesor__c",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2024-12-24T02:10:02.000Z",
+        "FullcopyLastModified":  "2026-04-24T18:34:08.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "ACT_BatchConfig__mdt.BusinessHoursName__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-01-23T22:23:20.000Z",
+        "FullcopyModifiedBy":  "Jon Beby Escamilla Acosta"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.Account__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:51.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.BatchJobId__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:51.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.HasActiveCadences__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:51.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.LastError__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:51.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.NewAdvisorId__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:51.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.NewOwner__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:51.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.NextAttemptAt__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:51.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.OldAdvisorId__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:51.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.OldOwner__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:51.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.ProcessedAt__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:51.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.RetryCount__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:51.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.Status__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:52.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.TaskCount__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:52.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.TrackerCount__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:52.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Act_Cadence_Reassign_Queue__c.UniqueKey__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:52.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "Opportunity.FechaContactoOpp__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-03-08T05:52:06.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "ResumenGlobalPostventa__c.ContactadosMensual__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:11.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "ResumenGlobalPostventa__c.ExternalId_Nomina__c",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T00:17:23.000Z",
+        "FullcopyLastModified":  "2026-04-24T18:34:09.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "ResumenGlobalPostventa__c.ExternalId_NominaFecha__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-29T16:44:55.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "ResumenGlobalPostventa__c.MetaMensual__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:11.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomField",
+        "Name":  "ResumenGlobalPostventa__c.PorcentajeAvanceMensual__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:11.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "ACT_BatchConfig.PSTA_RegistroResumenGlobal",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "ACT_BatchConfig.PSTA_ResetearEstatusContacto",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "ACT_BatchConfig.PV_GenerarTareasPeriodicas",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.AmountOpportunityPEnmascaramiento131120",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.CloseDateOpportunityPEnmascaramiento131",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.F3_Consecutivo_IDcOpportunityPEnmascara",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.Folio_ZurichcOpportunityPEnmascaramient",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.ID_ASESORcContractPEnmascaramiento13112",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.Importe_ProyectadocOpportunityPEnmascar",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.MontoEstimadoDeInversioncOpportunityPEn",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.NameOpportunityPEnmascaramiento13112025",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.Nombre_del_prospectocOpportunityPEnmasc",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.PL_Prima_NetacOpportunityPEnmascaramien",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.ProbabilityOpportunityPEnmascaramiento1",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Field.ReferenciadorcOpportunityPEnmascaramien",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomMetadata",
+        "Name":  "datamask__Masking_Object.OpportunityPEnmascaramiento13112025",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "1970-01-01T00:00:00.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "CustomObject",
+        "Name":  "ACT_BatchConfig__mdt",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-01-23T22:43:50.000Z",
+        "FullcopyModifiedBy":  "Jon Beby Escamilla Acosta"
+    },
+    {
+        "Type":  "CustomObject",
+        "Name":  "Act_Cadence_Reassign_Queue__c",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:41.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "FlexiPage",
+        "Name":  "Postventa",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-10-01T16:50:44.000Z",
+        "FullcopyLastModified":  "2026-03-25T23:19:04.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "Flow",
+        "Name":  "ACT_CrearTarea_OpptyStage_UpdateResumen",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2026-03-27T03:23:44.000Z",
+        "FullcopyLastModified":  "2026-04-24T18:34:37.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "Flow",
+        "Name":  "ACT_CrearTarea_OpptyStage_UpdateResumenMensual",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:34:33.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "Flow",
+        "Name":  "Patrim_AvanceDeEtapasOportunidad",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-07-10T00:06:20.000Z",
+        "FullcopyLastModified":  "2026-03-04T23:13:35.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "Flow",
+        "Name":  "PV_ActualizaResumenPostventa",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-10-13T19:21:49.000Z",
+        "FullcopyLastModified":  "2026-03-19T19:11:54.000Z",
+        "FullcopyModifiedBy":  "Jon Beby Escamilla Acosta"
+    },
+    {
+        "Type":  "Layout",
+        "Name":  "ACT_BatchConfig__mdt-ACT Batch Config Layout",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-01-23T22:23:20.000Z",
+        "FullcopyModifiedBy":  "Jon Beby Escamilla Acosta"
+    },
+    {
+        "Type":  "Layout",
+        "Name":  "Act_Cadence_Reassign_Queue__c-Cadence Reassign Queue Layout",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:59:41.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    },
+    {
+        "Type":  "LightningComponentBundle",
+        "Name":  "pstaMetaMensualDashboard",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-04-24T18:33:57.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "PermissionSet",
+        "Name":  "AdministradorPostventa",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2026-03-27T03:33:32.000Z",
+        "FullcopyLastModified":  "2026-04-29T04:59:01.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "PermissionSet",
+        "Name":  "BanqueroPostventa",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2026-03-27T03:33:32.000Z",
+        "FullcopyLastModified":  "2026-04-29T04:59:01.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "PermissionSet",
+        "Name":  "Control_Tareas_Postventa",
+        "MissingInProd":  true,
+        "NewerInFullcopy":  false,
+        "ProdLastModified":  null,
+        "FullcopyLastModified":  "2026-02-13T17:10:31.000Z",
+        "FullcopyModifiedBy":  "Dolores Viridiana Padilla Lopez"
+    },
+    {
+        "Type":  "PermissionSet",
+        "Name":  "DirectorPostventa",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2026-03-27T03:33:32.000Z",
+        "FullcopyLastModified":  "2026-04-29T04:59:02.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ReportType",
+        "Name":  "OportunidadesConPolizas",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2026-03-03T02:10:08.000Z",
+        "FullcopyLastModified":  "2026-03-03T02:15:10.000Z",
+        "FullcopyModifiedBy":  "Dolores Viridiana Padilla Lopez"
+    },
+    {
+        "Type":  "ReportType",
+        "Name":  "Reporte_Resumen_Global_PostVenta",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2025-09-19T04:27:59.000Z",
+        "FullcopyLastModified":  "2026-04-24T18:34:17.000Z",
+        "FullcopyModifiedBy":  "Francisco Ortega Frias"
+    },
+    {
+        "Type":  "ValidationRule",
+        "Name":  "Opportunity.NoEditarOpportunidadCerradaPerdidaGanada",
+        "MissingInProd":  false,
+        "NewerInFullcopy":  true,
+        "ProdLastModified":  "2026-03-04T23:43:20.000Z",
+        "FullcopyLastModified":  "2026-03-04T23:49:08.000Z",
+        "FullcopyModifiedBy":  "Gerardo Bautista Serna"
+    }
+]

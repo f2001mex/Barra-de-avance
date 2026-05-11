@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Productos_ofertados__c</fullName>
+    <label>Productos ofertados</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Unidad_de_Negocio__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>FONDOS DE INVERSIÓN</fullName>
+                <default>false</default>
+                <label>FONDOS DE INVERSIÓN</label>
+            </value>
+            <value>
+                <fullName>BE , TDD , CHEQUERA</fullName>
+                <default>false</default>
+                <label>BE , TDD , CHEQUERA</label>
+            </value>
+            <value>
+                <fullName>MERCADO DINERO , CAPITALES, DERIVADOS</fullName>
+                <default>false</default>
+                <label>MERCADO DINERO , CAPITALES, DERIVADOS</label>
+            </value>
+            <value>
+                <fullName>CAMBIOS</fullName>
+                <default>false</default>
+                <label>CAMBIOS</label>
+            </value>
+            <value>
+                <fullName>CREDITO</fullName>
+                <default>false</default>
+                <label>CREDITO</label>
+            </value>
+            <value>
+                <fullName>SEGURO</fullName>
+                <default>false</default>
+                <label>SEGURO</label>
+            </value>
+            <value>
+                <fullName>FIDEICOMISO</fullName>
+                <default>false</default>
+                <label>FIDEICOMISO</label>
+            </value>
+            <value>
+                <fullName>ARRENDAMIENTO</fullName>
+                <default>false</default>
+                <label>ARRENDAMIENTO</label>
+            </value>
+            <value>
+                <fullName>PRODCUTOS EXTRANJERO</fullName>
+                <default>false</default>
+                <label>PRODCUTOS EXTRANJERO</label>
+            </value>
+            <value>
+                <fullName>Auto</fullName>
+                <default>false</default>
+                <label>Auto</label>
+            </value>
+            <value>
+                <fullName>Dotales</fullName>
+                <default>false</default>
+                <label>Dotales</label>
+            </value>
+            <value>
+                <fullName>GMM</fullName>
+                <default>false</default>
+                <label>GMM</label>
+            </value>
+            <value>
+                <fullName>Hogar</fullName>
+                <default>false</default>
+                <label>Hogar</label>
+            </value>
+            <value>
+                <fullName>Seguro Viaje</fullName>
+                <default>false</default>
+                <label>Seguro Viaje</label>
+            </value>
+            <value>
+                <fullName>Vida</fullName>
+                <default>false</default>
+                <label>Vida</label>
+            </value>
+            <value>
+                <fullName>Seguro PyME</fullName>
+                <default>false</default>
+                <label>Seguro PyME</label>
+            </value>
+            <value>
+                <fullName>Empresarial</fullName>
+                <default>false</default>
+                <label>Empresarial</label>
+            </value>
+            <value>
+                <fullName>01</fullName>
+                <default>false</default>
+                <label>CONTRATO MARCO DE PRODUCTOS Y SERVICIOS BANCARIOS MÚLTIPLES</label>
+            </value>
+            <value>
+                <fullName>02</fullName>
+                <default>false</default>
+                <label>CONTRATO DE MEDIACIÓN MERCANTIL PARA LA DISTRIBUCIÓN INTEGRAL DE ACCIONES DE SOCIEDADES DE INVERSIÓN Y PARA LA ADMINISTRACIÓN DE UN PLAN PERSONAL DE RETIRO</label>
+            </value>
+            <value>
+                <fullName>03</fullName>
+                <default>false</default>
+                <label>CONTRATO DE MEDIACIÓN MERCANTIL PARA LA DISTRIBUCIÓN INTEGRAL DE ACCIONES DE SOCIEDADES DE INVERSIÓN Y PARA LA ADMINISTRACIÓN DE UNA CUENTA PERSONAL PARA EL AHORRO</label>
+            </value>
+            <value>
+                <fullName>04</fullName>
+                <default>false</default>
+                <label>CONTRATO MARCO DE COMPRAVENTA DE DIVISAS (BANCO)</label>
+            </value>
+            <value>
+                <fullName>05</fullName>
+                <default>false</default>
+                <label>CONTRATO DE DEPÓSITOS BANCARIOS DE DINERO A LA VISTA PARA EL PÚBLICO EN GENERAL (CUENTA BÁSICA ACTINVER)</label>
+            </value>
+            <value>
+                <fullName>06</fullName>
+                <default>false</default>
+                <label>CONTRATO DE DEPÓSITOS BANCARIOS DE DINERO A LA VISTA PARA EL PÚBLICO EN GENERAL (CUENTA BÁSICA DE NÓMINA ACTINVER)</label>
+            </value>
+            <value>
+                <fullName>08</fullName>
+                <default>false</default>
+                <label>TRADICIONAL DE INTERMEDIACIÓN BURSÁTIL</label>
+            </value>
+            <value>
+                <fullName>09</fullName>
+                <default>false</default>
+                <label>PLAN PERSONAL DE RETIRO</label>
+            </value>
+            <value>
+                <fullName>11</fullName>
+                <default>false</default>
+                <label>CONTRATO CUENTA LÍQUIDA ACTINVER</label>
+            </value>
+            <value>
+                <fullName>BLINDAJE PATRIMONIAL</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Blindaje Patrimonial</label>
+            </value>
+            <value>
+                <fullName>PREVICANCER</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PREVICANCER</label>
+            </value>
+            <value>
+                <fullName>PRODUCTOS EXTRANJERO</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>PRODUCTOS EXTRANJERO</label>
+            </value>
+            <value>
+                <fullName>Plan personal de retiro</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Plan Personal de Retiro</label>
+            </value>
+            <value>
+                <fullName>Tradicional de Intermediación Bursátil</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Tradicional de intermediación bursátil</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>Actinver Insurance Services</controllingFieldValue>
+            <valueName>Auto</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>Actinver Insurance Services</controllingFieldValue>
+            <valueName>Dotales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>Actinver Insurance Services</controllingFieldValue>
+            <valueName>GMM</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>Actinver Insurance Services</controllingFieldValue>
+            <valueName>Hogar</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>Actinver Insurance Services</controllingFieldValue>
+            <valueName>Seguro Viaje</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>Actinver Insurance Services</controllingFieldValue>
+            <valueName>Vida</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <controllingFieldValue>2</controllingFieldValue>
+            <controllingFieldValue>Actinver Insurance Services</controllingFieldValue>
+            <valueName>Empresarial</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <valueName>01</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <valueName>02</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <valueName>03</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <valueName>04</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <valueName>05</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>1</controllingFieldValue>
+            <valueName>06</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2</controllingFieldValue>
+            <valueName>08</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2</controllingFieldValue>
+            <valueName>09</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>2</controllingFieldValue>
+            <valueName>11</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0</controllingFieldValue>
+            <valueName>FONDOS DE INVERSIÓN</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0</controllingFieldValue>
+            <valueName>BE , TDD , CHEQUERA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0</controllingFieldValue>
+            <valueName>MERCADO DINERO , CAPITALES, DERIVADOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0</controllingFieldValue>
+            <valueName>CAMBIOS</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0</controllingFieldValue>
+            <valueName>CREDITO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0</controllingFieldValue>
+            <valueName>SEGURO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0</controllingFieldValue>
+            <valueName>FIDEICOMISO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0</controllingFieldValue>
+            <valueName>ARRENDAMIENTO</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>0</controllingFieldValue>
+            <valueName>PRODCUTOS EXTRANJERO</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

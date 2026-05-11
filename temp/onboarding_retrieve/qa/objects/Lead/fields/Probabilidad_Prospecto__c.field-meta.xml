@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Probabilidad_Prospecto__c</fullName>
+    <formula>IF( TEXT(StageName__c) = &apos;Contacto inicial&apos;, 0.25,
+
+     IF( TEXT(StageName__c) = &apos;Identificar Necesidades&apos;, 0.25,
+
+         IF( TEXT(StageName__c) = &apos;Presentación de oferta&apos;, 0.5,
+
+            IF( TEXT(StageName__c) = &apos;Solicitar documentación&apos;, 0.75,
+
+               IF( TEXT(StageName__c) = &apos;Formalización y Validación&apos;, 0.90,
+
+                  IF( TEXT(StageName__c) = &apos;Cerrada Ganada&apos;, 1,
+
+                     IF( TEXT(StageName__c) = &apos;Cerrada Perdida&apos;, 0,
+
+                         IF( TEXT(StageName__c) = &apos;Recalendarización&apos;, 0, null))))))))</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Probabilidad Prospecto (%)</label>
+    <precision>18</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackHistory>false</trackHistory>
+    <type>Percent</type>
+</CustomField>

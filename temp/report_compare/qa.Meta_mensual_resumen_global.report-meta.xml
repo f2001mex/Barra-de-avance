@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>ResumenGlobalPostventa__c.MetaMensual__c:SUM - ResumenGlobalPostventa__c.ContactadosMensual__c:SUM</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>No contactados</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>IF((ResumenGlobalPostventa__c.ContactadosMensual__c:SUM / ResumenGlobalPostventa__c.MetaMensual__c:SUM) &gt;= 1, 1, (ResumenGlobalPostventa__c.ContactadosMensual__c:SUM / ResumenGlobalPostventa__c.MetaMensual__c:SUM))</calculatedFormula>
+        <datatype>percent</datatype>
+        <developerName>FORMULA2</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>% Avance</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>ResumenGlobalPostventa__c$MetaMensual__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>ResumenGlobalPostventa__c$ContactadosMensual__c</field>
+    </columns>
+    <filter>
+        <criteriaItems>
+            <column>ResumenGlobalPostventa__c$CentroFinanciero__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <criteriaItems>
+            <column>ResumenGlobalPostventa__c$Fecha__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>equals</operator>
+            <value>TODAY</value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ResumenGlobalPostventa__c$CentroFinanciero__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ResumenGlobalPostventa__c$Owner</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ResumenGlobalPostventa__c$Banker__c.BusinessUnitMember-Banker.Division__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Meta mensual resumen global</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Reporte_Resumen_Global_PostVenta__c</reportType>
+    <scope>team</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <timeFrameFilter>
+        <dateColumn>ResumenGlobalPostventa__c$Fecha__c</dateColumn>
+        <interval>INTERVAL_CUSTOM</interval>
+    </timeFrameFilter>
+</Report>

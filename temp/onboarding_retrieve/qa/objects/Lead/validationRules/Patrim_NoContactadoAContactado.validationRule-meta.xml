@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Patrim_NoContactadoAContactado</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    RecordType.Name = &quot;General&quot;,
+				 NOT(ISPICKVAL(Motivo_No_Contactado__c, &quot;&quot; )),
+				ISCHANGED(Status),
+   		ISPICKVAL(Status, &quot;Convertido&quot;)
+    
+  )</errorConditionFormula>
+    <errorMessage>El estado solo puede cambiarse de No Contactado a Contactado o No Convertido</errorMessage>
+</ValidationRule>

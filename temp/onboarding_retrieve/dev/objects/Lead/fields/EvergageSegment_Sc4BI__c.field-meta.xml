@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EvergageSegment_Sc4BI__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Is a member of segment &apos;Personas que solicitaron contacto con calculadora PPR Asalariado&apos;</description>
+    <label>Evergage In Segment &apos;Personas que solic&apos;</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

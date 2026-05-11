@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mis_Posibilidades_Prospectos_2024_Patrim</fullName>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>StageName__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>Numero_Telefono__c</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>FinServ__ExpressedInterest__c</columns>
+    <columns>Campaign__c</columns>
+    <columns>LEAD.RATING</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>1/1/2024 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Asignado,Contactado,No Contactado,No Convertido,Convertido,Contacto Inicial,Identificar Necesidades,Presentación de oferta,Solicitar documentación,Formalización y Validación,Cerrada Ganada,Cerrada Perdida,Recalendarización</value>
+    </filters>
+    <label>Mis Posibilidades&amp;Prospectos 2024 Patrim</label>
+    <sharedTo>
+        <group>Consultores_Patrimoniales</group>
+    </sharedTo>
+</ListView>

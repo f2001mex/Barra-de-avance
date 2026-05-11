@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>StageName__c</fullName>
+    <label>Etapa</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Contacto inicial</fullName>
+                <default>true</default>
+                <label>Contacto inicial</label>
+            </value>
+            <value>
+                <fullName>Identificar Necesidades</fullName>
+                <default>false</default>
+                <label>Identificar Necesidades</label>
+            </value>
+            <value>
+                <fullName>Presentación de oferta</fullName>
+                <default>false</default>
+                <label>Presentación de oferta</label>
+            </value>
+            <value>
+                <fullName>Solicitar documentación</fullName>
+                <default>false</default>
+                <label>Solicitar documentación</label>
+            </value>
+            <value>
+                <fullName>Formalización y Validación</fullName>
+                <default>false</default>
+                <label>Formalización y Validación</label>
+            </value>
+            <value>
+                <fullName>Cerrada Ganada</fullName>
+                <default>false</default>
+                <label>Cerrada Ganada</label>
+            </value>
+            <value>
+                <fullName>Cerrada Perdida</fullName>
+                <default>false</default>
+                <label>Cerrada Perdida</label>
+            </value>
+            <value>
+                <fullName>Recalendarización</fullName>
+                <default>false</default>
+                <label>Recalendarización</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

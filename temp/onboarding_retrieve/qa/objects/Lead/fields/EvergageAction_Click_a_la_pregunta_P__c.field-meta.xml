@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EvergageAction_Click_a_la_pregunta_P__c</fullName>
+    <description>Uses of action &apos;Click a la pregunta ¿Puedo invertir aún si no tengo experiencia previa en inversiones?&apos; in last business cycle</description>
+    <externalId>false</externalId>
+    <label>Evergage Uses of Action &apos;Click a la pre&apos;</label>
+    <precision>8</precision>
+    <required>false</required>
+    <scale>0</scale>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Number</type>
+    <unique>false</unique>
+</CustomField>

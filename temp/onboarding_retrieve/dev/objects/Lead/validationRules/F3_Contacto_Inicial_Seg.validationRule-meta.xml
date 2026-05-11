@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Contacto_Inicial_Seg</fullName>
+    <active>true</active>
+    <description>Regla de validación para que el usuario no pueda avanzar a la siguiente etapa hasta haber completado los campos de contacto inicial (con excepción de &apos;elementos de presentación&apos; ya que es multipicklist y Campaña porque no es obligatorio)</description>
+    <errorConditionFormula>IF(
+RecordType.DeveloperName = &apos;Seguros_Prospecto&apos; &amp;&amp; NOT($Permission.bypassValidationRules),
+IF(ISCHANGED(Status) &amp;&amp; (ISPICKVAL(PRIORVALUE(Status),&apos;Contacto Inicial&apos;) &amp;&amp; ISPICKVAL(Status, &apos;Identificar Necesidades&apos;)),
+IF(Cliente_Contactado__c = TRUE,
+FALSE,
+TRUE
+)
+,FALSE
+)
+,FALSE
+)</errorConditionFormula>
+    <errorMessage>Favor de completar todos los campos para poder avanzar a la siguiente etapa &apos;Identificar Necesidades&apos;
+Nota: No podrás avanzar a otra etapa diferente a Identificar Necesidades</errorMessage>
+</ValidationRule>

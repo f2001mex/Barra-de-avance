@@ -1,0 +1,5 @@
+SELECT Fecha__c, COUNT(Id) totalRegistros, MIN(Meta__c) minMeta, MAX(Meta__c) maxMeta, SUM(Meta__c) sumaMeta, SUM(Contactados__c) sumaContactados
+FROM ResumenGlobalPostventa__c
+WHERE Fecha__c >= 2026-04-25 AND Fecha__c <= 2026-04-29
+GROUP BY Fecha__c
+ORDER BY Fecha__c

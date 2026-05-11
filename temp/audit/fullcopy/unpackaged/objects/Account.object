@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Contactado__c</fullName>
+        <formula>OR(
+  ISPICKVAL(EstatusContacto__c, &quot;Contacto efectivo exitoso&quot;),
+  ISPICKVAL(EstatusContacto__c, &quot;Contacto no exitoso&quot;),
+  ISPICKVAL(EstatusContacto__c, &quot;Cliente no quiere ser contactado&quot;)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contactado</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>ContactoPriorizadoEsteMes__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Contacto priorizado este mes</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EstatusContacto__c</fullName>
+        <label>Etapa contacto</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Contacto efectivo exitoso</fullName>
+                    <default>false</default>
+                    <label>Contacto efectivo exitoso</label>
+                </value>
+                <value>
+                    <fullName>Contacto no exitoso</fullName>
+                    <default>false</default>
+                    <label>Contacto no exitoso</label>
+                </value>
+                <value>
+                    <fullName>Pendiente</fullName>
+                    <default>false</default>
+                    <label>Pendiente</label>
+                </value>
+                <value>
+                    <fullName>Cliente no quiere ser contactado</fullName>
+                    <default>false</default>
+                    <label>Cliente no quiere ser contactado</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ID_Asesor__c</fullName>
+        <encryptionScheme>None</encryptionScheme>
+        <externalId>false</externalId>
+        <label>ID Asesor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>NoRequiereSerContactado__c</fullName>
+        <formula>IF(
+   OR(
+       ISBLANK(FechaNoRequiereSerContacto__c)
+      ,ISNULL(FechaNoRequiereSerContacto__c)
+      )
+, false, true)</formula>
+        <label>No requiere ser contactado</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PriorizacionContacto__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>Priorización de contacto</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>PriorizacionVisita__c</fullName>
+        <defaultValue>false</defaultValue>
+        <label>PriorizaciónVisita</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+</CustomObject>

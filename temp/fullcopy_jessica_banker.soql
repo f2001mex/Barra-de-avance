@@ -1,0 +1,3 @@
+SELECT Id, Name, ExternalId__c, Division__c, Cargo__c
+FROM Banker
+WHERE Name = 'Jessica Daniela Onofre Galvan'

@@ -1,0 +1,3 @@
+SELECT Id, Status, NumberOfErrors, JobItemsProcessed, TotalJobItems, CreatedDate, CompletedDate
+FROM AsyncApexJob
+WHERE Id = '707WF0000IMQqs0YQD'

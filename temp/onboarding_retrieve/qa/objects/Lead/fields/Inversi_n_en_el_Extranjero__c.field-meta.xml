@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Inversi_n_en_el_Extranjero__c</fullName>
+    <description>Requerimiento banca privada, solicitado el 5 de diciembre 2022.</description>
+    <label>Inversión en el Extranjero</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>MultiselectPicklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>No aplica</fullName>
+                <default>false</default>
+                <label>No aplica</label>
+            </value>
+            <value>
+                <fullName>WM Houston</fullName>
+                <default>false</default>
+                <label>WM Houston</label>
+            </value>
+            <value>
+                <fullName>WM Madrid</fullName>
+                <default>false</default>
+                <label>WM Madrid</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+    <visibleLines>4</visibleLines>
+</CustomField>

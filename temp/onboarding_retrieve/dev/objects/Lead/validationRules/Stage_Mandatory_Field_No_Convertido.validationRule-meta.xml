@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Stage_Mandatory_Field_No_Convertido</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+ OR(
+ ISPICKVAL( Status , &quot;No Convertido&quot;) 
+),
+ ISPICKVAL( Motivo_No_Convertido__c ,&quot;&quot;)  
+)</errorConditionFormula>
+    <errorDisplayField>Motivo_No_Convertido__c</errorDisplayField>
+    <errorMessage>Favor de ingresar Motivo de no Convertido</errorMessage>
+</ValidationRule>

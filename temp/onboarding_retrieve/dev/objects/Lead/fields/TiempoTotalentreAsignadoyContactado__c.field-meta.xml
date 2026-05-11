@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TiempoTotalentreAsignadoyContactado__c</fullName>
+    <externalId>false</externalId>
+    <formula>TEXT(FLOOR(Minutos_entre_Asignado_y_Contactado__c / 1440)) &amp; &quot; días, &quot; &amp; 
+TEXT(FLOOR(MOD(Minutos_entre_Asignado_y_Contactado__c, 1440) / 60)) &amp; &quot; horas, &quot; &amp; 
+TEXT(ROUND(MOD(Minutos_entre_Asignado_y_Contactado__c, 60), 0)) &amp; &quot; minutos&quot;</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tiempo Total entre Asignado y Contactado</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

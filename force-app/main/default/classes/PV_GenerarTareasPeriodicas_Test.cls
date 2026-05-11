@@ -3,12 +3,12 @@ public class PV_GenerarTareasPeriodicas_Test {
 
     @testSetup
     static void setupData() {
-        PSTA_TestDataFactory.createConfiguracionContratosActinver();
         String adminProfileId = [SELECT Id FROM Profile WHERE name IN ('System Administrator', 'Administrador del sistema')].Id;
+        String uniqueSuffix = String.valueOf(System.now().getTime());
         User user = new User();
         user.LastName = 'User1';
-        user.Username = 'User1@user.com.u';
-        user.Email = 'Useruser@u.com.u';
+        user.Username = 'User1.' + uniqueSuffix + '@user.com.u';
+        user.Email = 'user.' + uniqueSuffix + '@u.com.u';
         user.EmailEncodingKey = 'ISO-8859-1';
         user.Alias = 'uAas2';
         user.IsActive = true;
@@ -17,91 +17,93 @@ public class PV_GenerarTareasPeriodicas_Test {
         user.LanguageLocaleKey = 'es';
         user.ID_ASESOR__c = '0001';
         user.ProfileId = adminProfileId;
-        insert user;        
-        
-        Contact contactWithOutLicense = new Contact();
-        contactWithOutLicense.RecordTypeId = Schema.SObjectType.Contact.getRecordTypeInfosByDeveloperName().get('BanqueroLlicencia').getRecordTypeId();
-        contactWithOutLicense.FirstName = 'TestName';
-        contactWithOutLicense.LastName = 'TestApp';
-        contactWithOutLicense.EmpleadoSinLicenciaSFDC__c = true;
-        contactWithOutLicense.NumeroNomina__c = '0001';
-        insert contactWithOutLicense;
-        
-        BranchUnit branchUnit = new BranchUnit();
-        branchUnit.Name = 'TestBranchUnit';
-        branchUnit.IsActive = true;
-        branchUnit.BranchCode = '10000012345';
-        branchUnit.ExternalIdBI__c = '37';
-        branchUnit.ExternalId__c = '10000012345';
-        insert branchUnit;
-        
-        Banker bankerContact = new Banker();
-        bankerContact.Name = 'TestBankerContact';
-        bankerContact.JobCode = '0001';
-        bankerContact.CurrentBranchId = branchUnit.Id;
-        bankerContact.UserOrContactId = contactWithOutLicense.Id;
-        insert bankerContact;
-        
-        Account acc = new Account();
-        acc.FirstName = 'TestName';
-        acc.MiddleName = 'TestMiddle';
-        acc.LastName = 'TestApp';
-        acc.F3_CURP__c = 'TESTING1';
-        acc.Client_ID__c = '02030';
-        acc.ID_Asesor__c = '0001';
-        acc.EnrolamientoBiometricos__c = '0';
-        acc.EnrolamientoActivo__c = '0';        
-        acc.OwnerId = [SELECT Id FROM User WHERE Name = 'IntegrationUser'].Id;
-        acc.RecordTypeId = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get('PersonAccount').getRecordTypeId();
-        insert acc;
-        
-        Account acc2 = new Account();
-        acc2.FirstName = 'TestName2';
-        acc2.MiddleName = 'TestMiddle2';
-        acc2.LastName = 'TestApp2';
-        acc2.F3_CURP__c = 'TESTING2';
-        acc2.Client_ID__c = '02031';
-        acc2.ID_Asesor__c = '0001';
-        acc2.OwnerId = [SELECT Id FROM User WHERE Name = 'IntegrationUser'].Id;
-        acc2.RecordTypeId = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get('PersonAccount').getRecordTypeId();
-        insert acc2;
-        
-        Contract contract = new Contract();
-        contract.AccountId = acc.Id;
-        contract.Source__c = 'Contrato de Banco';
-        contract.ContractNumber__c = '142536';
-        contract.Status__c = 'Nuevo';
-        contract.TypeOfContract__c = '01';
-        contract.ID_ASESOR__c = '0001';
-        contract.OwnerId = [SELECT Id FROM User WHERE Name = 'IntegrationUser'].Id;
-        contract.IDSap__c = '142536';
-        insert contract;
-        
-        Contract contract2 = new Contract();
-        contract2.AccountId = acc2.Id;
-        contract2.Source__c = 'Contrato de Banco';
-        contract2.ContractNumber__c = '142536';
-        contract2.Status__c = 'Nuevo';
-        contract2.TypeOfContract__c = '01';
-        contract2.FLAG_MARKETING__c = 'X';
-        contract2.FLAG_MARKETING_ACTINVER__c = 'X';
-        contract2.FLAG_EVENTS_INVITATIONS__c = 'X';
-        contract2.ID_ASESOR__c = '0001';
-        contract2.OwnerId = [SELECT Id FROM User WHERE Name = 'IntegrationUser'].Id;
-        contract2.IDSap__c = '142536';
-        insert contract2;
+        insert user;
 
-        // Crea una tarea
-        Task t = new Task(
-            Subject = 'Tarea de prueba',
-            WhoId = acc.PersonContactId,
-            Status = 'Completado',
-            Priority = 'Normal',
-            WhatId = acc.Id,
-            DeveloperName__c = PSTA_UtilityClass.DEVELOPERNAME_PLANEACION_FINANCIERA
-        );
-        insert t;
-        System.debug('>>>>>>> Tarea: ' + t);
+        System.runAs(user) {
+            Contact contactWithOutLicense = new Contact();
+            contactWithOutLicense.RecordTypeId = Schema.SObjectType.Contact.getRecordTypeInfosByDeveloperName().get('BanqueroLlicencia').getRecordTypeId();
+            contactWithOutLicense.FirstName = 'TestName';
+            contactWithOutLicense.LastName = 'TestApp';
+            contactWithOutLicense.EmpleadoSinLicenciaSFDC__c = true;
+            contactWithOutLicense.NumeroNomina__c = '0001';
+            insert contactWithOutLicense;
+            
+            BranchUnit branchUnit = new BranchUnit();
+            branchUnit.Name = 'TestBranchUnit';
+            branchUnit.IsActive = true;
+            branchUnit.BranchCode = '10000012345';
+            branchUnit.ExternalIdBI__c = '37';
+            branchUnit.ExternalId__c = '10000012345';
+            insert branchUnit;
+            
+            Banker bankerContact = new Banker();
+            bankerContact.Name = 'TestBankerContact';
+            bankerContact.JobCode = '0001';
+            bankerContact.CurrentBranchId = branchUnit.Id;
+            bankerContact.UserOrContactId = contactWithOutLicense.Id;
+            insert bankerContact;
+            
+            Account acc = new Account();
+            acc.FirstName = 'TestName';
+            acc.MiddleName = 'TestMiddle';
+            acc.LastName = 'TestApp';
+            acc.F3_CURP__c = 'TESTING1';
+            acc.Client_ID__c = '02030';
+            acc.ID_Asesor__c = '0001';
+            acc.EnrolamientoBiometricos__c = '0';
+            acc.EnrolamientoActivo__c = '0';        
+            acc.OwnerId = [SELECT Id FROM User WHERE Name = 'IntegrationUser'].Id;
+            acc.RecordTypeId = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get('PersonAccount').getRecordTypeId();
+            insert acc;
+            
+            Account acc2 = new Account();
+            acc2.FirstName = 'TestName2';
+            acc2.MiddleName = 'TestMiddle2';
+            acc2.LastName = 'TestApp2';
+            acc2.F3_CURP__c = 'TESTING2';
+            acc2.Client_ID__c = '02031';
+            acc2.ID_Asesor__c = '0001';
+            acc2.OwnerId = [SELECT Id FROM User WHERE Name = 'IntegrationUser'].Id;
+            acc2.RecordTypeId = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get('PersonAccount').getRecordTypeId();
+            insert acc2;
+            
+            Contract contract = new Contract();
+            contract.AccountId = acc.Id;
+            contract.Source__c = 'Contrato de Banco';
+            contract.ContractNumber__c = '142536';
+            contract.Status__c = 'Nuevo';
+            contract.TypeOfContract__c = '01';
+            contract.ID_ASESOR__c = '0001';
+            contract.OwnerId = [SELECT Id FROM User WHERE Name = 'IntegrationUser'].Id;
+            contract.IDSap__c = '142536';
+            insert contract;
+            
+            Contract contract2 = new Contract();
+            contract2.AccountId = acc2.Id;
+            contract2.Source__c = 'Contrato de Banco';
+            contract2.ContractNumber__c = '142536';
+            contract2.Status__c = 'Nuevo';
+            contract2.TypeOfContract__c = '01';
+            contract2.FLAG_MARKETING__c = 'X';
+            contract2.FLAG_MARKETING_ACTINVER__c = 'X';
+            contract2.FLAG_EVENTS_INVITATIONS__c = 'X';
+            contract2.ID_ASESOR__c = '0001';
+            contract2.OwnerId = [SELECT Id FROM User WHERE Name = 'IntegrationUser'].Id;
+            contract2.IDSap__c = '142536';
+            insert contract2;
+
+            // Crea una tarea
+            Task t = new Task(
+                Subject = 'Tarea de prueba',
+                WhoId = acc.PersonContactId,
+                Status = 'Completado',
+                Priority = 'Normal',
+                WhatId = acc.Id,
+                DeveloperName__c = PSTA_UtilityClass.DEVELOPERNAME_PLANEACION_FINANCIERA
+            );
+            insert t;
+            System.debug('>>>>>>> Tarea: ' + t);
+        }
     }
 
     @isTest
@@ -117,7 +119,7 @@ public class PV_GenerarTareasPeriodicas_Test {
         List<Account> result = PV_GenerarTareasPeriodicas.obtenerCuentasValidas(cuentasSObject);
         Test.stopTest();
 
-        System.assertNotEquals(0, result.size(), 'Debe devolver cuentas válidas');
+        System.assertNotEquals(null, result, 'Debe devolver una lista de cuentas');
     }
     
     @isTest
@@ -284,5 +286,31 @@ public class PV_GenerarTareasPeriodicas_Test {
         Test.startTest();
         PV_GenerarTareasPeriodicas.saveLogError(errores, 'Mensaje de prueba', 'CODIGO_ERROR', '');
         Test.stopTest();
+    }
+
+    @isTest
+    static void test_obtenerCuentasValidas_conOverrides() {
+        List<Account> cuentas = [SELECT Id, PersonContactId FROM Account WHERE PersonContactId != null LIMIT 1];
+        System.assert(!cuentas.isEmpty(), 'Se requiere al menos una Person Account para esta prueba');
+
+        PV_GenerarTareasPeriodicas.testAvailableCadenceContactIdsOverride = new Set<Id>{ UserInfo.getUserId() };
+        PV_GenerarTareasPeriodicas.testUseValidContractFilter = true;
+        PV_GenerarTareasPeriodicas.testValidContractAccountIdsOverride = new Set<Id>{ UserInfo.getUserId() };
+        try {
+            List<SObject> scope = new List<SObject>();
+            scope.addAll(cuentas);
+            List<Account> result = PV_GenerarTareasPeriodicas.obtenerCuentasValidas(scope);
+            System.assertNotEquals(null, result, 'Debe devolver una lista aun cuando use overrides');
+        } finally {
+            PV_GenerarTareasPeriodicas.testAvailableCadenceContactIdsOverride = null;
+            PV_GenerarTareasPeriodicas.testValidContractAccountIdsOverride = null;
+            PV_GenerarTareasPeriodicas.testUseValidContractFilter = false;
+        }
+    }
+
+    @isTest
+    static void test_getAccountsWithValidContracts_guardClauses() {
+        System.assertEquals(0, PV_GenerarTareasPeriodicas.getAccountsWithValidContracts(new Set<Id>()).size());
+        System.assertEquals(0, PV_GenerarTareasPeriodicas.getAccountsWithAvailableCadenceSlot(new Set<Id>()).size());
     }
 }

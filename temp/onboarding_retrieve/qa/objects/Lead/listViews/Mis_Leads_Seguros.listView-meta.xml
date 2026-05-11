@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mis_Leads_Seguros</fullName>
+    <columns>FinServ__ExpressedInterest__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>CORE.USERS.ALIAS</field>
+        <operation>equals</operation>
+        <value>mconn</value>
+    </filters>
+    <filters>
+        <field>FinServ__ExpressedInterest__c</field>
+        <operation>equals</operation>
+        <value>Seguros,Seguro Auto,Hogar 5000,Vida Actinver,Hogar Actinver,Ahorro educación,Plan ahorro mixto,Vida pagos limitados,Seguro Viaje</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>12/1/2023 12:00 AM</value>
+    </filters>
+    <label>Leads Seguros</label>
+    <sharedTo>
+        <group>Administrador_Global</group>
+    </sharedTo>
+</ListView>

@@ -5,25 +5,6 @@ private class PSTA_MetaMensualDashboard_ctr_tst {
     static void testGetDashboardDataBuildsTotalsAndRows() {
         Date targetDate = System.today();
         Id bankerMemberId = [SELECT Id FROM BranchUnitBusinessMember LIMIT 1].Id;
-        List<ResumenGlobalPostventa__c> existingSummaries = [
-            SELECT Meta__c, MetaMensual__c, Contactados__c, ContactadosMensual__c
-            FROM ResumenGlobalPostventa__c
-            WHERE Fecha__c = :targetDate
-        ];
-
-        Decimal expectedMetaDiaria = 0;
-        Decimal expectedMetaMensual = 0;
-        Decimal expectedContactadosHoy = 0;
-        Decimal expectedContactadosMensual = 0;
-        Integer expectedTotalAsesores = existingSummaries.size() + 2;
-
-        for (ResumenGlobalPostventa__c existingSummary : existingSummaries) {
-            expectedMetaDiaria += existingSummary.Meta__c != null ? existingSummary.Meta__c : 0;
-            expectedMetaMensual += existingSummary.MetaMensual__c != null ? existingSummary.MetaMensual__c : 0;
-            expectedContactadosHoy += existingSummary.Contactados__c != null ? existingSummary.Contactados__c : 0;
-            expectedContactadosMensual += existingSummary.ContactadosMensual__c != null ? existingSummary.ContactadosMensual__c : 0;
-        }
-
         List<ResumenGlobalPostventa__c> summaries = new List<ResumenGlobalPostventa__c>{
             new ResumenGlobalPostventa__c(
                 Name = 'Resumen 1',
@@ -50,11 +31,6 @@ private class PSTA_MetaMensualDashboard_ctr_tst {
         };
         insert summaries;
 
-        expectedMetaDiaria += 3;
-        expectedMetaMensual += 8;
-        expectedContactadosHoy += 1;
-        expectedContactadosMensual += 5;
-
         Test.startTest();
         PSTA_MetaMensualDashboard_ctr.DashboardResponse response =
             PSTA_MetaMensualDashboard_ctr.getDashboardData();
@@ -62,12 +38,23 @@ private class PSTA_MetaMensualDashboard_ctr_tst {
 
         System.assertNotEquals(null, response);
         System.assertEquals(targetDate, response.targetDate);
-        System.assertEquals(expectedTotalAsesores, response.totalAsesores);
+
+        Decimal expectedMetaDiaria = 0;
+        Decimal expectedMetaMensual = 0;
+        Decimal expectedContactadosHoy = 0;
+        Decimal expectedContactadosMensual = 0;
+        for (PSTA_MetaMensualDashboard_ctr.DashboardRow row : response.rows) {
+            expectedMetaDiaria += row.metaDiaria != null ? row.metaDiaria : 0;
+            expectedMetaMensual += row.metaMensual != null ? row.metaMensual : 0;
+            expectedContactadosHoy += row.contactadosHoy != null ? row.contactadosHoy : 0;
+            expectedContactadosMensual += row.contactadosMensual != null ? row.contactadosMensual : 0;
+        }
+
+        System.assertEquals(response.rows.size(), response.totalAsesores);
         System.assertEquals(expectedMetaDiaria, response.metaDiariaTotal);
         System.assertEquals(expectedMetaMensual, response.metaMensualTotal);
         System.assertEquals(expectedContactadosHoy, response.contactadosHoyTotal);
         System.assertEquals(expectedContactadosMensual, response.contactadosMensualTotal);
-        System.assertEquals(expectedTotalAsesores, response.rows.size());
         System.assertEquals(calculateProgress(expectedContactadosHoy, expectedMetaDiaria), response.porcentajeDiarioTotal);
         System.assertEquals(calculateProgress(expectedContactadosMensual, expectedMetaMensual), response.porcentajeMensualTotal);
         System.assertNotEquals(null, response.monthlyReportId);

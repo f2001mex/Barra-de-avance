@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Mis_Posibilidades_Privada</fullName>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.FIRST_NAME</columns>
+    <columns>LEAD.LAST_UPDATE</columns>
+    <columns>LEAD.RECORDTYPE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>Numero_Telefono__c</columns>
+    <columns>LEAD.PHONE</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>Campaign__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>StageName__c</field>
+        <operation>equals</operation>
+        <value>Contacto inicial,Identificar Necesidades,Presentación de oferta,Solicitar documentación,Formalización y Validación,Cerrada Ganada,Recalendarización</value>
+    </filters>
+    <filters>
+        <field>LEAD.STATUS</field>
+        <operation>equals</operation>
+        <value>Contactado,Contacto Inicial,Identificar Necesidades,Presentación de oferta,Solicitar documentación,Formalización y Validación,Cerrada Ganada</value>
+    </filters>
+    <label>Mis Posibilidades Privada</label>
+    <sharedTo>
+        <group>Equipo_Privada</group>
+    </sharedTo>
+</ListView>

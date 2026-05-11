@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>validarLeadCerradaPerdida</fullName>
+    <active>true</active>
+    <description>RV que valida que al seleccionar la lead en cerrada perdida, deba de seleccionar el motivo de rechazo</description>
+    <errorConditionFormula>AND
+(
+RecordType.Name = &quot;Wealth Management&quot;,
+ISPICKVAL(Status, &apos;Rechazado&apos;) &amp;&amp;
+ISBLANK(TEXT(MotivoDeRechazo__c))
+)
+
+||
+
+AND
+(
+RecordType.Name = &quot;Privada&quot;,
+ISPICKVAL(Status, &apos;Rechazado&apos;) &amp;&amp;
+ISBLANK(TEXT(MotivoDeRechazo__c))
+)</errorConditionFormula>
+    <errorDisplayField>MotivoDeRechazo__c</errorDisplayField>
+    <errorMessage>Debes seleccionar el motivo de rechazo</errorMessage>
+</ValidationRule>

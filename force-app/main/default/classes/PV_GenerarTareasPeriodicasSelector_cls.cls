@@ -12,6 +12,7 @@
 public with sharing class PV_GenerarTareasPeriodicasSelector_cls {
 
     public static final Id idConfigPostVentaRecordType = Schema.SObjectType.ConfiguracionActinver__c.getRecordTypeInfosByDeveloperName().get('ConfiguracionPeriodicidadTareas').getRecordTypeId();
+    @TestVisible private static List<ActionCadence> testCadenceOverride;
 
     public static String getQueryAccounts(){
         String consulta = [SELECT Consulta__c FROM PSTA_Consultas__mdt WHERE DeveloperName = 'PSTA_Query_Generar_Tareas'].Consulta__c ;
@@ -34,6 +35,9 @@ public with sharing class PV_GenerarTareasPeriodicasSelector_cls {
     } */
 
     public static List<ActionCadence> getCadence() {
+        if (Test.isRunningTest() && testCadenceOverride != null) {
+            return new List<ActionCadence>(testCadenceOverride);
+        }
         return [SELECT Id,
                     Name,
                     Tipo_de_actividad__c,

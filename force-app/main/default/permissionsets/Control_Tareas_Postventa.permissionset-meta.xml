@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permiso que habilita la edición de registros del objeto Task (Tareas) para usuarios de supervisión o gestión en Postventa, permitiendo la actualización de tareas no propias conforme a la estructura organizacional y lineamientos de control.</description>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>Control Tareas Postventa</label>
+</PermissionSet>

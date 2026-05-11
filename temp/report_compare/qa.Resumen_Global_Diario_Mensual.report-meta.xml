@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Report xmlns="http://soap.sforce.com/2006/04/metadata">
+    <aggregates>
+        <calculatedFormula>ResumenGlobalPostventa__c.Meta__c:SUM-ResumenGlobalPostventa__c.Contactados__c:SUM</calculatedFormula>
+        <datatype>number</datatype>
+        <developerName>FORMULA1</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>No Contactados</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <aggregates>
+        <calculatedFormula>IF((ResumenGlobalPostventa__c.Contactados__c:SUM / ResumenGlobalPostventa__c.Meta__c:SUM) &gt;= 1, 1, (ResumenGlobalPostventa__c.Contactados__c:SUM / ResumenGlobalPostventa__c.Meta__c:SUM))</calculatedFormula>
+        <datatype>percent</datatype>
+        <developerName>FORMULA2</developerName>
+        <isActive>true</isActive>
+        <isCrossBlock>false</isCrossBlock>
+        <masterLabel>% de Avance</masterLabel>
+        <scale>0</scale>
+    </aggregates>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>ResumenGlobalPostventa__c$Meta__c</field>
+    </columns>
+    <columns>
+        <aggregateTypes>Sum</aggregateTypes>
+        <field>ResumenGlobalPostventa__c$Contactados__c</field>
+    </columns>
+    <columns>
+        <field>ResumenGlobalPostventa__c$PorcentajeAvance__c</field>
+    </columns>
+    <description>Reporte para el nuevo modelo diario de ResumenGlobalPostventa, con visibilidad diaria y mensual por asesor.</description>
+    <filter>
+        <criteriaItems>
+            <column>ResumenGlobalPostventa__c$CentroFinanciero__c</column>
+            <columnToColumn>false</columnToColumn>
+            <isUnlocked>false</isUnlocked>
+            <operator>notEqual</operator>
+            <value></value>
+        </criteriaItems>
+        <language>en_US</language>
+    </filter>
+    <format>Summary</format>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ResumenGlobalPostventa__c$CentroFinanciero__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <aggregateType>RowCount</aggregateType>
+        <dateGranularity>Day</dateGranularity>
+        <field>ResumenGlobalPostventa__c$Owner</field>
+        <sortByName>RowCount</sortByName>
+        <sortOrder>Asc</sortOrder>
+        <sortType>Aggregate</sortType>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>Day</dateGranularity>
+        <field>ResumenGlobalPostventa__c$Fecha__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <name>Resumen Global Diario y Mensual</name>
+    <params>
+        <name>co</name>
+        <value>1</value>
+    </params>
+    <reportType>Reporte_Resumen_Global_PostVenta__c</reportType>
+    <scope>team</scope>
+    <showDetails>true</showDetails>
+    <showGrandTotal>true</showGrandTotal>
+    <showSubTotals>true</showSubTotals>
+    <sortColumn>ResumenGlobalPostventa__c$Meta__c</sortColumn>
+    <sortOrder>Asc</sortOrder>
+    <timeFrameFilter>
+        <dateColumn>ResumenGlobalPostventa__c$Fecha__c</dateColumn>
+        <interval>INTERVAL_TODAY</interval>
+    </timeFrameFilter>
+</Report>

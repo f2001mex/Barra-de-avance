@@ -1,0 +1,5 @@
+SELECT Id, DeveloperName, TableEnumOrId
+FROM CustomField
+WHERE DeveloperName LIKE 'ExternalId%'
+ORDER BY DeveloperName
+LIMIT 200

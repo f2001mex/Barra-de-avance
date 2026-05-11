@@ -1,0 +1,9 @@
+SELECT Field, PermissionsRead, PermissionsEdit, Parent.Label, Parent.IsOwnedByProfile
+FROM FieldPermissions
+WHERE SobjectType = 'ResumenGlobalPostventa__c'
+AND Field IN (
+'ResumenGlobalPostventa__c.MetaMensual__c',
+'ResumenGlobalPostventa__c.ContactadosMensual__c',
+'ResumenGlobalPostventa__c.PorcentajeAvanceMensual__c'
+)
+ORDER BY Field, Parent.Label

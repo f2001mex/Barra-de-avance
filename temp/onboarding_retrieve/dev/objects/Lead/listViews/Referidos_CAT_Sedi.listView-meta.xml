@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Referidos_CAT_Sedi</fullName>
+    <booleanFilter>1 OR 2</booleanFilter>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>FinServ__ReferredByUser__c</columns>
+    <columns>CREATEDBY_USER.ALIAS</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>FinServ__ReferredByUser__c</field>
+        <operation>equals</operation>
+        <value>Alejandra Gutierrez Garcia,Cintia Vianney Morales Reyes,Melani Yerusi Azamar Diaz,Daniela Perez Barrera,Fernando Marcos Segura Ortiz,Carlos Andres Montiel Vega,Rodrigo Cruz Mohedano</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER.ALIAS</field>
+        <operation>contains</operation>
+        <value>dperez,cmorales,mazamar,agutierrez,fsegura,cmontiel,rcruzm</value>
+    </filters>
+    <label>Referidos CAT Sedi</label>
+    <sharedTo>
+        <group>Consultores_Patrimoniales</group>
+    </sharedTo>
+</ListView>

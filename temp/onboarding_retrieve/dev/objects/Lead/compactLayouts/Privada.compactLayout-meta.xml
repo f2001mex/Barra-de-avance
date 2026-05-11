@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Privada</fullName>
+    <fields>Name</fields>
+    <fields>Company</fields>
+    <fields>MontoEstimadoDeInversion__c</fields>
+    <fields>PosibilidaDeCierre__c</fields>
+    <label>Privada</label>
+</CompactLayout>

@@ -1,0 +1,4 @@
+SELECT COUNT()
+FROM Account
+WHERE ID_Asesor__c = '65035'
+AND ContactoPriorizadoEsteMes__c = true

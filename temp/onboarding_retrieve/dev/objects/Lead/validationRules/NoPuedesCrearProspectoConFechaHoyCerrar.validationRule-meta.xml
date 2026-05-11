@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>NoPuedesCrearProspectoConFechaHoyCerrar</fullName>
+    <active>true</active>
+    <description>RV donde valida que no puede crear prospectos que lo cierre hoy</description>
+    <errorConditionFormula>AND(
+    ISNEW(),
+    FechaEstimadaDeCierre__c = TODAY(),
+    OR(
+        RecordType.Name = &quot;Wealth Management&quot;,
+        RecordType.Name = &quot;Privada&quot;
+    )
+)</errorConditionFormula>
+    <errorDisplayField>FechaEstimadaDeCierre__c</errorDisplayField>
+    <errorMessage>No puedes crear prospectos con fecha de hoy a cerrar.</errorMessage>
+</ValidationRule>

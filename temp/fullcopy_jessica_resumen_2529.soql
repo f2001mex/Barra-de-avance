@@ -1,0 +1,6 @@
+SELECT Id, Name, Fecha__c, Meta__c, MetaMensual__c, Contactados__c, ContactadosMensual__c
+FROM ResumenGlobalPostventa__c
+WHERE ExternalId_Nomina__c = '65035'
+AND Fecha__c >= 2026-04-25
+AND Fecha__c <= 2026-04-29
+ORDER BY Fecha__c

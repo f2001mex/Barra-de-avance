@@ -1,0 +1,4 @@
+SELECT CronJobDetail.Name, State, NextFireTime, PreviousFireTime
+FROM CronTrigger
+WHERE CronJobDetail.Name IN ('PSTA_SegmentacionClientes','PSTA PostCarga Postventa Nocturno','PSTA_ResetearEstatusContacto','PV_GenerarTareasPeriodicas','PSTA_RegistroResumenGlobalMensual')
+ORDER BY CronJobDetail.Name

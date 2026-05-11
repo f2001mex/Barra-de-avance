@@ -1,0 +1,5 @@
+SELECT DeveloperName, TableEnumOrId
+FROM CustomField
+WHERE TableEnumOrId='Task'
+  AND (DeveloperName LIKE '%Gestion%' OR DeveloperName LIKE '%Churn%' OR DeveloperName LIKE '%fuga%' OR DeveloperName LIKE '%contact%')
+ORDER BY DeveloperName

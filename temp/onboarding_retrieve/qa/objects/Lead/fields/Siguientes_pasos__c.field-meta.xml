@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Siguientes_pasos__c</fullName>
+    <label>Siguientes pasos</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Cliente_Acepta_oferta__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Propuesta no cubre necesidad y requiere realizar nuevo análisis</fullName>
+                <default>false</default>
+                <label>Propuesta no cubre necesidad y requiere realizar nuevo análisis</label>
+            </value>
+            <value>
+                <fullName>Cliente no acepta propuesta y desea que se le de seguimiento posteriormente</fullName>
+                <default>false</default>
+                <label>Cliente no acepta propuesta y desea que se le de seguimiento posteriormente</label>
+            </value>
+            <value>
+                <fullName>Cliente no acepta propuesta y no tiene interés</fullName>
+                <default>false</default>
+                <label>Cliente no acepta propuesta y no tiene interés</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>Propuesta no cubre necesidad y requiere realizar nuevo análisis</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>Cliente no acepta propuesta y desea que se le de seguimiento posteriormente</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>NO</controllingFieldValue>
+            <valueName>Cliente no acepta propuesta y no tiene interés</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

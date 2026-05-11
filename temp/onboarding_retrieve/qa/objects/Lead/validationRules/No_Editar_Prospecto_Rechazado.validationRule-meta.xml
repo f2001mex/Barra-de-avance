@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>No_Editar_Prospecto_Rechazado</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND
+(
+RecordType.Name = &quot;Wealth Management&quot;,
+ISPICKVAL( PRIORVALUE(Status), &quot;Rechazado&quot;),
+NOT($Permission.bypassValidationRules)
+)
+||
+
+AND
+(
+RecordType.Name = &quot;Privada&quot;,
+ISPICKVAL( PRIORVALUE(Status), &quot;Rechazado&quot;),
+NOT($Permission.bypassValidationRules)
+)</errorConditionFormula>
+    <errorMessage>No puedes modificar un prospecto que tiene el estado &quot;Rechazado&quot;.</errorMessage>
+</ValidationRule>

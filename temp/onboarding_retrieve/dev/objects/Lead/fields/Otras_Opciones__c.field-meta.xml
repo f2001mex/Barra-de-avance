@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Otras_Opciones__c</fullName>
+    <label>Otras Opciones</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Motivo_No_Convertido__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Créditos</fullName>
+                <default>false</default>
+                <label>Créditos</label>
+            </value>
+            <value>
+                <fullName>Préstamos</fullName>
+                <default>false</default>
+                <label>Préstamos</label>
+            </value>
+            <value>
+                <fullName>TCC</fullName>
+                <default>false</default>
+                <label>TCC</label>
+            </value>
+            <value>
+                <fullName>Afore</fullName>
+                <default>false</default>
+                <label>Afore</label>
+            </value>
+            <value>
+                <fullName>Apoyos gubernamentales</fullName>
+                <default>false</default>
+                <label>Apoyos gubernamentales</label>
+            </value>
+            <value>
+                <fullName>Becas</fullName>
+                <default>false</default>
+                <label>Becas</label>
+            </value>
+            <value>
+                <fullName>Bienes inmuebles</fullName>
+                <default>false</default>
+                <label>Bienes inmuebles</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>Otros Productos</controllingFieldValue>
+            <valueName>Créditos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros Productos</controllingFieldValue>
+            <valueName>Préstamos</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros Productos</controllingFieldValue>
+            <valueName>TCC</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros Productos</controllingFieldValue>
+            <valueName>Afore</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros Productos</controllingFieldValue>
+            <valueName>Apoyos gubernamentales</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros Productos</controllingFieldValue>
+            <valueName>Becas</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>Otros Productos</controllingFieldValue>
+            <valueName>Bienes inmuebles</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

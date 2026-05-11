@@ -1,0 +1,5 @@
+SELECT COUNT()
+FROM Account
+WHERE ContactoPriorizadoEsteMes__c = true
+AND PriorizacionContacto__c = true
+AND EstatusContacto__c = 'Pendiente'

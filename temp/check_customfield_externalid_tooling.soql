@@ -1,0 +1,5 @@
+SELECT Id, DeveloperName, TableEnumOrId
+FROM CustomField
+WHERE TableEnumOrId = 'ResumenGlobalPostventa__c'
+AND DeveloperName LIKE 'ExternalId%'
+ORDER BY DeveloperName

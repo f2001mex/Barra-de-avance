@@ -1,0 +1,5 @@
+SELECT Id, DeveloperName, Title, FolderName, LastModifiedDate
+FROM Dashboard
+WHERE FolderName = 'Postventa'
+  AND DeveloperName IN ('Meta_mensual_resumen_global','Estatus_contacto_clientes_resumen_global')
+ORDER BY DeveloperName

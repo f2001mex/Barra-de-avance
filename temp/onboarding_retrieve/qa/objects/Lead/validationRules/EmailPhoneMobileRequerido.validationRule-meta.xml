@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>EmailPhoneMobileRequerido</fullName>
+    <active>true</active>
+    <description>Regla de validación donde un dato sea requerido ya sea el email o mobile.</description>
+    <errorConditionFormula>AND
+(
+ISBLANK(Email),
+ISBLANK(MobilePhone),
+ISBLANK(Phone),
+RecordType.Name = &quot;Wealth Management&quot;
+)
+
+||
+
+AND
+(
+ISBLANK(Email),
+ISBLANK(MobilePhone),
+ISBLANK(Phone),
+RecordType.Name = &quot;Privada&quot;
+)
+
+||
+
+AND
+(
+ISBLANK(Email),
+ISBLANK(MobilePhone),
+ISBLANK(Phone),
+RecordType.Name = &quot;General&quot;
+)</errorConditionFormula>
+    <errorMessage>Debes tener un dato mínimo como Email, Teléfono o Celular.</errorMessage>
+</ValidationRule>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FWY_Actividad_registrada__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Campo bandera que se actualiza cuando existe una actividad relacionada al prospecto</description>
+    <label>Actividad registrada</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

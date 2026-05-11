@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Solicitud_BP</fullName>
+    <active>true</active>
+    <description>Regla de validación para que el usuario complete todos los campos mínimos requeridos de la sección de BP</description>
+    <errorConditionFormula>IF(ISCHANGED(F3_Se_completaron_campos_minimos__c) &amp;&amp; F3_Se_completaron_campos_minimos__c=TRUE,
+ AND(OR(
+            ISBLANK(Apellido_Materno__c),
+            ISPICKVAL(Gender__c, &apos;&apos;),
+            ISPICKVAL(Estado_Nacimiento__c, &apos;&apos;),
+            ISBLANK(F3_CURP__c),
+            ISPICKVAL(F3_Nacionalidad__c, &apos;&apos;),
+            ISNULL(Fecha_Nacimiento_Prospecto__c),
+            ISBLANK(F3_RFC__c), 
+            ISPICKVAL(Tipo_de_Persona__c,&apos;&apos;),
+            ISPICKVAL(Clasificacion_Persona__c, &apos;&apos;),
+            ISPICKVAL(F3_Estado_Civil__c, &apos;&apos;),
+            ISPICKVAL(Pais_Nacimiento__c, &apos;&apos;),
+            ISBLANK(Email),
+            ISBLANK(Phone))
+            ,
+            OR(RecordType.DeveloperName  = &apos;Planes_Beneficio_Fiscal_Prospecto&apos;,
+  RecordType.DeveloperName  = &apos;Casa_de_Bolsa_Prospecto&apos;, 
+  RecordType.DeveloperName = &apos;Prospecto&apos;) ,
+NOT($Permission.bypassValidationRules)),
+false)</errorConditionFormula>
+    <errorDisplayField>F3_Se_completaron_campos_minimos__c</errorDisplayField>
+    <errorMessage>Favor de completar todos los campos requeridos de la sección Campos de BP para poder solicitar la creación de BP
+Nota: No podrás avanzar a otra etapa diferente a Formalización y Validación</errorMessage>
+</ValidationRule>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BanqueroAsignado__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <label>Banquero asignado</label>
+    <lookupFilter>
+        <active>true</active>
+        <filterItems>
+            <field>BranchUnitBusinessMember.IsActive</field>
+            <operation>equals</operation>
+            <value>True</value>
+        </filterItems>
+        <isOptional>false</isOptional>
+    </lookupFilter>
+    <referenceTo>BranchUnitBusinessMember</referenceTo>
+    <relationshipLabel>Leads &amp; Referrals</relationshipLabel>
+    <relationshipName>LeadsReferrals</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

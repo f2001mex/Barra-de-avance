@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Migraci_n_Prospectos_Hubspot</fullName>
+    <booleanFilter>(1 AND 2) AND 3</booleanFilter>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>StageName__c</columns>
+    <columns>FinServ__ExpressedInterest__c</columns>
+    <columns>Inversion_Inicial__c</columns>
+    <columns>LEAD.LEAD_SOURCE</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>Numero_Telefono__c</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>greaterOrEqual</operation>
+        <value>6/9/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>LEAD.CREATED_DATE</field>
+        <operation>lessOrEqual</operation>
+        <value>6/10/2022 12:00 AM</value>
+    </filters>
+    <filters>
+        <field>CREATEDBY_USER.ALIAS</field>
+        <operation>contains</operation>
+        <value>jaburto</value>
+    </filters>
+    <label>Migración Prospectos Hubspot</label>
+</ListView>

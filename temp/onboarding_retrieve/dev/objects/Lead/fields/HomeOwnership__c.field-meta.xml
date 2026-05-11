@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>HomeOwnership__c</fullName>
+    <description>The ownership status of the referred individual&apos;s primary residence</description>
+    <externalId>false</externalId>
+    <formula>TEXT(FinServ__RelatedAccount__r.FinServ__HomeOwnership__pc)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Home Ownership</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

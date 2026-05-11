@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CargaMasivaEventos</fullName>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Tipo_Banca__c</columns>
+    <columns>F3_Tipo_Banca__c</columns>
+    <columns>Tipo__c</columns>
+    <columns>F3_Region__c</columns>
+    <columns>Regi_n__c</columns>
+    <filterScope>Everything</filterScope>
+    <filters>
+        <field>Regi_n__c</field>
+        <operation>contains</operation>
+    </filters>
+    <filters>
+        <field>Tipo__c</field>
+        <operation>contains</operation>
+        <value>prospecto</value>
+    </filters>
+    <label>Carga masiva eventos</label>
+</ListView>

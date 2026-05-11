@@ -1,0 +1,130 @@
+<template>
+    <lightning-card title="Meta mensual Patrimonial" icon-name="standard:dashboard">
+        <div class="header-meta slds-p-horizontal_medium slds-p-bottom_small">
+            <span>Fecha: {targetDateLabel}</span>
+            <span>Asesores visibles: {totalAsesores}</span>
+        </div>
+
+        <template if:true={hasData}>
+            <div class="summary-grid slds-p-horizontal_medium slds-p-bottom_medium">
+                <div class="summary-section">
+                    <div class="section-title">Meta mensual</div>
+                    <div class="kpi-grid">
+                        <div class="kpi-tile">
+                            <div class="kpi-label">Meta mensual total</div>
+                            <div class="kpi-value">{metaMensualTotal}</div>
+                        </div>
+                        <div class="kpi-tile">
+                            <div class="kpi-label">Contactados mensual</div>
+                            <div class="kpi-value">{contactadosMensualTotal}</div>
+                        </div>
+                        <div class="kpi-tile">
+                            <div class="kpi-label">% avance mensual</div>
+                            <lightning-formatted-number
+                                value={porcentajeMensualTotal}
+                                format-style="percent"
+                                maximum-fraction-digits="2">
+                            </lightning-formatted-number>
+                        </div>
+                    </div>
+
+                    <div class="gauge-wrap">
+                        <div class="gauge-title">Avance mensual</div>
+                        <div class="gauge-card gauge-card-monthly">
+                            <svg viewBox="0 0 220 150" class="gauge-svg" aria-hidden="true">
+                                <template for:each={monthlyGauge.segments} for:item="segment">
+                                    <path key={segment.key} d={segment.path} class={segment.className}></path>
+                                </template>
+                                <template for:each={monthlyGauge.ticks} for:item="tick">
+                                    <g key={tick.key}>
+                                        <line x1={tick.x1} y1={tick.y1} x2={tick.x2} y2={tick.y2} class="gauge-tick"></line>
+                                        <text x={tick.labelX} y={tick.labelY} class="gauge-label">{tick.label}</text>
+                                    </g>
+                                </template>
+                                <path d={monthlyGauge.pointerPath} class="gauge-pointer"></path>
+                                <circle cx={monthlyGauge.centerX} cy={monthlyGauge.centerY} r="9" class="gauge-cap"></circle>
+                            </svg>
+                            <div class="gauge-value">
+                                <lightning-formatted-number
+                                    value={porcentajeMensualTotal}
+                                    format-style="percent"
+                                    maximum-fraction-digits="0">
+                                </lightning-formatted-number>
+                            </div>
+                            <div class="gauge-caption">{monthlyGauge.caption}</div>
+                            <button class="report-link" onclick={openMonthlyReport}>Ver reporte mensual</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="summary-section">
+                    <div class="section-title">Meta diaria</div>
+                    <div class="kpi-grid">
+                        <div class="kpi-tile">
+                            <div class="kpi-label">Meta diaria total</div>
+                            <div class="kpi-value">{metaDiariaTotal}</div>
+                        </div>
+                        <div class="kpi-tile">
+                            <div class="kpi-label">Contactados hoy</div>
+                            <div class="kpi-value">{contactadosHoyTotal}</div>
+                        </div>
+                        <div class="kpi-tile">
+                            <div class="kpi-label">% avance diario</div>
+                            <lightning-formatted-number
+                                value={porcentajeDiarioTotal}
+                                format-style="percent"
+                                maximum-fraction-digits="2">
+                            </lightning-formatted-number>
+                        </div>
+                    </div>
+
+                    <div class="gauge-wrap">
+                        <div class="gauge-title">Avance diario</div>
+                        <div class="gauge-card gauge-card-daily">
+                            <svg viewBox="0 0 220 150" class="gauge-svg" aria-hidden="true">
+                                <template for:each={dailyGauge.segments} for:item="segment">
+                                    <path key={segment.key} d={segment.path} class={segment.className}></path>
+                                </template>
+                                <template for:each={dailyGauge.ticks} for:item="tick">
+                                    <g key={tick.key}>
+                                        <line x1={tick.x1} y1={tick.y1} x2={tick.x2} y2={tick.y2} class="gauge-tick"></line>
+                                        <text x={tick.labelX} y={tick.labelY} class="gauge-label">{tick.label}</text>
+                                    </g>
+                                </template>
+                                <path d={dailyGauge.pointerPath} class="gauge-pointer"></path>
+                                <circle cx={dailyGauge.centerX} cy={dailyGauge.centerY} r="9" class="gauge-cap"></circle>
+                            </svg>
+                            <div class="gauge-value">
+                                <lightning-formatted-number
+                                    value={porcentajeDiarioTotal}
+                                    format-style="percent"
+                                    maximum-fraction-digits="0">
+                                </lightning-formatted-number>
+                            </div>
+                            <div class="gauge-caption">{dailyGauge.caption}</div>
+                            <button class="report-link" onclick={openDetailReport}>Ver reporte diario y mensual</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-wrap">
+                <lightning-datatable
+                    key-field="summaryId"
+                    data={rows}
+                    columns={columns}
+                    hide-checkbox-column>
+                </lightning-datatable>
+            </div>
+        </template>
+
+        <template if:false={hasData}>
+            <template if:true={error}>
+                <div class="state-message slds-p-around_medium">{errorMessage}</div>
+            </template>
+            <template if:false={error}>
+                <div class="state-message slds-p-around_medium">No hay registros de resumen global para hoy.</div>
+            </template>
+        </template>
+    </lightning-card>
+</template>

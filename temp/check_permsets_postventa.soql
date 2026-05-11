@@ -1,0 +1,4 @@
+SELECT Id, Name, Label, IsOwnedByProfile
+FROM PermissionSet
+WHERE Label IN ('Administrador Postventa','Banquero Postventa','Director Postventa')
+ORDER BY Label

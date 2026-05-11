@@ -1,0 +1,29 @@
+<template>
+    <lightning-card title="Avance Ficha de Afinidad" icon-name="standard:account">
+        <div class="slds-p-horizontal_medium slds-p-vertical_small">
+            <template if:true={hasRecord}>
+                <div class="value-row">
+                    <span class="label">Progreso</span>
+                    <span class="value">{displayPercent}</span>
+                </div>
+                <div
+                    class="progress-track"
+                    role="progressbar"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    aria-valuenow={percent}
+                >
+                    <div class="progress-fill" style={progressStyle}></div>
+                </div>
+            </template>
+            <template if:false={hasRecord}>
+                <template if:true={record.error}>
+                    <p class="error">No se pudo cargar el porcentaje.</p>
+                </template>
+                <template if:false={record.error}>
+                    <lightning-spinner size="small"></lightning-spinner>
+                </template>
+            </template>
+        </div>
+    </lightning-card>
+</template>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Competencia__c</fullName>
+    <description>Competencia track de seguros</description>
+    <label>Competencia</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <controllingField>Motivo_No_Convertido__c</controllingField>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Allianz</fullName>
+                <default>false</default>
+                <label>Allianz</label>
+            </value>
+            <value>
+                <fullName>BBVA</fullName>
+                <default>false</default>
+                <label>BBVA</label>
+            </value>
+            <value>
+                <fullName>Chubb</fullName>
+                <default>false</default>
+                <label>Chubb</label>
+            </value>
+            <value>
+                <fullName>Citibanamex</fullName>
+                <default>false</default>
+                <label>Citibanamex</label>
+            </value>
+            <value>
+                <fullName>GNP Seguros</fullName>
+                <default>false</default>
+                <label>GNP Seguros</label>
+            </value>
+            <value>
+                <fullName>Inbursa</fullName>
+                <default>false</default>
+                <label>Inbursa</label>
+            </value>
+            <value>
+                <fullName>Metlife</fullName>
+                <default>false</default>
+                <label>Metlife</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>Seguros Monterrey</fullName>
+                <default>false</default>
+                <label>Seguros Monterrey</label>
+            </value>
+            <value>
+                <fullName>Zurich</fullName>
+                <default>false</default>
+                <label>Zurich</label>
+            </value>
+        </valueSetDefinition>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia</controllingFieldValue>
+            <valueName>Allianz</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia</controllingFieldValue>
+            <valueName>BBVA</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia</controllingFieldValue>
+            <valueName>Chubb</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia</controllingFieldValue>
+            <valueName>Citibanamex</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia</controllingFieldValue>
+            <valueName>GNP Seguros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia</controllingFieldValue>
+            <valueName>Inbursa</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia</controllingFieldValue>
+            <valueName>Metlife</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia</controllingFieldValue>
+            <valueName>Otros</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia</controllingFieldValue>
+            <valueName>Seguros Monterrey</valueName>
+        </valueSettings>
+        <valueSettings>
+            <controllingFieldValue>El cliente se fue con la competencia</controllingFieldValue>
+            <valueName>Zurich</valueName>
+        </valueSettings>
+    </valueSet>
+</CustomField>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Edad__c</fullName>
+    <label>Edad</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Entre 18 y 25 años</fullName>
+                <default>false</default>
+                <label>Entre 18 y 25 años</label>
+            </value>
+            <value>
+                <fullName>Entre 26 y 35 años</fullName>
+                <default>false</default>
+                <label>Entre 26 y 35 años</label>
+            </value>
+            <value>
+                <fullName>Entre 36 y 45 años</fullName>
+                <default>false</default>
+                <label>Entre 36 y 45 años</label>
+            </value>
+            <value>
+                <fullName>46 años o más</fullName>
+                <default>false</default>
+                <label>46 años o más</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

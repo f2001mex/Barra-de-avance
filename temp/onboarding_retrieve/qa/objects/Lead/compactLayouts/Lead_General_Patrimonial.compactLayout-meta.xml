@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CompactLayout xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Lead_General_Patrimonial</fullName>
+    <fields>Name</fields>
+    <fields>Phone</fields>
+    <fields>MobilePhone</fields>
+    <fields>Email</fields>
+    <fields>OwnerId</fields>
+    <fields>Patrim_TipoProspecto__c</fields>
+    <label>Lead General Patrimonial</label>
+</CompactLayout>

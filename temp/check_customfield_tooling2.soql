@@ -1,0 +1,5 @@
+SELECT DeveloperName, TableEnumOrId
+FROM CustomField
+WHERE TableEnumOrId = 'ResumenGlobalPostventa__c'
+AND DeveloperName IN ('MetaMensual','ContactadosMensual','PorcentajeAvanceMensual')
+ORDER BY DeveloperName

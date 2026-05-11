@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Presentacion_de_Oferta</fullName>
+    <active>true</active>
+    <description>Regla de validación para que el usuario complete todos los campos mínimos requeridos de la sección de Presentación de Oferta</description>
+    <errorConditionFormula>OR(
+AND(
+  ISPICKVAL(PRIORVALUE(Status), &apos;Presentación de oferta&apos;),
+  ISPICKVAL(Status, &apos;Solicitar documentación&apos;),
+  OR(
+     ISPICKVAL(Cliente_Acepta_oferta__c, &apos;&apos;),
+     ISPICKVAL(Cliente_Acepta_oferta__c, &apos;NO&apos;),
+     AND( 
+         ISPICKVAL(Cliente_Acepta_oferta__c, &apos;NO&apos;),
+         ISPICKVAL(Siguientes_pasos__c, &apos;&apos;),
+         NOT($Permission.bypassValidationRules)
+        )
+     )
+   ),
+AND(
+    ISPICKVAL(PRIORVALUE(Status), &apos;Presentación de oferta&apos;),
+    NOT(ISPICKVAL(Status, &apos;Presentación de oferta&apos;)),
+    NOT(ISPICKVAL(Status, &apos;Solicitar documentación&apos;)),
+    NOT(ISPICKVAL(Status, &apos;Identificar Necesidades&apos;)),
+    NOT(ISPICKVAL(Status, &apos;Cerrada Perdida&apos;)),
+    NOT(ISPICKVAL(Status, &apos;Recalendarización&apos;)),
+    NOT($Permission.bypassValidationRules)
+))</errorConditionFormula>
+    <errorMessage>Favor de seleccionar una opción, para poder avanzar a la siguiente etapa.
+Nota: No podrás avanzar a otra etapa diferente a &apos;Solicitar Documentación&apos;</errorMessage>
+</ValidationRule>

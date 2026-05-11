@@ -37,14 +37,6 @@ private class PSTA_PostCargaPostventa_tst {
         validAccount.FechaSiguienteContacto__c = Date.today();
         validAccount.FechaSiguienteVisita__c = Date.today();
 
-        OD_Account_cls.bypassTriggerExecution = true;
-        PSTA_ListadoClientes_cls.bypassTriggerExecution = true;
-        PSTA_Segmentacion_cls.bypassTriggerExecution = true;
-        update new List<Account>{ invalidAccount, validAccount };
-        OD_Account_cls.bypassTriggerExecution = false;
-        PSTA_ListadoClientes_cls.bypassTriggerExecution = false;
-        PSTA_Segmentacion_cls.bypassTriggerExecution = false;
-
         Contact invalidContact = new Contact(FirstName = 'Invalid', LastName = 'Contact', AccountId = invalidAccount.Id);
         Contact relatedContact = new Contact(FirstName = 'Valid', LastName = 'Contact', AccountId = validAccount.Id);
         insert new List<Contact>{ invalidContact, relatedContact };

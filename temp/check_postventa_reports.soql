@@ -1,0 +1,5 @@
+SELECT Id, DeveloperName, Name, FolderName, LastModifiedDate
+FROM Report
+WHERE FolderName = 'Postventa'
+  AND DeveloperName IN ('Meta_mensual_resumen_global','Resumen_Global_Diario_Mensual')
+ORDER BY DeveloperName

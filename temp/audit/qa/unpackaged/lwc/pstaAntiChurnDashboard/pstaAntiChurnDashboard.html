@@ -1,0 +1,160 @@
+<template>
+    <lightning-card title="Dashboard Anti-Churn" icon-name="standard:dashboard">
+        <div class="header-meta slds-p-horizontal_medium slds-p-bottom_small">
+            <span>Fecha: {generatedDate}</span>
+            <span>Clientes piloto: {totalPilotClients}</span>
+            <span>Actividades Anti-Churn: {totalActivities}</span>
+        </div>
+
+        <template if:true={hasData}>
+            <div class="kpi-grid slds-p-horizontal_medium slds-p-bottom_medium">
+                <div class="kpi-tile kpi-hero">
+                    <div class="kpi-label">Clientes en Riesgo Alto con actividad asignada</div>
+                    <lightning-formatted-number
+                        class="kpi-value"
+                        value={highRiskAssignedPct}
+                        format-style="percent-fixed"
+                        maximum-fraction-digits="2">
+                    </lightning-formatted-number>
+                    <div class="kpi-footnote">{highRiskClientsWithActivity} de {totalPilotClients} clientes</div>
+                </div>
+
+                <div class="kpi-tile">
+                    <div class="kpi-label">Actividades positivas</div>
+                    <div class="kpi-value">{positiveActivities}</div>
+                </div>
+
+                <div class="kpi-tile">
+                    <div class="kpi-label">Actividades negativas</div>
+                    <div class="kpi-value">{negativeActivities}</div>
+                </div>
+
+                <div class="kpi-tile">
+                    <div class="kpi-label">Actividades sin contacto</div>
+                    <div class="kpi-value">{noContactActivities}</div>
+                </div>
+
+                <div class="kpi-tile">
+                    <div class="kpi-label">Actividades nulas</div>
+                    <div class="kpi-value">{pendingActivities}</div>
+                </div>
+
+                <div class="kpi-tile">
+                    <div class="kpi-label">Tiempo promedio de contacto</div>
+                    <div class="kpi-value">
+                        <lightning-formatted-number
+                            value={avgContactDays}
+                            maximum-fraction-digits="2">
+                        </lightning-formatted-number>
+                    </div>
+                    <div class="kpi-footnote">Horas</div>
+                </div>
+
+                <div class="kpi-tile">
+                    <div class="kpi-label">Tasa de contacto efectivo</div>
+                    <lightning-formatted-number
+                        class="kpi-value"
+                        value={effectiveContactRate}
+                        format-style="percent-fixed"
+                        maximum-fraction-digits="2">
+                    </lightning-formatted-number>
+                </div>
+
+                <div class="kpi-tile">
+                    <div class="kpi-label">Variacion de churn en segmento piloto</div>
+                    <lightning-formatted-number
+                        class="kpi-value"
+                        value={churnVariationPct}
+                        format-style="percent-fixed"
+                        maximum-fraction-digits="2">
+                    </lightning-formatted-number>
+                </div>
+            </div>
+
+            <div class="content-grid slds-p-horizontal_medium slds-p-bottom_medium">
+                <section class="panel">
+                    <div class="panel-title">Motivo de fuga identificado</div>
+
+                    <template if:true={hasMotivos}>
+                        <div class="donut-layout">
+                            <div class="donut-shell">
+                                <div class="donut-chart" style={motivoChartStyle}>
+                                    <div class="donut-center">
+                                        <span>Motivos</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="legend-list">
+                                <template for:each={motiveLegend} for:item="slice">
+                                    <div key={slice.key} class="legend-row">
+                                        <span class="legend-chip" style={slice.colorStyle}></span>
+                                        <div class="legend-copy">
+                                            <div class="legend-label">{slice.label}</div>
+                                            <div class="legend-meta">
+                                                <span>{slice.count}</span>
+                                                <lightning-formatted-number
+                                                    value={slice.percentage}
+                                                    format-style="percent-fixed"
+                                                    maximum-fraction-digits="2">
+                                                </lightning-formatted-number>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </template>
+                            </div>
+                        </div>
+                    </template>
+
+                    <template if:false={hasMotivos}>
+                        <div class="empty-state">Aun no hay actividades con "Motivo de fuga" capturado.</div>
+                    </template>
+                </section>
+
+                <section class="panel">
+                    <div class="panel-title">Contexto y navegacion</div>
+
+                    <div class="context-card">
+                        <div class="context-label">Definicion usada para el piloto</div>
+                        <div class="context-text">{pilotPopulationDefinition}</div>
+                    </div>
+
+                    <div class="result-grid">
+                        <div class="result-chip result-chip-positive">
+                            <span class="result-label">Retenido</span>
+                            <span class="result-value">{positiveActivities}</span>
+                        </div>
+                        <div class="result-chip result-chip-negative">
+                            <span class="result-label">No retenido</span>
+                            <span class="result-value">{negativeActivities}</span>
+                        </div>
+                        <div class="result-chip result-chip-neutral">
+                            <span class="result-label">No responde</span>
+                            <span class="result-value">{noContactActivities}</span>
+                        </div>
+                        <div class="result-chip result-chip-pending">
+                            <span class="result-label">Pendiente</span>
+                            <span class="result-value">{pendingActivities}</span>
+                        </div>
+                    </div>
+
+                    <div class="button-row">
+                        <button class="report-link" onclick={openHighRiskReport}>Ver reporte de clientes en riesgo</button>
+                        <button class="report-link" onclick={openActivitiesReport}>Ver reporte de actividades Anti-Churn</button>
+                    </div>
+                </section>
+            </div>
+        </template>
+
+        <template if:false={hasData}>
+            <template if:true={error}>
+                <div class="state-message slds-p-around_medium">{errorMessage}</div>
+            </template>
+            <template if:false={error}>
+                <div class="state-message slds-p-around_medium">
+                    No hay actividades Anti-Churn abiertas para el alcance actual.
+                </div>
+            </template>
+        </template>
+    </lightning-card>
+</template>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_No_Convertido__c</fullName>
+    <label>Motivo No Convertido</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Comisiones | Tasas</fullName>
+                <default>false</default>
+                <label>Comisiones | Tasas</label>
+            </value>
+            <value>
+                <fullName>Producto existente no cubre expectativas</fullName>
+                <default>false</default>
+                <label>Producto existente no cubre expectativas</label>
+            </value>
+            <value>
+                <fullName>Otros Productos</fullName>
+                <default>false</default>
+                <label>Otros Productos</label>
+            </value>
+            <value>
+                <fullName>Sin Recursos</fullName>
+                <default>false</default>
+                <label>Sin Recursos</label>
+            </value>
+            <value>
+                <fullName>Es cliente, lo usa como medio de contacto</fullName>
+                <default>false</default>
+                <label>Es cliente, lo usa como medio de contacto</label>
+            </value>
+            <value>
+                <fullName>Busca información</fullName>
+                <default>false</default>
+                <label>Busca información</label>
+            </value>
+            <value>
+                <fullName>No reconoce registro</fullName>
+                <default>false</default>
+                <label>No reconoce registro</label>
+            </value>
+            <value>
+                <fullName>No Cumple Expectativas del Cliente (Producto o Solución Inadecuado)</fullName>
+                <default>false</default>
+                <label>No Cumple Expectativas del Cliente (Producto o Solución Inadecuado)</label>
+            </value>
+            <value>
+                <fullName>La solución tardó más de lo esperado( falta de seguimiento asesor)</fullName>
+                <default>false</default>
+                <label>La solución tardó más de lo esperado( falta de seguimiento asesor)</label>
+            </value>
+            <value>
+                <fullName>Falta de seguimiento áreas involucradas (excede el tiempo de respuesta por áreas que dan servicio a asesoría (Front), sobrepasa los SLA´s)</fullName>
+                <default>false</default>
+                <label>Falta de seguimiento áreas involucradas (excede el tiempo de respuesta por áreas que dan servicio a asesoría (Front), sobrepasa los SLA´s)</label>
+            </value>
+            <value>
+                <fullName>El cliente se fue con la competencia</fullName>
+                <default>false</default>
+                <label>El cliente se fue con la competencia</label>
+            </value>
+            <value>
+                <fullName>No es atractiva la promoción / Costo</fullName>
+                <default>false</default>
+                <label>No es atractiva la promoción / Costo</label>
+            </value>
+            <value>
+                <fullName>El paquete no se adapta a las necesidades del cliente</fullName>
+                <default>false</default>
+                <label>El paquete no se adapta a las necesidades del cliente</label>
+            </value>
+            <value>
+                <fullName>Fidelidad a su Broker / Aseguradora actual</fullName>
+                <default>false</default>
+                <label>Fidelidad a su Broker / Aseguradora actual</label>
+            </value>
+            <value>
+                <fullName>No le interesa / No da motivo</fullName>
+                <default>false</default>
+                <label>No le interesa / No da motivo</label>
+            </value>
+            <value>
+                <fullName>Exclusión por condiciones generales</fullName>
+                <default>false</default>
+                <label>Exclusión por condiciones generales</label>
+            </value>
+            <value>
+                <fullName>Malas experiencias con la aseguradora</fullName>
+                <default>false</default>
+                <label>Malas experiencias con la aseguradora</label>
+            </value>
+            <value>
+                <fullName>No se respetaron las condiciones de la póliza actual</fullName>
+                <default>false</default>
+                <label>No se respetaron las condiciones de la póliza actual</label>
+            </value>
+            <value>
+                <fullName>Su aseguradora es Mapfre</fullName>
+                <default>false</default>
+                <label>Su aseguradora es Mapfre</label>
+            </value>
+            <value>
+                <fullName>Tiempo de respuesta</fullName>
+                <default>false</default>
+                <label>Tiempo de respuesta</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>No pertenece al Segmento</fullName>
+                <default>false</default>
+                <label>No pertenece al Segmento</label>
+            </value>
+            <value>
+                <fullName>El Cliente se fue con la competencia. (Habilitar la opción de competencia)</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>El Cliente se fue con la competencia. (Habilitar la opción de competencia)</label>
+            </value>
+            <value>
+                <fullName>Es cliente</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Es cliente</label>
+            </value>
+            <value>
+                <fullName>No Interesado</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No Interesado</label>
+            </value>
+            <value>
+                <fullName>No interesado, se registro por error</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No interesado, se registró por error</label>
+            </value>
+            <value>
+                <fullName>No interesado, solo buscaba información.</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No interesado, solo buscaba información</label>
+            </value>
+            <value>
+                <fullName>Ya es cliente</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ya es cliente</label>
+            </value>
+            <value>
+                <fullName>Ya lo contactaron</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Ya lo contactaron</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

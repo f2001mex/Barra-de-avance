@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Ocupacion__c</fullName>
+    <description>Clasificación de persona</description>
+    <label>Ocupación</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Empleado</fullName>
+                <default>false</default>
+                <label>Empleado</label>
+            </value>
+            <value>
+                <fullName>Profesionista Independiente</fullName>
+                <default>false</default>
+                <label>Profesionista Independiente</label>
+            </value>
+            <value>
+                <fullName>Sin Actividad Económica</fullName>
+                <default>false</default>
+                <label>Sin Actividad Económica</label>
+            </value>
+            <value>
+                <fullName>Actividad Empresarial</fullName>
+                <default>false</default>
+                <label>Actividad Empresarial</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>No Aplica</fullName>
+                <default>false</default>
+                <label>No Aplica</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

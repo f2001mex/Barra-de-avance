@@ -131,4 +131,32 @@ public class PV_GenerarTareasPeriodicas_bch_Test {
 
         System.assert(true, 'Batch con contrato ejecutado sin errores.');
     }
+
+    @isTest static void testExecuteDirectWithOverrides() {
+        User user = createTestUser();
+        BranchUnit branchUnit = createTestBranchUnit();
+        Id bankerMemberId = createBankerMembership(user, branchUnit);
+        Account account = createTestAccount(user, bankerMemberId);
+
+        ActionCadence cadence = (ActionCadence) JSON.deserialize('{}', ActionCadence.class);
+        cadence.DeveloperName__c = PSTA_UtilityClass.DEVELOPERNAME_BIOMETRICOS;
+        cadence.TareaUnicaPorCuenta__c = true;
+
+        PV_GenerarTareasPeriodicasSelector_cls.testCadenceOverride = new List<ActionCadence>{ cadence };
+        PV_GenerarTareasPeriodicas.testCuentasValidasOverride = new List<Account>{ account };
+        PV_GenerarTareasPeriodicas.testAvailableCadenceContactIdsOverride = new Set<Id>{ UserInfo.getUserId() };
+        PV_GenerarTareasPeriodicas.testUseValidContractFilter = true;
+        PV_GenerarTareasPeriodicas.testValidContractAccountIdsOverride = new Set<Id>{ UserInfo.getUserId() };
+        try {
+            new PV_GenerarTareasPeriodicas_bch().execute(null, new List<SObject>{ account });
+            new PV_GenerarTareasPeriodicas_bch().finish(null);
+            System.assert(true, 'Ejecución directa cubierta');
+        } finally {
+            PV_GenerarTareasPeriodicasSelector_cls.testCadenceOverride = null;
+            PV_GenerarTareasPeriodicas.testCuentasValidasOverride = null;
+            PV_GenerarTareasPeriodicas.testAvailableCadenceContactIdsOverride = null;
+            PV_GenerarTareasPeriodicas.testValidContractAccountIdsOverride = null;
+            PV_GenerarTareasPeriodicas.testUseValidContractFilter = false;
+        }
+    }
 }

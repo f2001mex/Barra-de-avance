@@ -1,0 +1,8 @@
+SELECT Id, Name, BanqueroAsignado__c, Segmento__c, FechaUltimoContacto__c, FechaSiguienteContacto__c, PriorizacionContacto__c, ContactoPriorizadoEsteMes__c, EstatusContacto__c, LastModifiedDate
+FROM Account
+WHERE ContactoPriorizadoEsteMes__c = true
+AND PriorizacionContacto__c = true
+AND EstatusContacto__c = 'Pendiente'
+AND LastModifiedDate < TODAY
+ORDER BY LastModifiedDate ASC
+LIMIT 10

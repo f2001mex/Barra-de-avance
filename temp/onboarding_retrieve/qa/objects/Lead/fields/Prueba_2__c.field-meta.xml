@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Prueba_2__c</fullName>
+    <label>Estatus</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>true</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Asignado</fullName>
+                <default>false</default>
+                <label>Asignado</label>
+            </value>
+            <value>
+                <fullName>Contactado</fullName>
+                <default>false</default>
+                <label>Contactado</label>
+            </value>
+            <value>
+                <fullName>No Contactado</fullName>
+                <default>false</default>
+                <label>No Contactado</label>
+            </value>
+            <value>
+                <fullName>No Convertido</fullName>
+                <default>false</default>
+                <label>No Convertido</label>
+            </value>
+            <value>
+                <fullName>Convertido</fullName>
+                <default>false</default>
+                <label>Convertido</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

@@ -247,7 +247,7 @@ public class PSTA_RResumenMensual_cls_tst {
 
     @IsTest
     static void testMonthlyProgressIsCalculatedOnSummaryTrigger() {
-        String advisorId = '90001';
+        String advisorId = '9' + String.valueOf(System.now().getTime()).right(4);
         User user = createTestUser(advisorId);
         BranchUnit branchUnit = createBranchUnit(advisorId);
         Id bankerMemberId = createBankerMembership(user, branchUnit, advisorId, 'Privada');

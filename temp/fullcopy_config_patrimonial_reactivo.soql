@@ -1,0 +1,4 @@
+SELECT Segmento__c, RangoMontoMinimo__c, RangoMontoMaximo__c, ClientesContactarPorDia__c, FrecuenciaContacto__c, FrecuenciaVisita__c
+FROM ConfiguracionActinver__c
+WHERE RecordType.DeveloperName = 'ContactoPostventa'
+AND Segmento__c = 'Patrimonial reactivo'

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_No_Contactado__c</fullName>
+    <label>Motivo No Contactado</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Número de teléfono erróneo o incompleto</fullName>
+                <default>false</default>
+                <label>Número de teléfono erróneo o incompleto</label>
+            </value>
+            <value>
+                <fullName>No enlaza llamada o sin/fuera de servicio</fullName>
+                <default>false</default>
+                <label>No enlaza llamada o sin/fuera de servicio</label>
+            </value>
+            <value>
+                <fullName>Llamada desviada o direcciona a buzón de voz</fullName>
+                <default>false</default>
+                <label>Llamada desviada o direcciona a buzón de voz</label>
+            </value>
+            <value>
+                <fullName>Contesta y cuelga</fullName>
+                <default>false</default>
+                <label>Contesta y cuelga</label>
+            </value>
+            <value>
+                <fullName>Email inexistente</fullName>
+                <default>false</default>
+                <label>Email inexistente</label>
+            </value>
+            <value>
+                <fullName>Canal de contacto bloqueado</fullName>
+                <default>false</default>
+                <label>Canal de contacto bloqueado</label>
+            </value>
+            <value>
+                <fullName>No responde (mensaje |whatsapp | llamada | email)</fullName>
+                <default>false</default>
+                <label>No responde (mensaje |whatsapp | llamada | email)</label>
+            </value>
+            <value>
+                <fullName>Otros</fullName>
+                <default>false</default>
+                <label>Otros</label>
+            </value>
+            <value>
+                <fullName>Fallo o no entregado</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Fallo o no entregado</label>
+            </value>
+            <value>
+                <fullName>Intento Contacto</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Intento Contacto</label>
+            </value>
+            <value>
+                <fullName>No respondió</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>No respondió</label>
+            </value>
+            <value>
+                <fullName>Se intento contactar</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Se intentó contactar</label>
+            </value>
+            <value>
+                <fullName>Sin Respuesta</fullName>
+                <default>false</default>
+                <isActive>false</isActive>
+                <label>Sin Respuesta</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

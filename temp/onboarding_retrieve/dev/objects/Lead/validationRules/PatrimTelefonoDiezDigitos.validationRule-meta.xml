@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PatrimTelefonoDiezDigitos</fullName>
+    <active>true</active>
+    <description>Regla de validación donde el teléfono debe ir a 10 digitos.</description>
+    <errorConditionFormula>AND(
+  NOT(ISBLANK(Phone)),
+  LEN(
+    SUBSTITUTE(
+      SUBSTITUTE(
+        SUBSTITUTE(
+          SUBSTITUTE(
+            SUBSTITUTE(
+              Phone, &quot; &quot;, &quot;&quot;
+            ), &quot;(&quot;, &quot;&quot;
+          ), &quot;)&quot;, &quot;&quot;
+        ), &quot;-&quot;, &quot;&quot;
+      ), &quot;.&quot;, &quot;&quot;
+    )
+  ) &lt;&gt; 10
+)</errorConditionFormula>
+    <errorDisplayField>Phone</errorDisplayField>
+    <errorMessage>Debe contener 10 dígitos el teléfono.</errorMessage>
+</ValidationRule>

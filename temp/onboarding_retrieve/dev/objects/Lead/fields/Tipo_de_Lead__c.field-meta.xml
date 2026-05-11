@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Tipo_de_Lead__c</fullName>
+    <externalId>false</externalId>
+    <formula>CASE( RecordType.DeveloperName  , 
+					&apos;General&apos;, &apos;Posibilidad&apos;, 
+					&apos;Planes_Beneficio_Fiscal&apos;, &apos;Posibilidad&apos;,
+					&apos;Casa_de_Bolsa_Posibilidad&apos;, &apos;Posibilidad&apos;,
+					&apos;Seguros&apos;, &apos;Posibilidad&apos;,
+					&apos;Prospecto&apos;, &apos;Prospecto&apos;,
+					&apos;Planes_Beneficio_Fiscal_Prospecto&apos;, &apos;Prospecto&apos;,
+					&apos;Casa_de_Bolsa_Prospecto&apos;, &apos;Prospecto&apos;,
+					&apos;Seguros_Prospecto&apos;, &apos;Prospecto&apos;,
+					If(RecordType.DeveloperName = &apos;Prospecto_general_Privada&apos;,
+								CASE(Status, 
+													&apos;Asignado&apos;,   &apos;Posibilidad&apos;, 
+													&apos;Contactado&apos;,   &apos;Posibilidad&apos;,
+													&apos;No Contactado&apos;,   &apos;Posibilidad&apos;,
+													&apos;No Convertido&apos;,   &apos;Posibilidad&apos;,
+													&apos;Prospecto&apos;),
+								&apos;&apos;
+							) 
+				)</formula>
+    <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+    <label>Tipo de Lead</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>false</unique>
+</CustomField>

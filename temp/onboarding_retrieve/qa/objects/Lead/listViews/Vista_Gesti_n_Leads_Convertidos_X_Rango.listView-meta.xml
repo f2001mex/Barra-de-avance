@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vista_Gesti_n_Leads_Convertidos_X_Rango</fullName>
+    <columns>CR_GA_Fecha_Posibilidad_Convertida__c</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>LEAD.COMPANY</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Tipo__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CR_GA_Fecha_Posibilidad_Convertida__c</field>
+        <operation>greaterOrEqual</operation>
+        <value>7/1/2023</value>
+    </filters>
+    <filters>
+        <field>CR_GA_Fecha_Posibilidad_Convertida__c</field>
+        <operation>lessOrEqual</operation>
+        <value>8/31/2023</value>
+    </filters>
+    <label>Vista Gestión Leads Convertidos X Rango</label>
+</ListView>

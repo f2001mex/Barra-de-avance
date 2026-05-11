@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Solicitar_Documentacion_Seg</fullName>
+    <active>true</active>
+    <description>Regla de validación para que el usuario complete todos los campos mínimos requeridos de la sección cotización de póliza de seguros</description>
+    <errorConditionFormula>OR(
+AND(
+  ISPICKVAL(PRIORVALUE(Status), &apos;Solicitar documentación&apos;),
+  OR(
+      ISBLANK(Apellido_Materno__c),
+      ISBLANK(F3_Nombre_del_Asegurado__c),
+      ISBLANK(F3_Apellido_Paterno_Asegurado__c),
+      ISBLANK(F3_Apellido_Materno_Asegurado__c),
+      ISBLANK(F3_Fecha_de_Nacimiento_Asegurado__c),
+      ISPICKVAL(Gender__c, &apos;&apos;),
+      ISPICKVAL(F3_Estado__c, &apos;&apos;),
+      ISBLANK(Municipio_cliente__c),  
+      ISBLANK(F3_RFC__c),
+      ISBLANK(Email),
+      ISBLANK(Numero_Telefono__c),
+      ISBLANK(F3_Colonia__c), 
+      F3_Se_completaron_campos_minimos__c  = FALSE
+     ),
+      ISPICKVAL(Status, &apos;Formalización y Validación&apos;),
+      RecordType.DeveloperName  = &apos;Seguros_Prospecto&apos;,
+      NOT($Permission.bypassValidationRules)
+  ),
+  AND(
+      ISPICKVAL( PRIORVALUE(Status), &apos;Solicitar documentación&apos;),
+      NOT ( ISPICKVAL(Status, &apos;Solicitar documentación&apos;)),
+      NOT ( ISPICKVAL(Status, &apos;Formalización y Validación&apos;)),
+      NOT ( ISPICKVAL(Status, &apos;Cerrada Perdida&apos;)),
+      RecordType.DeveloperName  = &apos;Seguros_Prospecto&apos;,
+      NOT($Permission.bypassValidationRules)
+     )
+)</errorConditionFormula>
+    <errorMessage>Favor de completar todos los campos requeridos de la sección datos cotización de póliza de seguros para poder solicitar la creación de póliza de seguros.
+Nota: No podrás avanzar a otra etapa diferente a Formalización y Validación.</errorMessage>
+</ValidationRule>

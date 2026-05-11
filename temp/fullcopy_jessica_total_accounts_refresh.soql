@@ -1,0 +1,3 @@
+SELECT COUNT()
+FROM Account
+WHERE ID_Asesor__c = '65035'

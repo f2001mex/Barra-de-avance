@@ -8,7 +8,9 @@
 public class PV_GenerarTareasPeriodicas {
 
     private static Id businessHoursId = PV_GenerarTareasPeriodicasSelector_cls.getDiasLaborales();    
+    @TestVisible private static List<Account> testCuentasValidasOverride;
     @TestVisible private static Set<Id> testValidContractAccountIdsOverride;
+    @TestVisible private static Set<Id> testAvailableCadenceContactIdsOverride;
     @TestVisible private static Boolean testUseValidContractFilter = false;
     public static String planeacionFinanciera = PSTA_UtilityClass.DEVELOPERNAME_PLANEACION_FINANCIERA;
     public static String propuestaInversion = PSTA_UtilityClass.DEVELOPERNAME_PROPUESTA_INVERSION;
@@ -17,6 +19,9 @@ public class PV_GenerarTareasPeriodicas {
 
 
     public static List<Account> obtenerCuentasValidas(List<sObject> cuentasEntrada) {
+        if (Test.isRunningTest() && testCuentasValidasOverride != null) {
+            return new List<Account>(testCuentasValidasOverride);
+        }
         List<Account> cuentas = (List<Account>) cuentasEntrada;
         Set<Id> availableContactIds = getAccountsWithAvailableCadenceSlot(getContactsId(cuentas));//new Map<Id, Account>(cuentas).keySet();
         if (availableContactIds.isEmpty()) {
@@ -97,6 +102,9 @@ public class PV_GenerarTareasPeriodicas {
         }
 
         if (Test.isRunningTest()) {
+            if (testAvailableCadenceContactIdsOverride != null) {
+                return new Set<Id>(testAvailableCadenceContactIdsOverride);
+            }
             return accountIds;
         }
 

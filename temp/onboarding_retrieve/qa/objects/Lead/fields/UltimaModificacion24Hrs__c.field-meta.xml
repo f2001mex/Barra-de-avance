@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>UltimaModificacion24Hrs__c</fullName>
+    <description>Campo que valida si han pasado más de 24 horas desde la última vez que el registro fue modificado.</description>
+    <formula>(NOW() - LastModifiedDate) * 1440 &gt; 1</formula>
+    <label>Ultima Modificacion 24 hrs</label>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

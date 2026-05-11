@@ -1,0 +1,5 @@
+SELECT QualifiedApiName
+FROM FieldDefinition
+WHERE EntityDefinition.QualifiedApiName = 'ResumenGlobalPostventa__c'
+AND QualifiedApiName LIKE 'ExternalId%'
+ORDER BY QualifiedApiName

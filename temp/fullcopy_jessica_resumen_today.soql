@@ -1,0 +1,5 @@
+SELECT Id, Name, Fecha__c, ExternalId_Nomina__c, Meta__c, MetaMensual__c, Contactados__c, ContactadosMensual__c, OwnerId, CreatedDate, LastModifiedDate
+FROM ResumenGlobalPostventa__c
+WHERE ExternalId_Nomina__c = '65035'
+AND Fecha__c = TODAY
+ORDER BY CreatedDate DESC

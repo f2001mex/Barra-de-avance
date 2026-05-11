@@ -1,0 +1,4 @@
+SELECT DeveloperName, Consulta__c
+FROM PSTA_Consultas__mdt
+WHERE DeveloperName IN ('PSTA_Query_Priorizacion_Diaria','PSTA_Query_Priorizacion_Mensual')
+ORDER BY DeveloperName

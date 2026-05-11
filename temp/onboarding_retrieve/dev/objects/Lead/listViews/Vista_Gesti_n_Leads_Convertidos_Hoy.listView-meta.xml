@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vista_Gesti_n_Leads_Convertidos_Hoy</fullName>
+    <columns>LEAD.CREATED_DATE</columns>
+    <columns>CR_GA_Fecha_Posibilidad_Convertida__c</columns>
+    <columns>LEAD.STATUS</columns>
+    <columns>FULL_NAME</columns>
+    <columns>LEAD.EMAIL</columns>
+    <columns>Numero_Telefono__c</columns>
+    <columns>LEAD.STATE</columns>
+    <columns>LEAD.UNREAD</columns>
+    <columns>CORE.USERS.ALIAS</columns>
+    <columns>Tipo__c</columns>
+    <filterScope>Mine</filterScope>
+    <filters>
+        <field>CR_GA_Fecha_Posibilidad_Convertida__c</field>
+        <operation>equals</operation>
+        <value>TODAY</value>
+    </filters>
+    <label>Vista Gestión Leads Convertidos Hoy</label>
+</ListView>

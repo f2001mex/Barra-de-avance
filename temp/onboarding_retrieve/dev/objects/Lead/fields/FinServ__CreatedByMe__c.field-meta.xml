@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinServ__CreatedByMe__c</fullName>
+    <businessStatus>Active</businessStatus>
+    <deprecated>false</deprecated>
+    <formula>IF(  FinServ__ReferredByUser__c = $User.Id,True,False)</formula>
+    <label>Created By Me</label>
+    <securityClassification>Public</securityClassification>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

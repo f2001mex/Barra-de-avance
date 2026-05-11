@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Miembro_de_l_nea_de_acci_n__c</fullName>
+    <deleteConstraint>SetNull</deleteConstraint>
+    <description>Campo para relación del miembro de línea de acción</description>
+    <label>Miembro de línea de acción</label>
+    <referenceTo>Campaign</referenceTo>
+    <relationshipLabel>Prospectos (Miembro de línea de acción)</relationshipLabel>
+    <relationshipName>Prospectos</relationshipName>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Lookup</type>
+</CustomField>

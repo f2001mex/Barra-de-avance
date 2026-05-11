@@ -111,5 +111,13 @@ public class PSTA_ResetearEstatusContacto_bch_Test {
         System.assert(true, 'Batch ejecutado sin errores.');
     }
 
+    @isTest
+    static void testExecuteWithEmptyScopeAndFinish() {
+        PSTA_ResetearEstatusContacto_bch batchInstance = new PSTA_ResetearEstatusContacto_bch();
+        batchInstance.execute(null, new List<SObject>());
+        batchInstance.finish(null);
+        System.assert(true, 'Execute sin registros y finish cubiertos');
+    }
+
 
 }

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CHR_FB_Lead_ID__c</fullName>
+    <caseSensitive>false</caseSensitive>
+    <description>Identificador numérico de Lead proveniente de Facebook. Su longitud puede ser de 15 a 16 caracteres.</description>
+    <encryptionScheme>None</encryptionScheme>
+    <externalId>false</externalId>
+    <inlineHelpText>Facebook ID de prospecto</inlineHelpText>
+    <label>Facebook Lead ID</label>
+    <length>16</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>

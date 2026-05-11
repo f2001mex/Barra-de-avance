@@ -1,0 +1,8 @@
+SELECT Id, Name, Segmento__c, SaldoIntegral__c, FechaSiguienteContacto__c, FechaUltimoContacto__c, ContactoPriorizadoEsteMes__c, PriorizacionContacto__c, EstatusContacto__c
+FROM Account
+WHERE ID_Asesor__c = '65035'
+AND ContactoPriorizadoEsteMes__c = true
+AND PriorizacionContacto__c = true
+AND EstatusContacto__c = 'Pendiente'
+ORDER BY SaldoIntegral__c DESC
+LIMIT 50

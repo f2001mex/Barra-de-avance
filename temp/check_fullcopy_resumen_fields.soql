@@ -1,0 +1,5 @@
+SELECT QualifiedApiName, DataType
+FROM FieldDefinition
+WHERE EntityDefinition.QualifiedApiName = 'ResumenGlobalPostventa__c'
+AND QualifiedApiName IN ('ExternalId_Nomina__c','ExternalId_NominaFecha__c','Meta__c','MetaMensual__c','Contactados__c','ContactadosMensual__c')
+ORDER BY QualifiedApiName

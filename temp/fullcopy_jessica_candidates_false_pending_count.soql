@@ -1,0 +1,12 @@
+SELECT COUNT()
+FROM Account
+WHERE ID_Asesor__c = '65035'
+AND ContactoPriorizadoEsteMes__c = false
+AND EstatusContacto__c = 'Pendiente'
+AND Person_Type__c = 'FISICA'
+AND Segmento__c = 'Patrimonial reactivo'
+AND SaldoIntegral__c >= 300000
+AND SaldoIntegral__c <= 999999999
+AND FechaSiguienteContacto__c != null
+AND FechaSiguienteVisita__c != null
+AND ((FechaSiguienteContacto__c <= THIS_MONTH) OR (FechaSiguienteVisita__c <= THIS_MONTH))

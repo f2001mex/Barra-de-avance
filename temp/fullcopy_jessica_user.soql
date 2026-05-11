@@ -1,0 +1,3 @@
+SELECT Id, Name, Username
+FROM User
+WHERE Name = 'Jessica Daniela Onofre Galvan'

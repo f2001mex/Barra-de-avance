@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CR_Rep_ConversionDate__c</fullName>
+    <description>Marca la fecha cuando un registro pasa a estado convertido</description>
+    <encryptionScheme>None</encryptionScheme>
+    <label>CR_Rep_ConversionDate</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Date</type>
+</CustomField>

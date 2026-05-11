@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BusinessProcess xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Wealth Management</fullName>
+    <description>Proceso de prospectos wealth management</description>
+    <isActive>true</isActive>
+    <values>
+        <fullName>Cierre</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Cita seguimiento</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Contactado</fullName>
+        <default>true</default>
+    </values>
+    <values>
+        <fullName>Primera cita</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Propuesta de inversión</fullName>
+        <default>false</default>
+    </values>
+    <values>
+        <fullName>Rechazado</fullName>
+        <default>false</default>
+    </values>
+</BusinessProcess>

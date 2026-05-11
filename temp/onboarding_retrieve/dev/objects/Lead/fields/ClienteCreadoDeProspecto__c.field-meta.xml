@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ClienteCreadoDeProspecto__c</fullName>
+    <defaultValue>true</defaultValue>
+    <description>Campo para identificar cuando se crea el prospecto y cuando se convierte a cliente identificar que se convirtio desde prospecto</description>
+    <label>Cliente creado de prospecto</label>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

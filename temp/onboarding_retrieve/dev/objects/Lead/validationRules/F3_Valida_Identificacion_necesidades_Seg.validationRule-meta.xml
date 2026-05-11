@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_Valida_Identificacion_necesidades_Seg</fullName>
+    <active>true</active>
+    <description>Usada para validar los datos requeridos para la identificación de necesidades</description>
+    <errorConditionFormula>OR(
+   
+AND(
+  NOT(ISNEW()),
+  OR(
+    ISPICKVAL(Unidad_de_Negocio__c, &apos;&apos;),
+    ISPICKVAL(Productos_ofertados__c, &apos;&apos;),
+    ISPICKVAL(Sub_Ramo__c, &apos;&apos;)
+  ),
+  ISPICKVAL(PRIORVALUE(Status), &apos;Identificar Necesidades&apos;),
+  ISPICKVAL(Status, &apos;Formalización y Validación&apos;),
+  RecordType.DeveloperName  = &apos;Seguros_Prospecto&apos;,
+  NOT($Permission.bypassValidationRules)
+),
+AND(
+    ISPICKVAL(PRIORVALUE(Status), &apos;Identificar Necesidades&apos;),
+    NOT(ISPICKVAL(Status, &apos;Identificar Necesidades&apos;)),
+    NOT(ISPICKVAL(Status, &apos;Formalización y Validación&apos;)),
+    NOT(ISPICKVAL(Status, &apos;Recalendarización&apos;)),
+    NOT(ISPICKVAL(Status, &apos;Cerrada Perdida&apos;)),
+    RecordType.DeveloperName  = &apos;Seguros_Prospecto&apos;,
+    NOT($Permission.bypassValidationRules)
+    )
+   )</errorConditionFormula>
+    <errorMessage>Favor de completar los campos de &apos;Unidad de Negocio, Productos ofertados, Sub Ramo para avanzar a &apos;Solicitar documentación&apos;</errorMessage>
+</ValidationRule>

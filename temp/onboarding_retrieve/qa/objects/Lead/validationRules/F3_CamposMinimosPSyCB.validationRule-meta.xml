@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>F3_CamposMinimosPSyCB</fullName>
+    <active>true</active>
+    <description>Regla de validación para que el usuario no pueda avanzar sin completar los datos de BP</description>
+    <errorConditionFormula>OR(
+AND(
+ISPICKVAL(PRIORVALUE(Status), &apos;Solicitar documentación&apos;),
+F3_isCreatedInSAP__c = FALSE
+,
+ISPICKVAL( Status, &apos;Formalización y Validación&apos;),
+OR(RecordType.DeveloperName = &apos;Planes_Beneficio_Fiscal_Prospecto&apos;,
+RecordType.DeveloperName = &apos;Casa_de_Bolsa_Prospecto&apos;) ,
+NOT($Permission.bypassValidationRules)
+),
+AND (
+ISPICKVAL( PRIORVALUE(Status) ,&apos;Solicitar documentación&apos;),
+NOT ( ISPICKVAL(Status, &apos;Solicitar documentación&apos;)),
+NOT ( ISPICKVAL(Status, &apos;Formalización y Validación&apos;)),
+NOT ( ISPICKVAL(Status, &apos;Cerrada Perdida&apos;)),
+OR(RecordType.DeveloperName = &apos;Planes_Beneficio_Fiscal_Prospecto&apos;,
+RecordType.DeveloperName = &apos;Casa_de_Bolsa_Prospecto&apos;) ,
+NOT($Permission.bypassValidationRules)
+)
+)</errorConditionFormula>
+    <errorMessage>Debes enviar el prospecto a SAP antes de avanzar a la siguiente etapa</errorMessage>
+</ValidationRule>

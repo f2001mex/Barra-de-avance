@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>QuienRefiere__c</fullName>
+    <description>Campo para saber quien esta referenciando segmento Wealt, privada y referidos</description>
+    <label>¿Quien refiere?</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Cliente</fullName>
+                <default>false</default>
+                <label>Cliente</label>
+            </value>
+            <value>
+                <fullName>Banqueros y consultores</fullName>
+                <default>false</default>
+                <label>Banqueros y consultores</label>
+            </value>
+            <value>
+                <fullName>Empleados</fullName>
+                <default>false</default>
+                <label>Empleados</label>
+            </value>
+            <value>
+                <fullName>Referente Interno</fullName>
+                <default>false</default>
+                <label>Referente Interno</label>
+            </value>
+            <value>
+                <fullName>Referente Externo</fullName>
+                <default>false</default>
+                <label>Referente Externo</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

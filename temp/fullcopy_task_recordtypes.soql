@@ -1,0 +1,4 @@
+SELECT Id, DeveloperName, SobjectType
+FROM RecordType
+WHERE SobjectType='Task'
+ORDER BY DeveloperName

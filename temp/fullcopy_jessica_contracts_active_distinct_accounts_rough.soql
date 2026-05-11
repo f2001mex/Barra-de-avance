@@ -1,0 +1,5 @@
+SELECT COUNT_DISTINCT(AccountId)
+FROM Contract
+WHERE Account.ID_Asesor__c = '65035'
+AND Status__c IN ('Approved','Active')
+AND TypeOfContract__c != null
