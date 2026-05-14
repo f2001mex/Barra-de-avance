@@ -1,4 +1,5 @@
 <template>
+    <template if:true={shouldRender}>
     <lightning-card title="Dashboard Anti-Churn" icon-name="standard:dashboard">
         <div class="header-meta slds-p-horizontal_medium slds-p-bottom_small">
             <span>Fecha: {generatedDate}</span>
@@ -152,9 +153,10 @@
             </template>
             <template if:false={error}>
                 <div class="state-message slds-p-around_medium">
-                    No hay actividades Anti-Churn abiertas para el alcance actual.
+                    No hay actividades Anti-Churn para el alcance actual.
                 </div>
             </template>
         </template>
     </lightning-card>
+    </template>
 </template>

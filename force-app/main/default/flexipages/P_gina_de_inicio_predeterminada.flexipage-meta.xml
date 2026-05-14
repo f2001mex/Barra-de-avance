@@ -85,8 +85,8 @@
     <flexiPageRegions>
         <itemInstances>
             <componentInstance>
-                <componentName>c:pstaAntiChurnDashboard</componentName>
-                <identifier>c_pstaAntiChurnDashboard</identifier>
+                <componentName>c:actAntiChurnDashboard</componentName>
+                <identifier>c_actAntiChurnDashboard</identifier>
             </componentInstance>
         </itemInstances>
         <name>Facet-anti-churn-dashboard-tab</name>

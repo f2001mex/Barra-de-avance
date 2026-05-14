@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Activity</baseObject>
+    <category>accounts</category>
+    <deployed>true</deployed>
+    <description>Actividades Anti Churn con datos de cuenta y del usuario propietario para seguimiento directivo.</description>
+    <join>
+        <outerJoin>true</outerJoin>
+        <relationship>UserAsOwner</relationship>
+    </join>
+    <label>Anti Churn - Accounts, Activities and Users</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cuenta</displayNameOverride>
+            <field>Account</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Asunto</displayNameOverride>
+            <field>Subject</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Asignado a</displayNameOverride>
+            <field>Owner</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tipo de registro</displayNameOverride>
+            <field>RecordType</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha</displayNameOverride>
+            <field>ActivityDate</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha de creación</displayNameOverride>
+            <field>CreatedDate</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha de contactación</displayNameOverride>
+            <field>Fecha_de_contactacion__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Motivo de fuga</displayNameOverride>
+            <field>Motivo_de_fuga__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Resultado de gestión</displayNameOverride>
+            <field>Resultado_de_Gestion__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tiempo promedio de contacto CHURN</displayNameOverride>
+            <field>Tiempo_promedio_de_contacto_CHURN__c</field>
+            <table>Activity</table>
+        </columns>
+        <masterLabel>Actividad</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Nombre completo</displayNameOverride>
+            <field>Name</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>División</displayNameOverride>
+            <field>F3_Division__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Centro financiero</displayNameOverride>
+            <field>Division</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Rol</displayNameOverride>
+            <field>UserRole</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <masterLabel>Usuario propietario</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Nombre de cuenta</displayNameOverride>
+            <field>Account.Name</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Indicador de riesgo Churn</displayNameOverride>
+            <field>Account.Indicador_de_Riesgo_Churn__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Semáforo riesgo fuga Churn</displayNameOverride>
+            <field>Account.Semaforo_riesgo_fuga_churn__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Probabilidad abandono</displayNameOverride>
+            <field>Account.Probabilidad_Abandono__c</field>
+            <table>Activity</table>
+        </columns>
+        <masterLabel>Cuenta</masterLabel>
+    </sections>
+</ReportType>

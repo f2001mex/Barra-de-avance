@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Report xmlns="http://soap.sforce.com/2006/04/metadata">
     <columns>
-        <field>ACCOUNT.NAME</field>
+        <field>Activity$Account.Name</field>
     </columns>
     <columns>
-        <field>SUBJECT</field>
+        <field>Activity$Subject</field>
     </columns>
     <columns>
-        <field>Account.Indicador_de_Riesgo_Churn__c</field>
+        <field>Activity$Account.Indicador_de_Riesgo_Churn__c</field>
     </columns>
     <columns>
-        <field>Account.Semaforo_riesgo_fuga_churn__c</field>
+        <field>Activity$Account.Semaforo_riesgo_fuga_churn__c</field>
     </columns>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
-        <field>Account.Probabilidad_Abandono__c</field>
+        <field>Activity$Account.Probabilidad_Abandono__c</field>
     </columns>
     <columns>
-        <field>Activity.Motivo_de_fuga__c</field>
+        <field>Activity$Motivo_de_fuga__c</field>
     </columns>
     <columns>
-        <field>Activity.Fecha_de_contactacion__c</field>
+        <field>Activity$Fecha_de_contactacion__c</field>
     </columns>
     <columns>
-        <field>CREATED_DATE</field>
+        <field>Activity$CreatedDate</field>
     </columns>
     <columns>
         <aggregateTypes>Sum</aggregateTypes>
         <aggregateTypes>Average</aggregateTypes>
-        <field>Activity.Tiempo_promedio_de_contacto_CHURN__c</field>
+        <field>Activity$Tiempo_promedio_de_contacto_CHURN__c</field>
     </columns>
     <filter>
         <criteriaItems>
-            <column>RECORDTYPE</column>
+            <column>Activity$RecordType</column>
             <columnToColumn>false</columnToColumn>
             <isUnlocked>false</isUnlocked>
             <operator>equals</operator>
@@ -42,14 +42,24 @@
     </filter>
     <format>Summary</format>
     <groupingsDown>
-        <dateGranularity>Day</dateGranularity>
-        <field>Activity.Resultado_de_Gestion__c</field>
+        <dateGranularity>None</dateGranularity>
+        <field>Activity.UserAsOwner$F3_Division__c</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>None</dateGranularity>
+        <field>Activity.UserAsOwner$Division</field>
+        <sortOrder>Asc</sortOrder>
+    </groupingsDown>
+    <groupingsDown>
+        <dateGranularity>None</dateGranularity>
+        <field>Activity.UserAsOwner$Name</field>
         <sortOrder>Asc</sortOrder>
     </groupingsDown>
     <name>Actividades ANTI CHURN</name>
     <params>
         <name>closed</name>
-        <value>open</value>
+        <value>all</value>
     </params>
     <params>
         <name>type</name>
@@ -59,13 +69,13 @@
         <name>co</name>
         <value>1</value>
     </params>
-    <reportType>AccountActivity</reportType>
-    <scope>team</scope>
+    <reportType>ACT_AntiChurn_Account_Activity_User__c</reportType>
+    <scope>organization</scope>
     <showDetails>true</showDetails>
     <showGrandTotal>true</showGrandTotal>
     <showSubTotals>true</showSubTotals>
     <timeFrameFilter>
-        <dateColumn>DUE_DATE</dateColumn>
+        <dateColumn>Activity$ActivityDate</dateColumn>
         <interval>INTERVAL_CUSTOM</interval>
     </timeFrameFilter>
 </Report>

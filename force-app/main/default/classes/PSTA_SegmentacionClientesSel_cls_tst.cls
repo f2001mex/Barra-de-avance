@@ -66,6 +66,13 @@ public class PSTA_SegmentacionClientesSel_cls_tst {
         System.assertNotEquals(null, result);
         System.assertEquals('Patrimonial reactivo', result.Segmento__c);
     }
+
+    @isTest
+    static void testGetConfiguracionPatrimonialReactivoWhenMissing() {
+        ConfiguracionActinver__c result = PSTA_SegmentacionClientesSelector_cls.getConfiguracionPatrimonialReactivo();
+
+        System.assertEquals(null, result);
+    }
     
     @isTest
     static void testGetQueryStatusCuentas() {

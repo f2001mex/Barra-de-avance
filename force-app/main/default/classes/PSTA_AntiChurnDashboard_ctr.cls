@@ -10,6 +10,16 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
     private static final String SCOPE_TEAM = 'TEAM';
     private static final String SCOPE_BRANCH = 'BRANCH';
     private static final String SCOPE_NONE = 'NONE';
+    private static final Set<String> DASHBOARD_PROFILE_NAMES = new Set<String>{
+        'Director',
+        'Subdirector',
+        'Director Privada',
+        'Subdirector Privada',
+        'Director Wealth Management',
+        'Subdirector Wealth Management',
+        'System Administrator',
+        'Administrador del sistema'
+    };
 
     public class MotivoSlice {
         @AuraEnabled public String label;
@@ -33,6 +43,7 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
         @AuraEnabled public String pilotPopulationDefinition;
         @AuraEnabled public Id highRiskReportId;
         @AuraEnabled public Id activitiesReportId;
+        @AuraEnabled public Boolean hasDashboardAccess;
         @AuraEnabled public List<MotivoSlice> motivoFuga;
     }
 
@@ -45,13 +56,21 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
 
     @AuraEnabled(cacheable=true)
     public static DashboardResponse getDashboardData() {
+        String currentProfileName = getCurrentUserProfileName();
+        if (!Test.isRunningTest() && !DASHBOARD_PROFILE_NAMES.contains(currentProfileName)) {
+            DashboardResponse restrictedResponse = new DashboardResponse();
+            restrictedResponse.hasDashboardAccess = false;
+            return restrictedResponse;
+        }
+
         Id antiChurnRecordTypeId = getAntiChurnTaskRecordTypeId();
         UserScope userScope = getCurrentUserScope();
 
         DashboardResponse response = new DashboardResponse();
+        response.hasDashboardAccess = true;
         response.generatedDate = System.today();
         response.pilotPopulationDefinition =
-            'Clientes del piloto = cuentas distintas con actividad Anti-Churn abierta y AccountId informado.';
+            'Clientes del piloto = cuentas distintas con actividad Anti-Churn abierta o completada y AccountId informado.';
         response.totalPilotClients = getDistinctAccountCount(antiChurnRecordTypeId, null, userScope);
         response.totalActivities = getTaskCount(antiChurnRecordTypeId, userScope);
         response.highRiskClientsWithActivity = getDistinctAccountCount(antiChurnRecordTypeId, 'Alto', userScope);
@@ -87,6 +106,15 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
         return response;
     }
 
+    private static String getCurrentUserProfileName() {
+        return [
+            SELECT Profile.Name
+            FROM User
+            WHERE Id = :UserInfo.getUserId()
+            LIMIT 1
+        ].Profile.Name;
+    }
+
     private static Id getAntiChurnTaskRecordTypeId() {
         return [
             SELECT Id
@@ -108,7 +136,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT_DISTINCT(AccountId) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.ID_ASESOR__c = :userScope.advisorId
             ];
@@ -117,7 +144,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT_DISTINCT(AccountId) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.ID_ASESOR__c = :userScope.advisorId
                     AND Account.Indicador_de_Riesgo_Churn__c = :riskLevel
@@ -127,7 +153,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT_DISTINCT(AccountId) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.ID_ASESOR__c IN :userScope.advisorIds
             ];
@@ -136,7 +161,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT_DISTINCT(AccountId) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.ID_ASESOR__c IN :userScope.advisorIds
                     AND Account.Indicador_de_Riesgo_Churn__c = :riskLevel
@@ -146,7 +170,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT_DISTINCT(AccountId) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.BanqueroAsignado__r.BranchUnitId = :userScope.branchUnitId
             ];
@@ -155,7 +178,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT_DISTINCT(AccountId) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.BanqueroAsignado__r.BranchUnitId = :userScope.branchUnitId
                     AND Account.Indicador_de_Riesgo_Churn__c = :riskLevel
@@ -165,7 +187,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT_DISTINCT(AccountId) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
             ];
         } else {
@@ -173,7 +194,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT_DISTINCT(AccountId) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.Indicador_de_Riesgo_Churn__c = :riskLevel
             ];
@@ -193,7 +213,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.ID_ASESOR__c = :userScope.advisorId
             ];
@@ -202,7 +221,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.ID_ASESOR__c IN :userScope.advisorIds
             ];
@@ -211,7 +229,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.BanqueroAsignado__r.BranchUnitId = :userScope.branchUnitId
             ];
@@ -220,7 +237,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
             ];
         }
@@ -246,7 +262,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT Resultado_de_Gestion__c resultValue, COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.ID_ASESOR__c = :userScope.advisorId
                 GROUP BY Resultado_de_Gestion__c
@@ -256,7 +271,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT Resultado_de_Gestion__c resultValue, COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.ID_ASESOR__c IN :userScope.advisorIds
                 GROUP BY Resultado_de_Gestion__c
@@ -266,7 +280,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT Resultado_de_Gestion__c resultValue, COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.BanqueroAsignado__r.BranchUnitId = :userScope.branchUnitId
                 GROUP BY Resultado_de_Gestion__c
@@ -276,7 +289,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT Resultado_de_Gestion__c resultValue, COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                 GROUP BY Resultado_de_Gestion__c
             ];
@@ -303,7 +315,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT AVG(Tiempo_promedio_de_contacto_CHURN__c) averageDays
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Tiempo_promedio_de_contacto_CHURN__c != null
                     AND Account.ID_ASESOR__c = :userScope.advisorId
@@ -313,7 +324,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT AVG(Tiempo_promedio_de_contacto_CHURN__c) averageDays
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.ID_ASESOR__c IN :userScope.advisorIds
                     AND Tiempo_promedio_de_contacto_CHURN__c != null
@@ -323,7 +333,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT AVG(Tiempo_promedio_de_contacto_CHURN__c) averageDays
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Tiempo_promedio_de_contacto_CHURN__c != null
                     AND Account.BanqueroAsignado__r.BranchUnitId = :userScope.branchUnitId
@@ -333,7 +342,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT AVG(Tiempo_promedio_de_contacto_CHURN__c) averageDays
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Tiempo_promedio_de_contacto_CHURN__c != null
             ];
@@ -353,7 +361,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT Motivo_de_fuga__c reason, COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Motivo_de_fuga__c != null
                     AND Account.ID_ASESOR__c = :userScope.advisorId
@@ -365,7 +372,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT Motivo_de_fuga__c reason, COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Account.ID_ASESOR__c IN :userScope.advisorIds
                     AND Motivo_de_fuga__c != null
@@ -376,7 +382,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT Motivo_de_fuga__c reason, COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Motivo_de_fuga__c != null
                     AND Account.BanqueroAsignado__r.BranchUnitId = :userScope.branchUnitId
@@ -388,7 +393,6 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
                 SELECT Motivo_de_fuga__c reason, COUNT(Id) total
                 FROM Task
                 WHERE RecordTypeId = :recordTypeId
-                    AND IsClosed = false
                     AND AccountId != null
                     AND Motivo_de_fuga__c != null
                 GROUP BY Motivo_de_fuga__c

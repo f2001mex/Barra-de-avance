@@ -76,12 +76,12 @@ private class PSTA_AntiChurnDashboard_ctr_tst {
 
             insert tasks;
 
-            Integer expectedPilotClients = countDistinctAccounts(recordTypeId);
-            Integer expectedActivities = countActivities(recordTypeId);
-            Integer expectedHighRiskClients = countDistinctHighRiskAccounts(recordTypeId);
-            Map<String, Integer> expectedCountsByResult = getCountsByResult(recordTypeId);
-            Decimal expectedAverageDays = getAverageContactDays(recordTypeId);
-            Integer expectedMotivoCount = getMotivoSliceCount(recordTypeId);
+            Integer expectedPilotClients = countDistinctAccounts(recordTypeId, advisorId);
+            Integer expectedActivities = countActivities(recordTypeId, advisorId);
+            Integer expectedHighRiskClients = countDistinctHighRiskAccounts(recordTypeId, advisorId);
+            Map<String, Integer> expectedCountsByResult = getCountsByResult(recordTypeId, advisorId);
+            Decimal expectedAverageDays = getAverageContactDays(recordTypeId, advisorId);
+            Integer expectedMotivoCount = getMotivoSliceCount(recordTypeId, advisorId);
 
             Test.startTest();
             PSTA_AntiChurnDashboard_ctr.DashboardResponse response =
@@ -116,7 +116,7 @@ private class PSTA_AntiChurnDashboard_ctr_tst {
             System.assertEquals(expectedMotivoCount, response.motivoFuga.size());
             System.assertNotEquals(null, response.highRiskReportId);
             System.assertNotEquals(null, response.activitiesReportId);
-            System.assert(response.pilotPopulationDefinition.contains('Anti-Churn abierta'));
+            System.assert(response.pilotPopulationDefinition.contains('Anti-Churn abierta o completada'));
         }
     }
 
@@ -178,7 +178,11 @@ private class PSTA_AntiChurnDashboard_ctr_tst {
         String riskLevel
     ) {
         Account accountRecord = new Account(
-            Name = accountName,
+            RecordTypeId = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName()
+                .get('PersonAccount')
+                .getRecordTypeId(),
+            FirstName = 'Anti',
+            LastName = accountName,
             InstitucionFinancieraPrincipal__c = 'Banorte',
             PorqueIndentInteres__c = 'Prueba',
             Conquetipodeseguroscuentas__c = 'Seguro de Auto',
@@ -198,38 +202,38 @@ private class PSTA_AntiChurnDashboard_ctr_tst {
         return accountRecord;
     }
 
-    private static Integer countDistinctAccounts(Id recordTypeId) {
+    private static Integer countDistinctAccounts(Id recordTypeId, String advisorId) {
         return Integer.valueOf(String.valueOf([
             SELECT COUNT_DISTINCT(AccountId) total
             FROM Task
             WHERE RecordTypeId = :recordTypeId
-                AND IsClosed = false
                 AND AccountId != null
+                AND Account.ID_Asesor__c = :advisorId
         ][0].get('total')));
     }
 
-    private static Integer countActivities(Id recordTypeId) {
+    private static Integer countActivities(Id recordTypeId, String advisorId) {
         return Integer.valueOf(String.valueOf([
             SELECT COUNT(Id) total
             FROM Task
             WHERE RecordTypeId = :recordTypeId
-                AND IsClosed = false
                 AND AccountId != null
+                AND Account.ID_Asesor__c = :advisorId
         ][0].get('total')));
     }
 
-    private static Integer countDistinctHighRiskAccounts(Id recordTypeId) {
+    private static Integer countDistinctHighRiskAccounts(Id recordTypeId, String advisorId) {
         return Integer.valueOf(String.valueOf([
             SELECT COUNT_DISTINCT(AccountId) total
             FROM Task
             WHERE RecordTypeId = :recordTypeId
-                AND IsClosed = false
                 AND AccountId != null
+                AND Account.ID_Asesor__c = :advisorId
                 AND Account.Indicador_de_Riesgo_Churn__c = 'Alto'
         ][0].get('total')));
     }
 
-    private static Map<String, Integer> getCountsByResult(Id recordTypeId) {
+    private static Map<String, Integer> getCountsByResult(Id recordTypeId, String advisorId) {
         Map<String, Integer> counts = new Map<String, Integer>{
             'Contactado Retenido' => 0,
             'Contactado No Retenido' => 0,
@@ -241,8 +245,8 @@ private class PSTA_AntiChurnDashboard_ctr_tst {
             SELECT Resultado_de_Gestion__c resultValue, COUNT(Id) total
             FROM Task
             WHERE RecordTypeId = :recordTypeId
-                AND IsClosed = false
                 AND AccountId != null
+                AND Account.ID_Asesor__c = :advisorId
             GROUP BY Resultado_de_Gestion__c
         ]) {
             String resultValue = (String) groupedResult.get('resultValue');
@@ -257,27 +261,27 @@ private class PSTA_AntiChurnDashboard_ctr_tst {
         return counts;
     }
 
-    private static Decimal getAverageContactDays(Id recordTypeId) {
+    private static Decimal getAverageContactDays(Id recordTypeId, String advisorId) {
         Object value = [
             SELECT AVG(Tiempo_promedio_de_contacto_CHURN__c) averageDays
             FROM Task
             WHERE RecordTypeId = :recordTypeId
-                AND IsClosed = false
                 AND AccountId != null
+                AND Account.ID_Asesor__c = :advisorId
                 AND Tiempo_promedio_de_contacto_CHURN__c != null
         ][0].get('averageDays');
 
         return value == null ? 0 : Decimal.valueOf(String.valueOf(value)).setScale(2);
     }
 
-    private static Integer getMotivoSliceCount(Id recordTypeId) {
+    private static Integer getMotivoSliceCount(Id recordTypeId, String advisorId) {
         Integer total = 0;
         for (AggregateResult groupedResult : [
             SELECT Motivo_de_fuga__c reason
             FROM Task
             WHERE RecordTypeId = :recordTypeId
-                AND IsClosed = false
                 AND AccountId != null
+                AND Account.ID_Asesor__c = :advisorId
                 AND Motivo_de_fuga__c != null
             GROUP BY Motivo_de_fuga__c
         ]) {

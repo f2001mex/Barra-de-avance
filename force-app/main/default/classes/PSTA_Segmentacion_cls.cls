@@ -77,16 +77,26 @@ public class PSTA_Segmentacion_cls {
     
     public static String determinarSegmento(Banker banquero) {
 
+        if (banquero == null) {
+            return null;
+        }
+
         String cargoBanquero = banquero.Cargo__c != null ? banquero.Cargo__c.replaceAll(' ', '') : '';
-        Set<String> rolesValidosReactivo = PSTA_UtilityClass.splitValuesMultiPickList(objConfigPatrimonialReactivo.Rol__c);
+        Set<String> rolesValidosReactivo = objConfigPatrimonialReactivo == null
+            ? new Set<String>()
+            : PSTA_UtilityClass.splitValuesMultiPickList(objConfigPatrimonialReactivo.Rol__c);
         String resultado;
         
         if (banquero.Division__c != null) {
-            resultado = rolesValidosReactivo.contains(cargoBanquero) ? objConfigPatrimonialReactivo.Segmento__c : banquero.Division__c;
+            resultado = objConfigPatrimonialReactivo != null && rolesValidosReactivo.contains(cargoBanquero)
+                ? objConfigPatrimonialReactivo.Segmento__c
+                : banquero.Division__c;
             return resultado;
         }
         
-        resultado = rolesValidosReactivo.contains(cargoBanquero) ? objConfigPatrimonialReactivo.Segmento__c : null;
+        resultado = objConfigPatrimonialReactivo != null && rolesValidosReactivo.contains(cargoBanquero)
+            ? objConfigPatrimonialReactivo.Segmento__c
+            : null;
         return resultado;
 
     }

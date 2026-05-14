@@ -4,7 +4,7 @@ import getDashboardData from '@salesforce/apex/PSTA_AntiChurnDashboard_ctr.getDa
 
 const PALETTE = ['#0b7d77', '#d59410', '#c63d32', '#2563eb', '#7c3aed', '#0891b2', '#65a30d', '#475569'];
 
-export default class PstaAntiChurnDashboard extends NavigationMixin(LightningElement) {
+export default class ActAntiChurnDashboard extends NavigationMixin(LightningElement) {
     data;
     error;
 
@@ -20,7 +20,11 @@ export default class PstaAntiChurnDashboard extends NavigationMixin(LightningEle
     }
 
     get hasData() {
-        return !!this.data;
+        return !!this.data && this.data.hasDashboardAccess !== false;
+    }
+
+    get shouldRender() {
+        return !this.data || this.data.hasDashboardAccess !== false || !!this.error;
     }
 
     get hasMotivos() {

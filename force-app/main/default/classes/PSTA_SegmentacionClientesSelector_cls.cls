@@ -68,13 +68,15 @@ public without sharing class PSTA_SegmentacionClientesSelector_cls {
 
 
     public static ConfiguracionActinver__c getConfiguracionPatrimonialReactivo() {
-        return [
+        List<ConfiguracionActinver__c> configs = [
             SELECT Segmento__c, RangoMontoMaximo__c, RangoMontoMinimo__c, FrecReinicioNoReqContacto__c, Rol__c, FrecuenciaContacto__c, FrecuenciaVisita__c 
             FROM ConfiguracionActinver__c
             WHERE RecordTypeId =: idConfigContactoPostVentaRecordType
             AND Segmento__c = 'Patrimonial reactivo'
             LIMIT 1
         ];
+
+        return configs.isEmpty() ? null : configs[0];
     }
 
     public static String getQueryAllBBM(){
