@@ -1,0 +1,242 @@
+﻿<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+  <Worksheet ss:Name="AntiChurn Inventory">
+    <Table>
+      <Row>
+        <Cell><Data ss:Type="String">Category</Data></Cell>
+        <Cell><Data ss:Type="String">ComponentType</Data></Cell>
+        <Cell><Data ss:Type="String">ApiName</Data></Cell>
+        <Cell><Data ss:Type="String">VisibleName</Data></Cell>
+        <Cell><Data ss:Type="String">RequiredFor</Data></Cell>
+        <Cell><Data ss:Type="String">Notes</Data></Cell>
+        <Cell><Data ss:Type="String">LocalPath</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Obligatorio</Data></Cell>
+        <Cell><Data ss:Type="String">Apex Class</Data></Cell>
+        <Cell><Data ss:Type="String">PSTA_AntiChurnDashboard_ctr</Data></Cell>
+        <Cell><Data ss:Type="String">PSTA_AntiChurnDashboard_ctr</Data></Cell>
+        <Cell><Data ss:Type="String">Controller del dashboard</Data></Cell>
+        <Cell><Data ss:Type="String">Calcula KPIs, alcance por usuario y resuelve reportes</Data></Cell>
+        <Cell><Data ss:Type="String">force-app/main/default/classes/PSTA_AntiChurnDashboard_ctr.cls</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Obligatorio</Data></Cell>
+        <Cell><Data ss:Type="String">Apex Class</Data></Cell>
+        <Cell><Data ss:Type="String">PSTA_AntiChurnDashboard_ctr_tst</Data></Cell>
+        <Cell><Data ss:Type="String">PSTA_AntiChurnDashboard_ctr_tst</Data></Cell>
+        <Cell><Data ss:Type="String">Prueba</Data></Cell>
+        <Cell><Data ss:Type="String">Prueba del controller del dashboard</Data></Cell>
+        <Cell><Data ss:Type="String">force-app/main/default/classes/PSTA_AntiChurnDashboard_ctr_tst.cls</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Obligatorio</Data></Cell>
+        <Cell><Data ss:Type="String">Lightning Component Bundle</Data></Cell>
+        <Cell><Data ss:Type="String">actAntiChurnDashboard</Data></Cell>
+        <Cell><Data ss:Type="String">Dashboard Anti-Churn</Data></Cell>
+        <Cell><Data ss:Type="String">UI</Data></Cell>
+        <Cell><Data ss:Type="String">LWC principal del dashboard</Data></Cell>
+        <Cell><Data ss:Type="String">force-app/main/default/lwc/actAntiChurnDashboard</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Obligatorio</Data></Cell>
+        <Cell><Data ss:Type="String">FlexiPage</Data></Cell>
+        <Cell><Data ss:Type="String">P_gina_de_inicio_predeterminada</Data></Cell>
+        <Cell><Data ss:Type="String">Home de Bancas</Data></Cell>
+        <Cell><Data ss:Type="String">Ubicacion en Home</Data></Cell>
+        <Cell><Data ss:Type="String">Agrega la pestana Dashboard Anti-Churn y referencia c:actAntiChurnDashboard</Data></Cell>
+        <Cell><Data ss:Type="String">force-app/main/default/flexipages/P_gina_de_inicio_predeterminada.flexipage-meta.xml</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Obligatorio</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Report Type</Data></Cell>
+        <Cell><Data ss:Type="String">ACT_AntiChurn_Account_Activity_User__c</Data></Cell>
+        <Cell><Data ss:Type="String">Anti Churn - Accounts, Activities and Users</Data></Cell>
+        <Cell><Data ss:Type="String">Base de reportes</Data></Cell>
+        <Cell><Data ss:Type="String">CRT de Activity con joins a Account y User</Data></Cell>
+        <Cell><Data ss:Type="String">force-app/main/default/reportTypes/ACT_AntiChurn_Account_Activity_User.reportType-meta.xml</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Obligatorio</Data></Cell>
+        <Cell><Data ss:Type="String">Report Folder</Data></Cell>
+        <Cell><Data ss:Type="String">AntiChurn</Data></Cell>
+        <Cell><Data ss:Type="String">Anti Churn</Data></Cell>
+        <Cell><Data ss:Type="String">Contenedor de reportes</Data></Cell>
+        <Cell><Data ss:Type="String">Folder donde el Apex busca los reportes por FolderName = Anti Churn</Data></Cell>
+        <Cell><Data ss:Type="String">force-app/main/default/reports/AntiChurn.reportFolder-meta.xml</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Obligatorio</Data></Cell>
+        <Cell><Data ss:Type="String">Report</Data></Cell>
+        <Cell><Data ss:Type="String">AntiChurn/Clientes_con_alto_riesgo_de_fuga_hh1</Data></Cell>
+        <Cell><Data ss:Type="String">Clientes con alto riesgo de fuga</Data></Cell>
+        <Cell><Data ss:Type="String">Boton de reporte</Data></Cell>
+        <Cell><Data ss:Type="String">Reporte de cuentas con riesgo alto; DeveloperName usado por Apex</Data></Cell>
+        <Cell><Data ss:Type="String">force-app/main/default/reports/AntiChurn/Clientes_con_alto_riesgo_de_fuga_hh1.report-meta.xml</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Obligatorio</Data></Cell>
+        <Cell><Data ss:Type="String">Report</Data></Cell>
+        <Cell><Data ss:Type="String">AntiChurn/Clientes_con_alto_riesgo_de_fuga_ANM</Data></Cell>
+        <Cell><Data ss:Type="String">Actividades ANTI CHURN</Data></Cell>
+        <Cell><Data ss:Type="String">Boton de reporte</Data></Cell>
+        <Cell><Data ss:Type="String">Reporte de actividades Anti Churn; DeveloperName usado por Apex</Data></Cell>
+        <Cell><Data ss:Type="String">force-app/main/default/reports/AntiChurn/Clientes_con_alto_riesgo_de_fuga_ANM.report-meta.xml</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Permisos</Data></Cell>
+        <Cell><Data ss:Type="String">Permission Set</Data></Cell>
+        <Cell><Data ss:Type="String">CHURN_Account</Data></Cell>
+        <Cell><Data ss:Type="String">CHURN_Account</Data></Cell>
+        <Cell><Data ss:Type="String">Acceso</Data></Cell>
+        <Cell><Data ss:Type="String">Da acceso a Apex, campos CHURN y RecordType Task.Anti_Churn</Data></Cell>
+        <Cell><Data ss:Type="String">force-app/main/default/permissionsets/CHURN_Account.permissionset-meta.xml</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Dependencia</Data></Cell>
+        <Cell><Data ss:Type="String">Record Type</Data></Cell>
+        <Cell><Data ss:Type="String">Task.Anti_Churn</Data></Cell>
+        <Cell><Data ss:Type="String">Anti Churn</Data></Cell>
+        <Cell><Data ss:Type="String">Filtro de datos</Data></Cell>
+        <Cell><Data ss:Type="String">El Apex busca DeveloperName = Anti_Churn en Task</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">Task.Resultado_de_Gestion__c</Data></Cell>
+        <Cell><Data ss:Type="String">Resultado de Gestion</Data></Cell>
+        <Cell><Data ss:Type="String">KPI</Data></Cell>
+        <Cell><Data ss:Type="String">Actividades positivas, negativas, sin contacto y nulas</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">Task.Motivo_de_fuga__c</Data></Cell>
+        <Cell><Data ss:Type="String">Motivo de fuga</Data></Cell>
+        <Cell><Data ss:Type="String">Grafica</Data></Cell>
+        <Cell><Data ss:Type="String">Motivo de fuga identificado</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">Task.Tiempo_promedio_de_contacto_CHURN__c</Data></Cell>
+        <Cell><Data ss:Type="String">Tiempo promedio de contacto CHURN</Data></Cell>
+        <Cell><Data ss:Type="String">KPI</Data></Cell>
+        <Cell><Data ss:Type="String">Tiempo promedio de contacto</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">Task.Fecha_de_contactacion__c</Data></Cell>
+        <Cell><Data ss:Type="String">Fecha de contactacion</Data></Cell>
+        <Cell><Data ss:Type="String">KPI y reporte</Data></Cell>
+        <Cell><Data ss:Type="String">Usado por reportes y por el modelo de datos del dashboard</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">Account.Indicador_de_Riesgo_Churn__c</Data></Cell>
+        <Cell><Data ss:Type="String">Indicador de Riesgo Churn</Data></Cell>
+        <Cell><Data ss:Type="String">KPI</Data></Cell>
+        <Cell><Data ss:Type="String">Clientes en riesgo alto con actividad asignada</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">Account.Semaforo_riesgo_fuga_churn__c</Data></Cell>
+        <Cell><Data ss:Type="String">Semaforo riesgo fuga churn</Data></Cell>
+        <Cell><Data ss:Type="String">Reporte</Data></Cell>
+        <Cell><Data ss:Type="String">Visible en reportes</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">Account.Probabilidad_Abandono__c</Data></Cell>
+        <Cell><Data ss:Type="String">Probabilidad Abandono</Data></Cell>
+        <Cell><Data ss:Type="String">Reporte</Data></Cell>
+        <Cell><Data ss:Type="String">Visible en reportes y CRT</Data></Cell>
+        <Cell><Data ss:Type="String">force-app/main/default/objects/Account/fields/Probabilidad_Abandono__c.field-meta.xml</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">Account.BanqueroAsignado__c</Data></Cell>
+        <Cell><Data ss:Type="String">Banquero Asignado</Data></Cell>
+        <Cell><Data ss:Type="String">Alcance</Data></Cell>
+        <Cell><Data ss:Type="String">Filtro por sucursal via BranchUnitId del BBM</Data></Cell>
+        <Cell><Data ss:Type="String">force-app/main/default/objects/Account/fields/BanqueroAsignado__c.field-meta.xml</Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">Account.ID_ASESOR__c</Data></Cell>
+        <Cell><Data ss:Type="String">ID ASESOR</Data></Cell>
+        <Cell><Data ss:Type="String">Alcance</Data></Cell>
+        <Cell><Data ss:Type="String">Filtro por asesor y equipo</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">User.ID_ASESOR__c</Data></Cell>
+        <Cell><Data ss:Type="String">ID ASESOR</Data></Cell>
+        <Cell><Data ss:Type="String">Alcance</Data></Cell>
+        <Cell><Data ss:Type="String">Define alcance por asesor y por arbol de rol</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">User.F3_Sucursal__c</Data></Cell>
+        <Cell><Data ss:Type="String">Sucursal</Data></Cell>
+        <Cell><Data ss:Type="String">Fallback de alcance</Data></Cell>
+        <Cell><Data ss:Type="String">Usado para resolver sucursal si no hay Banker directo</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">User.REQ36_Centro_Financiero__c</Data></Cell>
+        <Cell><Data ss:Type="String">Centro Financiero</Data></Cell>
+        <Cell><Data ss:Type="String">Fallback de alcance</Data></Cell>
+        <Cell><Data ss:Type="String">Usado para resolver BranchUnit por nombre</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Campo usado</Data></Cell>
+        <Cell><Data ss:Type="String">Custom Field</Data></Cell>
+        <Cell><Data ss:Type="String">User.F3_Division__c</Data></Cell>
+        <Cell><Data ss:Type="String">Division</Data></Cell>
+        <Cell><Data ss:Type="String">Reporte</Data></Cell>
+        <Cell><Data ss:Type="String">Grouping del reporte por division del usuario propietario</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Dependencia</Data></Cell>
+        <Cell><Data ss:Type="String">Standard/Custom Object</Data></Cell>
+        <Cell><Data ss:Type="String">Banker.CurrentBranchId</Data></Cell>
+        <Cell><Data ss:Type="String">Current Branch</Data></Cell>
+        <Cell><Data ss:Type="String">Alcance</Data></Cell>
+        <Cell><Data ss:Type="String">El Apex usa Banker para obtener la sucursal del usuario</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+      <Row>
+        <Cell><Data ss:Type="String">Dependencia</Data></Cell>
+        <Cell><Data ss:Type="String">Standard/Custom Object</Data></Cell>
+        <Cell><Data ss:Type="String">BranchUnit</Data></Cell>
+        <Cell><Data ss:Type="String">BranchUnit</Data></Cell>
+        <Cell><Data ss:Type="String">Alcance</Data></Cell>
+        <Cell><Data ss:Type="String">Resolve por Id, Name, BranchCode, ExternalId__c y ExternalIdBI__c</Data></Cell>
+        <Cell><Data ss:Type="String"></Data></Cell>
+      </Row>
+    </Table>
+  </Worksheet>
+</Workbook>

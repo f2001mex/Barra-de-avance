@@ -54,6 +54,11 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
         public Id branchUnitId;
     }
 
+    @TestVisible private static String testScopeType;
+    @TestVisible private static String testAdvisorId;
+    @TestVisible private static Set<String> testAdvisorIds;
+    @TestVisible private static Id testBranchUnitId;
+
     @AuraEnabled(cacheable=true)
     public static DashboardResponse getDashboardData() {
         String currentProfileName = getCurrentUserProfileName();
@@ -418,6 +423,15 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
     }
 
     private static UserScope getCurrentUserScope() {
+        if (Test.isRunningTest() && testScopeType != null) {
+            UserScope testScope = new UserScope();
+            testScope.scopeType = testScopeType;
+            testScope.advisorId = testAdvisorId;
+            testScope.advisorIds = testAdvisorIds;
+            testScope.branchUnitId = testBranchUnitId;
+            return testScope;
+        }
+
         User currentUser = [
             SELECT Id, Profile.Name, UserRoleId, UserRole.Name, ID_ASESOR__c, F3_Sucursal__c, REQ36_Centro_Financiero__c
             FROM User
@@ -474,6 +488,15 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
         return userScope;
     }
 
+    @TestVisible
+    private static void clearTestScope() {
+        testScopeType = null;
+        testAdvisorId = null;
+        testAdvisorIds = null;
+        testBranchUnitId = null;
+    }
+
+    @TestVisible
     private static Boolean isAdvisorUser(String profileName, String roleName) {
         String normalizedProfile = profileName == null ? '' : profileName.trim().toUpperCase();
         String normalizedRole = roleName == null ? '' : roleName.trim().toUpperCase();
@@ -482,6 +505,7 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
             || normalizedRole.contains('ASESOR');
     }
 
+    @TestVisible
     private static Boolean isBranchScopedUser(String profileName, String roleName) {
         String normalizedProfile = profileName == null ? '' : profileName.trim().toUpperCase();
         String normalizedRole = roleName == null ? '' : roleName.trim().toUpperCase();
@@ -491,6 +515,7 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
             || normalizedRole.contains('SUBDIRECTOR');
     }
 
+    @TestVisible
     private static Set<String> getAdvisorIdsFromRoleTree(Id rootRoleId) {
         Set<String> advisorIds = new Set<String>();
         if (rootRoleId == null) {
@@ -535,6 +560,7 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
         return advisorIds;
     }
 
+    @TestVisible
     private static Id resolveBranchUnitIdFromUserFields(String branchFieldValue, String centerNameValue) {
         if (String.isBlank(branchFieldValue) && String.isBlank(centerNameValue)) {
             return null;
@@ -574,6 +600,7 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
         return results;
     }
 
+    @TestVisible
     private static Integer toInteger(Object value) {
         if (value == null) {
             return 0;
@@ -582,6 +609,7 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
         return Integer.valueOf(String.valueOf(value));
     }
 
+    @TestVisible
     private static Decimal toDecimal(Object value) {
         if (value == null) {
             return 0;
@@ -590,6 +618,7 @@ public with sharing class PSTA_AntiChurnDashboard_ctr {
         return Decimal.valueOf(String.valueOf(value)).setScale(2);
     }
 
+    @TestVisible
     private static Decimal calculatePercentage(Decimal numerator, Decimal denominator) {
         if (denominator == null || denominator <= 0) {
             return 0;
