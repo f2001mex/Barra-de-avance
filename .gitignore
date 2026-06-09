@@ -17,6 +17,7 @@ coverage/
 # Logs
 logs
 temp/
+outputs/
 *.log
 npm-debug.log*
 yarn-debug.log*
