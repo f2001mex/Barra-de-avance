@@ -16,6 +16,11 @@
                 <label>Activo</label>
             </value>
             <value>
+                <fullName>Bloqueado</fullName>
+                <default>false</default>
+                <label>Bloqueado</label>
+            </value>
+            <value>
                 <fullName>Closed</fullName>
                 <default>false</default>
                 <label>Cerrado</label>

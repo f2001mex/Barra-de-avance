@@ -2869,31 +2869,11 @@
             <default>false</default>
         </values>
         <values>
-            <fullName>Closed</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Deceased</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Deliquent</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Dormant</fullName>
+            <fullName>Bloqueado</fullName>
             <default>false</default>
         </values>
         <values>
             <fullName>Inactive</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Onboarding</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Prospect</fullName>
             <default>false</default>
         </values>
     </picklistValues>
