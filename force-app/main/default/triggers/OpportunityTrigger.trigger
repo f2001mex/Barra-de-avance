@@ -12,7 +12,7 @@
  *             Class creation.
  *   ------------------------------------------------------------------------------------------------
  **/
-trigger OpportunityTrigger on Opportunity (before insert,  before update, after update) {
+trigger OpportunityTrigger on Opportunity (before insert,  before update, after insert, after update) {
     F3_Triggers__mdt triggerMetadata = F3_Triggers__mdt.getInstance(System.label.F4_OpportunityTrigger);
     Id MC_CONNECT_CRM_ID = [SELECT Id FROM User WHERE Name = 'MC Connect-CRM'].Id;
 

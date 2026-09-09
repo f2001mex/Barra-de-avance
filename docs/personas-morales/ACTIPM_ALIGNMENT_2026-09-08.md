@@ -37,9 +37,15 @@ La dependencia de Sales Engagement quedó habilitada y las clases `PSTA_Account_
 - La aplicación Bancas se capturó desde la fusión funcional de ActiPM para evitar referencias a componentes ajenos existentes en DEV/QA (`rdocPendingInbox` y `Task_Record_Page`).
 - El record type `Account.Cuentas_empresariales` se versionó desde la variante compatible de ActiPM. La recuperación completa de DEV incluía el valor ajeno `Bloqueado`, inexistente en ActiPM, por lo que no se utilizó esa variante.
 
+## Promoción posterior validada
+
+- La versión vigente de DEV de `OpportunityTrigger`, que incorpora el evento `after insert`, se promovió correctamente a QA (`0AfWF00000G1eGj0AJ`) y ActiPM (`0AfWF00000G1eIL0AZ`).
+- Se creó el punto de rollback de Git `pm-pre-opportunity-after-insert-20260908`, anterior a esta promoción.
+- En ActiPM se corrigió la visibilidad de las listas de Account desde la configuración controlada en Git. Las listas operativas quedaron restringidas a `Banqueros_Postventa` o `Directores_Postventa`, según corresponda. Despliegue: `0AfWF00000G1fr70AB`.
+- Para la prueba de Griselda Daniela Vargas Ochoa en ActiPM se alineó la licencia/conjunto `Financial Services Cloud Extension` y se completaron los datos operativos de `Banker`, `BranchUnit` y `BranchUnitBusinessMember`. Estos tres últimos son datos de referencia y no metadata desplegable.
+
 ## Hallazgos no promovidos
 
-- `OpportunityTrigger` es más reciente en DEV e incluye `after insert`; QA y ActiPM conservan la versión anterior. No se promovió porque las validaciones aisladas dieron 0% de cobertura para el trigger. La prueba histórica `OppotunityTriggerHelper_test` además falla durante su preparación por la validación de centro financiero del Banker. Se requiere corregir o crear una prueba específica antes de promoverlo.
 - ActiPM contiene dos vistas privadas adicionales de Opportunity. No se eliminaron porque no son parte del paquete PM ni están compartidas globalmente.
 - `Segmento__c` tiene los mismos valores permitidos para `Cuentas_empresariales` en DEV, QA y ActiPM: `Gobierno` e `Institucional`. Las opciones adicionales observadas pertenecen a valores maestros u otros tipos de registro, no a una diferencia del record type PM.
 
