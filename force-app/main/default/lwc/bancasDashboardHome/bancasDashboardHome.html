@@ -1,0 +1,25 @@
+<template>
+    <lightning-card title="Personas Morales" icon-name="standard:dashboard">
+        <div class="filters slds-p-horizontal_medium">
+            <lightning-combobox label="Fecha" value={dateRange} options={dateOptions} onchange={handleDateRange}></lightning-combobox>
+            <template lwc:if={isCustomDate}>
+                <lightning-input type="date" label="Desde" value={fromDate} onchange={handleFrom}></lightning-input>
+                <lightning-input type="date" label="Hasta" value={toDate} onchange={handleTo}></lightning-input>
+            </template>
+            <lightning-combobox label="Producto" value={product} options={productOptions} onchange={handleProduct}></lightning-combobox>
+            <lightning-combobox label="Tipo de Cliente" value={industry} options={industryOptions} onchange={handleIndustry}></lightning-combobox>
+            <lightning-combobox label="Ejecutivo" value={ownerId} options={executiveOptions} onchange={handleOwner}></lightning-combobox>
+            <lightning-button variant="brand" label="Actualizar" onclick={load}></lightning-button>
+            <lightning-button label="Restablecer" onclick={reset}></lightning-button>
+        </div>
+        <template lwc:if={loading}><lightning-spinner alternative-text="Cargando dashboard"></lightning-spinner></template>
+        <template lwc:if={error}><c-bancas-dashboard-message message={error}></c-bancas-dashboard-message></template>
+        <template lwc:if={data}>
+            <lightning-tabset>
+                <lightning-tab label="Dashboard Comercial Ejecutivo"><c-bancas-dashboard-comercial data={data}></c-bancas-dashboard-comercial></lightning-tab>
+                <lightning-tab label="Dashboard de Relación y Actividad Comercial"><c-bancas-dashboard-relacion-actividad data={data}></c-bancas-dashboard-relacion-actividad></lightning-tab>
+            </lightning-tabset>
+            <p class="slds-p-around_small updated">Actualizado: {generatedAt}</p>
+        </template>
+    </lightning-card>
+</template>

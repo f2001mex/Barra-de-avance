@@ -2,7 +2,7 @@
 <RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
     <fullName>Cuentas_empresariales</fullName>
     <active>true</active>
-    <label>Cuentas empresariales</label>
+    <label>Personas Morales</label>
     <picklistValues>
         <picklist>AccountSource</picklist>
         <values>
@@ -313,6 +313,14 @@
         </values>
         <values>
             <fullName>3</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>4</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>5</fullName>
             <default>false</default>
         </values>
         <values>
@@ -2962,6 +2970,21 @@
         </values>
     </picklistValues>
     <picklistValues>
+        <picklist>Indicador_de_Riesgo_Churn__c</picklist>
+        <values>
+            <fullName>Alto</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bajo</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Medio</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
         <picklist>Industry</picklist>
         <values>
             <fullName>Agriculture</fullName>
@@ -4803,19 +4826,11 @@
     <picklistValues>
         <picklist>Segmento__c</picklist>
         <values>
-            <fullName>Patrimonial</fullName>
+            <fullName>Gobierno</fullName>
             <default>false</default>
         </values>
         <values>
-            <fullName>Patrimonial reactivo</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Privada</fullName>
-            <default>false</default>
-        </values>
-        <values>
-            <fullName>Wealth Management</fullName>
+            <fullName>Institucional</fullName>
             <default>false</default>
         </values>
     </picklistValues>
@@ -4910,6 +4925,49 @@
         </values>
         <values>
             <fullName>Víctimas de la comisión de delitos</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+    <picklistValues>
+        <picklist>Tipo_de_cliente_PM__c</picklist>
+        <values>
+            <fullName>AFORE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Asset Manager</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Bank</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Broker Dealer</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Family Office</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Hedge Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Insurance Company</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Mutual Fund</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Other</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Private Bank</fullName>
             <default>false</default>
         </values>
     </picklistValues>

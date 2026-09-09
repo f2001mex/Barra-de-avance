@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_OPP_No_Reabrir_Cerrada</fullName>
+    <active>true</active>
+    <description>HU1 PM - RN04 Opportunity: no permitir reabrir una Opportunity PM cuando ya estaba Closed Won o Closed Lost.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;Oportunidad_Personas_Morales&quot;,
+    NOT(ISNEW()),
+    ISCHANGED(StageName),
+    OR(
+        ISPICKVAL(PRIORVALUE(StageName), &quot;Closed Won&quot;),
+        ISPICKVAL(PRIORVALUE(StageName), &quot;Closed Lost&quot;)
+    ),
+    NOT(
+        OR(
+            ISPICKVAL(StageName, &quot;Closed Won&quot;),
+            ISPICKVAL(StageName, &quot;Closed Lost&quot;)
+        )
+    )
+)</errorConditionFormula>
+    <errorDisplayField>StageName</errorDisplayField>
+    <errorMessage>No puedes reabrir una oportunidad cerrada.</errorMessage>
+</ValidationRule>

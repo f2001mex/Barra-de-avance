@@ -1,0 +1,935 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReportType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <baseObject>Activity</baseObject>
+    <category>other</category>
+    <deployed>true</deployed>
+    <description>Actividades con Clientes Actinver</description>
+    <join>
+        <outerJoin>true</outerJoin>
+        <relationship>UserAsOwner</relationship>
+    </join>
+    <label>Actividades con Clientes Actinver V2</label>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Asignado a</displayNameOverride>
+            <field>Owner</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Asunto</displayNameOverride>
+            <field>Subject</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cerrado</displayNameOverride>
+            <field>IsClosed</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Comentarios</displayNameOverride>
+            <field>Description</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recuento de relación</displayNameOverride>
+            <field>WhoCount</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Creado por</displayNameOverride>
+            <field>CreatedBy</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cuenta</displayNameOverride>
+            <field>Account</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Domicilio</displayNameOverride>
+            <field>FinServ__Household__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Duración</displayNameOverride>
+            <field>DurationInMinutes</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Duración de la llamada</displayNameOverride>
+            <field>CallDurationInSeconds</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Es evento de grupo</displayNameOverride>
+            <field>IsGroupEvent</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Es secundario</displayNameOverride>
+            <field>IsChild</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Estado</displayNameOverride>
+            <field>Status</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Evento de todo el día</displayNameOverride>
+            <field>IsAllDayEvent</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Expectativas</displayNameOverride>
+            <field>FinServ__Expectations__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha</displayNameOverride>
+            <field>ActivityDate</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha/Hora de finalización</displayNameOverride>
+            <field>CompletedDateTime</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha/hora del recordatorio</displayNameOverride>
+            <field>ReminderDateTime</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha de creación</displayNameOverride>
+            <field>CreatedDate</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha de la última modificación</displayNameOverride>
+            <field>LastModifiedDate</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Hora</displayNameOverride>
+            <field>ActivityDateTime</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Hora de vencimiento</displayNameOverride>
+            <field>ActivityTimeOnly</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Id. de actividad</displayNameOverride>
+            <field>Id</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Identificador del objeto de llamada</displayNameOverride>
+            <field>CallObject</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Mostrar hora como</displayNameOverride>
+            <field>ShowAs</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Nombre</displayNameOverride>
+            <field>Who</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Objetivos</displayNameOverride>
+            <field>FinServ__Objectives__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Prioridad</displayNameOverride>
+            <field>Priority</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Privado</displayNameOverride>
+            <field>IsPrivate</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Recordatorio establecido</displayNameOverride>
+            <field>IsReminderSet</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Referente</displayNameOverride>
+            <field>FinServ__Regarding__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Relacionado con</displayNameOverride>
+            <field>What</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Relacionado con recuento</displayNameOverride>
+            <field>WhatCount</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Repetir esta tarea</displayNameOverride>
+            <field>RecurrenceRegeneratedType</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Resultado de la llamada</displayNameOverride>
+            <field>CallDisposition</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Siguientes pasos</displayNameOverride>
+            <field>FinServ__NextSteps__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Subtipo de evento</displayNameOverride>
+            <field>EventSubtype</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Subtipo de tarea</displayNameOverride>
+            <field>TaskSubtype</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tarea</displayNameOverride>
+            <field>IsTask</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tipo de evento de grupo</displayNameOverride>
+            <field>GroupEventType</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tipo de llamada</displayNameOverride>
+            <field>CallType</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tipo de registro de Tarea/Evento</displayNameOverride>
+            <field>RecordType</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ubicación</displayNameOverride>
+            <field>Location</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Última modificación por</displayNameOverride>
+            <field>LastModifiedBy</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Actividad : Asignado a : Nombre completo</displayNameOverride>
+            <field>Owner.Name</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Actividad : Asignado a : Perfil</displayNameOverride>
+            <field>Owner.Profile</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Actividad : Asignado a : Función</displayNameOverride>
+            <field>Owner.UserRole</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Actividad : Asignado a : Función : Función principal</displayNameOverride>
+            <field>Owner.UserRole.ParentRole</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Actividad : Cuenta : Propietario de la cuenta : Función</displayNameOverride>
+            <field>Account.Owner.UserRole</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Actividad : Cuenta : Propietario de la cuenta : Función : Función principal</displayNameOverride>
+            <field>Account.Owner.UserRole.ParentRole</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Actividad : Creado por : Función</displayNameOverride>
+            <field>CreatedBy.UserRole</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Actividad : Creado por : Función : Función principal</displayNameOverride>
+            <field>CreatedBy.UserRole.ParentRole</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Actividad : Creado por : Función : Función principal : Función principal</displayNameOverride>
+            <field>CreatedBy.UserRole.ParentRole.ParentRole</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Actividad : Cuenta : Identificador Cliente</displayNameOverride>
+            <field>Account.Client_ID__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Competidor__c</field>
+            <table>Activity</table>
+        </columns>
+        <masterLabel>Actividades</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>@desusado</displayNameOverride>
+            <field>et4ae5__ExactTarget_OAuth_Token__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Activo</displayNameOverride>
+            <field>IsActive</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Admin. Marketing Cloud para AppExchange</displayNameOverride>
+            <field>et4ae5__ExactTargetForAppExchangeAdmin__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Administrador de Marketing Cloud válido</displayNameOverride>
+            <field>et4ae5__ValidExactTargetAdmin__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Alias</displayNameOverride>
+            <field>Alias</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Apellidos</displayNameOverride>
+            <field>LastName</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Apodo</displayNameOverride>
+            <field>CommunityNickname</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Asunto del correo electrónico Stay-in-Touch</displayNameOverride>
+            <field>StayInTouchSubject</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cargo</displayNameOverride>
+            <field>Title</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Ciudad</displayNameOverride>
+            <field>City</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Codificación de correo electrónico</displayNameOverride>
+            <field>EmailEncodingKey</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Código postal</displayNameOverride>
+            <field>PostalCode</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Comentario del invitado</displayNameOverride>
+            <field>Response</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Configuración regional</displayNameOverride>
+            <field>LocaleSidKey</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Contacto</displayNameOverride>
+            <field>Contact</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Creado por</displayNameOverride>
+            <field>CreatedBy</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Cuenta</displayNameOverride>
+            <field>Account</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Departamento</displayNameOverride>
+            <field>Department</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Dirección</displayNameOverride>
+            <field>Address</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Dirección</displayNameOverride>
+            <field>Street</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Dirección del remitente de correo electrónico</displayNameOverride>
+            <field>SenderEmail</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>División</displayNameOverride>
+            <field>Division</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Correo electrónico</displayNameOverride>
+            <field>Email</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Correos electrónicos de información</displayNameOverride>
+            <field>ReceivesInfoEmails</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Correos electrónicos de información de administración</displayNameOverride>
+            <field>ReceivesAdminInfoEmails</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Es</displayNameOverride>
+            <field>IsWhat</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Es invitado</displayNameOverride>
+            <field>IsInvitee</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Es principal</displayNameOverride>
+            <field>IsParent</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Está controlada por el sistema</displayNameOverride>
+            <field>IsSystemControlled</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Estado/Provincia</displayNameOverride>
+            <field>State</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Etapa de adopción de Chatter</displayNameOverride>
+            <field>ChatterAdoptionStage</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Exactitud del geocódigo</displayNameOverride>
+            <field>GeocodeAccuracy</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Extensión</displayNameOverride>
+            <field>Extension</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fax</displayNameOverride>
+            <field>Fax</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha de caducidad de prueba de Wireless Edition</displayNameOverride>
+            <field>WirelessTrialExpirationDate</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Fecha de creación</displayNameOverride>
+            <field>CreatedDate</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha de la última modificación</displayNameOverride>
+            <field>LastModifiedDate</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha de modificación de la etapa de adopción de Chatter</displayNameOverride>
+            <field>ChatterAdoptionStageModifiedDate</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Fecha de respuesta</displayNameOverride>
+            <field>RespondedDate</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Final del día</displayNameOverride>
+            <field>EndDay</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Firma de correo electrónico</displayNameOverride>
+            <field>Signature</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Firma del correo electrónico Stay-in-Touch</displayNameOverride>
+            <field>StayInTouchSignature</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Frecuencia de notificación predeterminada al unirse a grupos</displayNameOverride>
+            <field>DefaultGroupNotificationFrequency</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Frecuencia destacada de correo electrónico de Chatter</displayNameOverride>
+            <field>DigestFrequency</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Función</displayNameOverride>
+            <field>UserRole</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Gestor</displayNameOverride>
+            <field>Manager</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>GID de identidad global</displayNameOverride>
+            <field>GlobalIdentity</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>ID_ASESOR</displayNameOverride>
+            <field>ID_ASESOR__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Id. de federación de SAML</displayNameOverride>
+            <field>FederationIdentifier</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Id. de usuario</displayNameOverride>
+            <field>Id</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Idioma</displayNameOverride>
+            <field>LanguageLocaleKey</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Inicio del día</displayNameOverride>
+            <field>StartDay</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Latitud</displayNameOverride>
+            <field>Latitude</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Longitud</displayNameOverride>
+            <field>Longitude</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>MID predeterminado</displayNameOverride>
+            <field>et4ae5__Default_MID__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Móvil</displayNameOverride>
+            <field>MobilePhone</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Nombre</displayNameOverride>
+            <field>FirstName</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Nombre completo</displayNameOverride>
+            <field>Name</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Nombre de empresa</displayNameOverride>
+            <field>CompanyName</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Nombre del remitente de correo electrónico</displayNameOverride>
+            <field>SenderName</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Nombre de usuario</displayNameOverride>
+            <field>Username</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Nombre de usuario de Marketing Cloud</displayNameOverride>
+            <field>et4ae5__ExactTargetUsername__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Nota del correo electrónico Stay-in-Touch</displayNameOverride>
+            <field>StayInTouchNote</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Número de empleado</displayNameOverride>
+            <field>EmployeeNumber</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Número de Nómina</displayNameOverride>
+            <field>NUM_NOMINA__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Página predeterminada de Marketing Cloud</displayNameOverride>
+            <field>et4ae5__Default_ET_Page__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>País</displayNameOverride>
+            <field>Country</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Perfil</displayNameOverride>
+            <field>Profile</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Permitir realización de previsiones</displayNameOverride>
+            <field>ForecastEnabled</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Persona</displayNameOverride>
+            <field>Individual</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Puntuación de referente</displayNameOverride>
+            <field>FinServ__ReferrerScore__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Salesforce ID (18 Digits)</displayNameOverride>
+            <field>Salesforce__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Segundo nombre</displayNameOverride>
+            <field>MiddleName</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Sobre mí</displayNameOverride>
+            <field>AboutMe</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Subtipo interno</displayNameOverride>
+            <field>UserSubtype</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Sufijo</displayNameOverride>
+            <field>Suffix</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Teléfono</displayNameOverride>
+            <field>Phone</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tiene foto de perfil</displayNameOverride>
+            <field>IsProfilePhotoActive</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Tipo de usuario</displayNameOverride>
+            <field>UserType</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Última modificación por</displayNameOverride>
+            <field>LastModifiedBy</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Usuario de Marketing Cloud válido</displayNameOverride>
+            <field>et4ae5__ValidExactTargetUser__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Usuario Marketing Cloud para AppExchange</displayNameOverride>
+            <field>et4ae5__ExactTargetForAppExchangeUser__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Zona horaria</displayNameOverride>
+            <field>TimeZoneSidKey</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Activity-ActivityRelation-User : Cuenta : Nombre Completo Actinver</displayNameOverride>
+            <field>Account.Nombre_Completo_Actinver__c</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>true</checkedByDefault>
+            <displayNameOverride>Activity-ActivityRelation-User : Función : Función principal</displayNameOverride>
+            <field>UserRole.ParentRole</field>
+            <table>Activity.UserAsOwner</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Actividad : Asignado a : Función : Usuario : División</displayNameOverride>
+            <field>Owner.UserRole.PortalAccountOwner.Division</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <displayNameOverride>Actividad : Asignado a : Función : Usuario : Departamento</displayNameOverride>
+            <field>Owner.UserRole.PortalAccountOwner.Department</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Owner.Profile.Name</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Account.Owner.Department</field>
+            <table>Activity</table>
+        </columns>
+        <masterLabel>Asignado a</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Account.Owner.Manager</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Account.Owner.Manager.Manager</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Account.Owner.Division</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Account.Owner.F3_Division__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Account.PersonContact.Email</field>
+            <table>Activity</table>
+        </columns>
+        <masterLabel>Cliente</masterLabel>
+    </sections>
+    <sections>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Avance_FAC__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Insurance_Policy__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Estatus_de_Renovacion__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Tiempo_promedio_de_contacto_CHURN__c</field>
+            <table>Activity</table>
+        </columns>
+        <columns>
+            <checkedByDefault>false</checkedByDefault>
+            <field>Fecha_de_contactacion2__c</field>
+            <table>Activity</table>
+        </columns>
+        <masterLabel>Activities</masterLabel>
+    </sections>
+</ReportType>

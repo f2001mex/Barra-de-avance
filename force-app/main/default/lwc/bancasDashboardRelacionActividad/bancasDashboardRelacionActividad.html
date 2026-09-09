@@ -1,0 +1,14 @@
+<template>
+    <header class="dashboard-header"><h2>Dashboard de Relación y Actividad Comercial</h2><p>Monitorea la actividad comercial, cobertura de clientes y nivel de seguimiento realizado por los ejecutivos.</p></header>
+    <div class="kpis">
+        <c-bancas-kpi-card label="Llamadas realizadas" value={data.callsCompleted} icon="utility:call" tone="blue" chart-type="line" trend={data.callsTrend}></c-bancas-kpi-card>
+        <c-bancas-kpi-card label="Eventos ejecutados" value={data.eventsCompleted} icon="utility:event" tone="purple" chart-type="line" trend={data.eventsTrend}></c-bancas-kpi-card>
+        <c-bancas-kpi-card label="Correos enviados" value={data.emailsSent} icon="utility:email" tone="teal" chart-type="line" trend={data.emailsTrend}></c-bancas-kpi-card>
+        <c-bancas-kpi-card label="Tareas pendientes" value={data.pendingTasks} icon="utility:task" tone="orange" chart-type="donut" trend={data.tasksByStatus}></c-bancas-kpi-card>
+    </div>
+    <div class="grid">
+        <c-bancas-chart title="Actividad comercial por ejecutivo" items={activity} report-id={activityReport} variant="column"></c-bancas-chart>
+        <section class="contacts panel"><h3>Contactos clave por cliente</h3><table><thead><tr><th>Cliente</th><th>Contactos clave</th></tr></thead><tbody><template for:each={contacts} for:item="item"><tr key={item.label}><td>{item.label}</td><td>{item.value}</td></tr></template></tbody></table><a href={contactsUrl}>Ver reporte completo →</a></section>
+    </div>
+    <div class="quick-links"><span>Reportes de tendencia:</span><a href={callsUrl}>Llamadas</a><a href={eventsUrl}>Eventos</a><a href={emailsUrl}>Correos</a><a href={tasksUrl}>Tareas pendientes</a></div>
+</template>

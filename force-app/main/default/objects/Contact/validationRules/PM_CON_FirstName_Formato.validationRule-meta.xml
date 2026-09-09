@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_CON_FirstName_Formato</fullName>
+    <active>true</active>
+    <description>HU1 PM - RV02 Contactos: Nombre obligatorio y solo letras, espacios y acentos para Contact PM.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;IndustriesBusiness&quot;,
+    OR(
+        ISBLANK(FirstName),
+        NOT(REGEX(FirstName, &quot;^[A-Za-zÁÉÍÓÚÜÑáéíóúüñ ]+$&quot;))
+    )
+)</errorConditionFormula>
+    <errorDisplayField>FirstName</errorDisplayField>
+    <errorMessage>El nombre solo puede contener letras y espacios.</errorMessage>
+</ValidationRule>

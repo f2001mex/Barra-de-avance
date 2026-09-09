@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_OPP_Especifica_Otro</fullName>
+    <active>true</active>
+    <description>HU1 PM - CA05/RV05: Especifica Otro obligatorio cuando Producto Solicitado es Other.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;Oportunidad_Personas_Morales&quot;,
+    ISPICKVAL(Producto_Solicitado__c, &quot;Other&quot;),
+    ISBLANK(Especifica_Otro_Producto__c)
+)</errorConditionFormula>
+    <errorDisplayField>Especifica_Otro_Producto__c</errorDisplayField>
+    <errorMessage>Especifica el producto cuando selecciones Other.</errorMessage>
+</ValidationRule>

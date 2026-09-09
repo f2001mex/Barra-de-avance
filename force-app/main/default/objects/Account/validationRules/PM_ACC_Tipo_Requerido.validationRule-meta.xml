@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_ACC_Tipo_Requerido</fullName>
+    <active>false</active>
+    <description>HU1 PM - RV04 Clientes: Tipo obligatorio para Account PM.</description>
+    <errorConditionFormula>AND(
+    OR(
+        RecordType.DeveloperName = &quot;IndustriesBusiness&quot;,
+        RecordType.DeveloperName = &quot;Cuentas_empresariales&quot;
+    ),
+    ISBLANK(TEXT(Type))
+)</errorConditionFormula>
+    <errorDisplayField>Type</errorDisplayField>
+    <errorMessage>Captura el Tipo del cliente.</errorMessage>
+</ValidationRule>

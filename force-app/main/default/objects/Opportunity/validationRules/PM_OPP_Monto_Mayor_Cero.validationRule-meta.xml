@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_OPP_Monto_Mayor_Cero</fullName>
+    <active>true</active>
+    <description>HU1 PM - RV06 Oportunidades: monto obligatorio y mayor a cero para Opportunity PM.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;Oportunidad_Personas_Morales&quot;,
+    OR(
+        ISBLANK(MontoEstimadoDeInversion__c),
+        MontoEstimadoDeInversion__c &lt;= 0
+    )
+)</errorConditionFormula>
+    <errorDisplayField>MontoEstimadoDeInversion__c</errorDisplayField>
+    <errorMessage>El monto debe ser un valor positivo mayor a cero.</errorMessage>
+</ValidationRule>

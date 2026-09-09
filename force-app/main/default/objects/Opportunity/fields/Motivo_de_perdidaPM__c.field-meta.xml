@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Motivo_de_perdidaPM__c</fullName>
+    <label>Motivo de pérdida</label>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Precio / condiciones no competitivas</fullName>
+                <default>false</default>
+                <label>Precio / condiciones no competitivas</label>
+            </value>
+            <value>
+                <fullName>Perdido con competidor</fullName>
+                <default>false</default>
+                <label>Perdido con competidor</label>
+            </value>
+            <value>
+                <fullName>Cliente postergó la decisión</fullName>
+                <default>false</default>
+                <label>Cliente postergó la decisión</label>
+            </value>
+            <value>
+                <fullName>Producto no disponible o no aplicable</fullName>
+                <default>false</default>
+                <label>Producto no disponible o no aplicable</label>
+            </value>
+            <value>
+                <fullName>Relación comercial insuficiente</fullName>
+                <default>false</default>
+                <label>Relación comercial insuficiente</label>
+            </value>
+            <value>
+                <fullName>Cambio interno del cliente (reestructura, fusión, etc.)</fullName>
+                <default>false</default>
+                <label>Cambio interno del cliente (reestructura, fusión, etc.)</label>
+            </value>
+            <value>
+                <fullName>Incumplimiento de requisitos (KYC, scoring, etc.)</fullName>
+                <default>false</default>
+                <label>Incumplimiento de requisitos (KYC, scoring, etc.)</label>
+            </value>
+            <value>
+                <fullName>Otro</fullName>
+                <default>false</default>
+                <label>Otro</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

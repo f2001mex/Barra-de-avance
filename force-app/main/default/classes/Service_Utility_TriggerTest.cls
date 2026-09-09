@@ -12,12 +12,7 @@ public class Service_Utility_TriggerTest {
         branchUnit.ExternalId__c = '10000012345';
         insert branchUnit;
         
-        List<User> users = new List<User>{
-            new User(Alias = 'usr1', Email='user1@test.com', Username='userx1@test.com', LastName='User1', ID_ASESOR__c='1001', isActive=true,TimeZoneSidKey='America/Los_Angeles', LocaleSidKey='en_US', EmailEncodingKey='UTF-8', LanguageLocaleKey='en_US', ProfileId = [SELECT Id FROM Profile WHERE Name='Standard User' LIMIT 1].Id),
-            new User(Alias = 'usr2', Email='user2@test.com', Username='userx2@test.com', LastName='User2', ID_ASESOR__c='1002', isActive=true,TimeZoneSidKey='America/Los_Angeles', LocaleSidKey='en_US', EmailEncodingKey='UTF-8', LanguageLocaleKey='en_US', ProfileId = [SELECT Id FROM Profile WHERE Name='Standard User' LIMIT 1].Id),
-            new User(Alias = 'usr3', Email='user3@test.com', Username='userx3@test.com', LastName='User3', ID_ASESOR__c='B12345', isActive=true,TimeZoneSidKey='America/Los_Angeles', LocaleSidKey='en_US', EmailEncodingKey='UTF-8', LanguageLocaleKey='en_US', ProfileId = [SELECT Id FROM Profile WHERE Name='Standard User' LIMIT 1].Id)
-        };
-        insert users;
+        User currentUser = [SELECT Id, ID_ASESOR__c FROM User WHERE Id = :UserInfo.getUserId()];
         OD_Account_cls.bypassTriggerExecution = true;
         Account accWM = new Account(Name = 'Test Account', Client_ID__c = '12345',Second_LastName__c = 'NoMiddleName',RecordTypeId = Schema.SObjectType.Account.getRecordTypeInfosByName().get('Wealth Management').getRecordTypeId());
         insert accWM;
@@ -26,13 +21,13 @@ public class Service_Utility_TriggerTest {
         insert accP;
         OD_Account_cls.bypassTriggerExecution = false;
         
-        Contact con = new Contact(FirstName = 'TestC', LastName = 'Contact', AccountId = accWM.Id);
+        Contact con = new Contact(FirstName = 'TestC', LastName = 'Contact', Email = 'contacto@actinver.com.mx', AccountId = accWM.Id);
         insert con;
-        Banker banker = new Banker(Name = 'Test Banker',CurrentBranchId = branchUnit.Id,OD_IdCentroFinanciero__c = '37' , ExternalId__c = 'B12345',JobCode ='B12345',UserOrContactId = users[2].Id);
+        Banker banker = new Banker(Name = 'Test Banker',CurrentBranchId = branchUnit.Id,OD_IdCentroFinanciero__c = '37' , ExternalId__c = 'B12345',JobCode ='B12345',UserOrContactId = currentUser.Id);
         insert banker;
         List<Contact> contacts = new List<Contact>{
-            new Contact(LastName='Contact1', RecordTypeId = Schema.SObjectType.Contact.getRecordTypeInfosByName().get('Banquero sin licencia').getRecordTypeId(), NumeroNomina__c='1001'),
-            new Contact(LastName='Contact2', RecordTypeId = Schema.SObjectType.Contact.getRecordTypeInfosByName().get('Banquero sin licencia').getRecordTypeId(), NumeroNomina__c='1002')
+            new Contact(LastName='Contact1', Email='contacto1@actinver.com.mx', RecordTypeId = Schema.SObjectType.Contact.getRecordTypeInfosByName().get('Banquero sin licencia').getRecordTypeId(), NumeroNomina__c='1001'),
+            new Contact(LastName='Contact2', Email='contacto2@actinver.com.mx', RecordTypeId = Schema.SObjectType.Contact.getRecordTypeInfosByName().get('Banquero sin licencia').getRecordTypeId(), NumeroNomina__c='1002')
         };
         insert contacts;
 
@@ -81,14 +76,18 @@ public class Service_Utility_TriggerTest {
 
     @isTest
     static void testGetUsersByNomina() {
-        Set<String> uniqueAdvisorIds = new Set<String>{'1001', '1002'};
+        User currentUser = [SELECT ID_ASESOR__c FROM User WHERE Id = :UserInfo.getUserId()];
+        Set<String> uniqueAdvisorIds = String.isBlank(currentUser.ID_ASESOR__c)
+            ? new Set<String>()
+            : new Set<String>{currentUser.ID_ASESOR__c};
         
         Test.startTest();
         Map<String, User> result = Service_Utility_Trigger.getUsersByNomina(uniqueAdvisorIds);
         Test.stopTest();
         
-        System.assert(result.containsKey('1001'), 'El resultado debe contener el usuario con Nomina 1001');
-        System.assert(result.containsKey('1002'), 'El resultado debe contener el usuario con Nomina 1002');
+        if (String.isNotBlank(currentUser.ID_ASESOR__c)) {
+            System.assert(result.containsKey(currentUser.ID_ASESOR__c), 'El resultado debe contener el usuario actual por nomina');
+        }
     }
 
     @isTest

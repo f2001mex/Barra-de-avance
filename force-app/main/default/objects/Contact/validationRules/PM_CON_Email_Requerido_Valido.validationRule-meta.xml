@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_CON_Email_Requerido_Valido</fullName>
+    <active>true</active>
+    <description>HU1 PM - RV04 Contactos: Correo electronico obligatorio y con formato valido para Contact PM.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;IndustriesBusiness&quot;,
+    OR(
+        ISBLANK(Email),
+        NOT(REGEX(Email, &quot;^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$&quot;))
+    )
+)</errorConditionFormula>
+    <errorDisplayField>Email</errorDisplayField>
+    <errorMessage>Ingrese una dirección de correo electrónico válida.</errorMessage>
+</ValidationRule>
