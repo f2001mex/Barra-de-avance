@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_ACC_Segmento_Requerido</fullName>
+    <active>false</active>
+    <description>HU1 PM - RV03 Clientes: Segmento obligatorio para Account PM.</description>
+    <errorConditionFormula>AND(
+    OR(
+        RecordType.DeveloperName = &quot;IndustriesBusiness&quot;,
+        RecordType.DeveloperName = &quot;Cuentas_empresariales&quot;
+    ),
+    ISBLANK(TEXT(Segmento__c))
+)</errorConditionFormula>
+    <errorDisplayField>Segmento__c</errorDisplayField>
+    <errorMessage>Captura el Segmento del cliente.</errorMessage>
+</ValidationRule>

@@ -30,6 +30,16 @@
                 <default>false</default>
                 <label>Patrimonial reactivo</label>
             </value>
+            <value>
+                <fullName>Institucional</fullName>
+                <default>false</default>
+                <label>Institucional</label>
+            </value>
+            <value>
+                <fullName>Gobierno</fullName>
+                <default>false</default>
+                <label>Gobierno</label>
+            </value>
         </valueSetDefinition>
     </valueSet>
 </CustomField>

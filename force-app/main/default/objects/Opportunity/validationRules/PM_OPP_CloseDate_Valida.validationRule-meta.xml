@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_OPP_CloseDate_Valida</fullName>
+    <active>true</active>
+    <description>HU1 PM - CA03/RV07 Oportunidades: Fecha de cierre no puede ser anterior a la fecha de creacion.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;Oportunidad_Personas_Morales&quot;,
+    CloseDate &lt; IF(ISNEW(), TODAY(), DATEVALUE(CreatedDate))
+)</errorConditionFormula>
+    <errorDisplayField>CloseDate</errorDisplayField>
+    <errorMessage>La fecha de cierre no puede ser anterior a la fecha de creación de la oportunidad.</errorMessage>
+</ValidationRule>

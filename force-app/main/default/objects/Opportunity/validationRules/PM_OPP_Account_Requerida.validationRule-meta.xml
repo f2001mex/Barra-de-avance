@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_OPP_Account_Requerida</fullName>
+    <active>true</active>
+    <description>HU1 PM - CA01/RV01 Oportunidades: Cliente asociado obligatorio para Opportunity PM.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;Oportunidad_Personas_Morales&quot;,
+    ISBLANK(AccountId)
+)</errorConditionFormula>
+    <errorDisplayField>AccountId</errorDisplayField>
+    <errorMessage>Relaciona la oportunidad con un cliente.</errorMessage>
+</ValidationRule>

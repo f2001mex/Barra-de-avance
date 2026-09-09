@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_OPP_Motivo_Perdida_PM</fullName>
+    <active>true</active>
+    <description>HU1 PM - RN05 Opportunity: motivo de pérdida abierto obligatorio cuando la Opportunity PM está Closed Lost.</description>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;Oportunidad_Personas_Morales&quot;,
+    ISPICKVAL(StageName, &quot;Closed Lost&quot;),
+    ISBLANK(TEXT(Motivo_de_perdidaPM__c))
+)</errorConditionFormula>
+    <errorDisplayField>Motivo_de_perdidaPM__c</errorDisplayField>
+    <errorMessage>Captura el motivo de pérdida.</errorMessage>
+</ValidationRule>

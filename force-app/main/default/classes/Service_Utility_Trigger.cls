@@ -16,11 +16,13 @@ public without sharing class Service_Utility_Trigger {
     private static final String PRIVADAACCOUNTRT = 'PrivateBankingClient';
     private static final String PATRIMONIAL_ACCOUNT_RT = 'PatrimonialBankingClient';
     private static final String BUSINESS_RT = 'IndustriesBusiness';
+    private static final String PERSONAS_MORALES_ACCOUNT_RT = 'Cuentas_empresariales';
     public static final Id rtPersonAccount = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get(PERSONACCOUNTRT).getRecordTypeId();
     public static final Id rtWealthManagmentAccount = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get(WEALTHMANAGMENTACCOUNTRT).getRecordTypeId();
     public static final Id rtPrivadaAccount = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get(PRIVADAACCOUNTRT).getRecordTypeId();   
     public static final Id rtPatrimonialAccount = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get(PATRIMONIAL_ACCOUNT_RT).getRecordTypeId();  
     public static final Id rtBusinessAccount = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get(BUSINESS_RT).getRecordTypeId();  
+    public static final Id rtPersonasMoralesAccount = Schema.SObjectType.Account.getRecordTypeInfosByDeveloperName().get(PERSONAS_MORALES_ACCOUNT_RT).getRecordTypeId();
     private static final String RTCONTACTWOLICENSE = 'BanqueroLlicencia';
     public static final String DEFAULT_USER_NAME = 'IntegrationUser';
     public static final Id rtBankerWithoutLicense = Schema.SObjectType.Contact.getRecordTypeInfosByDeveloperName().get(RTCONTACTWOLICENSE).getRecordTypeId();
@@ -32,7 +34,8 @@ public without sharing class Service_Utility_Trigger {
            account.RecordTypeId == rtWealthManagmentAccount ||
            account.RecordTypeId == rtPrivadaAccount  ||
            account.RecordTypeId == rtPatrimonialAccount||
-           account.RecordTypeId == rtBusinessAccount)
+           account.RecordTypeId == rtBusinessAccount ||
+           account.RecordTypeId == rtPersonasMoralesAccount)
         {
             flag = true;
         }        
@@ -75,12 +78,13 @@ public without sharing class Service_Utility_Trigger {
     }
     public static Map<String,BranchUnitBusinessMember> getBranchUnitByOwnerId(Set<Id> setOwnerIds){
         Map<String,BranchUnitBusinessMember> brunitBussMemberMap = new Map<String,BranchUnitBusinessMember> ();
-        for(Banker bk :[SELECT Id,UserOrContactId,Name,ExternalId__c,CurrentBranch.ExternalId__c,CurrentBranch.ExternalIdBi__c,(SELECT Id,Name,ExternalId__c,ExternalIdBI__c FROM BranchUnitBusinessMembers WHERE isActive = true) FROM Banker WHERE UserOrContactId IN: setOwnerIds]){
+        for(Banker bk :[SELECT Id,UserOrContactId,Name,ExternalId__c,CurrentBranchId,CurrentBranch.ExternalId__c,CurrentBranch.ExternalIdBi__c,(SELECT Id,Name,ExternalId__c,ExternalIdBI__c,BranchUnitId FROM BranchUnitBusinessMembers WHERE isActive = true) FROM Banker WHERE UserOrContactId IN: setOwnerIds]){
             for(BranchUnitBusinessMember bm :bk.BranchUnitBusinessMembers){  
                 
                 String externalId = bm != null ? bk.CurrentBranch.ExternalId__c + bk.ExternalId__c : null;
                 String externalIdBI = bm != null ? bk.CurrentBranch.ExternalIdBi__c + bk.ExternalId__c : null;
-                if(!String.isEmpty(externalId) && externalId.equalsIgnoreCase(bm.ExternalId__c) ||
+                if(bk.CurrentBranchId == bm.BranchUnitId ||
+                   !String.isEmpty(externalId) && externalId.equalsIgnoreCase(bm.ExternalId__c) ||
                    !String.isEmpty(externalIdBI) && externalIdBI.equalsIgnoreCase(bm.ExternalIdBI__c)){
                     brunitBussMemberMap.put(bk.UserOrContactId,bm);
                 }
@@ -90,7 +94,7 @@ public without sharing class Service_Utility_Trigger {
     }
     public static Map<String,BranchUnitBusinessMember> getBranchUnitByCFYJobCode(Set<String> uniqueAdvisorIds){
         Map<String,BranchUnitBusinessMember> brunitBussMemberMap = new Map<String,BranchUnitBusinessMember> ();
-        for(Banker bk :[SELECT Id,Name,ExternalId__c,CurrentBranch.ExternalId__c,CurrentBranch.ExternalIdBi__c,(SELECT Id,Name,ExternalId__c,ExternalIdBI__c FROM BranchUnitBusinessMembers WHERE isActive = true) FROM Banker WHERE ExternalId__c IN: uniqueAdvisorIds]){
+        for(Banker bk :[SELECT Id,Name,ExternalId__c,CurrentBranchId,CurrentBranch.ExternalId__c,CurrentBranch.ExternalIdBi__c,(SELECT Id,Name,ExternalId__c,ExternalIdBI__c,BranchUnitId FROM BranchUnitBusinessMembers WHERE isActive = true) FROM Banker WHERE ExternalId__c IN: uniqueAdvisorIds]){
             system.debug('EXTERNALID:' + bk.CurrentBranch.ExternalId__c + bk.ExternalId__c);
             for(BranchUnitBusinessMember bm :bk.BranchUnitBusinessMembers){  
                 
@@ -98,7 +102,8 @@ public without sharing class Service_Utility_Trigger {
                 
                 String externalId = bm != null ? bk.CurrentBranch.ExternalId__c + bk.ExternalId__c : null;
                 String externalIdBI = bm != null ? bk.CurrentBranch.ExternalIdBi__c + bk.ExternalId__c : null;
-                if(!String.isEmpty(externalId) && externalId.equalsIgnoreCase(bm.ExternalId__c) ||
+                if(bk.CurrentBranchId == bm.BranchUnitId ||
+                   !String.isEmpty(externalId) && externalId.equalsIgnoreCase(bm.ExternalId__c) ||
                    !String.isEmpty(externalIdBI) && externalIdBI.equalsIgnoreCase(bm.ExternalIdBI__c)){
                        
                     brunitBussMemberMap.put(bk.ExternalId__c,bm);
@@ -131,9 +136,16 @@ public without sharing class Service_Utility_Trigger {
     }
     public static Map<String,BranchUnit> getBranchUnits(Set<String> setIdBranchs){
         Map<String,BranchUnit> branchUnitsMap = new Map<String,BranchUnit> ();
-        for(BranchUnit bu :[SELECT Id,Name,ExternalId__c,ExternalIdBI__c FROM BranchUnit WHERE (ExternalId__c IN: setIdBranchs OR ExternalIdBI__c IN:setIdBranchs)]){ 
-            branchUnitsMap.put(bu.ExternalIdBI__c,bu);
-            branchUnitsMap.put(bu.ExternalId__c,bu);
+        for(BranchUnit bu :[SELECT Id,Name,BranchCode,ExternalId__c,ExternalIdBI__c FROM BranchUnit WHERE (BranchCode IN: setIdBranchs OR ExternalId__c IN: setIdBranchs OR ExternalIdBI__c IN:setIdBranchs)]){
+            if (String.isNotBlank(bu.ExternalIdBI__c)) {
+                branchUnitsMap.put(bu.ExternalIdBI__c,bu);
+            }
+            if (String.isNotBlank(bu.ExternalId__c)) {
+                branchUnitsMap.put(bu.ExternalId__c,bu);
+            }
+            if (String.isNotBlank(bu.BranchCode)) {
+                branchUnitsMap.put(bu.BranchCode,bu);
+            }
         }
         return branchUnitsMap;
     }

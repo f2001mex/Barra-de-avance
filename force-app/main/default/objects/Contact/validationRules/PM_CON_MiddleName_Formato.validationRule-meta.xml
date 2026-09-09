@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_CON_MiddleName_Formato</fullName>
+    <active>true</active>
+    <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;IndustriesBusiness&quot;,
+    NOT(ISBLANK(MiddleName)),
+    NOT(
+        REGEX(
+            MiddleName,
+            &quot;^[A-Za-zÁÉÍÓÚÜÑáéíóúüñ ]+$&quot;
+        )
+    )
+)</errorConditionFormula>
+    <errorDisplayField>MiddleName</errorDisplayField>
+    <errorMessage>El segundo nombre solo puede contener letras y espacios.</errorMessage>
+</ValidationRule>

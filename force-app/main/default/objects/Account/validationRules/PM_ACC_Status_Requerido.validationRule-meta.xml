@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PM_ACC_Status_Requerido</fullName>
+    <active>false</active>
+    <description>HU1 PM - RV05 Clientes: Estatus Cliente obligatorio para Account PM.</description>
+    <errorConditionFormula>AND(
+    OR(
+        RecordType.DeveloperName = &quot;IndustriesBusiness&quot;,
+        RecordType.DeveloperName = &quot;Cuentas_empresariales&quot;
+    ),
+    ISBLANK(TEXT(FinServ__Status__c))
+)</errorConditionFormula>
+    <errorDisplayField>FinServ__Status__c</errorDisplayField>
+    <errorMessage>Captura el Estatus Cliente.</errorMessage>
+</ValidationRule>
