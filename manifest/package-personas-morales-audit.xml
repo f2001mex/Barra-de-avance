@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Complemento de auditoria. El paquete desplegable principal es package-personas-morales.xml. -->
+    <types>
+        <members>PM - Ejecutivo Personas Morales</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>AccountTrigger</members>
+        <members>OpportunityTrigger</members>
+        <members>Task_trg</members>
+        <name>ApexTrigger</name>
+    </types>
+    <!-- Las ListView se enumeran primero con Metadata API y se recuperan por nombre;
+         este tipo no admite comodines Object.* en una recuperación. -->
+    <version>68.0</version>
+</Package>
