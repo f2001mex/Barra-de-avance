@@ -45,7 +45,7 @@ El código fuente de los siguientes triggers es idéntico en ActiDev, ActiQA y A
 
 La versión de `OpportunityTrigger` contiene el evento `after insert` promovido previamente. Solo el archivo descriptor de `AccountTrigger` presenta una diferencia de versión API; QA y ActiPM coinciden entre sí.
 
-## Perfil PM: hallazgo pendiente
+## Perfil PM: hallazgo corregido
 
 La consulta directa de permisos efectivos demostró:
 
@@ -65,7 +65,14 @@ ActiPM no tiene en el perfil permisos de lectura/edición para campos necesarios
 - `Opportunity.MotivoDeRechazo__c`
 - `Opportunity.Probability` (lectura)
 
-También faltan permisos de campos utilizados por los formularios PM de Account, Contact, Task y Event. ActiPM conserva permisos adicionales de Opportunity provenientes de Producción; no deben retirarse automáticamente.
+También faltaban permisos de campos utilizados por los formularios PM de Account, Task y Event. ActiPM conserva permisos adicionales de Opportunity provenientes de Producción; no se retiraron.
+
+La corrección se aplicó de forma aditiva mediante `PM - Ejecutivo Personas Morales.profile-meta.xml`:
+
+- Validación previa: `0AfWF00000G3P8j0AF`, exitosa, 1 componente y cero errores.
+- Despliegue: `0AfWF00000G3PGn0AN`, exitoso, 1 componente y cero errores.
+- Se incorporaron 34 permisos de campo presentes en ActiDev y faltantes en ActiPM.
+- Verificación directa posterior confirmó lectura y edición para `Opportunity.Motivo_de_perdidaPM__c`, `Opportunity.Profit_and_Loss_PM__c`, `Opportunity.AccountId`, `Account.Client_ID__c` y `Account.RFC__c`.
 
 ## Listas de vista
 
@@ -91,4 +98,4 @@ Inventario recuperado por Metadata API:
 
 ## Conclusión
 
-El núcleo desplegable está actualizado y probado en ActiPM, pero no debe declararse alineación total hasta corregir y volver a comprobar los permisos de campo del perfil PM. La corrección debe ser aditiva: incorporar los permisos PM faltantes y preservar los permisos adicionales heredados de Producción.
+El núcleo desplegable está actualizado en ActiPM y el faltante confirmado de permisos de campo del perfil PM fue corregido de forma aditiva. La validación técnica del paquete y del parche concluyó sin errores. Queda la validación funcional del usuario final con una sesión nueva, especialmente creación de Cliente y Oportunidad, captura de Profit and Loss y cierre con Motivo de pérdida.
