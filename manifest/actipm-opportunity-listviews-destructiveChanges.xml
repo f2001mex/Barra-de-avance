@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Opportunity.AllOpportunities</members>
+        <members>Opportunity.Default_Opportunity_Pipeline</members>
+        <members>Opportunity.Mis_Oportunidades_Leads_Gran_Filtro</members>
+        <members>Opportunity.Mis_Oportunidades_PPR_2026</members>
+        <members>Opportunity.Mis_Opps_Seguro_Dotales_Educaci_n_2026</members>
+        <members>Opportunity.NewThisWeek</members>
+        <name>ListView</name>
+    </types>
+    <version>65.0</version>
+</Package>
