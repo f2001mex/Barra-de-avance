@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>Contact.FinServ__Upcoming_Birthdays_Next_7_Days</members>
+        <members>Contact.FinServ__Upcoming_RMDs_Next_7_Days</members>
+        <name>ListView</name>
+    </types>
+    <version>68.0</version>
+</Package>
