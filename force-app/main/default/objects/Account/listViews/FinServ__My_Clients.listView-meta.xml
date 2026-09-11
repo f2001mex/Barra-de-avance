@@ -13,4 +13,7 @@
     <columns>Client_ID__c</columns>
     <filterScope>Mine</filterScope>
     <label>Mis Clientes</label>
+    <sharedTo>
+        <roleAndSubordinates>Head_PM</roleAndSubordinates>
+    </sharedTo>
 </ListView>
