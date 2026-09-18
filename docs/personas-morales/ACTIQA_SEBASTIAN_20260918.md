@@ -11,3 +11,11 @@
 ## Rollback
 
 Restaurar Account.MyAccounts a filterScope=Team con las columnas y etiqueta del respaldo audit/sebastian-20260918/actiqa/MyAccounts-before.json. No modificar otros permisos o reglas.
+
+## Corrección del error de campo obligatorio
+
+La captura de Nuevo evento identificó AccountContactRelation.FinServ__PrimaryGroup__c sin acceso. Describe confirma campo booleano obligatorio (nillable=false), editable. Ni DEV ni QA incluían su FLS en PM_GestionComercial.
+
+En QA se añadió readable=true y editable=true únicamente para ese campo en PM_GestionComercial. Metadata API devolvió success=true; FieldPermissions confirmó lectura/edición. Sebastián ya tiene este conjunto asignado, por lo que no requiere una asignación adicional. No se han cambiado Director, Head, Administrativo, perfiles o DEV/PM en esta corrección.
+
+Respaldo previo del conjunto: audit/sebastian-20260918/actiqa/PM_GestionComercial-primarygroup-before.json. Rollback: restaurar el acceso previo a este campo (sin concesión por PM_GestionComercial), conservando los demás permisos del respaldo. Pendiente repetir Nuevo evento como Sebastián y registrar resultado; no se afirma resuelto el registro de tareas, llamadas y correos solo por esta corrección.

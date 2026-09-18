@@ -1,0 +1,389 @@
+{
+  "fullName": "PM_GestionComercial",
+  "classAccesses": [
+    {
+      "apexClass": "BancasDashboardController",
+      "enabled": true
+    }
+  ],
+  "customPermissions": [
+    {
+      "enabled": true,
+      "name": "Acceso_Dashboards_Bancas"
+    }
+  ],
+  "fieldPermissions": [
+    {
+      "editable": true,
+      "field": "Account.BillingAddress",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.Client_ID__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.Description",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.EconomicActivity__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.FinServ__Status__c",
+      "readable": true
+    },
+    {
+      "editable": false,
+      "field": "Account.Id_del_banquero_responsable__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.Industry",
+      "readable": true
+    },
+    {
+      "editable": false,
+      "field": "Account.NombreBanqueroAsignado__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.NumberOfEmployees",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.ParentId",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.Person_Type__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.Phone",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.RFC__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.Segmento__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.ShippingAddress",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.Tipo_de_cliente_PM__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.Type",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Account.Website",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "AccountContactRelation.IsActive",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Contact.AccountId",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Contact.Department",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Contact.Description",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Contact.Email",
+      "readable": true
+    },
+    {
+      "editable": false,
+      "field": "Contact.FinServ__BillingAddress__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Contact.MobilePhone",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Contact.Phone",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Contact.Title",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Event.Competidor__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Event.Description",
+      "readable": true
+    },
+    {
+      "editable": false,
+      "field": "Event.WhatId",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.AccountId",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.CampaignId",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.Description",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.Especifica_Otro_Producto__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.MontoEstimadoDeInversion__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.MotivoDeRechazo__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.Motivo_de_Perdida_PM__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.Motivo_de_perdidaPM__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.Origen_cliente__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.PM_Siguiente_paso__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.Probability",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.Producto_Solicitado__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.Profit_and_Loss_PM__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.Siguientes_pasos__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Opportunity.Tipo_deNegocio__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Task.Competidor__c",
+      "readable": true
+    },
+    {
+      "editable": true,
+      "field": "Task.Description",
+      "readable": true
+    },
+    {
+      "editable": false,
+      "field": "Task.WhatId",
+      "readable": true
+    }
+  ],
+  "flowAccesses": [
+    {
+      "enabled": true,
+      "flow": "PM_Nueva_Oportunidad_Con_Contacto"
+    }
+  ],
+  "hasActivationRequired": false,
+  "label": "PM - Banquero",
+  "objectPermissions": [
+    {
+      "allowCreate": true,
+      "allowDelete": false,
+      "allowEdit": true,
+      "allowRead": true,
+      "modifyAllRecords": false,
+      "object": "Account",
+      "viewAllFields": "false",
+      "viewAllRecords": false
+    },
+    {
+      "allowCreate": true,
+      "allowDelete": false,
+      "allowEdit": true,
+      "allowRead": true,
+      "modifyAllRecords": false,
+      "object": "Contact",
+      "viewAllFields": "false",
+      "viewAllRecords": false
+    },
+    {
+      "allowCreate": true,
+      "allowDelete": false,
+      "allowEdit": true,
+      "allowRead": true,
+      "modifyAllRecords": false,
+      "object": "Interaction",
+      "viewAllFields": "false",
+      "viewAllRecords": false
+    },
+    {
+      "allowCreate": true,
+      "allowDelete": false,
+      "allowEdit": true,
+      "allowRead": true,
+      "modifyAllRecords": false,
+      "object": "InteractionAttendee",
+      "viewAllFields": "false",
+      "viewAllRecords": false
+    },
+    {
+      "allowCreate": true,
+      "allowDelete": false,
+      "allowEdit": true,
+      "allowRead": true,
+      "modifyAllRecords": false,
+      "object": "InteractionRelatedAccount",
+      "viewAllFields": "false",
+      "viewAllRecords": false
+    },
+    {
+      "allowCreate": true,
+      "allowDelete": false,
+      "allowEdit": true,
+      "allowRead": true,
+      "modifyAllRecords": false,
+      "object": "Opportunity",
+      "viewAllFields": "false",
+      "viewAllRecords": false
+    }
+  ],
+  "recordTypeVisibilities": [
+    {
+      "recordType": "Account.Cuentas_empresariales",
+      "visible": true
+    },
+    {
+      "recordType": "Account.FinServ__IndustriesBusiness",
+      "visible": true
+    },
+    {
+      "recordType": "Contact.FinServ__IndustriesBusiness",
+      "visible": true
+    },
+    {
+      "recordType": "Opportunity.Oportunidad_Personas_Morales",
+      "visible": true
+    }
+  ],
+  "tabSettings": [
+    {
+      "tab": "standard-Account",
+      "visibility": "Visible"
+    },
+    {
+      "tab": "standard-Contact",
+      "visibility": "Visible"
+    },
+    {
+      "tab": "standard-Interaction",
+      "visibility": "Visible"
+    },
+    {
+      "tab": "standard-Opportunity",
+      "visibility": "Visible"
+    }
+  ],
+  "userPermissions": [
+    {
+      "enabled": true,
+      "name": "EditEvent"
+    },
+    {
+      "enabled": true,
+      "name": "EditTask"
+    },
+    {
+      "enabled": true,
+      "name": "EmailSingle"
+    },
+    {
+      "enabled": true,
+      "name": "RunFlow"
+    },
+    {
+      "enabled": true,
+      "name": "RunReports"
+    }
+  ],
+  "applicationVisibilities": [],
+  "customMetadataTypeAccesses": [],
+  "externalDataSourceAccesses": [],
+  "pageAccesses": []
+}
