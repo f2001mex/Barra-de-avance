@@ -6,6 +6,6 @@
     <columns>ACCOUNT.PHONE1</columns>
     <columns>ACCOUNT.TYPE</columns>
     <columns>CORE.USERS.ALIAS</columns>
-    <filterScope>Team</filterScope>
+    <filterScope>Mine</filterScope>
     <label>Mis Cuentas</label>
 </ListView>

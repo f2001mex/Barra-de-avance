@@ -1,0 +1,5129 @@
+{
+  "SharingRules": [
+    {
+      "fullName": "Account",
+      "sharingCriteriaRules": [
+        {
+          "fullName": "Cuentas_Referenciador_79136",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Cuentas Referenciador 79136",
+          "sharedTo": {
+            "group": [
+              "WM_Asesor_79136"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "criteriaItems": [
+            {
+              "field": "ID_Asesor__c",
+              "operation": "equals",
+              "value": "79136"
+            }
+          ],
+          "includeRecordsOwnedByAll": "true"
+        },
+        {
+          "fullName": "Cuentas_Referenciador_79167",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Cuentas Referenciador 79167",
+          "sharedTo": {
+            "group": [
+              "WM_Referenciador_79167"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "criteriaItems": [
+            {
+              "field": "ID_Asesor__c",
+              "operation": "equals",
+              "value": "79167"
+            }
+          ],
+          "includeRecordsOwnedByAll": "true"
+        },
+        {
+          "fullName": "Cuentas_Referenciador_99310",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Cuentas Referenciador 99310",
+          "sharedTo": {
+            "group": [
+              "Cuentas_Referenciador"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "criteriaItems": [
+            {
+              "field": "ID_Asesor__c",
+              "operation": "equals",
+              "value": "99310"
+            }
+          ],
+          "includeRecordsOwnedByAll": "true"
+        }
+      ],
+      "sharingOwnerRules": [
+        {
+          "fullName": "BanqueroConsultorGtoLeonCerroGordoAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Priv y Patrimonial Banquero Privado y Consultor Financiero A",
+          "label": "Banquero - Consultor Gto Leon Cerro Gordo",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Gto_Le_n_Cerro_Gordo_Consultor_a_Financiero_A"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Int_Gto_Le_n_Cerro_Gordo_Banquero_Privado"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "BanqueroaPrivadoJulioVerneyAltavista",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Comparte registros de Privada Altavista a Julio Verne",
+          "label": "Banquero/a Privado Julio Verne y Altavista",
+          "sharedTo": {
+            "role": [
+              "Privada_CDMX_Julio_Verne_Polanco_Banquero_Privado"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_CDMX_Altavista_Banquero_Privado"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "CDMXAltavistaAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y Patrimonial ConsultorFinanciero B y Privado Junior Account",
+          "label": "CDMX Altavista",
+          "sharedTo": {
+            "role": [
+              "Privada_CDMX_Altavista_Privado_Junior"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Priv_y_Patrimonial_CDMX_Altavista_Consultor_a_Financiero_B"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "CDMXAltavistaTerrazaPedregalAccounts",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Priv y Patrimonial Director/a de CF",
+          "label": "CDMX Altavista - Terraza Pedregal",
+          "sharedTo": {
+            "role": [
+              "Priv_y_Patrimonial_CDMX_Terraza_Pedregal_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_CDMX_Altavista_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "CDMXMontesUralesAccounts",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Priv y Patrimonial Director/a de CF",
+          "label": "CDMX Montes Urales",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_CDMX_Montes_Urales_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_CDMX_Montes_Urales_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "CDMXMontesUralesBanqueroAccounts",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Priv y Patrimonial Banqueros",
+          "label": "CDMX Montes Urales Banquero",
+          "sharedTo": {
+            "role": [
+              "Privada_CDMX_Montes_Urales_Banquero_Privado_Director"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_CDMX_Montes_Urales_Consultor_a_Financiero_A"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "CDMXPatioUniversidadAccounts",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y Patrimonial Director de CF",
+          "label": "CDMX Patio Universidad",
+          "sharedTo": {
+            "role": [
+              "Privada_CDMX_Patio_Universidad_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Priv_y_Patrimonial_CDMX_Patio_Universidad_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "CDMXTerrazaPedregalAltavistaAccounts",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y Patrimonial Director de CF",
+          "label": "CDMX Terraza Pedregal - Altavista",
+          "sharedTo": {
+            "role": [
+              "Priv_y_Patrimonial_CDMX_Altavista_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Priv_y_Patrimonial_CDMX_Terraza_Pedregal_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectorCFCoahSaltillo_Parque_Centro",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Comparte Director CF de Privada y Patrimonial",
+          "label": "Director CF Coah Saltillo Parque Centro",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_MTY_COAH_Saltillo_Parque_Centro_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Coah_Saltillo_Parque_Centro_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectorCFMTYVistaHermosaSanPedro",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Comparte patrimonial Vista Hermosa y privada San Pedro",
+          "label": "Director CF MTY Vista Hermosa - San Pedro",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_MTY_NL_MTY_Vista_Hermosa_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_NL_San_Pedro_San_Agustin_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectorCFMorCuernavacaRioMayoAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Priv y Patrimonial Director de CF",
+          "label": "Director/a de CF Mor Cuernavaca Rio Mayo",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Mor_Cuernavaca_Rio_Mayo_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Mor_Cuernavaca_Rio_Mayo_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectorCFQroBernardoQuintanaAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Director/a de CF en Priv y Patrimonial",
+          "label": "Director/a de CF Qro Bernardo Quintana",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Qro_Quer_taro_Bernardo_Quintana_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Int_Qro_Bernardo_Quintana_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectorCFSINLosMochisNorteAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF SIN Los Mochis Norte",
+          "sharedTo": {
+            "role": [
+              "Priv_y_Patrimonial_SIN_Los_Mochis_Plaza_Rosales_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Sin_Los_Mochis_Plaza_Rosales_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectorCFSINMazatlanAvdelMarAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF SIN Mazatlán Av del Mar",
+          "sharedTo": {
+            "role": [
+              "Privada_Sin_Mazatl_n_Av_Del_Mar_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Norte_SIN_Mazatlan_Av_Del_Mar_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectorCFTAMPSTampico",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF TAMPS Tampico",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Norte_TAMPS_Tampico_Av_Hidalgo_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Tamps_Tampico_Av_Hidalgo_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectorCFTabVHVerBocadelRioAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y patrimonial",
+          "label": "Director/a de CF Tab Villahermosa y Ver Boca del Rio Patrimonial",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Tab_Villahermosa_Paseo_Tabasco_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Sur_Ver_Boca_del_Rio_Las_Americas_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectorCFTabVillahermosayBocadelRioAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y Patrimonial",
+          "label": "Director/a de CF Tab Villahermosa y Ver Boca del Rio",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Tab_Villahermosa_Paseo_Tabasco_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Ver_Boca_del_Rio_Las_Am_ricas_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectorDivisionalNortePrivPatriAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Director Divisional Norte - Privada/Patrimonial",
+          "label": "Director Divisional Norte Priv y Patri",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Direcci_n_Divisional_Norte"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Direccion_Divisional_Norte"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectorDivisionalSur",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Director Divi Sur Priv y patrimonial",
+          "label": "Director Divisional Sur",
+          "sharedTo": {
+            "role": [
+              "Privada_Direccion_Divisional_Sur"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Direcci_n_Divisional_Sur"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "Director_a_de_CF_Julio_Verne_Polanco_Priv",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Director/a de CF Julio Verne Polanco Privada",
+          "label": "Director/a de CF Julio Verne Polanco Priv",
+          "sharedTo": {
+            "role": [
+              "Priv_y_Patrimonial_CDMX_Julio_Verne_Polanco_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_CDMX_Julio_Verne_Polanco_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoraCFGTOSMAInternacionalAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF GTO SMA - Internacional",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Internacional_GTO_SMA_Centro_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Int_Gto_Sma_Centro_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFAguscalientes509Norte",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y Patrimonial Norte",
+          "label": "Director/a de CF Aguscalientes 509 Norte",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Norte_AGS_Aguascalientes_NTE_509_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_AGS_Aguscalientes_NTE_509_DIrector_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFAvLazaroCardenasAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Priv y Patrimonial MICH MOR Av. Lazaro Cardenas director de CF",
+          "label": "Director/a de CF Av. Lazaro Cardenas",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Mich_Mor_Av_L_zaro_Cardenas_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_CF_Mich_Mor_Av_Lazaro_Cardenas"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFCHISTuxGutAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "None",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "None"
+          },
+          "description": "Director/a de CF Priv y Patrimonial CHIS Tux GUT Bel.",
+          "label": "Director/a de CF CHIS Tux Gut",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_CHIS_Tux_Gut_Bel_Dominguez_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Chis_Tux_Gut_Bel_Dominguez_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFColinasdeSanJavier",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF Colinas de San Javier",
+          "sharedTo": {
+            "role": [
+              "Privada_JAL_GDL_Corp_Colinas_de_San_Javier_Banquero_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Occidente_JAL_GDL_Corp_Colinas_De_San_Javier_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFEdoMetepecIAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF EdoMex Metepec I",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Edo_Mex_Metepec_I_Comonfort_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_EdoMex_Metepec_I_Comonfort_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFEdoMexSateliteAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF EdoMex Satélite",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Edo_Mex_Sat_lite_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_EdoMex_Sat_lite_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFEdoMexValleDoradoAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF EdoMex Valle Dorado",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Edo_Mex_Valle_Dorado_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_EdoMex_Valle_Dorado_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFGTOIrapuatoAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF GTO Irapuato",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_GTO_Irapuato_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Gto_Irapuato_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFGTOLeonCerroGordoAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF GTO Leon Cerro Gordo",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Gto_Le_n_Cerro_Gordo_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Int_Gto_Le_n_Cerro_Gordo_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFJALChapalaAjijicAccount",
+          "accessLevel": "Read",
+          "accountSettings": {
+            "caseAccessLevel": "None",
+            "contactAccessLevel": "Read",
+            "opportunityAccessLevel": "None"
+          },
+          "description": "JAL Chapala Director de CF",
+          "label": "Director/a de CF JAL Chapala Ajijic",
+          "sharedTo": {
+            "role": [
+              "Privada_Int_Jal_Chapala_Ajijic_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Priv_y_Patrimonial_JAL_Chapala_Ajijic_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFLindavistaPatrimonialAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Director/a de CF Lindavista Patrimonial",
+          "label": "Director/a de CF Lindavista Patrimonial",
+          "sharedTo": {
+            "role": [
+              "Privada_CDMX_Lindavista_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Sur_CDMX_Lindavista_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFLindavistaPrivAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Director/a de CF Lindavista Privada",
+          "label": "Director/a de CF Lindavista Priv",
+          "sharedTo": {
+            "role": [
+              "Privada_CDMX_Lindavista_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_CDMX_Lindavista_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFMarianoOtero",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF Mariano Otero",
+          "sharedTo": {
+            "role": [
+              "Privada_JAL_GDL_Mariano_Otero_GWTC_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Occidente_JAL_GDL_Mariano_Otero_GWTC_DIrector_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFMarinaVallartaAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF Marina Vallarta",
+          "sharedTo": {
+            "role": [
+              "Privada_Int_JAL_Marina_Vallarta_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Priv_y_Patrimonial_JAL_Marina_Vallarta_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFNorteTijuanaPaseoAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF Norte Tijuana Paseo",
+          "sharedTo": {
+            "role": [
+              "Privada_BV_Tijuana_Paseo_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Norte_BC_Tijuana_Paseo_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFPlazaEsmeraldaAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF Plaza Esmeralda",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Edo_Mex_Plaza_Esmeralda_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_EdoMex_Plaza_Esmeralda_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFTabVillahermosaPaseoAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y patrimonial",
+          "label": "Director/a de CF Tab Villahermosa Paseo Tabasco",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Tab_Villahermosa_Paseo_Tabasco_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_CF_Tab_Villahermosa_Paseo_Tabasco"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradeCFZapopanPlazaPatriaAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF Zapopan Plaza Patria",
+          "sharedTo": {
+            "role": [
+              "Privada_Zapopan_Plaza_Patria_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Occidente_JAL_Zapopan_Plaza_Patria_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradePlazaMexico",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de Plaza México",
+          "sharedTo": {
+            "role": [
+              "Privada_JAL_GDL_Plaza_M_xico_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Occidente_JAL_GDL_Plaza_M_xico_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectoradePlazaMexicoAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de Plaza México",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Occidente_JAL_GDL_Plaza_M_xico_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_JAL_GDL_Plaza_M_xico_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectordeCFChihAvdelaJuventudAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF Chih Av. de la Juventud Norte",
+          "sharedTo": {
+            "role": [
+              "Privada_Chih_Chih_Av_De_La_Juventud_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Norte_CHIH_CHIH_Av_de_la_Juventud_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectordeCFCoacTorreonIndependenciaNorte",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y Patrimonial Norte Independencia B",
+          "label": "Director/a de CF Coac Torreon Independencia Norte",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Norte_COAH_Torreon_B_Independencia_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Coah_Torre_n_B_Independencia_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectordeCFPlazaJuarezNorteAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF Plaza Juarez Norte",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Norte_CHIH_CD_Juarez_Plaza_Odore_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_CHIH_CD_Ju_rez_Plaza_Odore_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectordeCFSINCuliacanNorte",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF SIN Culiacan Norte",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Internacional_SIN_Culiacan_Torres_Sta_Maria_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Sin_Culiac_n_Torre_Sta_Mar_a_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectordeCFSONHermosillo",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Plaza Andares Priv y Patrimonial",
+          "label": "Director/a de CF SON Hermosillo",
+          "sharedTo": {
+            "role": [
+              "Privada_SON_Hermosillo_Plaza_Andenes_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Norte_SON_Hermosillo_Plaza_Andenes_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectordeCFSanLuisPotosPedregal",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Director/a de CF San Luis Potosí Pedregal",
+          "sharedTo": {
+            "role": [
+              "Privada_SLP_San_Luis_Potos_Pedregal_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Norte_SLP_San_Luis_Potosi_Pedregal_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "DirectordePlazaLuxusAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Director/a de CF para Plaza Luxus Altabrisa Priv y Patrimonial",
+          "label": "Director/a de Plaza Luxus",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Sur_Yuc_M_rida_Plaza_Luxus_Altabrisa_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Yuc_M_rida_Plaza_Luxus_Altabrisa_Subirector_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "EdoMexTecamachalcoAccounts",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y Patrimonial Director de CF",
+          "label": "EdoMex Tecamachalco",
+          "sharedTo": {
+            "role": [
+              "Priv_y_Patrimonial_Edo_Mex_Tecamachalco_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_EdoMex_Tecamachalco_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "LiderPatrimonialVistaHermosaRecepcionistaAnfitrion",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Lider Patrimonial - Recepcionista",
+          "label": "Lider Patrimonial Vista Hermosa - Recepcionista Anfitrion",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_MTY_NL_MTY_Vista_Hermosa_Lider"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Recepcionista_Anfitri_n"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "NorteDirectoraDivisionalAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y Patrimonial Norte Dirección Divisional Leads",
+          "label": "Norte Director/a Divisional",
+          "sharedTo": {
+            "role": [
+              "Privada_Direccion_Divisional_Norte"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Direcci_n_Divisional_Norte"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "PM_Account_Comercial_to_Administrativos_Read",
+          "accessLevel": "Read",
+          "accountSettings": {
+            "caseAccessLevel": "None",
+            "contactAccessLevel": "Read",
+            "opportunityAccessLevel": "None"
+          },
+          "description": "Comparte Accounts propiedad de Head PM y subordinados con Administrativos PM en solo lectura.",
+          "label": "PM Account Comercial to Administrativos Read",
+          "sharedTo": {
+            "group": [
+              "PM_Administrativos"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinatesInternal": [
+              "Head_PM"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "PatrimonialDivisionalOccidentePrivadaDivisionalGDLAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Patrimonial Divisional Occidente Privada DivisionalGDL",
+          "label": "Patrimonial Divisional Occidente - Privada DivisionalGDL",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Direcci_n_Divisional_Occidente"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Direcci_n_Divisional_GDL"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "Post_Venta",
+          "accessLevel": "Read",
+          "accountSettings": {
+            "caseAccessLevel": "None",
+            "contactAccessLevel": "Read",
+            "opportunityAccessLevel": "Read"
+          },
+          "label": "Post Venta",
+          "sharedTo": {
+            "group": [
+              "Coordinador_PostVenta"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinatesInternal": [
+              "Direccion_General"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "PrivPatriDivisionalesMTY",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Divisional Priv y Patri en MTYAccount",
+          "label": "Priv y Patri Divisionales",
+          "sharedTo": {
+            "role": [
+              "Privada_Direccion_Divisional_MTY"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Direcci_n_Divisional_MTY"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "PrivPatriJalMarinaDirectorCFAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Priv y Patri en Marina Vallarta, JAL",
+          "label": "Priv y Patri JalMarina Director CF",
+          "sharedTo": {
+            "role": [
+              "Priv_y_Patrimonial_JAL_Marina_Vallarta_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Int_JAL_Marina_Vallarta_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "PrivPatriQrooCancunDirectorCFAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Priv y Patri Plaza Hollywood, Cancún",
+          "label": "Priv y Patri Qroo Cancun Director CF",
+          "sharedTo": {
+            "role": [
+              "Patrimonial_Internacional_QROO_Canc_n_Plaza_Hollywood_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Int_Qro_Canc_n_Plaza_Hollywood_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "PrivadaMTYCoahSaltilloDirectoradeCFAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y Patrimonial Norte Director de CF Coah Saltillo Parque Centro Account",
+          "label": "Privada MTY Coah Saltillo Director/a de CF",
+          "sharedTo": {
+            "role": [
+              "Privada_Coah_Saltillo_Parque_Centro_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_MTY_COAH_Saltillo_Parque_Centro_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "PrivadaSurEdoMexPlazaEsmeraldaAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y Patrimonial Norte Director de CF Edo MexPlaza Esmeralda Account",
+          "label": "Privada Sur EdoMex Plaza Esmeralda",
+          "sharedTo": {
+            "role": [
+              "Privada_EdoMex_Plaza_Esmeralda_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Sur_Edo_Mex_Plaza_Esmeralda_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "SubdirectorManagerCholulaCityAngelopolisAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Subdirector y veo registros en patrimonial",
+          "label": "Subdirector y manager Cholula City Angelopolis",
+          "sharedTo": {
+            "role": [
+              "Privada_Pue_Cholula_City_Angelopolis_Subdirector_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Sur_Pue_Cholula_City_Angelopolis_Consultor_a_Financiero_A"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "SubdirectorManagerPlazaOdoreAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Subdirector y Manager Plaza Odore",
+          "sharedTo": {
+            "role": [
+              "Privada_CHIH_CD_Ju_rez_Plaza_Odore_Subdirector_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Norte_CHIH_CD_Juarez_Plaza_Odore_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "SurPrivadaMoCuernavacaDirectoradeCFAccount",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "description": "Privada y Patrimonial Sur Director de CF Mor Cuernavaca Rio Mayo Account",
+          "label": "Sur Privada Mo Cuernavaca Director/a de CF",
+          "sharedTo": {
+            "role": [
+              "Privada_Mor_Cuernavaca_Rio_Mayo_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Patrimonial_Sur_Mor_Cuernavaca_Rio_Mayo_Director_a_de_CF"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "WMBanqueroDivisionalPrivadaCDMX",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "Banquero - Divisional Privada CDMX",
+          "sharedTo": {
+            "role": [
+              "WM_CDMX_Montes_Urales_Banquero_a"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinates": [
+              "Privada_Divisional_CDMX_privada"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "WM_CDMX_Montes_Urales_Banquero_a",
+          "accessLevel": "Edit",
+          "accountSettings": {
+            "caseAccessLevel": "Edit",
+            "contactAccessLevel": "Edit",
+            "opportunityAccessLevel": "Edit"
+          },
+          "label": "WM CDMX Montes Urales Banquero/a",
+          "sharedTo": {
+            "role": [
+              "WM_CDMX_Corporativo_Subdirector_a_de_Promoci_n"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "group": [
+              "WM_CD_MX_CORPORATIVO_Banquero"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        }
+      ],
+      "sharingGuestRules": [],
+      "sharingTerritoryRules": []
+    },
+    {
+      "fullName": "Opportunity",
+      "sharingCriteriaRules": [
+        {
+          "fullName": "Consultoria_y_Seguros",
+          "accessLevel": "Edit",
+          "label": "Consultoria y Seguros",
+          "sharedTo": {
+            "group": [
+              "Consultoria_y_Seguros"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "criteriaItems": [
+            {
+              "field": "RecordTypeId",
+              "operation": "equals",
+              "value": "Seguros Pipeline"
+            }
+          ],
+          "includeRecordsOwnedByAll": "true"
+        }
+      ],
+      "sharingOwnerRules": [
+        {
+          "fullName": "PM_Opportunity_Comercial_to_Administrativos_Read",
+          "accessLevel": "Read",
+          "description": "Comparte Opportunities propiedad de Head PM y subordinados con Administrativos PM en solo lectura.",
+          "label": "PM Opportunity Comercial to Administrativos Read",
+          "sharedTo": {
+            "group": [
+              "PM_Administrativos"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "roleAndSubordinatesInternal": [
+              "Head_PM"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "group": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        },
+        {
+          "fullName": "Personalization_FSC",
+          "accessLevel": "Edit",
+          "description": "Regle que comparte toda la información de los consultores a un grupo de usuarios en especifico",
+          "label": "Personalization_FSC",
+          "sharedTo": {
+            "group": [
+              "Personalization_Oportunidades"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          },
+          "sharedFrom": {
+            "group": [
+              "Personalization_Consultores_FSC"
+            ],
+            "channelProgramGroup": [],
+            "channelProgramGroups": [],
+            "groups": [],
+            "guestUser": [],
+            "managerSubordinates": [],
+            "managers": [],
+            "portalRole": [],
+            "portalRoleAndSubordinates": [],
+            "queue": [],
+            "role": [],
+            "roleAndSubordinates": [],
+            "roleAndSubordinatesInternal": [],
+            "roles": [],
+            "rolesAndSubordinates": [],
+            "territories": [],
+            "territoriesAndSubordinates": [],
+            "territory": [],
+            "territoryAndSubordinates": []
+          }
+        }
+      ],
+      "sharingGuestRules": [],
+      "sharingTerritoryRules": []
+    }
+  ],
+  "ListView": [
+    {
+      "fullName": "Account.MyAccounts",
+      "columns": [
+        "ACCOUNT.NAME",
+        "ACCOUNT.ADDRESS1_STATE",
+        "ACCOUNT.PHONE1",
+        "ACCOUNT.TYPE",
+        "CORE.USERS.ALIAS"
+      ],
+      "filterScope": "Team",
+      "label": "Mis Cuentas",
+      "filters": []
+    },
+    {
+      "fullName": "Account.FinServ__My_Clients",
+      "columns": [
+        "ACCOUNT.NAME",
+        "PC_BIRTHDATE",
+        "PC_PHONE3",
+        "PC_EMAIL",
+        "ServiceCustomerType__c",
+        "RegistrationDate__c",
+        "ServiceCustomerSubType__c",
+        "Person_Type__c",
+        "ACCOUNT.LAST_UPDATE",
+        "Client_ID__c"
+      ],
+      "filterScope": "Mine",
+      "label": "Mis Clientes",
+      "sharedTo": {
+        "roleAndSubordinates": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "role": [],
+        "roleAndSubordinatesInternal": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "filters": []
+    }
+  ],
+  "PermissionSet": [
+    {
+      "fullName": "PM_GestionComercial",
+      "classAccesses": [
+        {
+          "apexClass": "BancasDashboardController",
+          "enabled": true
+        },
+        {
+          "apexClass": "FinServ__MoiAppConfigController",
+          "enabled": true
+        }
+      ],
+      "customPermissions": [
+        {
+          "enabled": true,
+          "name": "Acceso_Dashboards_Bancas"
+        }
+      ],
+      "fieldPermissions": [
+        {
+          "editable": true,
+          "field": "Account.BillingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Client_ID__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.EconomicActivity__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.FinServ__Status__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Id_del_banquero_responsable__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Industry",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.NombreBanqueroAsignado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.NumberOfEmployees",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ParentId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Person_Type__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.RFC__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Segmento__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ShippingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Tipo_de_cliente_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Type",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Website",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "AccountContactRelation.IsActive",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Department",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Email",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Contact.FinServ__BillingAddress__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.MobilePhone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Title",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Event.Competidor__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Event.Description",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Event.WhatId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.CampaignId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Especifica_Otro_Producto__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MontoEstimadoDeInversion__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MotivoDeRechazo__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_Perdida_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_perdidaPM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Origen_cliente__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.PM_Siguiente_paso__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Probability",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Producto_Solicitado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Profit_and_Loss_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Siguientes_pasos__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Tipo_deNegocio__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Task.Competidor__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Task.Description",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Task.WhatId",
+          "readable": true
+        }
+      ],
+      "flowAccesses": [
+        {
+          "enabled": true,
+          "flow": "PM_Nueva_Oportunidad_Con_Contacto"
+        }
+      ],
+      "hasActivationRequired": false,
+      "label": "PM - Banquero",
+      "objectPermissions": [
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Account",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Contact",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Interaction",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionAttendee",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionRelatedAccount",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Opportunity",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        }
+      ],
+      "recordTypeVisibilities": [
+        {
+          "recordType": "Account.Cuentas_empresariales",
+          "visible": true
+        },
+        {
+          "recordType": "Account.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Contact.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Opportunity.Oportunidad_Personas_Morales",
+          "visible": true
+        }
+      ],
+      "tabSettings": [
+        {
+          "tab": "standard-Account",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Contact",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Interaction",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Opportunity",
+          "visibility": "Visible"
+        }
+      ],
+      "userPermissions": [
+        {
+          "enabled": true,
+          "name": "EditEvent"
+        },
+        {
+          "enabled": true,
+          "name": "EditTask"
+        },
+        {
+          "enabled": true,
+          "name": "EmailSingle"
+        },
+        {
+          "enabled": true,
+          "name": "RunFlow"
+        },
+        {
+          "enabled": true,
+          "name": "RunReports"
+        }
+      ],
+      "applicationVisibilities": [],
+      "customMetadataTypeAccesses": [],
+      "externalDataSourceAccesses": [],
+      "pageAccesses": []
+    },
+    {
+      "fullName": "PM_Director",
+      "classAccesses": [
+        {
+          "apexClass": "BancasDashboardController",
+          "enabled": true
+        },
+        {
+          "apexClass": "FinServ__MoiAppConfigController",
+          "enabled": true
+        }
+      ],
+      "customPermissions": [
+        {
+          "enabled": true,
+          "name": "Acceso_Dashboards_Bancas"
+        }
+      ],
+      "fieldPermissions": [
+        {
+          "editable": true,
+          "field": "Account.BillingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Client_ID__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.EconomicActivity__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.FinServ__Status__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Id_del_banquero_responsable__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Industry",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.NombreBanqueroAsignado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.NumberOfEmployees",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ParentId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Person_Type__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.RFC__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Segmento__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ShippingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Tipo_de_cliente_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Type",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Website",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "AccountContactRelation.IsActive",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Department",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Email",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.MobilePhone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Title",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Event.Competidor__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Event.WhatId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.CampaignId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Especifica_Otro_Producto__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MontoEstimadoDeInversion__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MotivoDeRechazo__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_Perdida_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_perdidaPM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Origen_cliente__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.PM_Siguiente_paso__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Probability",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Producto_Solicitado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Profit_and_Loss_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Siguientes_pasos__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Tipo_deNegocio__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Task.Competidor__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Task.WhatId",
+          "readable": true
+        }
+      ],
+      "flowAccesses": [
+        {
+          "enabled": true,
+          "flow": "PM_Nueva_Oportunidad_Con_Contacto"
+        }
+      ],
+      "hasActivationRequired": false,
+      "label": "PM - Director",
+      "objectPermissions": [
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Account",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Contact",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Interaction",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionAttendee",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionRelatedAccount",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Opportunity",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        }
+      ],
+      "recordTypeVisibilities": [
+        {
+          "recordType": "Account.Cuentas_empresariales",
+          "visible": true
+        },
+        {
+          "recordType": "Account.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Contact.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Opportunity.Oportunidad_Personas_Morales",
+          "visible": true
+        }
+      ],
+      "tabSettings": [
+        {
+          "tab": "standard-Account",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Contact",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Interaction",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Opportunity",
+          "visibility": "Visible"
+        }
+      ],
+      "userPermissions": [
+        {
+          "enabled": true,
+          "name": "EditEvent"
+        },
+        {
+          "enabled": true,
+          "name": "EditTask"
+        },
+        {
+          "enabled": true,
+          "name": "EmailSingle"
+        },
+        {
+          "enabled": true,
+          "name": "RunFlow"
+        },
+        {
+          "enabled": true,
+          "name": "RunReports"
+        }
+      ],
+      "applicationVisibilities": [],
+      "customMetadataTypeAccesses": [],
+      "externalDataSourceAccesses": [],
+      "pageAccesses": []
+    },
+    {
+      "fullName": "PM_Head",
+      "classAccesses": [
+        {
+          "apexClass": "BancasDashboardController",
+          "enabled": true
+        },
+        {
+          "apexClass": "FinServ__MoiAppConfigController",
+          "enabled": true
+        }
+      ],
+      "customPermissions": [
+        {
+          "enabled": true,
+          "name": "Acceso_Dashboards_Bancas"
+        }
+      ],
+      "fieldPermissions": [
+        {
+          "editable": true,
+          "field": "Account.BillingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Client_ID__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.EconomicActivity__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.FinServ__Status__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Id_del_banquero_responsable__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Industry",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.NombreBanqueroAsignado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.NumberOfEmployees",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ParentId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Person_Type__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.RFC__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Segmento__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ShippingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Tipo_de_cliente_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Type",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Website",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "AccountContactRelation.IsActive",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Department",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Email",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.MobilePhone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Title",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Event.Competidor__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.CampaignId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Especifica_Otro_Producto__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MontoEstimadoDeInversion__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MotivoDeRechazo__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_Perdida_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_perdidaPM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Origen_cliente__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.PM_Siguiente_paso__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Probability",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Producto_Solicitado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Profit_and_Loss_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Siguientes_pasos__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Tipo_deNegocio__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Task.Competidor__c",
+          "readable": true
+        }
+      ],
+      "flowAccesses": [
+        {
+          "enabled": true,
+          "flow": "PM_Nueva_Oportunidad_Con_Contacto"
+        }
+      ],
+      "hasActivationRequired": false,
+      "label": "PM - Head",
+      "objectPermissions": [
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Account",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Contact",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Interaction",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionAttendee",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionRelatedAccount",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Opportunity",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        }
+      ],
+      "recordTypeVisibilities": [
+        {
+          "recordType": "Account.Cuentas_empresariales",
+          "visible": true
+        },
+        {
+          "recordType": "Account.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Contact.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Opportunity.Oportunidad_Personas_Morales",
+          "visible": true
+        }
+      ],
+      "tabSettings": [
+        {
+          "tab": "standard-Account",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Contact",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Interaction",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Opportunity",
+          "visibility": "Visible"
+        }
+      ],
+      "userPermissions": [
+        {
+          "enabled": true,
+          "name": "CreateCustomizeReports"
+        },
+        {
+          "enabled": true,
+          "name": "CreateReportFolders"
+        },
+        {
+          "enabled": true,
+          "name": "EditEvent"
+        },
+        {
+          "enabled": true,
+          "name": "EditMyReports"
+        },
+        {
+          "enabled": true,
+          "name": "EditTask"
+        },
+        {
+          "enabled": true,
+          "name": "EmailSingle"
+        },
+        {
+          "enabled": true,
+          "name": "NewReportBuilder"
+        },
+        {
+          "enabled": true,
+          "name": "RunFlow"
+        },
+        {
+          "enabled": true,
+          "name": "RunReports"
+        },
+        {
+          "enabled": true,
+          "name": "ScheduleReports"
+        },
+        {
+          "enabled": true,
+          "name": "SubscribeToLightningReports"
+        }
+      ],
+      "applicationVisibilities": [],
+      "customMetadataTypeAccesses": [],
+      "externalDataSourceAccesses": [],
+      "pageAccesses": []
+    }
+  ]
+}
