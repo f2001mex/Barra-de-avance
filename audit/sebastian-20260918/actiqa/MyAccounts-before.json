@@ -1,0 +1,13 @@
+{
+  "fullName": "Account.MyAccounts",
+  "columns": [
+    "ACCOUNT.NAME",
+    "ACCOUNT.ADDRESS1_STATE",
+    "ACCOUNT.PHONE1",
+    "ACCOUNT.TYPE",
+    "CORE.USERS.ALIAS"
+  ],
+  "filterScope": "Team",
+  "label": "Mis Cuentas",
+  "filters": []
+}
