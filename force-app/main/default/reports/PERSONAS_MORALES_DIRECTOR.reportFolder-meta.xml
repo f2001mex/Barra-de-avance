@@ -2,13 +2,8 @@
 <ReportFolder xmlns="http://soap.sforce.com/2006/04/metadata">
     <folderShares>
         <accessLevel>View</accessLevel>
-        <sharedTo>Administrativo_PM</sharedTo>
+        <sharedTo>Director_PM</sharedTo>
         <sharedToType>Role</sharedToType>
     </folderShares>
-    <folderShares>
-        <accessLevel>View</accessLevel>
-        <sharedTo>Head_PM</sharedTo>
-        <sharedToType>Role</sharedToType>
-    </folderShares>
-    <name>PERSONAS MORALES</name>
+    <name>PERSONAS MORALES - DIRECTOR</name>
 </ReportFolder>

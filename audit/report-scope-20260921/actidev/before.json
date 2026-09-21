@@ -1,0 +1,1010 @@
+{
+  "folder": {
+    "fullName": "PERSONAS_MORALES",
+    "folderShares": [
+      {
+        "accessLevel": "View",
+        "sharedTo": "Administrativo_PM",
+        "sharedToType": "RoleAndSubordinates"
+      },
+      {
+        "accessLevel": "View",
+        "sharedTo": "Director_PM",
+        "sharedToType": "RoleAndSubordinates"
+      },
+      {
+        "accessLevel": "View",
+        "sharedTo": "Personas_Morales_Banca_Institucional",
+        "sharedToType": "RoleAndSubordinates"
+      },
+      {
+        "accessLevel": "EditAllContents",
+        "sharedTo": "PM_Reportes_Editores",
+        "sharedToType": "Group"
+      },
+      {
+        "accessLevel": "View",
+        "sharedTo": "PM_Reportes_Lectores",
+        "sharedToType": "Group"
+      }
+    ],
+    "name": "PERSONAS MORALES"
+  },
+  "reports": [
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Clientes_por_Tipo_Institucional",
+      "columns": [
+        {
+          "field": "ACCOUNT.NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Account.FinServ__Status__c",
+          "aggregateTypes": []
+        },
+        {
+          "field": "USERS.NAME",
+          "aggregateTypes": []
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "RECORDTYPE",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Account.Cuentas_empresariales"
+          },
+          {
+            "column": "Account.Tipo_de_cliente_PM__c",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "notEqual",
+            "value": ""
+          },
+          {
+            "column": "Account.FinServ__Status__c",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Active"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Day",
+          "field": "Account.Tipo_de_cliente_PM__c",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Clientes por tipo de cliente",
+      "params": [
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "AccountList",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "DUE_DATE",
+        "interval": "INTERVAL_CUSTOM"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Clientes_Estrategicos_Prioritarios",
+      "columns": [
+        {
+          "field": "ACCOUNT.NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "USERS.NAME",
+          "aggregateTypes": []
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "RECORDTYPE",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Account.Cuentas_empresariales"
+          },
+          {
+            "column": "Account.Segmento__c",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Institucional,Gobierno"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Day",
+          "field": "Account.Segmento__c",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Clientes estrategicos y prioritarios",
+      "params": [
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "AccountList",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "DUE_DATE",
+        "interval": "INTERVAL_CUSTOM"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Pipeline_Oportunidades_Etapa",
+      "columns": [
+        {
+          "field": "OPPORTUNITY_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "ACCOUNT_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Opportunity.Producto_Solicitado__c",
+          "aggregateTypes": []
+        },
+        {
+          "aggregateTypes": [
+            "Sum"
+          ],
+          "field": "Opportunity.MontoEstimadoDeInversion__c"
+        },
+        {
+          "field": "PROBABILITY",
+          "aggregateTypes": []
+        },
+        {
+          "field": "CLOSE_DATE",
+          "aggregateTypes": []
+        },
+        {
+          "field": "FULL_NAME",
+          "aggregateTypes": []
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "CLOSED",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "0"
+          },
+          {
+            "column": "RECORDTYPE",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Opportunity.Oportunidad_Personas_Morales"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Day",
+          "field": "STAGE_NAME",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Pipeline de oportunidades por etapa",
+      "params": [
+        {
+          "name": "open",
+          "value": "all"
+        },
+        {
+          "name": "probability",
+          "value": ">0"
+        },
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "Opportunity",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "CLOSE_DATE",
+        "interval": "INTERVAL_CURRENT"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Oportunidades_Producto",
+      "columns": [
+        {
+          "field": "OPPORTUNITY_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "aggregateTypes": [
+            "Sum"
+          ],
+          "field": "Opportunity.MontoEstimadoDeInversion__c"
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "CLOSED",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "0"
+          },
+          {
+            "column": "RECORDTYPE",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Opportunity.Oportunidad_Personas_Morales"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Day",
+          "field": "Opportunity.Producto_Solicitado__c",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Oportunidades por producto",
+      "params": [
+        {
+          "name": "open",
+          "value": "all"
+        },
+        {
+          "name": "probability",
+          "value": ">0"
+        },
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "Opportunity",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "CLOSE_DATE",
+        "interval": "INTERVAL_CURRENT"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Correos_Tendencia",
+      "columns": [
+        {
+          "field": "Activity$Subject",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Activity$Owner",
+          "aggregateTypes": []
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "Activity$Subject",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Email"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Month",
+          "field": "Activity$ActivityDate",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Correos enviados con tendencia temporal",
+      "params": [
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "Actividades_con_Clientes_Actinver_V2__c",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "Activity$ActivityDate",
+        "interval": "INTERVAL_CURRENT"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Eventos_Tendencia",
+      "columns": [
+        {
+          "field": "Activity$Subject",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Activity$Owner",
+          "aggregateTypes": []
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "Activity$Subject",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Cita,Reunión,Meeting,Eventos"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Month",
+          "field": "Activity$ActivityDate",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Tendencia de eventos ejecutados",
+      "params": [
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "Actividades_con_Clientes_Actinver_V2__c",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "Activity$ActivityDate",
+        "interval": "INTERVAL_CURRENT"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Llamadas_Tendencia",
+      "columns": [
+        {
+          "field": "Activity$Subject",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Activity$Owner",
+          "aggregateTypes": []
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "Activity$Subject",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Llamada,Call"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Month",
+          "field": "Activity$ActivityDate",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Tendencia de llamadas realizadas",
+      "params": [
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "Actividades_con_Clientes_Actinver_V2__c",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "Activity$ActivityDate",
+        "interval": "INTERVAL_CURRENT"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Contactos_Clave_Cliente",
+      "columns": [
+        {
+          "field": "FIRST_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "MIDDLE_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "LAST_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "OWNER_FULL_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "TITLE",
+          "aggregateTypes": []
+        },
+        {
+          "field": "DEPARTMENT",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Contact.FinServ__ContactPreference__c",
+          "aggregateTypes": []
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "ACCOUNT_RECORDTYPE",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Account.Cuentas_empresariales"
+          },
+          {
+            "column": "CONTACT_RECORDTYPE",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Contact.FinServ__IndustriesBusiness"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Day",
+          "field": "ACCOUNT.NAME",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Contactos clave por cliente",
+      "params": [
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "ContactList",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "LAST_ACTIVITY",
+        "interval": "INTERVAL_CUSTOM"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Clientes_Tipo_Institucional",
+      "columns": [
+        {
+          "field": "OPPORTUNITY_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "ACCOUNT_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Opportunity.Producto_Solicitado__c",
+          "aggregateTypes": []
+        },
+        {
+          "field": "FULL_NAME",
+          "aggregateTypes": []
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "CLOSED",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "0"
+          },
+          {
+            "column": "RECORDTYPE",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Opportunity.Oportunidad_Personas_Morales"
+          },
+          {
+            "column": "Account.Segmento__c",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Institucional"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Day",
+          "field": "INDUSTRY",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Oportunidades por tipo institucional",
+      "params": [
+        {
+          "name": "open",
+          "value": "all"
+        },
+        {
+          "name": "probability",
+          "value": ">0"
+        },
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "Opportunity",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "CLOSE_DATE",
+        "interval": "INTERVAL_CURRENT"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Competidores_Recurrentes",
+      "columns": [
+        {
+          "field": "Activity$Account",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Activity$Owner",
+          "aggregateTypes": []
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "Activity$Competidor__c",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "notEqual",
+            "value": ""
+          },
+          {
+            "column": "Activity$Owner.Profile.Name",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "PM - Ejecutivo Personas Morales"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "aggregateType": "RowCount",
+          "dateGranularity": "Day",
+          "field": "Activity$Competidor__c",
+          "sortByName": "RowCount",
+          "sortOrder": "Desc",
+          "sortType": "Aggregate"
+        }
+      ],
+      "name": "Competidores mas recurrentes",
+      "params": [
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "Actividades_con_Clientes_Actinver_V2__c",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "Activity$ActivityDate",
+        "interval": "INTERVAL_CURRENT"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Tareas_Pendientes_Estado",
+      "columns": [
+        {
+          "field": "Activity$Subject",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Activity$Owner",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Activity$ActivityDate",
+          "aggregateTypes": []
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "Activity$Status",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Abierto"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Day",
+          "field": "Activity$Status",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Tareas pendientes por estado",
+      "params": [
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "Actividades_con_Clientes_Actinver_V2__c",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "Activity$ActivityDate",
+        "interval": "INTERVAL_CURRENT"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Oportunidades_Proximas_Cierre",
+      "columns": [
+        {
+          "field": "OPPORTUNITY_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "ACCOUNT_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Opportunity.Producto_Solicitado__c",
+          "aggregateTypes": []
+        },
+        {
+          "field": "STAGE_NAME",
+          "aggregateTypes": []
+        },
+        {
+          "field": "CLOSE_DATE",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Opportunity.MontoEstimadoDeInversion__c",
+          "aggregateTypes": []
+        },
+        {
+          "field": "PROBABILITY",
+          "aggregateTypes": []
+        },
+        {
+          "field": "FULL_NAME",
+          "aggregateTypes": []
+        }
+      ],
+      "filter": {
+        "criteriaItems": [
+          {
+            "column": "CLOSED",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "0"
+          },
+          {
+            "column": "RECORDTYPE",
+            "columnToColumn": false,
+            "isUnlocked": false,
+            "operator": "equals",
+            "value": "Opportunity.Oportunidad_Personas_Morales"
+          }
+        ],
+        "language": "es"
+      },
+      "format": "Tabular",
+      "name": "Oportunidades proximas a cierre",
+      "params": [
+        {
+          "name": "open",
+          "value": "all"
+        },
+        {
+          "name": "probability",
+          "value": ">0"
+        },
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "Opportunity",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "CLOSE_DATE",
+        "interval": "INTERVAL_NEXT30"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": [],
+      "groupingsDown": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Actividad_Comercial_Ejecutivo",
+      "columns": [
+        {
+          "field": "Activity$Subject",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Activity$Account",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Activity$ActivityDate",
+          "aggregateTypes": []
+        },
+        {
+          "field": "Activity$Status",
+          "aggregateTypes": []
+        }
+      ],
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Day",
+          "field": "Activity$Owner",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Actividad comercial por ejecutivo",
+      "params": [
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "Actividades_con_Clientes_Actinver_V2__c",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "Activity$ActivityDate",
+        "interval": "INTERVAL_CURRENT"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    },
+    {
+      "fullName": "PERSONAS_MORALES/RPT_Contactos_Estrategicos_Cliente",
+      "columns": [
+        {
+          "field": "TITLE",
+          "aggregateTypes": []
+        }
+      ],
+      "format": "Summary",
+      "groupingsDown": [
+        {
+          "dateGranularity": "Day",
+          "field": "ACCOUNT_ID",
+          "sortOrder": "Asc"
+        }
+      ],
+      "name": "Contactos estrategicos por cliente",
+      "params": [
+        {
+          "name": "co",
+          "value": "1"
+        }
+      ],
+      "reportType": "ContactList",
+      "scope": "organization",
+      "showDetails": true,
+      "showGrandTotal": true,
+      "showSubTotals": true,
+      "timeFrameFilter": {
+        "dateColumn": "LAST_ACTIVITY",
+        "interval": "INTERVAL_CUSTOM"
+      },
+      "aggregates": [],
+      "block": [],
+      "buckets": [],
+      "colorRanges": [],
+      "crossFilters": [],
+      "customDetailFormulas": [],
+      "dataCategoryFilters": [],
+      "formattingRules": [],
+      "groupingsAcross": []
+    }
+  ]
+}
