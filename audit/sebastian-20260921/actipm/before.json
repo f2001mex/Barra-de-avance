@@ -1,0 +1,1058 @@
+{
+  "permissionSet": {
+    "fullName": "PM_GestionComercial",
+    "classAccesses": [
+      {
+        "apexClass": "BancasDashboardController",
+        "enabled": true
+      },
+      {
+        "apexClass": "FinServ__MoiAppConfigController",
+        "enabled": true
+      }
+    ],
+    "customPermissions": [
+      {
+        "enabled": true,
+        "name": "Acceso_Dashboards_Bancas"
+      }
+    ],
+    "fieldPermissions": [
+      {
+        "editable": true,
+        "field": "Account.BillingAddress",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Client_ID__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Description",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.EconomicActivity__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.FinServ__Status__c",
+        "readable": true
+      },
+      {
+        "editable": false,
+        "field": "Account.Id_del_banquero_responsable__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Industry",
+        "readable": true
+      },
+      {
+        "editable": false,
+        "field": "Account.NombreBanqueroAsignado__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.NumberOfEmployees",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.ParentId",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Person_Type__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Phone",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.RFC__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Segmento__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.ShippingAddress",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Tipo_de_cliente_PM__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Type",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Website",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "AccountContactRelation.IsActive",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.AccountId",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.Department",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.Description",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.Email",
+        "readable": true
+      },
+      {
+        "editable": false,
+        "field": "Contact.FinServ__BillingAddress__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.MobilePhone",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.Phone",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.Title",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Event.Competidor__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Event.Description",
+        "readable": true
+      },
+      {
+        "editable": false,
+        "field": "Event.WhatId",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.AccountId",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.CampaignId",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Description",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Especifica_Otro_Producto__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.MontoEstimadoDeInversion__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.MotivoDeRechazo__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Motivo_de_Perdida_PM__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Motivo_de_perdidaPM__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Origen_cliente__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.PM_Siguiente_paso__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Probability",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Producto_Solicitado__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Profit_and_Loss_PM__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Siguientes_pasos__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Tipo_deNegocio__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Task.Competidor__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Task.Description",
+        "readable": true
+      },
+      {
+        "editable": false,
+        "field": "Task.WhatId",
+        "readable": true
+      }
+    ],
+    "flowAccesses": [
+      {
+        "enabled": true,
+        "flow": "PM_Nueva_Oportunidad_Con_Contacto"
+      }
+    ],
+    "hasActivationRequired": false,
+    "label": "PM - Banquero",
+    "objectPermissions": [
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "Account",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      },
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "Contact",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      },
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "Interaction",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      },
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "InteractionAttendee",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      },
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "InteractionRelatedAccount",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      },
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "Opportunity",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      }
+    ],
+    "recordTypeVisibilities": [
+      {
+        "recordType": "Account.Cuentas_empresariales",
+        "visible": true
+      },
+      {
+        "recordType": "Account.FinServ__IndustriesBusiness",
+        "visible": true
+      },
+      {
+        "recordType": "Contact.FinServ__IndustriesBusiness",
+        "visible": true
+      },
+      {
+        "recordType": "Opportunity.Oportunidad_Personas_Morales",
+        "visible": true
+      }
+    ],
+    "tabSettings": [
+      {
+        "tab": "standard-Account",
+        "visibility": "Visible"
+      },
+      {
+        "tab": "standard-Contact",
+        "visibility": "Visible"
+      },
+      {
+        "tab": "standard-Interaction",
+        "visibility": "Visible"
+      },
+      {
+        "tab": "standard-Opportunity",
+        "visibility": "Visible"
+      }
+    ],
+    "userPermissions": [
+      {
+        "enabled": true,
+        "name": "EditEvent"
+      },
+      {
+        "enabled": true,
+        "name": "EditTask"
+      },
+      {
+        "enabled": true,
+        "name": "EmailSingle"
+      },
+      {
+        "enabled": true,
+        "name": "RunFlow"
+      },
+      {
+        "enabled": true,
+        "name": "RunReports"
+      }
+    ],
+    "applicationVisibilities": [],
+    "customMetadataTypeAccesses": [],
+    "externalDataSourceAccesses": [],
+    "pageAccesses": []
+  },
+  "layouts": [
+    {
+      "fullName": "Account-Account - PM Banca Institucional",
+      "excludeButtons": [
+        "OpenSlackRecordChannel",
+        "Submit"
+      ],
+      "layoutSections": [
+        {
+          "customLabel": true,
+          "detailHeading": true,
+          "editHeading": true,
+          "label": "Información General",
+          "layoutColumns": [
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Required",
+                  "field": "Name"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "RFC__c"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "Segmento__c"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "Person_Type__c"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "EconomicActivity__c"
+                }
+              ]
+            },
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Edit",
+                  "field": "Client_ID__c"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "FinServ__Status__c"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "Type"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "Industry"
+                }
+              ]
+            }
+          ],
+          "style": "TwoColumnsTopToBottom"
+        },
+        {
+          "customLabel": true,
+          "detailHeading": true,
+          "editHeading": true,
+          "label": "Información del Banquero",
+          "layoutColumns": [
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Edit",
+                  "field": "OwnerId"
+                },
+                {
+                  "behavior": "Readonly",
+                  "field": "Id_del_banquero_responsable__c"
+                }
+              ]
+            },
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Readonly",
+                  "field": "NombreBanqueroAsignado__c"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "Banquero_responsable__c"
+                }
+              ]
+            }
+          ],
+          "style": "TwoColumnsTopToBottom"
+        },
+        {
+          "customLabel": true,
+          "detailHeading": true,
+          "editHeading": true,
+          "label": "Información de Contacto",
+          "layoutColumns": [
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Edit",
+                  "field": "Phone"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "BillingAddress"
+                }
+              ]
+            },
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Edit",
+                  "field": "Website"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "ShippingAddress"
+                }
+              ]
+            }
+          ],
+          "style": "TwoColumnsTopToBottom"
+        },
+        {
+          "customLabel": true,
+          "detailHeading": true,
+          "editHeading": true,
+          "label": "Información adicional",
+          "layoutColumns": [
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Edit",
+                  "field": "Description"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "ParentId"
+                }
+              ]
+            },
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Edit",
+                  "field": "NumberOfEmployees"
+                }
+              ]
+            }
+          ],
+          "style": "TwoColumnsTopToBottom"
+        },
+        {
+          "customLabel": false,
+          "detailHeading": true,
+          "editHeading": true,
+          "label": "System Information",
+          "layoutColumns": [
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Readonly",
+                  "field": "CreatedById"
+                }
+              ]
+            },
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Readonly",
+                  "field": "LastModifiedById"
+                }
+              ]
+            }
+          ],
+          "style": "TwoColumnsTopToBottom"
+        },
+        {
+          "customLabel": true,
+          "detailHeading": true,
+          "editHeading": false,
+          "label": "Vínculos personalizados",
+          "layoutColumns": [
+            {
+              "layoutItems": []
+            },
+            {
+              "layoutItems": []
+            },
+            {
+              "layoutItems": []
+            }
+          ],
+          "style": "CustomLinks"
+        }
+      ],
+      "platformActionList": {
+        "actionListContext": "Record",
+        "platformActionListItems": [
+          {
+            "actionName": "Account.Nueva_Oportunidad_PM",
+            "actionType": "QuickAction",
+            "sortOrder": 0
+          },
+          {
+            "actionName": "FinServ__NewEvent",
+            "actionType": "QuickAction",
+            "sortOrder": 1
+          },
+          {
+            "actionName": "FinServ__NewEventAdvisor",
+            "actionType": "QuickAction",
+            "sortOrder": 2
+          },
+          {
+            "actionName": "FinServ__NewEventClientAssociate",
+            "actionType": "QuickAction",
+            "sortOrder": 3
+          },
+          {
+            "actionName": "FinServ__NewTask",
+            "actionType": "QuickAction",
+            "sortOrder": 4
+          },
+          {
+            "actionName": "FinServ__NewTaskAdvisor",
+            "actionType": "QuickAction",
+            "sortOrder": 5
+          },
+          {
+            "actionName": "FinServ__NewTaskClientAssociate",
+            "actionType": "QuickAction",
+            "sortOrder": 6
+          },
+          {
+            "actionName": "FinServ__LogACall",
+            "actionType": "QuickAction",
+            "sortOrder": 7
+          },
+          {
+            "actionName": "FinServ__LogACallAdvisor",
+            "actionType": "QuickAction",
+            "sortOrder": 8
+          },
+          {
+            "actionName": "FinServ__LogACallClientAssociate",
+            "actionType": "QuickAction",
+            "sortOrder": 9
+          },
+          {
+            "actionName": "SendEmail",
+            "actionType": "QuickAction",
+            "sortOrder": 10
+          },
+          {
+            "actionName": "_SendConversationMessage",
+            "actionType": "QuickAction",
+            "sortOrder": 11
+          }
+        ]
+      },
+      "relatedLists": [
+        {
+          "fields": [
+            "TASK.SUBJECT",
+            "TASK.WHO_NAME",
+            "TASK.WHAT_NAME",
+            "ACTIVITY.TASK",
+            "TASK.DUE_DATE",
+            "TASK.STATUS",
+            "TASK.CLOSED",
+            "TASK.PRIORITY",
+            "CORE.USERS.FULL_NAME",
+            "TASK.LAST_UPDATE"
+          ],
+          "relatedList": "Activity.FinServ__Household__c",
+          "customButtons": [],
+          "excludeButtons": []
+        },
+        {
+          "fields": [
+            "FULL_NAME",
+            "CONTACT.TITLE",
+            "CONTACT.EMAIL",
+            "CONTACT.PHONE1"
+          ],
+          "relatedList": "RelatedContactList",
+          "customButtons": [],
+          "excludeButtons": []
+        },
+        {
+          "fields": [
+            "NAME",
+            "FinServ__RelatedAccount__c",
+            "FinServ__Role__c",
+            "FinServ__StartDate__c",
+            "FinServ__EndDate__c",
+            "FinServ__Active__c"
+          ],
+          "relatedList": "FinServ__AccountAccountRelation__c.FinServ__Account__c",
+          "customButtons": [],
+          "excludeButtons": []
+        },
+        {
+          "fields": [
+            "CONTACT.FULL_NAME",
+            "ACCCONRELATION.ROLES",
+            "ACCCONRELATION.START_DATE",
+            "ACCCONRELATION.END_DATE",
+            "ACCCONRELATION.IS_ACTIVE"
+          ],
+          "relatedList": "RelatedAccountContactRelationList",
+          "customButtons": [],
+          "excludeButtons": []
+        },
+        {
+          "relatedList": "RelatedNoteList",
+          "customButtons": [],
+          "excludeButtons": [],
+          "fields": []
+        },
+        {
+          "fields": [
+            "OPPORTUNITY.NAME",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.AMOUNT",
+            "OPPORTUNITY.CLOSE_DATE"
+          ],
+          "relatedList": "RelatedOpportunityList",
+          "customButtons": [],
+          "excludeButtons": []
+        },
+        {
+          "fields": [
+            "CASES.CASE_NUMBER",
+            "NAME",
+            "CASES.SUBJECT",
+            "CASES.PRIORITY",
+            "CASES.CREATED_DATE_DATE_ONLY",
+            "CASES.STATUS",
+            "OWNER_NAME"
+          ],
+          "relatedList": "RelatedCaseList",
+          "customButtons": [],
+          "excludeButtons": []
+        }
+      ],
+      "relatedObjects": [
+        "ParentId"
+      ],
+      "showEmailCheckbox": false,
+      "showHighlightsPanel": true,
+      "showInteractionLogPanel": true,
+      "showRunAssignmentRulesCheckbox": false,
+      "showSubmitAndAttachButton": false,
+      "summaryLayout": {
+        "masterLabel": "00hdp000003dxCz",
+        "sizeX": 4,
+        "sizeY": 0,
+        "summaryLayoutStyle": "Default",
+        "summaryLayoutItems": []
+      },
+      "customButtons": [],
+      "headers": [],
+      "multilineLayoutFields": []
+    },
+    {
+      "fullName": "Contact-Contact - PM Banca Institucional",
+      "excludeButtons": [
+        "Submit"
+      ],
+      "layoutSections": [
+        {
+          "customLabel": false,
+          "detailHeading": true,
+          "editHeading": true,
+          "label": "Contact Information",
+          "layoutColumns": [
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Edit",
+                  "field": "AccountId"
+                },
+                {
+                  "behavior": "Required",
+                  "field": "Name"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "Email"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "Phone"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "Description"
+                }
+              ]
+            },
+            {
+              "layoutItems": [
+                {
+                  "emptySpace": true
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "Title"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "Department"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "MobilePhone"
+                },
+                {
+                  "behavior": "Edit",
+                  "field": "OwnerId"
+                }
+              ]
+            }
+          ],
+          "style": "TwoColumnsTopToBottom"
+        },
+        {
+          "customLabel": false,
+          "detailHeading": true,
+          "editHeading": true,
+          "label": "Address Information",
+          "layoutColumns": [
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Edit",
+                  "field": "MailingAddress"
+                }
+              ]
+            },
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Edit",
+                  "field": "OtherAddress"
+                }
+              ]
+            }
+          ],
+          "style": "TwoColumnsTopToBottom"
+        },
+        {
+          "customLabel": false,
+          "detailHeading": true,
+          "editHeading": true,
+          "label": "System Information",
+          "layoutColumns": [
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Readonly",
+                  "field": "CreatedById"
+                }
+              ]
+            },
+            {
+              "layoutItems": [
+                {
+                  "behavior": "Readonly",
+                  "field": "LastModifiedById"
+                }
+              ]
+            }
+          ],
+          "style": "TwoColumnsTopToBottom"
+        },
+        {
+          "customLabel": true,
+          "detailHeading": false,
+          "editHeading": false,
+          "label": "Vínculos personalizados",
+          "layoutColumns": [
+            {
+              "layoutItems": []
+            },
+            {
+              "layoutItems": []
+            },
+            {
+              "layoutItems": []
+            }
+          ],
+          "style": "CustomLinks"
+        }
+      ],
+      "platformActionList": {
+        "actionListContext": "Record",
+        "platformActionListItems": [
+          {
+            "actionName": "FinServ__NewEvent",
+            "actionType": "QuickAction",
+            "sortOrder": 0
+          },
+          {
+            "actionName": "FinServ__NewEventAdvisor",
+            "actionType": "QuickAction",
+            "sortOrder": 1
+          },
+          {
+            "actionName": "FinServ__NewEventClientAssociate",
+            "actionType": "QuickAction",
+            "sortOrder": 2
+          },
+          {
+            "actionName": "FinServ__NewTask",
+            "actionType": "QuickAction",
+            "sortOrder": 3
+          },
+          {
+            "actionName": "FinServ__NewTaskAdvisor",
+            "actionType": "QuickAction",
+            "sortOrder": 4
+          },
+          {
+            "actionName": "FinServ__NewTaskClientAssociate",
+            "actionType": "QuickAction",
+            "sortOrder": 5
+          },
+          {
+            "actionName": "FinServ__LogACall",
+            "actionType": "QuickAction",
+            "sortOrder": 6
+          },
+          {
+            "actionName": "FinServ__LogACallAdvisor",
+            "actionType": "QuickAction",
+            "sortOrder": 7
+          },
+          {
+            "actionName": "FinServ__LogACallClientAssociate",
+            "actionType": "QuickAction",
+            "sortOrder": 8
+          },
+          {
+            "actionName": "SendEmail",
+            "actionType": "QuickAction",
+            "sortOrder": 9
+          }
+        ]
+      },
+      "relatedLists": [
+        {
+          "fields": [
+            "OPPORTUNITY.NAME",
+            "OPPORTUNITY.STAGE_NAME",
+            "OPPORTUNITY.AMOUNT",
+            "OPPORTUNITY.CLOSE_DATE"
+          ],
+          "relatedList": "RelatedOpportunityList",
+          "customButtons": [],
+          "excludeButtons": []
+        },
+        {
+          "fields": [
+            "TASK.SUBJECT",
+            "TASK.WHAT_NAME",
+            "ACTIVITY.TASK",
+            "TASK.DUE_DATE",
+            "TASK.STATUS",
+            "TASK.PRIORITY",
+            "CORE.USERS.FULL_NAME"
+          ],
+          "relatedList": "RelatedActivityList",
+          "customButtons": [],
+          "excludeButtons": []
+        },
+        {
+          "fields": [
+            "TASK.SUBJECT",
+            "TASK.WHAT_NAME",
+            "ACTIVITY.TASK",
+            "TASK.DUE_DATE",
+            "CORE.USERS.FULL_NAME",
+            "TASK.LAST_UPDATE"
+          ],
+          "relatedList": "RelatedHistoryList",
+          "customButtons": [],
+          "excludeButtons": []
+        },
+        {
+          "fields": [
+            "ACTIVITY.SUBJECT",
+            "EMAIL_STATUS.CREATED_DATE",
+            "EMAIL_STATUS.FIRST_OPEN_DATE",
+            "EMAIL_STATUS.TIMES_OPENED",
+            "EMAIL_STATUS.LAST_OPEN_DATE"
+          ],
+          "relatedList": "RelatedEmailStatusList",
+          "customButtons": [],
+          "excludeButtons": []
+        },
+        {
+          "fields": [
+            "NAME",
+            "FinServ__RelatedContact__c",
+            "FinServ__Role__c",
+            "FinServ__StartDate__c",
+            "FinServ__EndDate__c",
+            "FinServ__Active__c"
+          ],
+          "relatedList": "FinServ__ContactContactRelation__c.FinServ__Contact__c",
+          "customButtons": [],
+          "excludeButtons": []
+        },
+        {
+          "fields": [
+            "ACCOUNT.NAME",
+            "ACCCONRELATION.ROLES",
+            "ACCCONRELATION.START_DATE",
+            "ACCCONRELATION.END_DATE",
+            "ACCCONRELATION.IS_ACTIVE"
+          ],
+          "relatedList": "RelatedContactAccountRelationList",
+          "customButtons": [],
+          "excludeButtons": []
+        },
+        {
+          "fields": [
+            "FULL_NAME",
+            "FinServ__ExpressedInterest__c",
+            "LEAD.STATUS"
+          ],
+          "relatedList": "Lead.FinServ__ReferredByContact__c",
+          "customButtons": [],
+          "excludeButtons": []
+        }
+      ],
+      "relatedObjects": [
+        "AccountId"
+      ],
+      "showEmailCheckbox": false,
+      "showHighlightsPanel": true,
+      "showInteractionLogPanel": true,
+      "showRunAssignmentRulesCheckbox": false,
+      "showSubmitAndAttachButton": false,
+      "summaryLayout": {
+        "masterLabel": "00hdp000003fOB7",
+        "sizeX": 4,
+        "sizeY": 0,
+        "summaryLayoutStyle": "Default",
+        "summaryLayoutItems": []
+      },
+      "customButtons": [],
+      "headers": [],
+      "multilineLayoutFields": []
+    }
+  ]
+}
