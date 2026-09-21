@@ -209,6 +209,12 @@
         <fields>LEAD.STATUS</fields>
         <relatedList>Lead.FinServ__ReferredByContact__c</relatedList>
     </relatedLists>
+    <quickActionList>
+        <quickActionListItems><quickActionName>LogACall</quickActionName></quickActionListItems>
+        <quickActionListItems><quickActionName>NewTask</quickActionName></quickActionListItems>
+        <quickActionListItems><quickActionName>NewEvent</quickActionName></quickActionListItems>
+        <quickActionListItems><quickActionName>SendEmail</quickActionName></quickActionListItems>
+    </quickActionList>
     <relatedObjects>AccountId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>true</showHighlightsPanel>

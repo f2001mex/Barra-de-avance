@@ -275,6 +275,12 @@
         <fields>OWNER_NAME</fields>
         <relatedList>RelatedCaseList</relatedList>
     </relatedLists>
+    <quickActionList>
+        <quickActionListItems><quickActionName>LogACall</quickActionName></quickActionListItems>
+        <quickActionListItems><quickActionName>NewTask</quickActionName></quickActionListItems>
+        <quickActionListItems><quickActionName>NewEvent</quickActionName></quickActionListItems>
+        <quickActionListItems><quickActionName>SendEmail</quickActionName></quickActionListItems>
+    </quickActionList>
     <relatedObjects>ParentId</relatedObjects>
     <showEmailCheckbox>false</showEmailCheckbox>
     <showHighlightsPanel>true</showHighlightsPanel>
