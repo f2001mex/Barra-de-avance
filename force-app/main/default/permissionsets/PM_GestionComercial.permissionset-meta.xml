@@ -12,6 +12,10 @@
         <enabled>true</enabled>
         <name>Acceso_Dashboards_Bancas</name>
     </customPermissions>
+    <customPermissions>
+        <enabled>true</enabled>
+        <name>PM_Crear_Oportunidades</name>
+    </customPermissions>
     <fieldPermissions>
         <editable>true</editable>
         <field>AccountContactRelation.FinServ__PrimaryGroup__c</field>

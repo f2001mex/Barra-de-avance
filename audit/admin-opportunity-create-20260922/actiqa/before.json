@@ -1,0 +1,2809 @@
+{
+  "permissionSets": [
+    {
+      "fullName": "PM_GestionComercial",
+      "classAccesses": [
+        {
+          "apexClass": "BancasDashboardController",
+          "enabled": true
+        }
+      ],
+      "customPermissions": [
+        {
+          "enabled": true,
+          "name": "Acceso_Dashboards_Bancas"
+        }
+      ],
+      "fieldPermissions": [
+        {
+          "editable": true,
+          "field": "Account.BillingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Client_ID__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.EconomicActivity__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.FinServ__Status__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Id_del_banquero_responsable__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Industry",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.NombreBanqueroAsignado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.NumberOfEmployees",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ParentId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Person_Type__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.RFC__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Segmento__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ShippingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Tipo_de_cliente_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Type",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Website",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "AccountContactRelation.FinServ__IncludeInGroup__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "AccountContactRelation.FinServ__PrimaryGroup__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "AccountContactRelation.IsActive",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Department",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Email",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Contact.FinServ__BillingAddress__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.MobilePhone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Title",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Event.Competidor__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Event.Description",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Event.WhatId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.CampaignId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Especifica_Otro_Producto__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MontoEstimadoDeInversion__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MotivoDeRechazo__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_Perdida_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_perdidaPM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Origen_cliente__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.PM_Siguiente_paso__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Probability",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Producto_Solicitado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Profit_and_Loss_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Siguientes_pasos__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Tipo_deNegocio__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Task.Competidor__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Task.Description",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Task.WhatId",
+          "readable": true
+        }
+      ],
+      "flowAccesses": [
+        {
+          "enabled": true,
+          "flow": "PM_Nueva_Oportunidad_Con_Contacto"
+        }
+      ],
+      "hasActivationRequired": false,
+      "label": "PM - Banquero",
+      "objectPermissions": [
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Account",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Contact",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Interaction",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionAttendee",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionRelatedAccount",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Opportunity",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        }
+      ],
+      "recordTypeVisibilities": [
+        {
+          "recordType": "Account.Cuentas_empresariales",
+          "visible": true
+        },
+        {
+          "recordType": "Account.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Contact.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Opportunity.Oportunidad_Personas_Morales",
+          "visible": true
+        }
+      ],
+      "tabSettings": [
+        {
+          "tab": "standard-Account",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Contact",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Interaction",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Opportunity",
+          "visibility": "Visible"
+        }
+      ],
+      "userPermissions": [
+        {
+          "enabled": true,
+          "name": "EditEvent"
+        },
+        {
+          "enabled": true,
+          "name": "EditTask"
+        },
+        {
+          "enabled": true,
+          "name": "EmailSingle"
+        },
+        {
+          "enabled": true,
+          "name": "RunFlow"
+        },
+        {
+          "enabled": true,
+          "name": "RunReports"
+        }
+      ],
+      "applicationVisibilities": [],
+      "customMetadataTypeAccesses": [],
+      "externalDataSourceAccesses": [],
+      "pageAccesses": []
+    },
+    {
+      "fullName": "PM_Director",
+      "classAccesses": [
+        {
+          "apexClass": "BancasDashboardController",
+          "enabled": true
+        },
+        {
+          "apexClass": "FinServ__MoiAppConfigController",
+          "enabled": true
+        }
+      ],
+      "customPermissions": [
+        {
+          "enabled": true,
+          "name": "Acceso_Dashboards_Bancas"
+        }
+      ],
+      "fieldPermissions": [
+        {
+          "editable": true,
+          "field": "Account.BillingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Client_ID__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.EconomicActivity__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.FinServ__Status__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Id_del_banquero_responsable__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Industry",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.NombreBanqueroAsignado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.NumberOfEmployees",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ParentId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Person_Type__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.RFC__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Segmento__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ShippingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Tipo_de_cliente_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Type",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Website",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "AccountContactRelation.FinServ__IncludeInGroup__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "AccountContactRelation.FinServ__PrimaryGroup__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "AccountContactRelation.IsActive",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Department",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Email",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.MobilePhone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Title",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Event.Competidor__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Event.WhatId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.CampaignId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Especifica_Otro_Producto__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MontoEstimadoDeInversion__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MotivoDeRechazo__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_Perdida_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_perdidaPM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Origen_cliente__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.PM_Siguiente_paso__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Probability",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Producto_Solicitado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Profit_and_Loss_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Siguientes_pasos__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Tipo_deNegocio__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Task.Competidor__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Task.WhatId",
+          "readable": true
+        }
+      ],
+      "flowAccesses": [
+        {
+          "enabled": true,
+          "flow": "PM_Nueva_Oportunidad_Con_Contacto"
+        }
+      ],
+      "hasActivationRequired": false,
+      "label": "PM - Director",
+      "objectPermissions": [
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Account",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Contact",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Interaction",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionAttendee",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionRelatedAccount",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Opportunity",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        }
+      ],
+      "recordTypeVisibilities": [
+        {
+          "recordType": "Account.Cuentas_empresariales",
+          "visible": true
+        },
+        {
+          "recordType": "Account.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Contact.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Opportunity.Oportunidad_Personas_Morales",
+          "visible": true
+        }
+      ],
+      "tabSettings": [
+        {
+          "tab": "standard-Account",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Contact",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Interaction",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Opportunity",
+          "visibility": "Visible"
+        }
+      ],
+      "userPermissions": [
+        {
+          "enabled": true,
+          "name": "EditEvent"
+        },
+        {
+          "enabled": true,
+          "name": "EditTask"
+        },
+        {
+          "enabled": true,
+          "name": "EmailSingle"
+        },
+        {
+          "enabled": true,
+          "name": "RunFlow"
+        },
+        {
+          "enabled": true,
+          "name": "RunReports"
+        }
+      ],
+      "applicationVisibilities": [],
+      "customMetadataTypeAccesses": [],
+      "externalDataSourceAccesses": [],
+      "pageAccesses": []
+    },
+    {
+      "fullName": "PM_Head",
+      "classAccesses": [
+        {
+          "apexClass": "BancasDashboardController",
+          "enabled": true
+        },
+        {
+          "apexClass": "FinServ__MoiAppConfigController",
+          "enabled": true
+        }
+      ],
+      "customPermissions": [
+        {
+          "enabled": true,
+          "name": "Acceso_Dashboards_Bancas"
+        }
+      ],
+      "fieldPermissions": [
+        {
+          "editable": true,
+          "field": "Account.BillingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Client_ID__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.EconomicActivity__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.FinServ__Status__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Id_del_banquero_responsable__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Industry",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.NombreBanqueroAsignado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.NumberOfEmployees",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ParentId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Person_Type__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.RFC__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Segmento__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.ShippingAddress",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Tipo_de_cliente_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Type",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Account.Website",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "AccountContactRelation.FinServ__IncludeInGroup__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "AccountContactRelation.FinServ__PrimaryGroup__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "AccountContactRelation.IsActive",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Department",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Email",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.MobilePhone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Phone",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Contact.Title",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Event.Competidor__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.AccountId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.CampaignId",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Description",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Especifica_Otro_Producto__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MontoEstimadoDeInversion__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.MotivoDeRechazo__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_Perdida_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_perdidaPM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Origen_cliente__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.PM_Siguiente_paso__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Probability",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Producto_Solicitado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Profit_and_Loss_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Siguientes_pasos__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Tipo_deNegocio__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Task.Competidor__c",
+          "readable": true
+        }
+      ],
+      "flowAccesses": [
+        {
+          "enabled": true,
+          "flow": "PM_Nueva_Oportunidad_Con_Contacto"
+        }
+      ],
+      "hasActivationRequired": false,
+      "label": "PM - Head",
+      "objectPermissions": [
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Account",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Contact",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Interaction",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionAttendee",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": false,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionRelatedAccount",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": true,
+          "allowDelete": true,
+          "allowEdit": true,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Opportunity",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        }
+      ],
+      "recordTypeVisibilities": [
+        {
+          "recordType": "Account.Cuentas_empresariales",
+          "visible": true
+        },
+        {
+          "recordType": "Account.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Contact.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Opportunity.Oportunidad_Personas_Morales",
+          "visible": true
+        }
+      ],
+      "tabSettings": [
+        {
+          "tab": "standard-Account",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Contact",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Interaction",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Opportunity",
+          "visibility": "Visible"
+        }
+      ],
+      "userPermissions": [
+        {
+          "enabled": true,
+          "name": "CreateCustomizeReports"
+        },
+        {
+          "enabled": true,
+          "name": "CreateReportFolders"
+        },
+        {
+          "enabled": true,
+          "name": "EditEvent"
+        },
+        {
+          "enabled": true,
+          "name": "EditMyReports"
+        },
+        {
+          "enabled": true,
+          "name": "EditTask"
+        },
+        {
+          "enabled": true,
+          "name": "EmailSingle"
+        },
+        {
+          "enabled": true,
+          "name": "NewReportBuilder"
+        },
+        {
+          "enabled": true,
+          "name": "RunFlow"
+        },
+        {
+          "enabled": true,
+          "name": "RunReports"
+        },
+        {
+          "enabled": true,
+          "name": "ScheduleReports"
+        },
+        {
+          "enabled": true,
+          "name": "SubscribeToLightningReports"
+        }
+      ],
+      "applicationVisibilities": [],
+      "customMetadataTypeAccesses": [],
+      "externalDataSourceAccesses": [],
+      "pageAccesses": []
+    },
+    {
+      "fullName": "PM_Administrativo",
+      "classAccesses": [
+        {
+          "apexClass": "BancasDashboardController",
+          "enabled": true
+        }
+      ],
+      "customPermissions": [
+        {
+          "enabled": true,
+          "name": "Acceso_Dashboards_Bancas"
+        }
+      ],
+      "fieldPermissions": [
+        {
+          "editable": false,
+          "field": "Account.BillingAddress",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Client_ID__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Description",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.EconomicActivity__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.FinServ__Status__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Id_del_banquero_responsable__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Industry",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.NombreBanqueroAsignado__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.NumberOfEmployees",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.ParentId",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Person_Type__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Phone",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.RFC__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Segmento__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.ServiceCustomerType__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Tipo_de_cliente_PM__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Type",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Account.Website",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Contact.AccountId",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Contact.Department",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Contact.Description",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Contact.Email",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Contact.MailingAddress",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Contact.MobilePhone",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Contact.Phone",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Contact.Title",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Event.Competidor__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.AccountId",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.CampaignId",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.Description",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.Especifica_Otro_Producto__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.MontoEstimadoDeInversion__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.MotivoDeRechazo__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.Motivo_de_Perdida_PM__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Motivo_de_perdidaPM__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.Origen_cliente__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.PM_Siguiente_paso__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.Probability",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.Producto_Solicitado__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Opportunity.Profit_and_Loss_PM__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.Siguientes_pasos__c",
+          "readable": true
+        },
+        {
+          "editable": false,
+          "field": "Opportunity.Tipo_deNegocio__c",
+          "readable": true
+        },
+        {
+          "editable": true,
+          "field": "Task.Competidor__c",
+          "readable": true
+        }
+      ],
+      "hasActivationRequired": false,
+      "label": "PM - Administrativo",
+      "objectPermissions": [
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Account",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Contact",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Interaction",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionAttendee",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "InteractionRelatedAccount",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        },
+        {
+          "allowCreate": false,
+          "allowDelete": false,
+          "allowEdit": false,
+          "allowRead": true,
+          "modifyAllRecords": false,
+          "object": "Opportunity",
+          "viewAllFields": "false",
+          "viewAllRecords": false
+        }
+      ],
+      "recordTypeVisibilities": [
+        {
+          "recordType": "Account.Cuentas_empresariales",
+          "visible": true
+        },
+        {
+          "recordType": "Account.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Contact.FinServ__IndustriesBusiness",
+          "visible": true
+        },
+        {
+          "recordType": "Opportunity.Oportunidad_Personas_Morales",
+          "visible": true
+        }
+      ],
+      "tabSettings": [
+        {
+          "tab": "standard-Account",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Contact",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Interaction",
+          "visibility": "Visible"
+        },
+        {
+          "tab": "standard-Opportunity",
+          "visibility": "Visible"
+        }
+      ],
+      "userPermissions": [
+        {
+          "enabled": true,
+          "name": "RunReports"
+        }
+      ],
+      "applicationVisibilities": [],
+      "customMetadataTypeAccesses": [],
+      "externalDataSourceAccesses": [],
+      "flowAccesses": [],
+      "pageAccesses": []
+    }
+  ],
+  "flow": {
+    "fullName": "PM_Nueva_Oportunidad_Con_Contacto",
+    "apiVersion": "67.0",
+    "areMetricsLoggedToDataCloud": "false",
+    "assignments": [
+      {
+        "name": "Inicializar_Opportunity_PM",
+        "label": "Inicializar Opportunity PM",
+        "locationX": 0,
+        "locationY": 0,
+        "assignmentItems": [
+          {
+            "assignToReference": "OpportunityPMDraft.RecordTypeId",
+            "operator": "Assign",
+            "value": {
+              "elementReference": "Buscar_RecordType_PM.Id"
+            },
+            "processMetadataValues": []
+          }
+        ],
+        "connector": {
+          "targetReference": "Capturar_Datos",
+          "processMetadataValues": []
+        },
+        "processMetadataValues": []
+      }
+    ],
+    "decisions": [
+      {
+        "name": "Account_Valida",
+        "label": "¿Account válida?",
+        "locationX": 0,
+        "locationY": 0,
+        "defaultConnector": {
+          "targetReference": "Error_Account_No_Valida",
+          "processMetadataValues": []
+        },
+        "defaultConnectorLabel": "No válida",
+        "rules": [
+          {
+            "name": "Si_Account_Valida",
+            "conditionLogic": "and",
+            "conditions": [
+              {
+                "leftValueReference": "Buscar_Account.Id",
+                "operator": "IsNull",
+                "rightValue": {
+                  "booleanValue": false
+                },
+                "processMetadataValues": []
+              }
+            ],
+            "connector": {
+              "targetReference": "Buscar_RecordType_PM",
+              "processMetadataValues": []
+            },
+            "label": "Sí válida",
+            "processMetadataValues": []
+          }
+        ],
+        "processMetadataValues": []
+      },
+      {
+        "name": "Contact_Valido",
+        "label": "¿Contact pertenece a Account?",
+        "locationX": 0,
+        "locationY": 0,
+        "defaultConnector": {
+          "targetReference": "Error_Contact_No_Valido",
+          "processMetadataValues": []
+        },
+        "defaultConnectorLabel": "No válido",
+        "rules": [
+          {
+            "name": "Si_Contact_Valido",
+            "conditionLogic": "and",
+            "conditions": [
+              {
+                "leftValueReference": "Buscar_Contact_Seleccionado.Id",
+                "operator": "IsNull",
+                "rightValue": {
+                  "booleanValue": false
+                },
+                "processMetadataValues": []
+              }
+            ],
+            "connector": {
+              "targetReference": "Crear_Opportunity_PM",
+              "processMetadataValues": []
+            },
+            "label": "Sí válido",
+            "processMetadataValues": []
+          }
+        ],
+        "processMetadataValues": []
+      },
+      {
+        "name": "RecordType_Valido",
+        "label": "¿Record Type PM existe?",
+        "locationX": 0,
+        "locationY": 0,
+        "defaultConnector": {
+          "targetReference": "Error_RecordType_No_Encontrado",
+          "processMetadataValues": []
+        },
+        "defaultConnectorLabel": "No existe",
+        "rules": [
+          {
+            "name": "Si_RecordType_Existe",
+            "conditionLogic": "and",
+            "conditions": [
+              {
+                "leftValueReference": "Buscar_RecordType_PM.Id",
+                "operator": "IsNull",
+                "rightValue": {
+                  "booleanValue": false
+                },
+                "processMetadataValues": []
+              }
+            ],
+            "connector": {
+              "targetReference": "Inicializar_Opportunity_PM",
+              "processMetadataValues": []
+            },
+            "label": "Sí existe",
+            "processMetadataValues": []
+          }
+        ],
+        "processMetadataValues": []
+      },
+      {
+        "name": "Validar_Datos",
+        "label": "Validar datos capturados",
+        "locationX": 0,
+        "locationY": 0,
+        "defaultConnector": {
+          "targetReference": "Buscar_Contact_Seleccionado",
+          "processMetadataValues": []
+        },
+        "defaultConnectorLabel": "Datos válidos",
+        "rules": [
+          {
+            "name": "Producto_No_Seleccionado",
+            "conditionLogic": "and",
+            "conditions": [
+              {
+                "leftValueReference": "OpportunityPMDraft.Producto_Solicitado__c",
+                "operator": "IsBlank",
+                "rightValue": {
+                  "booleanValue": true
+                },
+                "processMetadataValues": []
+              }
+            ],
+            "connector": {
+              "targetReference": "Error_Producto_Requerido",
+              "processMetadataValues": []
+            },
+            "label": "Producto requerido",
+            "processMetadataValues": []
+          },
+          {
+            "name": "Producto_Other_Sin_Especificar",
+            "conditionLogic": "and",
+            "conditions": [
+              {
+                "leftValueReference": "OpportunityPMDraft.Producto_Solicitado__c",
+                "operator": "EqualTo",
+                "rightValue": {
+                  "stringValue": "Otro"
+                },
+                "processMetadataValues": []
+              },
+              {
+                "leftValueReference": "Especifica_Otro",
+                "operator": "IsBlank",
+                "rightValue": {
+                  "booleanValue": true
+                },
+                "processMetadataValues": []
+              }
+            ],
+            "connector": {
+              "targetReference": "Error_Especifica_Otro",
+              "processMetadataValues": []
+            },
+            "label": "Producto Otro sin especificar",
+            "processMetadataValues": []
+          },
+          {
+            "name": "Monto_No_Valido",
+            "conditionLogic": "or",
+            "conditions": [
+              {
+                "leftValueReference": "Monto",
+                "operator": "IsNull",
+                "rightValue": {
+                  "booleanValue": true
+                },
+                "processMetadataValues": []
+              },
+              {
+                "leftValueReference": "Monto",
+                "operator": "LessThanOrEqualTo",
+                "rightValue": {
+                  "numberValue": 0
+                },
+                "processMetadataValues": []
+              }
+            ],
+            "connector": {
+              "targetReference": "Error_Monto",
+              "processMetadataValues": []
+            },
+            "label": "Monto no válido",
+            "processMetadataValues": []
+          },
+          {
+            "name": "Probabilidad_No_Valida",
+            "conditionLogic": "or",
+            "conditions": [
+              {
+                "leftValueReference": "Probabilidad",
+                "operator": "IsNull",
+                "rightValue": {
+                  "booleanValue": true
+                },
+                "processMetadataValues": []
+              },
+              {
+                "leftValueReference": "Probabilidad",
+                "operator": "LessThan",
+                "rightValue": {
+                  "numberValue": 0
+                },
+                "processMetadataValues": []
+              },
+              {
+                "leftValueReference": "Probabilidad",
+                "operator": "GreaterThan",
+                "rightValue": {
+                  "numberValue": 100
+                },
+                "processMetadataValues": []
+              }
+            ],
+            "connector": {
+              "targetReference": "Error_Probabilidad",
+              "processMetadataValues": []
+            },
+            "label": "Probabilidad no válida",
+            "processMetadataValues": []
+          },
+          {
+            "name": "Fecha_Cierre_No_Valida",
+            "conditionLogic": "and",
+            "conditions": [
+              {
+                "leftValueReference": "Fecha_Cierre",
+                "operator": "LessThan",
+                "rightValue": {
+                  "elementReference": "$Flow.CurrentDate"
+                },
+                "processMetadataValues": []
+              }
+            ],
+            "connector": {
+              "targetReference": "Error_Fecha_Cierre",
+              "processMetadataValues": []
+            },
+            "label": "Fecha cierre no válida",
+            "processMetadataValues": []
+          }
+        ],
+        "processMetadataValues": []
+      }
+    ],
+    "dynamicChoiceSets": [
+      {
+        "name": "Contactos_Relacionados",
+        "dataType": "String",
+        "displayField": "Name",
+        "filterLogic": "and",
+        "filters": [
+          {
+            "field": "AccountId",
+            "operator": "EqualTo",
+            "value": {
+              "elementReference": "recordId"
+            },
+            "processMetadataValues": []
+          }
+        ],
+        "object": "Contact",
+        "valueField": "Id",
+        "processMetadataValues": [],
+        "outputAssignments": []
+      }
+    ],
+    "environments": "Default",
+    "formulas": [
+      {
+        "name": "Especifica_Otro_Final",
+        "dataType": "String",
+        "expression": "IF(TEXT({!OpportunityPMDraft.Producto_Solicitado__c}) = \"Otro\", {!Especifica_Otro}, \"\")",
+        "processMetadataValues": []
+      }
+    ],
+    "interviewLabel": "PM Nueva Oportunidad Con Contacto {!$Flow.CurrentDateTime}",
+    "label": "PM Nueva Oportunidad Con Contacto",
+    "processMetadataValues": [
+      {
+        "name": "BuilderType",
+        "value": {
+          "stringValue": "LightningFlowBuilder"
+        }
+      },
+      {
+        "name": "CanvasMode",
+        "value": {
+          "stringValue": "AUTO_LAYOUT_CANVAS"
+        }
+      },
+      {
+        "name": "OriginBuilderType",
+        "value": {
+          "stringValue": "LightningFlowBuilder"
+        }
+      }
+    ],
+    "processType": "Flow",
+    "recordCreates": [
+      {
+        "name": "Crear_Contact_Role_Principal",
+        "label": "Crear Contact Role Principal",
+        "locationX": 0,
+        "locationY": 0,
+        "connector": {
+          "targetReference": "Exito",
+          "processMetadataValues": []
+        },
+        "faultConnector": {
+          "targetReference": "Eliminar_Opportunity_Huerfana",
+          "processMetadataValues": []
+        },
+        "inputAssignments": [
+          {
+            "field": "ContactId",
+            "value": {
+              "elementReference": "ContactId"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "IsPrimary",
+            "value": {
+              "booleanValue": true
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "OpportunityId",
+            "value": {
+              "elementReference": "OpportunityCreadaId"
+            },
+            "processMetadataValues": []
+          }
+        ],
+        "object": "OpportunityContactRole",
+        "storeOutputAutomatically": "true",
+        "processMetadataValues": []
+      },
+      {
+        "name": "Crear_Opportunity_PM",
+        "label": "Crear Opportunity PM",
+        "locationX": 0,
+        "locationY": 0,
+        "assignRecordIdToReference": "OpportunityCreadaId",
+        "connector": {
+          "targetReference": "Crear_Contact_Role_Principal",
+          "processMetadataValues": []
+        },
+        "faultConnector": {
+          "targetReference": "Error_Crear_Opportunity",
+          "processMetadataValues": []
+        },
+        "inputAssignments": [
+          {
+            "field": "AccountId",
+            "value": {
+              "elementReference": "recordId"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "CampaignId",
+            "value": {
+              "elementReference": "OpportunityPMDraft.CampaignId"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "CloseDate",
+            "value": {
+              "elementReference": "Fecha_Cierre"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "Description",
+            "value": {
+              "elementReference": "Descripcion"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "Especifica_Otro_Producto__c",
+            "value": {
+              "elementReference": "Especifica_Otro_Final"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "MontoEstimadoDeInversion__c",
+            "value": {
+              "elementReference": "Monto"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "Name",
+            "value": {
+              "elementReference": "Nombre_Oportunidad"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "Probability",
+            "value": {
+              "elementReference": "Probabilidad"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "Producto_Solicitado__c",
+            "value": {
+              "elementReference": "OpportunityPMDraft.Producto_Solicitado__c"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "Profit_and_Loss_PM__c",
+            "value": {
+              "elementReference": "Profit_and_Loss_PnL"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "RecordTypeId",
+            "value": {
+              "elementReference": "Buscar_RecordType_PM.Id"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "StageName",
+            "value": {
+              "stringValue": "Analysis"
+            },
+            "processMetadataValues": []
+          }
+        ],
+        "object": "Opportunity",
+        "processMetadataValues": []
+      }
+    ],
+    "recordDeletes": [
+      {
+        "name": "Eliminar_Opportunity_Huerfana",
+        "label": "Eliminar Opportunity Huérfana",
+        "locationX": 0,
+        "locationY": 0,
+        "connector": {
+          "targetReference": "Error_Crear_Contact_Role",
+          "processMetadataValues": []
+        },
+        "filterLogic": "and",
+        "filters": [
+          {
+            "field": "Id",
+            "operator": "EqualTo",
+            "value": {
+              "elementReference": "OpportunityCreadaId"
+            },
+            "processMetadataValues": []
+          }
+        ],
+        "object": "Opportunity",
+        "processMetadataValues": []
+      }
+    ],
+    "recordLookups": [
+      {
+        "name": "Buscar_Account",
+        "label": "Buscar Account",
+        "locationX": 0,
+        "locationY": 0,
+        "assignNullValuesIfNoRecordsFound": false,
+        "connector": {
+          "targetReference": "Account_Valida",
+          "processMetadataValues": []
+        },
+        "filterLogic": "and",
+        "filters": [
+          {
+            "field": "Id",
+            "operator": "EqualTo",
+            "value": {
+              "elementReference": "recordId"
+            },
+            "processMetadataValues": []
+          }
+        ],
+        "getFirstRecordOnly": true,
+        "object": "Account",
+        "queriedFields": [
+          "Id",
+          "Name"
+        ],
+        "storeOutputAutomatically": true,
+        "processMetadataValues": [],
+        "outputAssignments": []
+      },
+      {
+        "name": "Buscar_Contact_Seleccionado",
+        "label": "Buscar Contact Seleccionado",
+        "locationX": 0,
+        "locationY": 0,
+        "assignNullValuesIfNoRecordsFound": false,
+        "connector": {
+          "targetReference": "Contact_Valido",
+          "processMetadataValues": []
+        },
+        "filterLogic": "and",
+        "filters": [
+          {
+            "field": "Id",
+            "operator": "EqualTo",
+            "value": {
+              "elementReference": "ContactId"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "AccountId",
+            "operator": "EqualTo",
+            "value": {
+              "elementReference": "recordId"
+            },
+            "processMetadataValues": []
+          }
+        ],
+        "getFirstRecordOnly": true,
+        "object": "Contact",
+        "queriedFields": [
+          "Id",
+          "Name"
+        ],
+        "storeOutputAutomatically": true,
+        "processMetadataValues": [],
+        "outputAssignments": []
+      },
+      {
+        "name": "Buscar_RecordType_PM",
+        "label": "Buscar Record Type PM",
+        "locationX": 0,
+        "locationY": 0,
+        "assignNullValuesIfNoRecordsFound": false,
+        "connector": {
+          "targetReference": "RecordType_Valido",
+          "processMetadataValues": []
+        },
+        "filterLogic": "and",
+        "filters": [
+          {
+            "field": "SobjectType",
+            "operator": "EqualTo",
+            "value": {
+              "stringValue": "Opportunity"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "DeveloperName",
+            "operator": "EqualTo",
+            "value": {
+              "stringValue": "Oportunidad_Personas_Morales"
+            },
+            "processMetadataValues": []
+          },
+          {
+            "field": "IsActive",
+            "operator": "EqualTo",
+            "value": {
+              "booleanValue": true
+            },
+            "processMetadataValues": []
+          }
+        ],
+        "getFirstRecordOnly": true,
+        "object": "RecordType",
+        "queriedFields": [
+          "Id"
+        ],
+        "storeOutputAutomatically": true,
+        "processMetadataValues": [],
+        "outputAssignments": []
+      }
+    ],
+    "screens": [
+      {
+        "name": "Capturar_Datos",
+        "label": "Nueva Oportunidad PM",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": false,
+        "allowFinish": true,
+        "allowPause": false,
+        "connector": {
+          "targetReference": "Validar_Datos",
+          "processMetadataValues": []
+        },
+        "fields": [
+          {
+            "name": "Cuenta_Actual",
+            "fieldText": "<p><b>Cliente:</b> {!Buscar_Account.Name}</p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          },
+          {
+            "name": "ContactId",
+            "choiceReferences": [
+              "Contactos_Relacionados"
+            ],
+            "dataType": "String",
+            "fieldText": "Contacto asociado",
+            "fieldType": "DropdownBox",
+            "inputsOnNextNavToAssocScrn": "UseStoredValues",
+            "isRequired": true,
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "inputParameters": [],
+            "outputParameters": []
+          },
+          {
+            "name": "Nombre_Oportunidad",
+            "dataType": "String",
+            "fieldText": "Nombre de oportunidad",
+            "fieldType": "InputField",
+            "inputsOnNextNavToAssocScrn": "UseStoredValues",
+            "isRequired": true,
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          },
+          {
+            "fieldType": "ObjectProvided",
+            "inputsOnNextNavToAssocScrn": "UseStoredValues",
+            "isRequired": false,
+            "objectFieldReference": "OpportunityPMDraft.Producto_Solicitado__c",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          },
+          {
+            "name": "Especifica_Otro",
+            "dataType": "String",
+            "fieldText": "Especifica Otro (Producto)",
+            "fieldType": "InputField",
+            "inputsOnNextNavToAssocScrn": "UseStoredValues",
+            "isRequired": false,
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "visibilityRule": {
+              "conditionLogic": "and",
+              "conditions": [
+                {
+                  "leftValueReference": "OpportunityPMDraft.Producto_Solicitado__c",
+                  "operator": "EqualTo",
+                  "rightValue": {
+                    "stringValue": "Otro"
+                  },
+                  "processMetadataValues": []
+                }
+              ],
+              "processMetadataValues": []
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          },
+          {
+            "name": "Monto",
+            "dataType": "Currency",
+            "fieldText": "Monto estimado de inversión",
+            "fieldType": "InputField",
+            "inputsOnNextNavToAssocScrn": "UseStoredValues",
+            "isRequired": true,
+            "scale": 2,
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          },
+          {
+            "name": "Profit_and_Loss_PnL",
+            "dataType": "Currency",
+            "fieldText": "Profit and Loss (P&L)",
+            "fieldType": "InputField",
+            "inputsOnNextNavToAssocScrn": "UseStoredValues",
+            "isRequired": false,
+            "scale": 2,
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          },
+          {
+            "name": "Fecha_Cierre",
+            "dataType": "Date",
+            "fieldText": "Fecha de cierre",
+            "fieldType": "InputField",
+            "inputsOnNextNavToAssocScrn": "UseStoredValues",
+            "isRequired": true,
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          },
+          {
+            "name": "Probabilidad",
+            "dataType": "Number",
+            "fieldText": "Probabilidad",
+            "fieldType": "InputField",
+            "inputsOnNextNavToAssocScrn": "UseStoredValues",
+            "isRequired": true,
+            "scale": 0,
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          },
+          {
+            "fieldType": "ObjectProvided",
+            "inputsOnNextNavToAssocScrn": "UseStoredValues",
+            "isRequired": false,
+            "objectFieldReference": "OpportunityPMDraft.CampaignId",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          },
+          {
+            "name": "Descripcion",
+            "fieldText": "Descripción",
+            "fieldType": "LargeTextArea",
+            "inputsOnNextNavToAssocScrn": "UseStoredValues",
+            "isRequired": false,
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      },
+      {
+        "name": "Error_Account_No_Valida",
+        "label": "Account no válida",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": false,
+        "allowFinish": true,
+        "allowPause": false,
+        "fields": [
+          {
+            "name": "Mensaje_Account_No_Valida",
+            "fieldText": "<p>No se pudo identificar la cuenta actual. Abre el flujo desde una Account PM.</p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      },
+      {
+        "name": "Error_Contact_No_Valido",
+        "label": "Contact no válido",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": true,
+        "allowFinish": true,
+        "allowPause": false,
+        "fields": [
+          {
+            "name": "Mensaje_Contact_No_Valido",
+            "fieldText": "<p>Selecciona al menos un contacto asociado.</p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      },
+      {
+        "name": "Error_Crear_Contact_Role",
+        "label": "Error al crear Contact Role",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": false,
+        "allowFinish": true,
+        "allowPause": false,
+        "fields": [
+          {
+            "name": "Mensaje_Error_Crear_Contact_Role",
+            "fieldText": "<p>No se pudo crear la oportunidad con el contacto asociado. Intenta nuevamente o contacta al administrador.</p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      },
+      {
+        "name": "Error_Crear_Opportunity",
+        "label": "Error al crear Opportunity",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": false,
+        "allowFinish": true,
+        "allowPause": false,
+        "fields": [
+          {
+            "name": "Mensaje_Error_Crear_Opportunity",
+            "fieldText": "<p>No se pudo crear la oportunidad. Intenta nuevamente o contacta al administrador.</p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      },
+      {
+        "name": "Error_Especifica_Otro",
+        "label": "Especifica Otro requerido",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": true,
+        "allowFinish": true,
+        "allowPause": false,
+        "fields": [
+          {
+            "name": "Mensaje_Especifica_Otro",
+            "fieldText": "<p>Especifica el producto cuando selecciones Otro.</p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      },
+      {
+        "name": "Error_Fecha_Cierre",
+        "label": "Fecha de cierre no válida",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": true,
+        "allowFinish": true,
+        "allowPause": false,
+        "fields": [
+          {
+            "name": "Mensaje_Fecha_Cierre",
+            "fieldText": "<p>La fecha de cierre no puede ser anterior a la fecha de creación de la oportunidad.</p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      },
+      {
+        "name": "Error_Monto",
+        "label": "Monto no válido",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": true,
+        "allowFinish": true,
+        "allowPause": false,
+        "fields": [
+          {
+            "name": "Mensaje_Monto",
+            "fieldText": "<p>El monto debe ser un valor positivo mayor a cero.</p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      },
+      {
+        "name": "Error_Probabilidad",
+        "label": "Probabilidad no válida",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": true,
+        "allowFinish": true,
+        "allowPause": false,
+        "fields": [
+          {
+            "name": "Mensaje_Probabilidad",
+            "fieldText": "<p>La probabilidad debe ser un valor entre 0 y 100.</p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      },
+      {
+        "name": "Error_Producto_Requerido",
+        "label": "Producto requerido",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": true,
+        "allowFinish": true,
+        "allowPause": false,
+        "fields": [
+          {
+            "name": "Mensaje_Producto_Requerido",
+            "fieldText": "<p>Selecciona un producto solicitado.</p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      },
+      {
+        "name": "Error_RecordType_No_Encontrado",
+        "label": "Record Type PM no encontrado",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": false,
+        "allowFinish": true,
+        "allowPause": false,
+        "fields": [
+          {
+            "name": "Mensaje_RecordType_No_Encontrado",
+            "fieldText": "<p>No se encontró el Record Type de Opportunity PM. Contacta al administrador.</p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      },
+      {
+        "name": "Exito",
+        "label": "Oportunidad creada",
+        "locationX": 0,
+        "locationY": 0,
+        "allowBack": false,
+        "allowFinish": true,
+        "allowPause": false,
+        "fields": [
+          {
+            "name": "Mensaje_Exito",
+            "fieldText": "<p>Se creó la oportunidad PM y el contacto asociado principal.</p><p><a href=\"/{!OpportunityCreadaId}\" target=\"_blank\">Abrir oportunidad</a></p>",
+            "fieldType": "DisplayText",
+            "styleProperties": {
+              "verticalAlignment": {
+                "stringValue": "top"
+              },
+              "width": {
+                "stringValue": "12"
+              }
+            },
+            "processMetadataValues": [],
+            "choiceReferences": [],
+            "inputParameters": [],
+            "outputParameters": []
+          }
+        ],
+        "showFooter": true,
+        "showHeader": true,
+        "processMetadataValues": [],
+        "rules": []
+      }
+    ],
+    "start": {
+      "locationX": 0,
+      "locationY": 0,
+      "connector": {
+        "targetReference": "Buscar_Account",
+        "processMetadataValues": []
+      },
+      "processMetadataValues": [],
+      "filters": []
+    },
+    "status": "Active",
+    "variables": [
+      {
+        "name": "OpportunityCreadaId",
+        "dataType": "String",
+        "isCollection": false,
+        "isInput": false,
+        "isOutput": false,
+        "processMetadataValues": []
+      },
+      {
+        "name": "OpportunityPMDraft",
+        "dataType": "SObject",
+        "isCollection": false,
+        "isInput": false,
+        "isOutput": false,
+        "objectType": "Opportunity",
+        "processMetadataValues": []
+      },
+      {
+        "name": "recordId",
+        "dataType": "String",
+        "isCollection": false,
+        "isInput": true,
+        "isOutput": false,
+        "processMetadataValues": []
+      }
+    ],
+    "actionCalls": [],
+    "apexPluginCalls": [],
+    "choices": [],
+    "constants": [],
+    "loops": [],
+    "recordUpdates": [],
+    "stages": [],
+    "steps": [],
+    "subflows": [],
+    "textTemplates": [],
+    "waits": []
+  }
+}

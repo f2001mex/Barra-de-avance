@@ -19,6 +19,31 @@
         </connector>
     </assignments>
     <decisions>
+        <name>Validar_Permiso_Crear_Oportunidad</name>
+        <label>¿Puede crear oportunidades PM?</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <defaultConnector>
+            <targetReference>Sin_Permiso_Crear_Oportunidad</targetReference>
+        </defaultConnector>
+        <defaultConnectorLabel>Sin permiso</defaultConnectorLabel>
+        <rules>
+            <name>Tiene_Permiso_Crear_Oportunidad</name>
+            <conditionLogic>and</conditionLogic>
+            <conditions>
+                <leftValueReference>$Permission.PM_Crear_Oportunidades</leftValueReference>
+                <operator>EqualTo</operator>
+                <rightValue>
+                    <booleanValue>true</booleanValue>
+                </rightValue>
+            </conditions>
+            <connector>
+                <targetReference>Buscar_Account</targetReference>
+            </connector>
+            <label>Con permiso</label>
+        </rules>
+    </decisions>
+    <decisions>
         <name>Account_Valida</name>
         <label>¿Account válida?</label>
         <locationX>0</locationX>
@@ -933,11 +958,35 @@
         <showFooter>true</showFooter>
         <showHeader>true</showHeader>
     </screens>
+    <screens>
+        <name>Sin_Permiso_Crear_Oportunidad</name>
+        <label>Acceso restringido</label>
+        <locationX>0</locationX>
+        <locationY>0</locationY>
+        <allowBack>false</allowBack>
+        <allowFinish>true</allowFinish>
+        <allowPause>false</allowPause>
+        <fields>
+            <name>Mensaje_Sin_Permiso_Crear_Oportunidad</name>
+            <fieldText>&lt;p&gt;Tu perfil no tiene permiso para crear oportunidades.&lt;/p&gt;</fieldText>
+            <fieldType>DisplayText</fieldType>
+            <styleProperties>
+                <verticalAlignment>
+                    <stringValue>top</stringValue>
+                </verticalAlignment>
+                <width>
+                    <stringValue>12</stringValue>
+                </width>
+            </styleProperties>
+        </fields>
+        <showFooter>true</showFooter>
+        <showHeader>true</showHeader>
+    </screens>
     <start>
         <locationX>0</locationX>
         <locationY>0</locationY>
         <connector>
-            <targetReference>Buscar_Account</targetReference>
+            <targetReference>Validar_Permiso_Crear_Oportunidad</targetReference>
         </connector>
     </start>
     <status>Active</status>
