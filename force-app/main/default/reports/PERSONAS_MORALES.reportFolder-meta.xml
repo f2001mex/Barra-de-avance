@@ -6,7 +6,7 @@
         <sharedToType>Role</sharedToType>
     </folderShares>
     <folderShares>
-        <accessLevel>View</accessLevel>
+        <accessLevel>EditAllContents</accessLevel>
         <sharedTo>Head_PM</sharedTo>
         <sharedToType>Role</sharedToType>
     </folderShares>

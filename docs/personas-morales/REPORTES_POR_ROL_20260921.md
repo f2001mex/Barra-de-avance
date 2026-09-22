@@ -12,10 +12,12 @@ Evitar que el perfil Banquero consulte en reportes información perteneciente a 
 | --- | --- | --- | --- |
 | Banquero | `PERSONAS_MORALES_BANQUERO` | `user` (registros propios) | Rol exacto `Banquero_Institucional` |
 | Director | `PERSONAS_MORALES_DIRECTOR` | `team` (equipo) | Rol exacto `Director_PM` |
-| Head | `PERSONAS_MORALES` | `organization` (organización) | Rol exacto `Head_PM` |
+| Head | `PERSONAS_MORALES` | `organization` (organización) | Rol exacto `Head_PM`, edición total de contenidos |
 | Administrativo | `PERSONAS_MORALES` | `organization` (organización) | Rol exacto `Administrativo_PM` |
 
 Se eliminaron de la carpeta organizacional las comparticiones amplias por rol y subordinados y por los grupos públicos de edición/lectura.
+
+El 22 de septiembre de 2026 se corrigió el acceso de `Head_PM` de `View` a `EditAllContents`. El conjunto `PM_Head` ya contenía los permisos funcionales de creación y edición; el nivel de acceso de la carpeta era el bloqueo que impedía guardar cambios.
 
 ## Ambientes
 

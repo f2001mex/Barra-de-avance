@@ -1,0 +1,16 @@
+{
+  "fullName": "PERSONAS_MORALES",
+  "folderShares": [
+    {
+      "accessLevel": "View",
+      "sharedTo": "Administrativo_PM",
+      "sharedToType": "Role"
+    },
+    {
+      "accessLevel": "View",
+      "sharedTo": "Head_PM",
+      "sharedToType": "Role"
+    }
+  ],
+  "name": "PERSONAS MORALES"
+}
