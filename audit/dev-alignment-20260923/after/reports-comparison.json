@@ -1,0 +1,22 @@
+[
+  {
+    "report": "RPT_Clientes_por_Tipo_Institucional.report-meta.xml",
+    "identical": false
+  },
+  {
+    "report": "RPT_Clientes_Tipo_Institucional.report-meta.xml",
+    "identical": false
+  },
+  {
+    "report": "RPT_Oportunidades_Producto.report-meta.xml",
+    "identical": false
+  },
+  {
+    "report": "RPT_Oportunidades_Proximas_Cierre.report-meta.xml",
+    "identical": false
+  },
+  {
+    "report": "RPT_Pipeline_Oportunidades_Etapa.report-meta.xml",
+    "identical": false
+  }
+]

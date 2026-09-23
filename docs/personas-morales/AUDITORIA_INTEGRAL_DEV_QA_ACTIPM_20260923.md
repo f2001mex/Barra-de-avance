@@ -37,8 +37,8 @@ Los tres ambientes **no están completamente alineados**. Se recuperó el mismo 
 ### Código e informes con divergencia adicional
 
 12. `Service_Utility_Trigger` de ActiPM no coincide con Dev/QA: difieren la consulta por sucursal y el cache de usuarios por nómina; ActiPM conserva API 62.0 y Dev/QA API 66.0.
-13. El reporte `RPT_Clientes_por_Tipo_Institucional` filtra solo `Active` en Dev y `Active,Activo` en QA/ActiPM.
-14. Cuatro reportes de la carpeta organizacional contienen `terr=all` solamente en Dev. Las carpetas segregadas de Banquero y Director sí tienen 14 reportes con los mismos nombres y alcances en los tres ambientes.
+13. El reporte `RPT_Clientes_por_Tipo_Institucional` se recupera con `Active` en Dev y `Active,Activo` en QA/ActiPM.
+14. Cuatro reportes de la carpeta organizacional se recuperan con `terr=all` en QA y sin ese parámetro en Dev/ActiPM. El 23 de septiembre de 2026 se desplegaron las versiones de QA en Dev; Salesforce aceptó el despliegue, pero al recuperarlas normalizó nuevamente ambos valores según la configuración del ambiente. Por ello se clasifican como diferencias generadas por la organización, no como omisiones persistibles del reporte. Las carpetas segregadas de Banquero y Director sí tienen 14 reportes con los mismos nombres y alcances en los tres ambientes.
 
 ## Componentes alineados
 
@@ -61,7 +61,7 @@ Los tres ambientes **no están completamente alineados**. Se recuperó el mismo 
 
 ## Conclusión
 
-No es correcto declarar todavía que los tres ambientes están completamente alineados. Las brechas confirmadas de QA y Dev indicadas arriba ya fueron corregidas y verificadas; las diferencias funcionales restantes se concentran en ActiPM y deben promoverse mediante un paquete controlado.
+ActiDev y ActiQA están alineados en la funcionalidad de Personas Morales auditada. Sus diferencias restantes corresponden al reporte exclusivo de pruebas de QA y a valores que Salesforce normaliza por configuración del sandbox. Los tres ambientes todavía no están completamente alineados: las diferencias funcionales restantes se concentran en ActiPM y deben promoverse mediante un paquete controlado.
 
 ## Evidencia
 
