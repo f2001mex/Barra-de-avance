@@ -105,10 +105,10 @@
             <fieldInstance>
                 <fieldInstanceProperties>
                     <name>uiBehavior</name>
-                    <value>required</value>
+                    <value>none</value>
                 </fieldInstanceProperties>
                 <fieldItem>Record.Tipo_de_cliente_PM__c</fieldItem>
-                <identifier>RecordTipo_de_cliente_PM_cField</identifier>
+                <identifier>RecordTipo_de_cliente_PM_cField2</identifier>
             </fieldInstance>
         </itemInstances>
         <name>Facet-b63bc7f5-67b7-40c1-b08f-c1e1efa214a6</name>

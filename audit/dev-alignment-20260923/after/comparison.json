@@ -1,0 +1,34 @@
+[
+  {
+    "file": "objects/Account/listViews/FinServ__My_Clients.listView-meta.xml",
+    "identical": true
+  },
+  {
+    "file": "objects/Account/listViews/MyAccounts.listView-meta.xml",
+    "identical": true
+  },
+  {
+    "file": "objects/Contact/listViews/Todos_Contactos.listView-meta.xml",
+    "identical": true
+  },
+  {
+    "file": "flexipages/Account_PM_Banca_Institucional.flexipage-meta.xml",
+    "identical": true
+  },
+  {
+    "file": "classes/OpenTextRazonabilidadRest.cls",
+    "identical": true
+  },
+  {
+    "file": "classes/OpenTextRazonabilidadRest.cls-meta.xml",
+    "identical": true
+  },
+  {
+    "file": "classes/OpenTextRazonabilidadRest_Test.cls",
+    "identical": true
+  },
+  {
+    "file": "classes/OpenTextRazonabilidadRest_Test.cls-meta.xml",
+    "identical": true
+  }
+]

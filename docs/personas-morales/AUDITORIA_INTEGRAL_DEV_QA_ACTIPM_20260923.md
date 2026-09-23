@@ -20,14 +20,14 @@ Los tres ambientes **no están completamente alineados**. Se recuperó el mismo 
 
 ### ActiDev y ActiQA
 
-5. La vista `Contact.Todos_Contactos` no estaba recuperable en Dev ni QA; sí existía en ActiPM. **Corregido en QA el 23 de septiembre de 2026; permanece pendiente en Dev.**
-6. La visibilidad de `FinServ__My_Clients` no coincidía: Dev y QA la compartían con numerosos grupos globales; ActiPM la limitaba a `Head_PM` y subordinados. **Corregido en QA el 23 de septiembre de 2026; permanece pendiente en Dev.** El filtro funcional es `Mine` en QA y ActiPM.
+5. La vista `Contact.Todos_Contactos` no estaba recuperable en Dev ni QA; sí existía en ActiPM. **Corregido en QA y Dev el 23 de septiembre de 2026.**
+6. La visibilidad de `FinServ__My_Clients` no coincidía: Dev y QA la compartían con numerosos grupos globales; ActiPM la limitaba a `Head_PM` y subordinados. **Corregido en QA y Dev el 23 de septiembre de 2026.** El filtro funcional es `Mine` en los tres ambientes.
 
 ### ActiDev
 
-7. `Account.MyAccounts` usa `filterScope=Team`; QA y ActiPM usan `Mine`.
-8. La página `Account_PM_Banca_Institucional` deja `Tipo_de_cliente_PM__c` opcional; únicamente QA lo marca obligatorio. ActiPM también lo deja opcional.
-9. `OpenTextRazonabilidadRest` y su prueba están detrás de QA/ActiPM: en Dev no está la lógica de reintento para reasignar el propietario de Task.
+7. `Account.MyAccounts` usaba `filterScope=Team`. **Corregido en Dev el 23 de septiembre de 2026; ahora usa `Mine` como QA y ActiPM.**
+8. La página `Account_PM_Banca_Institucional` dejaba `Tipo_de_cliente_PM__c` opcional. **Corregido en Dev el 23 de septiembre de 2026; queda obligatorio como QA. ActiPM permanece pendiente.**
+9. `OpenTextRazonabilidadRest` y su prueba estaban detrás de QA/ActiPM. **Actualizados en Dev el 23 de septiembre de 2026; las nueve pruebas Apex finalizaron correctamente.**
 
 ### ActiQA
 
@@ -61,7 +61,7 @@ Los tres ambientes **no están completamente alineados**. Se recuperó el mismo 
 
 ## Conclusión
 
-No es correcto declarar todavía que ActiDev, ActiQA y ActiPM están completamente alineados. Las cuatro brechas confirmadas de QA indicadas arriba ya fueron corregidas; las diferencias restantes de Dev y ActiPM deben promoverse mediante paquetes controlados.
+No es correcto declarar todavía que los tres ambientes están completamente alineados. Las brechas confirmadas de QA y Dev indicadas arriba ya fueron corregidas y verificadas; las diferencias funcionales restantes se concentran en ActiPM y deben promoverse mediante un paquete controlado.
 
 ## Evidencia
 
@@ -74,3 +74,5 @@ No es correcto declarar todavía que ActiDev, ActiQA y ActiPM están completamen
 - `audit/hu5-dev-qa-20260923/actipm-reports.json`
 - `audit/qa-alignment-20260923/before.json`
 - `audit/qa-alignment-20260923/after.json`
+- `audit/dev-alignment-20260923/before/`
+- `audit/dev-alignment-20260923/after/comparison.json`
