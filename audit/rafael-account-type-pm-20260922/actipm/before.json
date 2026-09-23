@@ -1,0 +1,245 @@
+{
+  "user": {
+    "attributes": {
+      "type": "User",
+      "url": "/services/data/v68.0/sobjects/User/005WF00000bI52LYAS"
+    },
+    "Id": "005WF00000bI52LYAS",
+    "Name": "Rafael Baruk Reyna Contreras",
+    "Username": "rreyna@externos.actinver.com.mx.pm",
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000001SRcoAAG"
+      },
+      "Name": "System Administrator"
+    }
+  },
+  "assignments": [
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aNxtt0AC"
+      },
+      "Id": "0PaWF00000aNxtt0AC",
+      "PermissionSetId": "0PS5e000001LlfEGAS",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS5e000001LlfEGAS"
+        },
+        "Name": "X00ex00000018ozT_128_09_43_34_1"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aRxfG0AS"
+      },
+      "Id": "0PaWF00000aRxfG0AS",
+      "PermissionSetId": "0PS5e000004OChnGAG",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS5e000004OChnGAG"
+        },
+        "Name": "FinancialServicesCloudExtension"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aObHx0AK"
+      },
+      "Id": "0PaWF00000aObHx0AK",
+      "PermissionSetId": "0PS5e000004OKlPGAW",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS5e000004OKlPGAW"
+        },
+        "Name": "ExactTarget_Integration"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aObHy0AK"
+      },
+      "Id": "0PaWF00000aObHy0AK",
+      "PermissionSetId": "0PS5e000004OKlQGAW",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS5e000004OKlQGAW"
+        },
+        "Name": "ExactTarget_Integration_Admin"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aRxfC0AS"
+      },
+      "Id": "0PaWF00000aRxfC0AS",
+      "PermissionSetId": "0PS5e000005uVu8GAE",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS5e000005uVu8GAE"
+        },
+        "Name": "FinancialServicesCloudStandard"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aObI20AK"
+      },
+      "Id": "0PaWF00000aObI20AK",
+      "PermissionSetId": "0PS5e000005upd1GAA",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS5e000005upd1GAA"
+        },
+        "Name": "FSCAnalyticsUser"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aRxfD0AS"
+      },
+      "Id": "0PaWF00000aRxfD0AS",
+      "PermissionSetId": "0PS7V0000000hgpWAA",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS7V0000000hgpWAA"
+        },
+        "Name": "Scheduler_Permission_Set"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aObHz0AK"
+      },
+      "Id": "0PaWF00000aObHz0AK",
+      "PermissionSetId": "0PS7V0000000iAbWAI",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS7V0000000iAbWAI"
+        },
+        "Name": "AdministradorBitacora"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aRxfH0AS"
+      },
+      "Id": "0PaWF00000aRxfH0AS",
+      "PermissionSetId": "0PS7V000000ac1kWAA",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS7V000000ac1kWAA"
+        },
+        "Name": "EinsteinActivityCaptureIncluded"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aRxfE0AS"
+      },
+      "Id": "0PaWF00000aRxfE0AS",
+      "PermissionSetId": "0PS7V000000ac1sWAA",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS7V000000ac1sWAA"
+        },
+        "Name": "HighVelocitySalesCadenceCreatorIncluded"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aRxfI0AS"
+      },
+      "Id": "0PaWF00000aRxfI0AS",
+      "PermissionSetId": "0PS7V000000ac1tWAA",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS7V000000ac1tWAA"
+        },
+        "Name": "HighVelocitySalesQuickCadenceCreatorIncluded"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aRxfF0AS"
+      },
+      "Id": "0PaWF00000aRxfF0AS",
+      "PermissionSetId": "0PS7V000000ac1uWAA",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS7V000000ac1uWAA"
+        },
+        "Name": "HighVelocitySalesUserIncluded"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aSAxO0AW"
+      },
+      "Id": "0PaWF00000aSAxO0AW",
+      "PermissionSetId": "0PS7V000000rA1FWAU",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PS7V000000rA1FWAU"
+        },
+        "Name": "Asesores_FSC"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aObI00AK"
+      },
+      "Id": "0PaWF00000aObI00AK",
+      "PermissionSetId": "0PSWP0000004asv4AA",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PSWP0000004asv4AA"
+        },
+        "Name": "AdministradorPostventa"
+      }
+    },
+    {
+      "attributes": {
+        "type": "PermissionSetAssignment",
+        "url": "/services/data/v68.0/sobjects/PermissionSetAssignment/0PaWF00000aObI10AK"
+      },
+      "Id": "0PaWF00000aObI10AK",
+      "PermissionSetId": "0PSWP000000BFer4AG",
+      "PermissionSet": {
+        "attributes": {
+          "type": "PermissionSet",
+          "url": "/services/data/v68.0/sobjects/PermissionSet/0PSWP000000BFer4AG"
+        },
+        "Name": "CHURN_Account"
+      }
+    }
+  ]
+}

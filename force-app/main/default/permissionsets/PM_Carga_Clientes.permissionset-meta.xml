@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PermissionSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>Permiso mínimo para mapear y cargar el campo Tipo de cliente PM mediante API/Data Loader.</description>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Account.Tipo_de_cliente_PM__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <hasActivationRequired>false</hasActivationRequired>
+    <label>PM - Carga de Clientes</label>
+</PermissionSet>
