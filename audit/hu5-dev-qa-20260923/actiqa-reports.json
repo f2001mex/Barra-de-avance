@@ -1,0 +1,216 @@
+{
+  "environment": "actiqa",
+  "folders": {
+    "PERSONAS_MORALES": {
+      "shares": [
+        {
+          "target": "Administrativo_PM",
+          "type": "Role",
+          "access": "View"
+        },
+        {
+          "target": "Head_PM",
+          "type": "Role",
+          "access": "EditAllContents"
+        }
+      ],
+      "reports": [
+        {
+          "name": "Cuentas_por_propietario_QA_Modificado",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Actividad_Comercial_Ejecutivo",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Clientes_Estrategicos_Prioritarios",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Clientes_por_Tipo_Institucional",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Clientes_Tipo_Institucional",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Competidores_Recurrentes",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Contactos_Clave_Cliente",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Contactos_Estrategicos_Cliente",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Correos_Tendencia",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Eventos_Tendencia",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Llamadas_Tendencia",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Oportunidades_Producto",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Oportunidades_Proximas_Cierre",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Pipeline_Oportunidades_Etapa",
+          "scope": "organization"
+        },
+        {
+          "name": "RPT_Tareas_Pendientes_Estado",
+          "scope": "organization"
+        }
+      ]
+    },
+    "PERSONAS_MORALES_BANQUERO": {
+      "shares": [
+        {
+          "target": "Banquero_Institucional",
+          "type": "Role",
+          "access": "View"
+        }
+      ],
+      "reports": [
+        {
+          "name": "RPT_Actividad_Comercial_Ejecutivo_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Clientes_Estrategicos_Prioritarios_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Clientes_por_Tipo_Institucional_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Clientes_Tipo_Institucional_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Competidores_Recurrentes_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Contactos_Clave_Cliente_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Contactos_Estrategicos_Cliente_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Correos_Tendencia_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Eventos_Tendencia_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Llamadas_Tendencia_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Oportunidades_Producto_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Oportunidades_Proximas_Cierre_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Pipeline_Oportunidades_Etapa_BANQUERO",
+          "scope": "user"
+        },
+        {
+          "name": "RPT_Tareas_Pendientes_Estado_BANQUERO",
+          "scope": "user"
+        }
+      ]
+    },
+    "PERSONAS_MORALES_DIRECTOR": {
+      "shares": [
+        {
+          "target": "Director_PM",
+          "type": "Role",
+          "access": "View"
+        }
+      ],
+      "reports": [
+        {
+          "name": "RPT_Actividad_Comercial_Ejecutivo_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Clientes_Estrategicos_Prioritarios_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Clientes_por_Tipo_Institucional_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Clientes_Tipo_Institucional_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Competidores_Recurrentes_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Contactos_Clave_Cliente_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Contactos_Estrategicos_Cliente_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Correos_Tendencia_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Eventos_Tendencia_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Llamadas_Tendencia_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Oportunidades_Producto_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Oportunidades_Proximas_Cierre_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Pipeline_Oportunidades_Etapa_DIRECTOR",
+          "scope": "team"
+        },
+        {
+          "name": "RPT_Tareas_Pendientes_Estado_DIRECTOR",
+          "scope": "team"
+        }
+      ]
+    }
+  },
+  "dashboards": []
+}

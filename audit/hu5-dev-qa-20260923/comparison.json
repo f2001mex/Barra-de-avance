@@ -1,0 +1,133 @@
+{
+  "generatedAt": "2026-09-23T18:28:29.288Z",
+  "metadataDifferences": [
+    {
+      "path": "permissionSets.PM_GestionComercial.fieldPermissions.0.field",
+      "actidev": "AccountContactRelation.FinServ__PrimaryGroup__c",
+      "actiqa": "AccountContactRelation.FinServ__IncludeInGroup__c"
+    },
+    {
+      "path": "permissionSets.PM_GestionComercial.fieldPermissions.1.field",
+      "actidev": "Contact.AccountId",
+      "actiqa": "AccountContactRelation.FinServ__PrimaryGroup__c"
+    },
+    {
+      "path": "permissionSets.PM_GestionComercial.fieldPermissions.2",
+      "actiqa": {
+        "field": "Contact.AccountId",
+        "read": true,
+        "edit": true
+      }
+    },
+    {
+      "path": "validationRule.errorConditionFormula",
+      "actidev": "AND(\r\n    RecordType.DeveloperName = \"Oportunidad_Personas_Morales\",\r\n    NOT(ISNEW()),\r\n    ISCHANGED(StageName),\r\n    OR(\r\n        ISPICKVAL(StageName,\"Closed Won\"),\r\n        ISPICKVAL(StageName,\"Closed Lost\")\r\n    ),\r\n    PRIORVALUE(OwnerId) <> $User.Id,\r\n    $UserRole.DeveloperName <> \"Head_PM\"\r\n)",
+      "actiqa": "AND(\n    RecordType.DeveloperName = \"Oportunidad_Personas_Morales\",\n    NOT(ISNEW()),\n    ISCHANGED(StageName),\n    OR(\n        ISPICKVAL(StageName,\"Closed Won\"),\n        ISPICKVAL(StageName,\"Closed Lost\")\n    ),\n    PRIORVALUE(OwnerId) <> $User.Id,\n    $UserRole.DeveloperName <> \"Head_PM\"\n)"
+    }
+  ],
+  "userAssignments": {
+    "actidev": [
+      {
+        "name": "Griselda Daniela Vargas Ochoa",
+        "username": "gvargas@actinver.com.mx.actidev",
+        "profile": "PM - Ejecutivo Personas Morales",
+        "role": "Banquero_Institucional",
+        "pmPermissionSets": [
+          "PM_GestionComercial"
+        ]
+      },
+      {
+        "name": "Usuario Para Pruebas",
+        "username": "usertest@optimissa.com.actidev",
+        "profile": "PM - Ejecutivo Personas Morales",
+        "role": "Banquero_Institucional",
+        "pmPermissionSets": [
+          "PM_GestionComercial"
+        ]
+      },
+      {
+        "name": "Constanza Maria Garcia Oliveras",
+        "username": "cgarciao@actinver.com.mx.actidev",
+        "profile": "PM - Ejecutivo Personas Morales",
+        "role": "Director_PM",
+        "pmPermissionSets": [
+          "PM_Director"
+        ]
+      },
+      {
+        "name": "Manuel Hernandez Hernandez",
+        "username": "mahernandezh@actinver.com.mx.actidev",
+        "profile": "PM - Ejecutivo Personas Morales",
+        "role": "Director_PM",
+        "pmPermissionSets": [
+          "PM_Director"
+        ]
+      }
+    ],
+    "actiqa": [
+      {
+        "name": "Sergio Eduardo Novelo Puga",
+        "username": "snovelo@actinver.com.mx.actiqa",
+        "profile": "PM - Ejecutivo Personas Morales",
+        "role": "Administrativo_PM",
+        "pmPermissionSets": [
+          "PM_Administrativo"
+        ]
+      },
+      {
+        "name": "Griselda Daniela Vargas Ochoa",
+        "username": "gvargas@actinver.com.mx.actiqa",
+        "profile": "PM - Ejecutivo Personas Morales",
+        "role": "Banquero_Institucional",
+        "pmPermissionSets": [
+          "PM_GestionComercial"
+        ]
+      },
+      {
+        "name": "Sebastián Montalvo Reyes",
+        "username": "smont@actinver.com.mx.actiqa",
+        "profile": "PM - Ejecutivo Personas Morales",
+        "role": "Banquero_Institucional",
+        "pmPermissionSets": [
+          "PM_GestionComercial"
+        ]
+      },
+      {
+        "name": "Leonardo Manuel Ledezma Avila",
+        "username": "lledezma@actinver.com.mx.actiqa",
+        "profile": "PM - Ejecutivo Personas Morales",
+        "role": "Director_PM",
+        "pmPermissionSets": [
+          "PM_Director"
+        ]
+      },
+      {
+        "name": "Patricia Salinas Vega",
+        "username": "psali@actinver.externos.com.mx",
+        "profile": "PM - Ejecutivo Personas Morales",
+        "role": "Director_PM",
+        "pmPermissionSets": [
+          "PM_Director"
+        ]
+      },
+      {
+        "name": "Mauricio Beltran Flores",
+        "username": "mbelt@actinver.com.mx.actiqa",
+        "profile": "PM - Ejecutivo Personas Morales",
+        "role": "Head_PM",
+        "pmPermissionSets": [
+          "PM_Head"
+        ]
+      },
+      {
+        "name": "Tania Beatriz Jacome Ramos",
+        "username": "tjacome@actinver.com.mx.actiqa",
+        "profile": "PM - Ejecutivo Personas Morales",
+        "role": "Head_PM",
+        "pmPermissionSets": [
+          "PM_Head"
+        ]
+      }
+    ]
+  }
+}

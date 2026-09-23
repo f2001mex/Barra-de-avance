@@ -1,0 +1,166 @@
+{
+  "counts": {
+    "actidev": 143,
+    "actiqa": 143,
+    "actipm": 143,
+    "union": 144
+  },
+  "identical": 122,
+  "differing": 22,
+  "rows": [
+    {
+      "file": "applications/Bancas.app-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "classes/OpenTextRazonabilidadRest_Test.cls",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "classes/OpenTextRazonabilidadRest.cls",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "classes/Service_Utility_Trigger.cls",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "classes/Service_Utility_Trigger.cls-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "flexipages/Account_PM_Banca_Institucional.flexipage-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "objects/Account/fields/FinServ__Status__c.field-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "objects/Account/listViews/FinServ__My_Clients.listView-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "objects/Account/listViews/MyAccounts.listView-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "objects/Account/recordTypes/Cuentas_empresariales.recordType-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "objects/Contact/listViews/Todos_Contactos.listView-meta.xml",
+      "dev": false,
+      "qa": false,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "objects/Opportunity/listViews/AllOpportunities.listView-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": false,
+      "identical": false
+    },
+    {
+      "file": "permissionsets/PM_Administrativo.permissionset-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "permissionsets/PM_Director.permissionset-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "permissionsets/PM_GestionComercial.permissionset-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "permissionsets/PM_Head.permissionset-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "profiles/PM - Ejecutivo Personas Morales.profile-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "reports/PERSONAS_MORALES/RPT_Clientes_por_Tipo_Institucional.report-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "reports/PERSONAS_MORALES/RPT_Clientes_Tipo_Institucional.report-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "reports/PERSONAS_MORALES/RPT_Oportunidades_Producto.report-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "reports/PERSONAS_MORALES/RPT_Oportunidades_Proximas_Cierre.report-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    },
+    {
+      "file": "reports/PERSONAS_MORALES/RPT_Pipeline_Oportunidades_Etapa.report-meta.xml",
+      "dev": true,
+      "qa": true,
+      "pm": true,
+      "identical": false
+    }
+  ]
+}

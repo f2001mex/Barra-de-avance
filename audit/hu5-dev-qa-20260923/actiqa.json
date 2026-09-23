@@ -1,0 +1,639 @@
+{
+  "environment": "actiqa",
+  "permissionSets": {
+    "PM_GestionComercial": {
+      "objectPermissions": [
+        {
+          "object": "Account",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Contact",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Interaction",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "InteractionAttendee",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "InteractionRelatedAccount",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Opportunity",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        }
+      ],
+      "fieldPermissions": [
+        {
+          "field": "AccountContactRelation.FinServ__IncludeInGroup__c",
+          "read": true,
+          "edit": true
+        },
+        {
+          "field": "AccountContactRelation.FinServ__PrimaryGroup__c",
+          "read": true,
+          "edit": true
+        },
+        {
+          "field": "Contact.AccountId",
+          "read": true,
+          "edit": true
+        }
+      ],
+      "customPermissions": [
+        {
+          "name": "PM_Crear_Oportunidades",
+          "enabled": true
+        }
+      ]
+    },
+    "PM_Director": {
+      "objectPermissions": [
+        {
+          "object": "Account",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Contact",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Interaction",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "InteractionAttendee",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "InteractionRelatedAccount",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Opportunity",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        }
+      ],
+      "fieldPermissions": [
+        {
+          "field": "AccountContactRelation.FinServ__IncludeInGroup__c",
+          "read": true,
+          "edit": true
+        },
+        {
+          "field": "AccountContactRelation.FinServ__PrimaryGroup__c",
+          "read": true,
+          "edit": true
+        },
+        {
+          "field": "Contact.AccountId",
+          "read": true,
+          "edit": true
+        }
+      ],
+      "customPermissions": [
+        {
+          "name": "PM_Crear_Oportunidades",
+          "enabled": true
+        }
+      ]
+    },
+    "PM_Head": {
+      "objectPermissions": [
+        {
+          "object": "Account",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Contact",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Interaction",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "InteractionAttendee",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "InteractionRelatedAccount",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Opportunity",
+          "create": true,
+          "read": true,
+          "edit": true,
+          "delete": true,
+          "viewAll": false,
+          "modifyAll": false
+        }
+      ],
+      "fieldPermissions": [
+        {
+          "field": "AccountContactRelation.FinServ__IncludeInGroup__c",
+          "read": true,
+          "edit": true
+        },
+        {
+          "field": "AccountContactRelation.FinServ__PrimaryGroup__c",
+          "read": true,
+          "edit": true
+        },
+        {
+          "field": "Contact.AccountId",
+          "read": true,
+          "edit": true
+        }
+      ],
+      "customPermissions": [
+        {
+          "name": "PM_Crear_Oportunidades",
+          "enabled": true
+        }
+      ]
+    },
+    "PM_Administrativo": {
+      "objectPermissions": [
+        {
+          "object": "Account",
+          "create": false,
+          "read": true,
+          "edit": false,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Contact",
+          "create": false,
+          "read": true,
+          "edit": false,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Interaction",
+          "create": false,
+          "read": true,
+          "edit": false,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "InteractionAttendee",
+          "create": false,
+          "read": true,
+          "edit": false,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "InteractionRelatedAccount",
+          "create": false,
+          "read": true,
+          "edit": false,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        },
+        {
+          "object": "Opportunity",
+          "create": false,
+          "read": true,
+          "edit": false,
+          "delete": false,
+          "viewAll": false,
+          "modifyAll": false
+        }
+      ],
+      "fieldPermissions": [
+        {
+          "field": "Contact.AccountId",
+          "read": true,
+          "edit": false
+        }
+      ],
+      "customPermissions": []
+    }
+  },
+  "sharingRules": {
+    "PM_Account_Comercial_Internal_Edit": {
+      "accessLevel": "Edit",
+      "sharedFrom": {
+        "roleAndSubordinatesInternal": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "role": [],
+        "roleAndSubordinates": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "sharedTo": {
+        "roleAndSubordinatesInternal": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "role": [],
+        "roleAndSubordinates": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "criteriaItems": []
+    },
+    "PM_Opportunity_Comercial_Internal_Read": {
+      "accessLevel": "Read",
+      "sharedFrom": {
+        "roleAndSubordinatesInternal": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "role": [],
+        "roleAndSubordinates": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "sharedTo": {
+        "roleAndSubordinatesInternal": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "role": [],
+        "roleAndSubordinates": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "criteriaItems": []
+    },
+    "PM_Opportunity_Comercial_to_Director_Edit": {
+      "accessLevel": "Edit",
+      "sharedFrom": {
+        "roleAndSubordinatesInternal": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "role": [],
+        "roleAndSubordinates": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "sharedTo": {
+        "role": [
+          "Director_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "roleAndSubordinates": [],
+        "roleAndSubordinatesInternal": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "criteriaItems": []
+    },
+    "PM_Opportunity_Comercial_to_Head_Edit": {
+      "accessLevel": "Edit",
+      "sharedFrom": {
+        "roleAndSubordinatesInternal": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "role": [],
+        "roleAndSubordinates": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "sharedTo": {
+        "role": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "roleAndSubordinates": [],
+        "roleAndSubordinatesInternal": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "criteriaItems": []
+    }
+  },
+  "roles": {
+    "Personas_Morales_Banca_Institucional": {
+      "parentRole": "Direccion_General",
+      "label": "Personas Morales / Banca Institucional"
+    },
+    "Director_PM": {
+      "parentRole": "Head_PM",
+      "label": "Director PM"
+    },
+    "Administrativo_PM": {
+      "parentRole": "Personas_Morales_Banca_Institucional",
+      "label": "Administrativo PM"
+    },
+    "Head_PM": {
+      "parentRole": "Personas_Morales_Banca_Institucional",
+      "label": "Head PM"
+    },
+    "Banquero_Institucional": {
+      "parentRole": "Director_PM",
+      "label": "Banquero Institucional"
+    }
+  },
+  "organizationWideDefaults": {
+    "Account": {
+      "sharingModel": "Private",
+      "externalSharingModel": "Private"
+    },
+    "Contact": {
+      "sharingModel": "ControlledByParent",
+      "externalSharingModel": "ControlledByParent"
+    },
+    "Opportunity": {
+      "sharingModel": "Private",
+      "externalSharingModel": "Private"
+    },
+    "Task": {
+      "sharingModel": "Private"
+    },
+    "Event": {
+      "sharingModel": "Private"
+    }
+  },
+  "validationRule": {
+    "active": true,
+    "errorConditionFormula": "AND(\n    RecordType.DeveloperName = \"Oportunidad_Personas_Morales\",\n    NOT(ISNEW()),\n    ISCHANGED(StageName),\n    OR(\n        ISPICKVAL(StageName,\"Closed Won\"),\n        ISPICKVAL(StageName,\"Closed Lost\")\n    ),\n    PRIORVALUE(OwnerId) <> $User.Id,\n    $UserRole.DeveloperName <> \"Head_PM\"\n)"
+  },
+  "layoutActions": {
+    "undefined": []
+  },
+  "opportunityFlow": {
+    "status": "Active",
+    "start": "Validar_Permiso_Crear_Oportunidad",
+    "hasPermissionDecision": true,
+    "hasDenialScreen": true
+  },
+  "reports": {
+    "auditedSeparately": true
+  },
+  "users": [
+    {
+      "name": "Sergio Eduardo Novelo Puga",
+      "username": "snovelo@actinver.com.mx.actiqa",
+      "profile": "PM - Ejecutivo Personas Morales",
+      "role": "Administrativo_PM",
+      "pmPermissionSets": [
+        "PM_Administrativo"
+      ]
+    },
+    {
+      "name": "Griselda Daniela Vargas Ochoa",
+      "username": "gvargas@actinver.com.mx.actiqa",
+      "profile": "PM - Ejecutivo Personas Morales",
+      "role": "Banquero_Institucional",
+      "pmPermissionSets": [
+        "PM_GestionComercial"
+      ]
+    },
+    {
+      "name": "Sebastián Montalvo Reyes",
+      "username": "smont@actinver.com.mx.actiqa",
+      "profile": "PM - Ejecutivo Personas Morales",
+      "role": "Banquero_Institucional",
+      "pmPermissionSets": [
+        "PM_GestionComercial"
+      ]
+    },
+    {
+      "name": "Leonardo Manuel Ledezma Avila",
+      "username": "lledezma@actinver.com.mx.actiqa",
+      "profile": "PM - Ejecutivo Personas Morales",
+      "role": "Director_PM",
+      "pmPermissionSets": [
+        "PM_Director"
+      ]
+    },
+    {
+      "name": "Patricia Salinas Vega",
+      "username": "psali@actinver.externos.com.mx",
+      "profile": "PM - Ejecutivo Personas Morales",
+      "role": "Director_PM",
+      "pmPermissionSets": [
+        "PM_Director"
+      ]
+    },
+    {
+      "name": "Mauricio Beltran Flores",
+      "username": "mbelt@actinver.com.mx.actiqa",
+      "profile": "PM - Ejecutivo Personas Morales",
+      "role": "Head_PM",
+      "pmPermissionSets": [
+        "PM_Head"
+      ]
+    },
+    {
+      "name": "Tania Beatriz Jacome Ramos",
+      "username": "tjacome@actinver.com.mx.actiqa",
+      "profile": "PM - Ejecutivo Personas Morales",
+      "role": "Head_PM",
+      "pmPermissionSets": [
+        "PM_Head"
+      ]
+    }
+  ]
+}
