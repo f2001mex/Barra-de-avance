@@ -1,0 +1,26 @@
+{
+  "environment": "ActiPM",
+  "deploymentId": "0AfWF00000GMcWr0AL",
+  "sharingRules": [
+    "PM_Account_Comercial_Internal_Edit",
+    "PM_Opportunity_Comercial_Internal_Read",
+    "PM_Opportunity_Comercial_to_Director_Edit",
+    "PM_Opportunity_Comercial_to_Head_Edit"
+  ],
+  "directorInteractions": "create-read-edit",
+  "headInteractions": "create-read-edit",
+  "headOpportunityDelete": true,
+  "allOpportunitiesListView": true,
+  "accountTypeRequired": true,
+  "serviceUtilityTriggerApiVersion": "66.0",
+  "apexTests": {
+    "class": "Service_Utility_TriggerTest",
+    "executed": 9,
+    "failures": 0
+  },
+  "qaComponentComparison": {
+    "compared": 6,
+    "identical": 6
+  },
+  "ok": true
+}

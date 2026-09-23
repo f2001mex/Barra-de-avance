@@ -1,0 +1,34 @@
+[
+  {
+    "file": "permissionsets/PM_Director.permissionset-meta.xml",
+    "identical": true
+  },
+  {
+    "file": "permissionsets/PM_Head.permissionset-meta.xml",
+    "identical": true
+  },
+  {
+    "file": "classes/Service_Utility_Trigger.cls",
+    "identical": true
+  },
+  {
+    "file": "classes/Service_Utility_Trigger.cls-meta.xml",
+    "identical": true
+  },
+  {
+    "file": "classes/Service_Utility_TriggerTest.cls",
+    "identical": true
+  },
+  {
+    "file": "classes/Service_Utility_TriggerTest.cls-meta.xml",
+    "identical": true
+  },
+  {
+    "file": "flexipages/Account_PM_Banca_Institucional.flexipage-meta.xml",
+    "identical": true
+  },
+  {
+    "file": "objects/Opportunity/listViews/AllOpportunities.listView-meta.xml",
+    "identical": true
+  }
+]

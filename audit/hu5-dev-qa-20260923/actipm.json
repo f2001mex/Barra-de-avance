@@ -104,27 +104,27 @@
         },
         {
           "object": "Interaction",
-          "create": false,
+          "create": true,
           "read": true,
-          "edit": false,
+          "edit": true,
           "delete": false,
           "viewAll": false,
           "modifyAll": false
         },
         {
           "object": "InteractionAttendee",
-          "create": false,
+          "create": true,
           "read": true,
-          "edit": false,
+          "edit": true,
           "delete": false,
           "viewAll": false,
           "modifyAll": false
         },
         {
           "object": "InteractionRelatedAccount",
-          "create": false,
+          "create": true,
           "read": true,
-          "edit": false,
+          "edit": true,
           "delete": false,
           "viewAll": false,
           "modifyAll": false
@@ -185,27 +185,27 @@
         },
         {
           "object": "Interaction",
-          "create": false,
+          "create": true,
           "read": true,
-          "edit": false,
+          "edit": true,
           "delete": false,
           "viewAll": false,
           "modifyAll": false
         },
         {
           "object": "InteractionAttendee",
-          "create": false,
+          "create": true,
           "read": true,
-          "edit": false,
+          "edit": true,
           "delete": false,
           "viewAll": false,
           "modifyAll": false
         },
         {
           "object": "InteractionRelatedAccount",
-          "create": false,
+          "create": true,
           "read": true,
-          "edit": false,
+          "edit": true,
           "delete": false,
           "viewAll": false,
           "modifyAll": false
@@ -215,7 +215,7 @@
           "create": true,
           "read": true,
           "edit": true,
-          "delete": false,
+          "delete": true,
           "viewAll": false,
           "modifyAll": false
         }
@@ -361,9 +361,167 @@
         "territoryAndSubordinates": []
       },
       "criteriaItems": []
+    },
+    "PM_Opportunity_Comercial_Internal_Read": {
+      "accessLevel": "Read",
+      "sharedFrom": {
+        "roleAndSubordinatesInternal": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "role": [],
+        "roleAndSubordinates": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "sharedTo": {
+        "roleAndSubordinatesInternal": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "role": [],
+        "roleAndSubordinates": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "criteriaItems": []
+    },
+    "PM_Opportunity_Comercial_to_Director_Edit": {
+      "accessLevel": "Edit",
+      "sharedFrom": {
+        "roleAndSubordinatesInternal": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "role": [],
+        "roleAndSubordinates": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "sharedTo": {
+        "role": [
+          "Director_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "roleAndSubordinates": [],
+        "roleAndSubordinatesInternal": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "criteriaItems": []
+    },
+    "PM_Opportunity_Comercial_to_Head_Edit": {
+      "accessLevel": "Edit",
+      "sharedFrom": {
+        "roleAndSubordinatesInternal": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "role": [],
+        "roleAndSubordinates": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "sharedTo": {
+        "role": [
+          "Head_PM"
+        ],
+        "channelProgramGroup": [],
+        "channelProgramGroups": [],
+        "group": [],
+        "groups": [],
+        "guestUser": [],
+        "managerSubordinates": [],
+        "managers": [],
+        "portalRole": [],
+        "portalRoleAndSubordinates": [],
+        "queue": [],
+        "roleAndSubordinates": [],
+        "roleAndSubordinatesInternal": [],
+        "roles": [],
+        "rolesAndSubordinates": [],
+        "territories": [],
+        "territoriesAndSubordinates": [],
+        "territory": [],
+        "territoryAndSubordinates": []
+      },
+      "criteriaItems": []
     }
   },
   "roles": {
+    "Personas_Morales_Banca_Institucional": {
+      "parentRole": "Direccion_General",
+      "label": "Personas Morales / Banca Institucional"
+    },
+    "Head_PM": {
+      "parentRole": "Personas_Morales_Banca_Institucional",
+      "label": "Head PM"
+    },
     "Banquero_Institucional": {
       "parentRole": "Director_PM",
       "label": "Banquero Institucional"
@@ -371,14 +529,6 @@
     "Director_PM": {
       "parentRole": "Head_PM",
       "label": "Director PM"
-    },
-    "Head_PM": {
-      "parentRole": "Personas_Morales_Banca_Institucional",
-      "label": "Head PM"
-    },
-    "Personas_Morales_Banca_Institucional": {
-      "parentRole": "Direccion_General",
-      "label": "Personas Morales / Banca Institucional"
     },
     "Administrativo_PM": {
       "parentRole": "Personas_Morales_Banca_Institucional",

@@ -10,13 +10,13 @@ Los tres ambientes **no están completamente alineados**. Se recuperó el mismo 
 
 ### ActiPM
 
-1. Solo conserva `PM_Account_Comercial_Internal_Edit`; faltan las tres reglas HU5 de Opportunity:
+1. Solo conservaba `PM_Account_Comercial_Internal_Edit`; faltaban las tres reglas HU5 de Opportunity. **Corregido y verificado el 23 de septiembre de 2026:**
    - `PM_Opportunity_Comercial_Internal_Read`
    - `PM_Opportunity_Comercial_to_Director_Edit`
    - `PM_Opportunity_Comercial_to_Head_Edit`
-2. `PM_Director` tiene solo lectura, sin crear ni editar, sobre `Interaction`, `InteractionAttendee` e `InteractionRelatedAccount`. Dev y QA conceden crear/leer/editar.
-3. `PM_Head` presenta la misma omisión de interacciones y además no tiene Delete sobre Opportunity; Dev y QA sí lo tienen.
-4. Falta la vista de Oportunidades `AllOpportunities` (Todas/Vistos recientemente, según la traducción de Salesforce).
+2. `PM_Director` tenía solo lectura, sin crear ni editar, sobre `Interaction`, `InteractionAttendee` e `InteractionRelatedAccount`. **Corregido y verificado el 23 de septiembre de 2026.**
+3. `PM_Head` presentaba la misma omisión de interacciones y no tenía Delete sobre Opportunity. **Corregido y verificado el 23 de septiembre de 2026.**
+4. Faltaba la vista de Oportunidades `AllOpportunities` (Todas/Vistos recientemente, según la traducción de Salesforce). **Creada y verificada el 23 de septiembre de 2026.**
 
 ### ActiDev y ActiQA
 
@@ -26,7 +26,7 @@ Los tres ambientes **no están completamente alineados**. Se recuperó el mismo 
 ### ActiDev
 
 7. `Account.MyAccounts` usaba `filterScope=Team`. **Corregido en Dev el 23 de septiembre de 2026; ahora usa `Mine` como QA y ActiPM.**
-8. La página `Account_PM_Banca_Institucional` dejaba `Tipo_de_cliente_PM__c` opcional. **Corregido en Dev el 23 de septiembre de 2026; queda obligatorio como QA. ActiPM permanece pendiente.**
+8. La página `Account_PM_Banca_Institucional` dejaba `Tipo_de_cliente_PM__c` opcional. **Corregido en Dev y ActiPM el 23 de septiembre de 2026; queda obligatorio como QA.**
 9. `OpenTextRazonabilidadRest` y su prueba estaban detrás de QA/ActiPM. **Actualizados en Dev el 23 de septiembre de 2026; las nueve pruebas Apex finalizaron correctamente.**
 
 ### ActiQA
@@ -36,7 +36,7 @@ Los tres ambientes **no están completamente alineados**. Se recuperó el mismo 
 
 ### Código e informes con divergencia adicional
 
-12. `Service_Utility_Trigger` de ActiPM no coincide con Dev/QA: difieren la consulta por sucursal y el cache de usuarios por nómina; ActiPM conserva API 62.0 y Dev/QA API 66.0.
+12. `Service_Utility_Trigger` de ActiPM no coincidía con Dev/QA. **Actualizado a la versión de QA/API 66.0 el 23 de septiembre de 2026; sus nueve pruebas Apex terminaron sin fallos.**
 13. El reporte `RPT_Clientes_por_Tipo_Institucional` se recupera con `Active` en Dev y `Active,Activo` en QA/ActiPM.
 14. Cuatro reportes de la carpeta organizacional se recuperan con `terr=all` en QA y sin ese parámetro en Dev/ActiPM. El 23 de septiembre de 2026 se desplegaron las versiones de QA en Dev; Salesforce aceptó el despliegue, pero al recuperarlas normalizó nuevamente ambos valores según la configuración del ambiente. Por ello se clasifican como diferencias generadas por la organización, no como omisiones persistibles del reporte. Las carpetas segregadas de Banquero y Director sí tienen 14 reportes con los mismos nombres y alcances en los tres ambientes.
 
@@ -61,7 +61,7 @@ Los tres ambientes **no están completamente alineados**. Se recuperó el mismo 
 
 ## Conclusión
 
-ActiDev y ActiQA están alineados en la funcionalidad de Personas Morales auditada. Sus diferencias restantes corresponden al reporte exclusivo de pruebas de QA y a valores que Salesforce normaliza por configuración del sandbox. Los tres ambientes todavía no están completamente alineados: las diferencias funcionales restantes se concentran en ActiPM y deben promoverse mediante un paquete controlado.
+ActiDev, ActiQA y ActiPM quedaron alineados en la funcionalidad de Personas Morales auditada el 23 de septiembre de 2026. Las diferencias restantes corresponden al reporte exclusivo de pruebas de QA, usuarios propios de cada ambiente y valores que Salesforce normaliza por configuración del sandbox.
 
 ## Evidencia
 
@@ -76,3 +76,5 @@ ActiDev y ActiQA están alineados en la funcionalidad de Personas Morales audita
 - `audit/qa-alignment-20260923/after.json`
 - `audit/dev-alignment-20260923/before/`
 - `audit/dev-alignment-20260923/after/comparison.json`
+- `audit/actipm-alignment-20260923/before.json`
+- `audit/actipm-alignment-20260923/components-comparison.json`
