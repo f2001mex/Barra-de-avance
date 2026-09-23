@@ -514,9 +514,9 @@
     }
   },
   "roles": {
-    "Personas_Morales_Banca_Institucional": {
-      "parentRole": "Direccion_General",
-      "label": "Personas Morales / Banca Institucional"
+    "Head_PM": {
+      "parentRole": "Personas_Morales_Banca_Institucional",
+      "label": "Head PM"
     },
     "Director_PM": {
       "parentRole": "Head_PM",
@@ -526,9 +526,9 @@
       "parentRole": "Personas_Morales_Banca_Institucional",
       "label": "Administrativo PM"
     },
-    "Head_PM": {
-      "parentRole": "Personas_Morales_Banca_Institucional",
-      "label": "Head PM"
+    "Personas_Morales_Banca_Institucional": {
+      "parentRole": "Direccion_General",
+      "label": "Personas Morales / Banca Institucional"
     },
     "Banquero_Institucional": {
       "parentRole": "Director_PM",

@@ -1,0 +1,6752 @@
+{
+  "permissionSet": {
+    "fullName": "PM_GestionComercial",
+    "classAccesses": [
+      {
+        "apexClass": "BancasDashboardController",
+        "enabled": true
+      }
+    ],
+    "customPermissions": [
+      {
+        "enabled": true,
+        "name": "Acceso_Dashboards_Bancas"
+      },
+      {
+        "enabled": true,
+        "name": "PM_Crear_Oportunidades"
+      }
+    ],
+    "fieldPermissions": [
+      {
+        "editable": true,
+        "field": "Account.BillingAddress",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Client_ID__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Description",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.EconomicActivity__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.FinServ__Status__c",
+        "readable": true
+      },
+      {
+        "editable": false,
+        "field": "Account.Id_del_banquero_responsable__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Industry",
+        "readable": true
+      },
+      {
+        "editable": false,
+        "field": "Account.NombreBanqueroAsignado__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.NumberOfEmployees",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.ParentId",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Person_Type__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Phone",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.RFC__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Segmento__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.ShippingAddress",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Tipo_de_cliente_PM__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Type",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Account.Website",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "AccountContactRelation.FinServ__IncludeInGroup__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "AccountContactRelation.FinServ__PrimaryGroup__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "AccountContactRelation.IsActive",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.AccountId",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.Department",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.Description",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.Email",
+        "readable": true
+      },
+      {
+        "editable": false,
+        "field": "Contact.FinServ__BillingAddress__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.MobilePhone",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.Phone",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Contact.Title",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Event.Competidor__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Event.Description",
+        "readable": true
+      },
+      {
+        "editable": false,
+        "field": "Event.WhatId",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.AccountId",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.CampaignId",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Description",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Especifica_Otro_Producto__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.MontoEstimadoDeInversion__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.MotivoDeRechazo__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Motivo_de_Perdida_PM__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Motivo_de_perdidaPM__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Origen_cliente__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.PM_Siguiente_paso__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Probability",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Producto_Solicitado__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Profit_and_Loss_PM__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Siguientes_pasos__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Opportunity.Tipo_deNegocio__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Task.Competidor__c",
+        "readable": true
+      },
+      {
+        "editable": true,
+        "field": "Task.Description",
+        "readable": true
+      },
+      {
+        "editable": false,
+        "field": "Task.WhatId",
+        "readable": true
+      }
+    ],
+    "flowAccesses": [
+      {
+        "enabled": true,
+        "flow": "PM_Nueva_Oportunidad_Con_Contacto"
+      }
+    ],
+    "hasActivationRequired": false,
+    "label": "PM - Banquero",
+    "objectPermissions": [
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "Account",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      },
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "Contact",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      },
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "Interaction",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      },
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "InteractionAttendee",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      },
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "InteractionRelatedAccount",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      },
+      {
+        "allowCreate": true,
+        "allowDelete": false,
+        "allowEdit": true,
+        "allowRead": true,
+        "modifyAllRecords": false,
+        "object": "Opportunity",
+        "viewAllFields": "false",
+        "viewAllRecords": false
+      }
+    ],
+    "recordTypeVisibilities": [
+      {
+        "recordType": "Account.Cuentas_empresariales",
+        "visible": true
+      },
+      {
+        "recordType": "Account.FinServ__IndustriesBusiness",
+        "visible": true
+      },
+      {
+        "recordType": "Contact.FinServ__IndustriesBusiness",
+        "visible": true
+      },
+      {
+        "recordType": "Opportunity.Oportunidad_Personas_Morales",
+        "visible": true
+      }
+    ],
+    "tabSettings": [
+      {
+        "tab": "standard-Account",
+        "visibility": "Visible"
+      },
+      {
+        "tab": "standard-Contact",
+        "visibility": "Visible"
+      },
+      {
+        "tab": "standard-Interaction",
+        "visibility": "Visible"
+      },
+      {
+        "tab": "standard-Opportunity",
+        "visibility": "Visible"
+      }
+    ],
+    "userPermissions": [
+      {
+        "enabled": true,
+        "name": "EditEvent"
+      },
+      {
+        "enabled": true,
+        "name": "EditTask"
+      },
+      {
+        "enabled": true,
+        "name": "EmailSingle"
+      },
+      {
+        "enabled": true,
+        "name": "RunFlow"
+      },
+      {
+        "enabled": true,
+        "name": "RunReports"
+      }
+    ],
+    "applicationVisibilities": [],
+    "customMetadataTypeAccesses": [],
+    "externalDataSourceAccesses": [],
+    "pageAccesses": []
+  },
+  "recordType": {
+    "fullName": "Account.Cuentas_empresariales",
+    "active": true,
+    "label": "Personas Morales",
+    "picklistValues": [
+      {
+        "picklist": "AccountSource",
+        "values": [
+          {
+            "fullName": "Blog",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "FBorganic",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Google AdWords",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Googleform",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "IGorgánico",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "LinkedIn orgánico",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Purchased List",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "TWorganic",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Webinar",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Website",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Youtube",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Alguien_InfluyeEnTuPatrimonio__c",
+        "values": [
+          {
+            "fullName": "Esposo%2Fa - Conyuge",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Hermano%2Fa",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Hijo%2Fa",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Madre",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "No aplica",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Padre",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Suegro%2Fa",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "BeneficiosRecompensa__c",
+        "values": [
+          {
+            "fullName": "Artículos promocionales",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Descuentos en establecimientos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Espectáculos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Eventos culturales",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Experiencias",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Millas",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Puntos de lealtad",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tarjetas de regalo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tasas competitivas",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Cliente_relacionado__c",
+        "values": [
+          {
+            "fullName": "Esposo%2Fa - Conyuge",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Hermano%2Fa",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Hijo%2Fa",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Madre",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "No aplica",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Padre",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Suegro%2Fa",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Conqueempresaestasasegurado__c",
+        "values": [
+          {
+            "fullName": "Actinver",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Allianz México",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Axa Seguros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BBVA Seguros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Chubb Seguros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Deco Seguros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Grupo Nacional Provincial %28GNP%29",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "HDI Seguros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mapfre",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MapfreHSBC Seguros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MapfreMetLife",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MapfreSeguros Afirme",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MapfreSeguros Argos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MapfreSeguros Banorte",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MapfreSeguros Citibanamex",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MapfreSeguros Inbursa",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MapfreZurich Santander",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Prudential",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Quálitas Seguro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguros Atlas",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguros Monterrey New York Life",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Solunion México",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tokio Marine Compañía de Seguros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Zurich Aseguradora Mexicana",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Conquetipodeseguroscuentas__c",
+        "values": [
+          {
+            "fullName": "No aplica",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro Educativo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro Mascotas",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro de Accidentes Personales",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro de Auto",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro de Bicicleta",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro de Gastos Médicos Mayores",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro de Hogar",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro de Viaje",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro de Vida",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro de Vida e inversión",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguros de Ahorro o Inversión %28Dotal%29",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Cuantos_hijos_tienes__c",
+        "values": [
+          {
+            "fullName": "1",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "2",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "3",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "4",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "5",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "No aplica",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Edadcuartohijo__c",
+        "values": [
+          {
+            "fullName": "1",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "10",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "11",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "12",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "13",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "14",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "15",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "16",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "17",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "18",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "19",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "2",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "20",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "21",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "22",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "23",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "24",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "25",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "26",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "27",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "28",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "29",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "3",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "30",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "31",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "32",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "33",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "34",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "35",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "36",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "37",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "38",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "39",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "4",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "40",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "41",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "42",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "43",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "44",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "45",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "46",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "47",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "48",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "49",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "5",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "50",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "51",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "52",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "53",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "54",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "55",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "56",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "57",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "58",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "59",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "6",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "60",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "61",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "62",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "63",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "64",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "65",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "66",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "67",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "68",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "69",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "7",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "70",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "71",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "72",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "73",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "74",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "75",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "76",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "77",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "78",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "79",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "8",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "80",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "81",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "82",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "83",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "84",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "85",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "86",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "87",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "88",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "89",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "9",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "90",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "91",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "92",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "93",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "94",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "95",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "96",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "97",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "98",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "99",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Edadprimerhijo__c",
+        "values": [
+          {
+            "fullName": "1",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "10",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "11",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "12",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "13",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "14",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "15",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "16",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "17",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "18",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "19",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "2",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "20",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "21",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "22",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "23",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "24",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "25",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "26",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "27",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "28",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "29",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "3",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "30",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "31",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "32",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "33",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "34",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "35",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "36",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "37",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "38",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "39",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "4",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "40",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "41",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "42",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "43",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "44",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "45",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "46",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "47",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "48",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "49",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "5",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "50",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "51",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "52",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "53",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "54",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "55",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "56",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "57",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "58",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "59",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "6",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "60",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "61",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "62",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "63",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "64",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "65",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "66",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "67",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "68",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "69",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "7",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "70",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "71",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "72",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "73",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "74",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "75",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "76",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "77",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "78",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "79",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "8",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "80",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "81",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "82",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "83",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "84",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "85",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "86",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "87",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "88",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "89",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "9",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "90",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "91",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "92",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "93",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "94",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "95",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "96",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "97",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "98",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "99",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Edadquintohijo__c",
+        "values": [
+          {
+            "fullName": "1",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "10",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "11",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "12",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "13",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "14",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "15",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "16",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "17",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "18",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "19",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "2",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "20",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "21",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "22",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "23",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "24",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "25",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "26",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "27",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "28",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "29",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "3",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "30",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "31",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "32",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "33",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "34",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "35",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "36",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "37",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "38",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "39",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "4",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "40",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "41",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "42",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "43",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "44",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "45",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "46",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "47",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "48",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "49",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "5",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "50",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "51",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "52",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "53",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "54",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "55",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "56",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "57",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "58",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "59",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "6",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "60",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "61",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "62",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "63",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "64",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "65",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "66",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "67",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "68",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "69",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "7",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "70",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "71",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "72",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "73",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "74",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "75",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "76",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "77",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "78",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "79",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "8",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "80",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "81",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "82",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "83",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "84",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "85",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "86",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "87",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "88",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "89",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "9",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "90",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "91",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "92",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "93",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "94",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "95",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "96",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "97",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "98",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "99",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Edadsegundohijo__c",
+        "values": [
+          {
+            "fullName": "1",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "10",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "11",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "12",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "13",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "14",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "15",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "16",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "17",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "18",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "19",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "2",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "20",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "21",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "22",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "23",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "24",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "25",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "26",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "27",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "28",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "29",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "3",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "30",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "31",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "32",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "33",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "34",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "35",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "36",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "37",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "38",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "39",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "4",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "40",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "41",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "42",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "43",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "44",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "45",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "46",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "47",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "48",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "49",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "5",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "50",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "51",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "52",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "53",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "54",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "55",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "56",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "57",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "58",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "59",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "6",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "60",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "61",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "62",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "63",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "64",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "65",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "66",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "67",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "68",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "69",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "7",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "70",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "71",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "72",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "73",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "74",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "75",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "76",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "77",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "78",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "79",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "8",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "80",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "81",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "82",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "83",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "84",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "85",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "86",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "87",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "88",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "89",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "9",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "90",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "91",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "92",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "93",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "94",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "95",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "96",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "97",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "98",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "99",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Edadtercerhijo__c",
+        "values": [
+          {
+            "fullName": "1",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "10",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "11",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "12",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "13",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "14",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "15",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "16",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "17",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "18",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "19",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "2",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "20",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "21",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "22",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "23",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "24",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "25",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "26",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "27",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "28",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "29",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "3",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "30",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "31",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "32",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "33",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "34",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "35",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "36",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "37",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "38",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "39",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "4",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "40",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "41",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "42",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "43",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "44",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "45",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "46",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "47",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "48",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "49",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "5",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "50",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "51",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "52",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "53",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "54",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "55",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "56",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "57",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "58",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "59",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "6",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "60",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "61",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "62",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "63",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "64",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "65",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "66",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "67",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "68",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "69",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "7",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "70",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "71",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "72",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "73",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "74",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "75",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "76",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "77",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "78",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "79",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "8",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "80",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "81",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "82",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "83",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "84",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "85",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "86",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "87",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "88",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "89",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "9",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "90",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "91",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "92",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "93",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "94",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "95",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "96",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "97",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "98",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "99",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "EnrolamientoActivo__c",
+        "values": [
+          {
+            "fullName": "0",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "1",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "EnrolamientoBiometricos__c",
+        "values": [
+          {
+            "fullName": "0",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "1",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "EnrollmentElectronicBanking__c",
+        "values": [
+          {
+            "fullName": "Avanzado",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Básico",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "EstatusContacto__c",
+        "values": [
+          {
+            "fullName": "Cliente no quiere ser contactado",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Contacto efectivo exitoso",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Contacto no exitoso",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Pendiente",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Estudiaoestudianfueradelpais__c",
+        "values": [
+          {
+            "fullName": "No",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "No%2C pero lo tenemos planeado",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Si",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "F3_Clasificacion_Persona__c",
+        "values": [
+          {
+            "fullName": "1",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "2",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "3",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "4",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "5",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "6",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "7",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "F3_Tipo_de_Contrato__c",
+        "values": [
+          {
+            "fullName": "01",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "02",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "03",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "04",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "05",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "06",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "08",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "09",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "10",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "12",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "13",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "14",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "62",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "63",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "64",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FamiliarqueseaclienteenActinver__c",
+        "values": [
+          {
+            "fullName": "No",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Si",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__BorrowingHistory__c",
+        "values": [
+          {
+            "fullName": "Excellent",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Limited to No History",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Moderate",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Poor",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__BorrowingPriorities__c",
+        "values": [
+          {
+            "fullName": "Build Equity",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Debt Consolidation",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Education",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Investments",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Large Capital Purchases",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Property Purchase",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Renovations",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__ClientCategory__c",
+        "values": [
+          {
+            "fullName": "Bronze",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Gold",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Platinum",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Silver",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__CreditRating__c",
+        "values": [
+          {
+            "fullName": "Excellent",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Fair",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Good",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Poor",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__CustomerSegment__c",
+        "values": [
+          {
+            "fullName": "Borrower",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Long Term Growth",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mass Affluent",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mass Market",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Millennial",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Transactional",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Wealth Accumulation",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__CustomerType__c",
+        "values": [
+          {
+            "fullName": "Borrower",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Investor",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Relational",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Transaction",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__FinancialInterests__c",
+        "values": [
+          {
+            "fullName": "College Planning",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Energy",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Fixed Income",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Municipal Bonds",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Retirement",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Technology",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__IndividualType__c",
+        "values": [
+          {
+            "fullName": "Group",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Individual",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__InvestmentExperience__c",
+        "values": [
+          {
+            "fullName": "Experienced",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Inexperienced",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Moderately Experienced",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Moderately Inexperienced",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__InvestmentObjectives__c",
+        "values": [
+          {
+            "fullName": "Aggressive Growth",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Balanced",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Conservative Income",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Growth",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Income",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__KYCStatus__c",
+        "values": [
+          {
+            "fullName": "Completed - Invalid",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Completed - Valid",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Expired",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "In Queue",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "In progress",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Overdue",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Required",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__LastUsedChannel__c",
+        "values": [
+          {
+            "fullName": "Branch",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Call Center",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mobile",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Other",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Web",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__MarketingSegment__c",
+        "values": [
+          {
+            "fullName": "Female Investor",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "High Net Worth",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mass Affluent",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Millennial",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__PersonalInterests__c",
+        "values": [
+          {
+            "fullName": "Biking",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "College Basketball",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cooking",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Environment",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Hiking",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Wine",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__ReviewFrequency__c",
+        "values": [
+          {
+            "fullName": "Annually",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Monthly",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Quarterly",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__RiskTolerance__c",
+        "values": [
+          {
+            "fullName": "Aggressive",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Conservative",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Moderate",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "None",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__ServiceModel__c",
+        "values": [
+          {
+            "fullName": "Tier 1",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tier 2",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tier 3",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__Status__c",
+        "values": [
+          {
+            "fullName": "Active",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bloqueado",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Inactive",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "FinServ__TimeHorizon__c",
+        "values": [
+          {
+            "fullName": "Long Term",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Medium Term",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Short Term",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Frecuencia__c",
+        "values": [
+          {
+            "fullName": "Anual",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mensual",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Semanal",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Frecuencia_para_ser_contactado__c",
+        "values": [
+          {
+            "fullName": "Cada cuatro meses",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cada dos meses",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cada mes",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cada seis meses",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cada tres meses",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "El cliente prefiere contactarse con nosotros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Una vez al año",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Gender__c",
+        "values": [
+          {
+            "fullName": "1",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "2",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Indicador_de_Riesgo_Churn__c",
+        "values": [
+          {
+            "fullName": "Alto",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bajo",
+            "default": true,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Medio",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Industry",
+        "values": [
+          {
+            "fullName": "Agriculture",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Apparel",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Banking",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Biotechnology",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Chemicals",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Communications",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Construction",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Consulting",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Education",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Electronics",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Energy",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Engineering",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Entertainment",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Environmental",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Finance",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Food %26 Beverage",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Government",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Healthcare",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Hospitality",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Insurance",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Machinery",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Manufacturing",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Media",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Not For Profit",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Other",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Recreation",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Retail",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Shipping",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Technology",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Telecommunications",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Transportation",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Utilities",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "InstFinancIdent__c",
+        "values": [
+          {
+            "fullName": "Actinver",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BBVA",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BanRegio",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Banorte",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Citibanamex",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "GBM",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "HSBC",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Inbursa",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Invex",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Masari",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mifel",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Monex",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Multiva",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Otros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Santander",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Scotiabank",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "InstitucionFinancieraPrincipal__c",
+        "values": [
+          {
+            "fullName": "Actinver",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BBVA",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BanRegio",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Banamex",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Banorte",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Citi",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "GBM",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "HSBC",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Inbursa",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Invex",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Masari",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mifel",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Monex",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Multiva",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Otros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Santander",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Scotiabank",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Institucion__c",
+        "values": [
+          {
+            "fullName": "ABC CAPITAL",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "ACTINVER",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "AFIRME",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "AMERICAN EXPRESS",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "AUTOFIN",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BAJIO",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANCO AZTECA",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANCO DONDE",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANCO INMOBILIARIO",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANCOBASE",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANCOMEXT",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANCOPPEL",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANCREA",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANJERCITO",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANKAOOL",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANORTE",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANREGIO",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANSEFI",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BANSI",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BBVA",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BOFA",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Banamex",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "CI BANCO",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "HSBC",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "INBURSA",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "INTERCAM",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "INVERLAT",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "INVEX",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "JP MORGAN",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MIFEL",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MONEX",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MULTIVA",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "NAFIN",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "SANTANDER",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "TOKIO",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "VE POR MAS",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Manejo_canales_digit__c",
+        "values": [
+          {
+            "fullName": "Facebook",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Instagram",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Otro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Twitter",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Whats app",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "MaritalStatus__c",
+        "values": [
+          {
+            "fullName": "1",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "2",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "3",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "4",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "5",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "MedioPreferidoContacto__c",
+        "values": [
+          {
+            "fullName": "Llamada telefónica",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mail",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Videollamada",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Visita",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "WhatsApp",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "MesPreferenteInversion_o_ahorrar__c",
+        "values": [
+          {
+            "fullName": "Abril",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Agosto",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Diciembre",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Enero",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Febrero",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Julio",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Junio",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Marzo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mayo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Noviembre",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Octubre",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Septiembre",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Nivel_Influencia_plaza__c",
+        "values": [
+          {
+            "fullName": "Alto",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bajo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Medio",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "NULO",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Nivel_SocioEco__c",
+        "values": [
+          {
+            "fullName": "Alto",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bajo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Medio",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Medio-Alto",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Medio-Bajo",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Origen__c",
+        "values": [
+          {
+            "fullName": "Desayuno CF",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Evento Actinver %28se gestiona por área de MKT%29",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Evento Social",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Otro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Pádel",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Referenciado Cliente",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Referenciado Interno",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Otrosproductosfinancierosteinteresan__c",
+        "values": [
+          {
+            "fullName": "Alpha y Mandatos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Alterna Investment",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Arrendamiento",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Arrendamiento Actinver",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Arrendamiento Financiero",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Arrendamiento Puro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "CD Platinum",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Caja de ahorro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cambios",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Carteras modelo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Crédito automotriz",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Crédito prendario",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Crédito revolvente",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Crédito valor",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Créditos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cuenta especial para el ahorro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Derivados",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Divisas",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Estrategias de Inversión",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Fiduciario",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Fondo de ahorro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Fondos de inversión",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Inversión inteligente",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mercado de cambios",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mercado de capitales",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mercado de derivados",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mercado de dinero",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Notas estructuradas",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Pagaré CEDE",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Plan de ahorro para la educación",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Plan de pensiones",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Plan personal de retiro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Portafolios Especiales",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Productos bancarios",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Productos de inversión",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Productos de retiro y previsión social",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Real estate",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Reporto en Dólares",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro de salud",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro de vida",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguro para hogar",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seguros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Soluciones Alpha",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Soluciones Equity",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tarjeta de debito",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tarjeta de divisas",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Ownership",
+        "values": [
+          {
+            "fullName": "Other",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Private",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Public",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Subsidiary",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Pais__c",
+        "values": [
+          {
+            "fullName": "Afganistán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Albania",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Alemania",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Andorra",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Angola",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Antigua y Barbuda",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Arabia Saudita",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Argelia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Argentina",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Armenia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Australia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Austria",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Azerbaiyán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bahamas",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bangladés",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Barbados",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Baréin",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Belice",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Benín",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bielorrusia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Birmania",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bolivia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bosnia-Herzegovina",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Botsuana",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Brasil",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Brunéi",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bulgaria",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Burkina Faso",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Burundi",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bután",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bélgica",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cabo Verde",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Camboya",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Camerún",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Canadá",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Catar",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Chad",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Chile",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "China",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Chipre",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Colombia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Comoras",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Congo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Corea del Norte",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Corea del Sur",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Costa Rica",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Costa de Marfil",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Croacia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cuba",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Dinamarca",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Dominica",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Ecuador",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Egipto",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "El Salvador",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Emiratos Árabes Unidos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Eritrea",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Eslovaquia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Eslovenia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "España",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Estados Unidos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Estonia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Esuatini",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Etiopía",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Filipinas",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Finlandia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Fiyi",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Francia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Gabón",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Gambia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Georgia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Ghana",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Granada",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Grecia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Guatemala",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Guinea",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Guinea Ecuatorial",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Guinea-Bisáu",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Guyana",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Haití",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Honduras",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Hungría",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "India",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Indonesia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Irak",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Irlanda",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Irán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Islandia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Islas Marshall",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Islas Salomón",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Israel",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Italia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Jamaica",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Japón",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Jordania",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Kazajistán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Kenia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Kirguistán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Kiribati",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Kosovo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Kuwait",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Laos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Lesoto",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Letonia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Liberia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Libia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Liechtenstein",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Lituania",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Luxemburgo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Líbano",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Macedonia del Norte",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Madagascar",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Malasia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Malaui",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Maldivas",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Malta",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Malí",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Marruecos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mauricio",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mauritania",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Micronesia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Moldavia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mongolia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Montenegro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mozambique",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "México",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mónaco",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Namibia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Nauru",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Nepal",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Nicaragua",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Nigeria",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Noruega",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Nueva Zelanda",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Níger",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Omán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Pakistán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Palaos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Palestina",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Panamá",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Papúa Nueva Guinea",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Paraguay",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Países Bajos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Perú",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Polonia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Portugal",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Reino Unido",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "República Centroafricana",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "República Checa",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "República Democrática del Congo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "República Dominicana",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Ruanda",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Rumania",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Rusia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Samoa",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "San Cristóbal y Nieves",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "San Marino",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "San Vicente y las Granadinas",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Santa Lucía",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Santo Tomé y Príncipe",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Senegal",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Serbia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Seychelles",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Sierra Leona",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Singapur",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Siria",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Somalia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Sri Lanka",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Sudáfrica",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Sudán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Sudán del Sur",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Suecia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Suiza",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Surinam",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tailandia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Taiwán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tanzania",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tayikistán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Timor Oriental",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Togo",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tonga",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Trinidad y Tobago",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Turkmenistán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Turquía",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tuvalu",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Túnez",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Ucrania",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Uganda",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Uruguay",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Uzbekistán",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Vanuatu",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Vaticano",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Venezuela",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Vietnam",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Yemen",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Yibuti",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Zambia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Zimbabue",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Pasatiempo__c",
+        "values": [
+          {
+            "fullName": "Ajedrez",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Arte",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bailar",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Caminar",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cine",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Deportes",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Dibujar%2F%2FPintar",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Escribir",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Eventos Sociales",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Fotografía",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Golf",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Idiomas",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Jardinería",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Leer",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Magia",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Modelado",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Música",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Otro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Redes Sociales",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Repostería",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Restauración de autos",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Teatro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Tejer",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Viajes",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Video juegos",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "PhoneType__c",
+        "values": [
+          {
+            "fullName": "Celular",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Oficina",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Recados",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Residencial",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "PreferenciaContacto__c",
+        "values": [
+          {
+            "fullName": "Cada cuatro meses",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cada seis meses",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Cada tres meses",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Nunca%2C el cliente prefiere ser quien se acerque",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Otro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Una vez al año",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "PrincipalActividadProfesional__c",
+        "values": [
+          {
+            "fullName": "Empleado",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Otro",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Profesional Independiente",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Sin actividad económica",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Queredessocialesutilizas__c",
+        "values": [
+          {
+            "fullName": "Facebook",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Instagram",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Otros",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "TIKTOK",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Twitter",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "WhatsApp",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "YouTube",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Rating",
+        "values": [
+          {
+            "fullName": "Cold",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Hot",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Warm",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Segmento_Potencial__c",
+        "values": [
+          {
+            "fullName": "Banca Patrimonial",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Banca Privada",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Banca Soluciones",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Wealth Management",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Segmento__c",
+        "values": [
+          {
+            "fullName": "Gobierno",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Institucional",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Solucion_Actual__c",
+        "values": [
+          {
+            "fullName": "ARRENDAMIENTO",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "BE %2C TDD %2C CHEQUERA",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "CAMBIOS",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "CREDITO",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "FIDEICOMISO",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "FONDOS DE INVERSIÓN",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "MERCADO DINERO %2C CAPITALES%2C DERIVADOS",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "PRODCUTOS EXTRANJERO",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "SEGURO",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Tipo_de_Persona_Vulnerable__c",
+        "values": [
+          {
+            "fullName": "Alcohólicos y fármaco dependientes",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Discapacidad o necesidades especiales",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Indígenas",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Migrantes",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mujer en situación de explotación",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mujer lactante",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mujer maltrato",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Persona con discapacidad física",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Persona con discapacidad mental",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Persona con discapacidad sensorial",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Personas adultas mayores",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Victimas desastres naturales",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Víctimas de la comisión de delitos",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Tipo_de_cliente_PM__c",
+        "values": [
+          {
+            "fullName": "AFORE",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Asset Manager",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Bank",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Broker Dealer",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Family Office",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Hedge Fund",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Insurance Company",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Mutual Fund",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Other",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Private Bank",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Type",
+        "values": [
+          {
+            "fullName": "Analyst",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Competitor",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Customer",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Integrator",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Investor",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Other",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Partner",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Press",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Prospect",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Reseller",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      },
+      {
+        "picklist": "Viajas_recurrentemente__c",
+        "values": [
+          {
+            "fullName": "No",
+            "default": false,
+            "controllingFieldValues": []
+          },
+          {
+            "fullName": "Si",
+            "default": false,
+            "controllingFieldValues": []
+          }
+        ]
+      }
+    ]
+  }
+}

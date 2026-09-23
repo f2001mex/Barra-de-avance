@@ -1,0 +1,27 @@
+{
+  "access": {
+    "apexClass": "FinServ__MoiAppConfigController",
+    "enabled": true
+  },
+  "status": {
+    "picklist": "FinServ__Status__c",
+    "values": [
+      {
+        "fullName": "Active",
+        "default": false,
+        "controllingFieldValues": []
+      },
+      {
+        "fullName": "Bloqueado",
+        "default": false,
+        "controllingFieldValues": []
+      },
+      {
+        "fullName": "Inactive",
+        "default": false,
+        "controllingFieldValues": []
+      }
+    ]
+  },
+  "ok": true
+}

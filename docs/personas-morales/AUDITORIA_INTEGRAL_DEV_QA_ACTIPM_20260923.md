@@ -20,8 +20,8 @@ Los tres ambientes **no están completamente alineados**. Se recuperó el mismo 
 
 ### ActiDev y ActiQA
 
-5. La vista `Contact.Todos_Contactos` no está recuperable en Dev ni QA; sí existe en ActiPM.
-6. La visibilidad de `FinServ__My_Clients` no coincide: Dev y QA la comparten con numerosos grupos globales; ActiPM la limita a `Head_PM` y subordinados. El filtro funcional sí es `Mine` en los tres.
+5. La vista `Contact.Todos_Contactos` no estaba recuperable en Dev ni QA; sí existía en ActiPM. **Corregido en QA el 23 de septiembre de 2026; permanece pendiente en Dev.**
+6. La visibilidad de `FinServ__My_Clients` no coincidía: Dev y QA la compartían con numerosos grupos globales; ActiPM la limitaba a `Head_PM` y subordinados. **Corregido en QA el 23 de septiembre de 2026; permanece pendiente en Dev.** El filtro funcional es `Mine` en QA y ActiPM.
 
 ### ActiDev
 
@@ -31,8 +31,8 @@ Los tres ambientes **no están completamente alineados**. Se recuperó el mismo 
 
 ### ActiQA
 
-10. El record type `Cuentas_empresariales` no contiene la restricción de valores de `FinServ__Status__c`; Dev y ActiPM limitan el estado a `Active`, `Bloqueado` e `Inactive`.
-11. `PM_GestionComercial` no contiene acceso a `FinServ__MoiAppConfigController`; Dev y ActiPM sí lo contienen.
+10. El record type `Cuentas_empresariales` no contenía la restricción de valores de `FinServ__Status__c`. **Corregido el 23 de septiembre de 2026:** QA ahora limita el estado a `Active`, `Bloqueado` e `Inactive`.
+11. `PM_GestionComercial` no contenía acceso a `FinServ__MoiAppConfigController`. **Corregido y verificado el 23 de septiembre de 2026.**
 
 ### Código e informes con divergencia adicional
 
@@ -61,7 +61,7 @@ Los tres ambientes **no están completamente alineados**. Se recuperó el mismo 
 
 ## Conclusión
 
-No es correcto declarar todavía que ActiDev, ActiQA y ActiPM están completamente alineados. Las diferencias anteriores deben revisarse y promoverse mediante un paquete controlado; no se modificó ninguna de ellas durante esta auditoría.
+No es correcto declarar todavía que ActiDev, ActiQA y ActiPM están completamente alineados. Las cuatro brechas confirmadas de QA indicadas arriba ya fueron corregidas; las diferencias restantes de Dev y ActiPM deben promoverse mediante paquetes controlados.
 
 ## Evidencia
 
@@ -72,3 +72,5 @@ No es correcto declarar todavía que ActiDev, ActiQA y ActiPM están completamen
 - `audit/hu5-dev-qa-20260923/actidev-reports.json`
 - `audit/hu5-dev-qa-20260923/actiqa-reports.json`
 - `audit/hu5-dev-qa-20260923/actipm-reports.json`
+- `audit/qa-alignment-20260923/before.json`
+- `audit/qa-alignment-20260923/after.json`
