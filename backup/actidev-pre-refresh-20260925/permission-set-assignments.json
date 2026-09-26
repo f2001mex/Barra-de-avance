@@ -1,0 +1,268 @@
+[
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/0055e0000078K6FAAU"
+      },
+      "Id": "0055e0000078K6FAAU",
+      "Name": "Julieta Martinez Gonzalez",
+      "Username": "jumartinezg@actinver.com.mx.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000TM0LGAW"
+      },
+      "Name": "PM_Administrativo",
+      "Label": "PM - Administrativo"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/0055e0000078K4mAAE"
+      },
+      "Id": "0055e0000078K4mAAE",
+      "Name": "Constanza Maria Garcia Oliveras",
+      "Username": "cgarciao@actinver.com.mx.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000TLttGAG"
+      },
+      "Name": "PM_Director",
+      "Label": "PM - Director"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/005WP000004mrFpYAI"
+      },
+      "Id": "005WP000004mrFpYAI",
+      "Name": "Manuel Hernandez Hernandez",
+      "Username": "mahernandezh@actinver.com.mx.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000TLttGAG"
+      },
+      "Name": "PM_Director",
+      "Label": "PM - Director"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/0055e0000060tTBAAY"
+      },
+      "Id": "0055e0000060tTBAAY",
+      "Name": "Griselda Daniela Vargas Ochoa",
+      "Username": "gvargas@actinver.com.mx.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000SUcfGAG"
+      },
+      "Name": "PM_GestionComercial",
+      "Label": "PM - Banquero"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/005dp00000IZazBAAT"
+      },
+      "Id": "005dp00000IZazBAAT",
+      "Name": "Usuario Para Pruebas",
+      "Username": "usertest@optimissa.com.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000SUcfGAG"
+      },
+      "Name": "PM_GestionComercial",
+      "Label": "PM - Banquero"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/0055e0000078K0iAAE"
+      },
+      "Id": "0055e0000078K0iAAE",
+      "Name": "Alejandro De La Garza Garcia",
+      "Username": "adelagarza@actinver.com.mx.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000TLx7GAG"
+      },
+      "Name": "PM_Head",
+      "Label": "PM - Head"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/0057V00000CFfSeQAL"
+      },
+      "Id": "0057V00000CFfSeQAL",
+      "Name": "Tania Beatriz Jacome Ramos",
+      "Username": "tjacome@actinver.com.mx.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000TLx7GAG"
+      },
+      "Name": "PM_Head",
+      "Label": "PM - Head"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/0055e0000078K0iAAE"
+      },
+      "Id": "0055e0000078K0iAAE",
+      "Name": "Alejandro De La Garza Garcia",
+      "Username": "adelagarza@actinver.com.mx.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000U9QsGAK"
+      },
+      "Name": "PS_Acceso_Dashboards_Bancas",
+      "Label": "PS Acceso Dashboards Bancas"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/0055e0000078K4mAAE"
+      },
+      "Id": "0055e0000078K4mAAE",
+      "Name": "Constanza Maria Garcia Oliveras",
+      "Username": "cgarciao@actinver.com.mx.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000U9QsGAK"
+      },
+      "Name": "PS_Acceso_Dashboards_Bancas",
+      "Label": "PS Acceso Dashboards Bancas"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/005dp00000CCtC4AAL"
+      },
+      "Id": "005dp00000CCtC4AAL",
+      "Name": "Francisco Ortega Frias",
+      "Username": "francisco.ortega@optimissa.com.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000U9QsGAK"
+      },
+      "Name": "PS_Acceso_Dashboards_Bancas",
+      "Label": "PS Acceso Dashboards Bancas"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/0055e0000060tTBAAY"
+      },
+      "Id": "0055e0000060tTBAAY",
+      "Name": "Griselda Daniela Vargas Ochoa",
+      "Username": "gvargas@actinver.com.mx.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000U9QsGAK"
+      },
+      "Name": "PS_Acceso_Dashboards_Bancas",
+      "Label": "PS Acceso Dashboards Bancas"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/0055e0000078K6FAAU"
+      },
+      "Id": "0055e0000078K6FAAU",
+      "Name": "Julieta Martinez Gonzalez",
+      "Username": "jumartinezg@actinver.com.mx.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000U9QsGAK"
+      },
+      "Name": "PS_Acceso_Dashboards_Bancas",
+      "Label": "PS Acceso Dashboards Bancas"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/0057V00000CFfSeQAL"
+      },
+      "Id": "0057V00000CFfSeQAL",
+      "Name": "Tania Beatriz Jacome Ramos",
+      "Username": "tjacome@actinver.com.mx.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000U9QsGAK"
+      },
+      "Name": "PS_Acceso_Dashboards_Bancas",
+      "Label": "PS Acceso Dashboards Bancas"
+    }
+  },
+  {
+    "Assignee": {
+      "attributes": {
+        "type": "User",
+        "url": "/services/data/v68.0/sobjects/User/005dp00000IZazBAAT"
+      },
+      "Id": "005dp00000IZazBAAT",
+      "Name": "Usuario Para Pruebas",
+      "Username": "usertest@optimissa.com.actidev"
+    },
+    "PermissionSet": {
+      "attributes": {
+        "type": "PermissionSet",
+        "url": "/services/data/v68.0/sobjects/PermissionSet/0PSdp000000U9QsGAK"
+      },
+      "Name": "PS_Acceso_Dashboards_Bancas",
+      "Label": "PS Acceso Dashboards Bancas"
+    }
+  }
+]

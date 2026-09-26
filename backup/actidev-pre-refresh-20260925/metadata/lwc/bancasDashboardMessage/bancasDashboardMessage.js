@@ -1,0 +1,1 @@
+import{LightningElement,api}from'lwc';export default class BancasDashboardMessage extends LightningElement{@api message;}

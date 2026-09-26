@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>PM_Opportunity_Comercial_to_Administrativos_Read</fullName>
+        <accessLevel>Read</accessLevel>
+        <description>Comparte Opportunities propiedad de Head PM y subordinados con Administrativos PM en solo lectura.</description>
+        <label>PM Opportunity Comercial to Administrativos Read</label>
+        <sharedTo>
+            <group>PM_Administrativos</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinatesInternal>Head_PM</roleAndSubordinatesInternal>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

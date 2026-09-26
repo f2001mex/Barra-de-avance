@@ -1,0 +1,105 @@
+{
+  "capturedAt": "2026-09-25T23:00:00-05:00",
+  "method": "Read-only SOQL and Tooling API queries through the authenticated Brave Salesforce session",
+  "production": {
+    "organizationId": "00D5e000000KD4yEAG",
+    "name": "Banco Actinver",
+    "isSandbox": false,
+    "instanceName": "USA776",
+    "organizationType": "Unlimited Edition"
+  },
+  "checks": {
+    "apexClasses": {
+      "requested": [
+        "BancasDashboardControllerTest",
+        "BancasDashboardSecurity",
+        "BancasDashboardSelector",
+        "OpenTextRazonabilidadRest",
+        "OpenTextRazonabilidadRest_Test",
+        "Service_Utility_Trigger",
+        "Service_Utility_TriggerTest"
+      ],
+      "found": [
+        "OpenTextRazonabilidadRest",
+        "OpenTextRazonabilidadRest_Test",
+        "Service_Utility_Trigger",
+        "Service_Utility_TriggerTest"
+      ],
+      "missing": [
+        "BancasDashboardControllerTest",
+        "BancasDashboardSecurity",
+        "BancasDashboardSelector"
+      ]
+    },
+    "lightningComponentBundles": {
+      "requested": [
+        "bancasChart",
+        "bancasDashboardComercial",
+        "bancasDashboardHome",
+        "bancasDashboardMessage",
+        "bancasDashboardRelacionActividad",
+        "bancasKpiCard",
+        "pmOpportunityPath"
+      ],
+      "found": [],
+      "missing": [
+        "bancasChart",
+        "bancasDashboardComercial",
+        "bancasDashboardHome",
+        "bancasDashboardMessage",
+        "bancasDashboardRelacionActividad",
+        "bancasKpiCard",
+        "pmOpportunityPath"
+      ]
+    },
+    "permissionSets": {
+      "requested": [
+        "PM_Administrativo",
+        "PM_Director",
+        "PM_GestionComercial",
+        "PM_Head",
+        "PS_Acceso_Dashboards_Bancas"
+      ],
+      "found": [],
+      "missing": [
+        "PM_Administrativo",
+        "PM_Director",
+        "PM_GestionComercial",
+        "PM_Head",
+        "PS_Acceso_Dashboards_Bancas"
+      ]
+    },
+    "flows": {
+      "requested": [
+        "PM_Nueva_Oportunidad_Con_Contacto",
+        "PM_Validar_Opportunity_Contact_Role"
+      ],
+      "found": [],
+      "missing": [
+        "PM_Nueva_Oportunidad_Con_Contacto",
+        "PM_Validar_Opportunity_Contact_Role"
+      ]
+    },
+    "customFields": {
+      "foundOnExpectedObject": [
+        "Account.BanqueroAsignado__c",
+        "Account.NombreBanqueroAsignado__c",
+        "Account.Segmento__c",
+        "Activity.ContratoVinculado__c",
+        "Opportunity.MontoEstimadoDeInversion__c",
+        "Opportunity.Producto_Solicitado__c"
+      ],
+      "notFoundOnExpectedObject": [
+        "Account.Evalua_Nombre_de_la_Cuenta__c",
+        "Account.Id_del_banquero_responsable__c",
+        "Account.Tipo_de_cliente_PM__c",
+        "Activity.Competidor__c",
+        "Opportunity.Especifica_Otro_Producto__c",
+        "Opportunity.Motivo_de_Perdida_PM__c",
+        "Opportunity.Motivo_de_perdidaPM__c",
+        "Opportunity.PM_Siguiente_paso__c",
+        "Opportunity.Profit_and_Loss_PM__c"
+      ]
+    }
+  }
+}

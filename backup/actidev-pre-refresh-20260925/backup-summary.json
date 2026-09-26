@@ -1,0 +1,16 @@
+{
+  "createdAt": "2026-09-26T04:30:32.978Z",
+  "sourceUsername": "francisco.ortega@optimissa.com.actidev",
+  "organization": {
+    "Id": "00Ddp0000021dRBEAY",
+    "Name": "Banco Actinver",
+    "IsSandbox": true,
+    "InstanceName": "USA944S",
+    "OrganizationType": "Unlimited Edition"
+  },
+  "manifest": "package-personas-morales-restore.xml",
+  "metadataArchive": "metadata.zip",
+  "activePmUsers": 23,
+  "permissionSetAssignments": 14,
+  "groups": 3
+}

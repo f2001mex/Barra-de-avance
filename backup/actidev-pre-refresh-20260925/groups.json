@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "00Gdp0000040esnEAA",
+    "Name": "PM Administrativos",
+    "DeveloperName": "PM_Administrativos",
+    "Type": "Regular",
+    "RelatedId": null
+  },
+  {
+    "Id": "00Gdp000004RpaPEAS",
+    "Name": "PM - Reportes Editores",
+    "DeveloperName": "PM_Reportes_Editores",
+    "Type": "Regular",
+    "RelatedId": null
+  },
+  {
+    "Id": "00Gdp000004RpaQEAS",
+    "Name": "PM - Reportes Lectores",
+    "DeveloperName": "PM_Reportes_Lectores",
+    "Type": "Regular",
+    "RelatedId": null
+  }
+]

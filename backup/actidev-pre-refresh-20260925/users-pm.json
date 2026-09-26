@@ -1,0 +1,396 @@
+[
+  {
+    "Id": "005WP000006fuMGYAY",
+    "Name": "Adrian Alejandro Chavez Ortiz",
+    "Username": "achavezo@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": null
+  },
+  {
+    "Id": "0057V0000090N7HQAU",
+    "Name": "Ana Rode Arreola",
+    "Username": "arode@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00E7V000001ewdWUAQ"
+      },
+      "DeveloperName": "Direccion_General"
+    }
+  },
+  {
+    "Id": "005WP000005j6jCYAQ",
+    "Name": "Arturo Jose Camargo De La Peña",
+    "Username": "acamargo@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": null
+  },
+  {
+    "Id": "0057V00000CFeP0QAL",
+    "Name": "Carlos Daniel Carrasco Pereda",
+    "Username": "ccarrasco@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": null
+  },
+  {
+    "Id": "0055e0000078K4mAAE",
+    "Name": "Constanza Maria Garcia Oliveras",
+    "Username": "cgarciao@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00edp000002knRBAAY"
+      },
+      "Name": "PM - Ejecutivo Personas Morales"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00Edp000006smDwEAI"
+      },
+      "DeveloperName": "Director_PM"
+    }
+  },
+  {
+    "Id": "0057V00000At4UMQAZ",
+    "Name": "Dora Catalina Llanas Lozoya",
+    "Username": "dllanas@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": null
+  },
+  {
+    "Id": "0055e0000060tTGAAY",
+    "Name": "Ericka Macias Lugo",
+    "Username": "emacias@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": null
+  },
+  {
+    "Id": "0055e0000060tTYAAY",
+    "Name": "Ernesto Mariscal Gorozpe",
+    "Username": "emariscal@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00E5e000000ZahiEAC"
+      },
+      "DeveloperName": "CD_MX_MONTES_URALES_PB"
+    }
+  },
+  {
+    "Id": "0055e0000060tTaAAI",
+    "Name": "Fernando Perez Perez",
+    "Username": "fperez@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00E5e000000ZaiKEAS"
+      },
+      "DeveloperName": "Director_General"
+    }
+  },
+  {
+    "Id": "0057V00000CEoQeQAL",
+    "Name": "Francisco Sampieri Muñoz",
+    "Username": "fsampieri@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": null
+  },
+  {
+    "Id": "0055e0000078Qn8AAE",
+    "Name": "Gabriela Paula Mezzo",
+    "Username": "gmezzo@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00EWP000001YI6o2AG"
+      },
+      "DeveloperName": "Director_a_Actinver_Patrimonial"
+    }
+  },
+  {
+    "Id": "0055e0000060tTBAAY",
+    "Name": "Griselda Daniela Vargas Ochoa",
+    "Username": "gvargas@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00edp000002knRBAAY"
+      },
+      "Name": "PM - Ejecutivo Personas Morales"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00Edp000006smDvEAI"
+      },
+      "DeveloperName": "Banquero_Institucional"
+    }
+  },
+  {
+    "Id": "0057V000009uvLPQAY",
+    "Name": "Jonathan Arenas Garcia",
+    "Username": "jarenas@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": null
+  },
+  {
+    "Id": "0057V000009uuRRQAY",
+    "Name": "Juda Israel Teran Morales",
+    "Username": "jteran@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00E5e000000ZaiKEAS"
+      },
+      "DeveloperName": "Director_General"
+    }
+  },
+  {
+    "Id": "005WP000004mrFqYAI",
+    "Name": "Manuel Barajas Lemus",
+    "Username": "mbarajasl@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": null
+  },
+  {
+    "Id": "005WP000004mrFpYAI",
+    "Name": "Manuel Hernandez Hernandez",
+    "Username": "mahernandezh@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00edp000002knRBAAY"
+      },
+      "Name": "PM - Ejecutivo Personas Morales"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00Edp000006smDwEAI"
+      },
+      "DeveloperName": "Director_PM"
+    }
+  },
+  {
+    "Id": "005WP000005j6jDYAQ",
+    "Name": "Maria Camila Gonzalez Alvarez",
+    "Username": "mgonzaleza@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": null
+  },
+  {
+    "Id": "0057V00000BSShxQAH",
+    "Name": "Oliver Suastegui Rivera",
+    "Username": "osuastegui@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": null
+  },
+  {
+    "Id": "005WP000005j6jEYAQ",
+    "Name": "Omar Trucios Geraldo",
+    "Username": "otrucios@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": null
+  },
+  {
+    "Id": "0057V00000CcBDVQA3",
+    "Name": "Rafael Omar Filoteo Gama",
+    "Username": "rfiloteo@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00E7V000001exYGUAY"
+      },
+      "DeveloperName": "Privada_CDMX_Lindavista_Director_a_de_CF"
+    }
+  },
+  {
+    "Id": "0055e0000060tTTAAY",
+    "Name": "Roberto Vladimir Morales Santiago",
+    "Username": "rvmorales@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00E5e000000ZaiKEAS"
+      },
+      "DeveloperName": "Director_General"
+    }
+  },
+  {
+    "Id": "0057V00000At36DQAR",
+    "Name": "Tabatha Fernanda Godinez Silva",
+    "Username": "tgodinez@actinver.com.mx.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00e5e000003Sr81AAC"
+      },
+      "Name": "Director"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00E5e000000ZaiKEAS"
+      },
+      "DeveloperName": "Director_General"
+    }
+  },
+  {
+    "Id": "005dp00000IZazBAAT",
+    "Name": "Usuario Para Pruebas",
+    "Username": "usertest@optimissa.com.actidev",
+    "IsActive": true,
+    "Profile": {
+      "attributes": {
+        "type": "Profile",
+        "url": "/services/data/v68.0/sobjects/Profile/00edp000002knRBAAY"
+      },
+      "Name": "PM - Ejecutivo Personas Morales"
+    },
+    "UserRole": {
+      "attributes": {
+        "type": "UserRole",
+        "url": "/services/data/v68.0/sobjects/UserRole/00Edp000006smDvEAI"
+      },
+      "DeveloperName": "Banquero_Institucional"
+    }
+  }
+]

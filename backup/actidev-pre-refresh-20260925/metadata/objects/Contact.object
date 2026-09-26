@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <validationRules>
+        <fullName>PM_CON_Account_Requerida</fullName>
+        <active>true</active>
+        <description>HU1 PM - RV01 Contactos: Cliente asociado obligatorio para Contact PM.</description>
+        <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;IndustriesBusiness&quot;,
+    ISBLANK(AccountId)
+)</errorConditionFormula>
+        <errorDisplayField>AccountId</errorDisplayField>
+        <errorMessage>Relaciona el contacto con un cliente.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PM_CON_Email_Requerido_Valido</fullName>
+        <active>true</active>
+        <description>HU1 PM - RV04 Contactos: Correo electronico obligatorio y con formato valido para Contact PM.</description>
+        <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;IndustriesBusiness&quot;,
+    OR(
+        ISBLANK(Email),
+        NOT(REGEX(Email, &quot;^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$&quot;))
+    )
+)</errorConditionFormula>
+        <errorDisplayField>Email</errorDisplayField>
+        <errorMessage>Ingrese una dirección de correo electrónico válida.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PM_CON_FirstName_Formato</fullName>
+        <active>true</active>
+        <description>HU1 PM - RV02 Contactos: Nombre obligatorio y solo letras, espacios y acentos para Contact PM.</description>
+        <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;IndustriesBusiness&quot;,
+    OR(
+        ISBLANK(FirstName),
+        NOT(REGEX(FirstName, &quot;^[A-Za-zÁÉÍÓÚÜÑáéíóúüñ ]+$&quot;))
+    )
+)</errorConditionFormula>
+        <errorDisplayField>FirstName</errorDisplayField>
+        <errorMessage>El nombre solo puede contener letras y espacios.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PM_CON_LastName_Formato</fullName>
+        <active>true</active>
+        <description>HU1 PM - RV03 Contactos: Apellidos obligatorios y solo letras, espacios y acentos para Contact PM.</description>
+        <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;IndustriesBusiness&quot;,
+    OR(
+        ISBLANK(LastName),
+        NOT(REGEX(LastName, &quot;^[A-Za-zÁÉÍÓÚÜÑáéíóúüñ ]+$&quot;))
+    )
+)</errorConditionFormula>
+        <errorDisplayField>LastName</errorDisplayField>
+        <errorMessage>Los apellidos solo pueden contener letras y espacios.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PM_CON_MiddleName_Formato</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+    RecordType.DeveloperName = &quot;IndustriesBusiness&quot;,
+    NOT(ISBLANK(MiddleName)),
+    NOT(
+        REGEX(
+            MiddleName,
+            &quot;^[A-Za-zÁÉÍÓÚÜÑáéíóúüñ ]+$&quot;
+        )
+    )
+)</errorConditionFormula>
+        <errorDisplayField>MiddleName</errorDisplayField>
+        <errorMessage>El segundo nombre solo puede contener letras y espacios.</errorMessage>
+    </validationRules>
+</CustomObject>

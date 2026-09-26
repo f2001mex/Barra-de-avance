@@ -1,0 +1,109 @@
+<template>
+    <lightning-card>
+        <template lwc:if={isReady}>
+            <div class="slds-grid slds-wrap slds-grid_vertical-align-center path-container">
+                <div class="slds-grow path-steps">
+                    <lightning-progress-indicator current-step={selectedStep} type="path" variant="base">
+                        <template for:each={openStages} for:item="stage">
+                            <lightning-progress-step
+                                key={stage.value}
+                                label={stage.label}
+                                value={stage.value}
+                                data-value={stage.value}
+                                onclick={handleStepClick}>
+                            </lightning-progress-step>
+                        </template>
+                        <lightning-progress-step
+                            label="Cerrada"
+                            value={closedStepValue}
+                            data-value={closedStepValue}
+                            onclick={handleStepClick}>
+                        </lightning-progress-step>
+                    </lightning-progress-indicator>
+                </div>
+
+                <div class="slds-no-flex slds-m-left_medium action-container">
+                    <lightning-button
+                        variant="brand"
+                        label={actionLabel}
+                        title={actionLabel}
+                        onclick={handlePrimaryAction}
+                        disabled={disablePrimaryAction}>
+                    </lightning-button>
+                </div>
+            </div>
+        </template>
+
+        <template lwc:elseif={loadError}>
+            <div class="slds-notify slds-notify_alert slds-alert_error" role="alert">
+                <span class="slds-assistive-text">Error</span>
+                <h2>{loadError}</h2>
+            </div>
+        </template>
+
+        <template lwc:else>
+            <div class="slds-p-around_medium slds-align_absolute-center">
+                <lightning-spinner alternative-text="Cargando etapas" size="small"></lightning-spinner>
+            </div>
+        </template>
+    </lightning-card>
+
+    <template lwc:if={showCloseModal}>
+        <section role="dialog" tabindex="-1" aria-modal="true" aria-labelledby="close-modal-heading" class="slds-modal slds-fade-in-open">
+            <div class="slds-modal__container">
+                <header class="slds-modal__header">
+                    <lightning-button-icon
+                        class="slds-modal__close"
+                        icon-name="utility:close"
+                        alternative-text="Cerrar"
+                        title="Cerrar"
+                        variant="bare-inverse"
+                        onclick={handleCancelModal}>
+                    </lightning-button-icon>
+                    <h2 id="close-modal-heading" class="slds-text-heading_medium">Cerrar esta oportunidad</h2>
+                </header>
+
+                <div class="slds-modal__content slds-p-around_medium">
+                    <lightning-combobox
+                        name="closedStage"
+                        label="Etapa"
+                        value={selectedClosedStage}
+                        placeholder="Selecciona una etapa cerrada"
+                        options={closedStages}
+                        onchange={handleClosedStageChange}
+                        required>
+                    </lightning-combobox>
+
+                    <template lwc:if={isClosedLostSelected}>
+                        <lightning-combobox
+                            class="slds-m-top_medium"
+                            name="lossReason"
+                            label="Motivo de pérdida"
+                            value={lossReason}
+                            placeholder="Selecciona el motivo de pérdida"
+                            options={lossReasonOptions}
+                            onchange={handleLossReasonChange}
+                            required>
+                        </lightning-combobox>
+                    </template>
+
+                    <template lwc:if={saveError}>
+                        <div class="slds-text-color_error slds-m-top_medium" role="alert">{saveError}</div>
+                    </template>
+                </div>
+
+                <footer class="slds-modal__footer">
+                    <lightning-button label="Cancelar" onclick={handleCancelModal} disabled={isSaving}></lightning-button>
+                    <lightning-button
+                        class="slds-m-left_x-small"
+                        variant="brand"
+                        label="Guardar"
+                        onclick={handleSaveClosedStage}
+                        disabled={isSaving}>
+                    </lightning-button>
+                </footer>
+            </div>
+        </section>
+        <div class="slds-backdrop slds-backdrop_open" role="presentation"></div>
+    </template>
+</template>
